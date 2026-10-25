@@ -12,8 +12,8 @@
 - `content/articles/*.json`：正式文章的唯一來源；新增或修改文章時編輯這裡，不要直接改 `stories.js`。
 - `stories.js`：由建置腳本產生，讓網站可以直接於瀏覽器開啟。閱讀時間由建置時依實際篇幅計算。
 - PWA 支援：部署到 HTTPS 後可安裝到主畫面；離線時可讀取已快取的內容，連線時一律取得最新文章。
-- `.github/workflows/check-content.yml`：推送與 PR 時驗證文章資料、重建網站並檢查 JavaScript 語法。
-- `.github/workflows/deploy.yml`：推送到 `main` 後驗證內容並自動部署到 GitHub Pages。
+- `ops/github-actions/`：預先寫好的 CI 與部署 workflows（目前停用，原因與啟用方式見 `ops/README.md`）。
+- 部署現況：本機建置後推送 `gh-pages` 分支，由 GitHub Pages 從該分支發布。
 
 ## 本機預覽與重建
 
@@ -31,7 +31,7 @@ python scripts/build_site.py
 
 1. 依 `ARTICLE_TEMPLATE.md` 的骨架與 `EDITORIAL_STANDARD.md` 的標準撰寫，存為 `content/articles/00N-<id>.json`（使用 `sections` 純文字格式，網站會安全渲染）。
 2. 執行 `python -m unittest discover -s tests -v` 與 `python scripts/build_site.py`，兩者皆須通過。
-3. 推送到 `main`，部署 workflow 會再次驗證後更新網站。
+3. 推送 `main` 更新來源；再將建置產物推送 `gh-pages` 更新網站（細節見 `ops/README.md`）。
 
 ## 成本與安全
 
