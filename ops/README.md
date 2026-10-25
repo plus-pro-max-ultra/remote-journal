@@ -34,3 +34,10 @@
 - 部署只用 vault 中的「GitHub PAT remote-journal」，範圍僅此 repo。
 - 不使用、不延伸任何其他專案（如單字系統）的 token 或 Secrets。
 - token 不寫入 repo、不進 commit；每次部署由 Instinct 自 vault 複製到沙盒、用完即刪。
+
+## 每日出刊（2026-10-25 起）
+
+- 授權依據：MM 的 iMessage 核准 phonemsg-01M5QGTCVRZRMEE1CD315BAMYH（朝獨立維運方向進行、與單字系統完全隔離）、迭代授權 phonemsg-01M5QJWR6SEHX84TR5NHD20D8，以及每日出刊指示 phonemsg-01M5ST2TJFQMHBR9R46PNCQAEK（2026-10-25）。
+- 節奏：每個台灣日期一篇。Instinct 每日喚醒後，以 `git log -1 --format=%cI -- content/articles/` 判斷今天是否已出刊；已出刊就跳過，避免跨午夜重複出刊。不對外承諾具體時刻。
+- 每篇流程：研究（所有關鍵主張對應實際開啟過的來源）→ 依 `EDITORIAL_STANDARD.md` 與 `DAILY_PUBLISHING_CHECKLIST.md` 審稿 → 測試與建置 → 推送 main 與 gh-pages → 線上與截圖驗證後才算完成。查證不足時延後並回報，不為連載降低品質。
+- 網站功能補記（2026-10-25）：文章支援 `#/story/<id>` 深層連結；「下一篇」按鍵改為依刊號順序前進、最後一篇回到第一篇（修正原本依 related 跳轉會在部分文章間來回循環的問題）；手機版搜尋列「清除」按鈕不再直向換行。
