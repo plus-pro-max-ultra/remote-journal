@@ -20,6 +20,11 @@
       "date": "2026-10-28",
       "number": "010",
       "id": "daylight-saving-time"
+    },
+    {
+      "date": "2026-10-29",
+      "number": "011",
+      "id": "typhoon-names"
     }
   ]
 }
