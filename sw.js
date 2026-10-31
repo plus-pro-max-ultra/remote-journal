@@ -1,4 +1,4 @@
-const CACHE_NAME = "faraway-zine-v4";
+const CACHE_NAME = "faraway-zine-v5";
 const APP_SHELL = ["./", "./index.html", "./stories.js", "./manifest.webmanifest", "./icon.svg"];
 
 self.addEventListener("install", (event) => {
