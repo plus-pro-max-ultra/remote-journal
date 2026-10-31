@@ -4,7 +4,7 @@ from pathlib import Path
 import json, shutil, sys
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "content" / "articles"
-ASSETS = ["index.html", "stories.js", "manifest.webmanifest", "sw.js", "icon.svg"]
+ASSETS = ["index.html", "stories.js", "manifest.webmanifest", "sw.js", "icon-192.png", "icon-512.png", "icon-180.png", "favicon-32.png", "favicon-16.png"]
 REQUIRED = {"id", "title", "subtitle", "category", "tags", "minutes", "intro", "reflection", "sources"}
 def source_url(src):
     return src[1] if isinstance(src, list) and len(src) > 1 else (src.get("url", "") if isinstance(src, dict) else "")
