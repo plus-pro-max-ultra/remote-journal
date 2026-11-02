@@ -26,5 +26,16 @@
   "related": [
     "roads",
     "median"
+  ],
+  "images": [
+    {
+      "src": "assets/img/004-empty-shelves-2020.jpg",
+      "alt": "超市貨架被搶購一空，只剩零星商品與價格標籤",
+      "caption": "2020 年 3 月 15 日，澳洲一間超市被搶購一空的貨架。對顧客是搶不到的焦慮，對店家則是一道數學題：提早賣完，究竟是好生意還是錯過的收入？",
+      "credit": "照片：Maksym Kozlenko，CC BY-SA 4.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:2020-03-15_Empty_supermarket_shelves_in_Australian_supermarket_01.jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
   ]
 }

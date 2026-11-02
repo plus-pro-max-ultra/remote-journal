@@ -30,5 +30,16 @@
   "related": [
     "median",
     "stock"
+  ],
+  "images": [
+    {
+      "src": "assets/img/003-enthronement-ceremony.jpg",
+      "alt": "即位禮正殿之儀會場，天皇立於高御座前，兩側排列儀式人員",
+      "caption": "2019 年 10 月 22 日，即位禮正殿之儀在皇居宮殿舉行。儀式的形式延續傳統，但規範繼承的制度本身，其實經過多次改寫。",
+      "credit": "照片：首相官邸，CC BY 4.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Ceremony_of_the_Enthronement_of_His_Majesty_the_Emperor_at_the_Seiden7.jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
   ]
 }

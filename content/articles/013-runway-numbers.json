@@ -111,5 +111,16 @@
   "related": [
     "maps",
     "submarine-cables"
+  ],
+  "images": [
+    {
+      "src": "assets/img/013-runway-numbers.jpg",
+      "alt": "跑道頭的柏油路面上漆著巨大的白色數字",
+      "caption": "跑道入口的巨大數字不是編號，而是一個磁方位讀數。當地磁極漂移到讓讀數跨過界線，機場就得關閉跑道幾個夜晚，把數字重漆。",
+      "credit": "照片：CWanamaker，CC BY 3.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Numbers_on_the_Runway_-_panoramio.jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
   ]
 }

@@ -31,8 +31,10 @@ def main():
             src=im.get("src","")
             if not src.startswith("assets/img/") or not (ROOT/src).is_file():
                 errors.append(f"{path.name}: 圖片檔案不存在或路徑錯誤：{src}")
-            for k in ("alt","caption","credit"):
+            for k in ("alt","caption","credit","source"):
                 if not im.get(k): errors.append(f"{path.name}: 圖片缺少欄位 {k}：{src}")
+            if not str(im.get("source","")).startswith("https://"):
+                errors.append(f"{path.name}: 圖片缺少 https 來源連結：{src}")
             if not IMG_AFTER.match(str(im.get("after",""))):
                 errors.append(f"{path.name}: 圖片 after 位置無效：{im.get('after')}")
         stories.append(story)

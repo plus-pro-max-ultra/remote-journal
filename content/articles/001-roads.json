@@ -26,5 +26,16 @@
   "related": [
     "median",
     "stock"
+  ],
+  "images": [
+    {
+      "src": "assets/img/001-freeway-aerial.jpg",
+      "alt": "從正上方俯瞰的多層高速公路交流道，車道與匝道交錯成幾何圖形",
+      "caption": "鳥瞰一座高速公路交流道。車道愈多，供給愈大；本文要問的是：供給增加之後，用路的需求會不會跟著改變？",
+      "credit": "照片：Roman Logov，CC0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Top_view_of_a_freeway_(Unsplash).jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
   ]
 }

@@ -3,7 +3,12 @@
   "title": "颱風的名字是誰決定的？",
   "subtitle": "一份 140 個名字的名單、14 個出題者、一套不斷除名的規則：命名是為了讓警報更好溝通，但研究顯示名字本身也會悄悄改變人們對風險的判斷。",
   "category": "地理與科學",
-  "tags": ["颱風", "命名制度", "風險溝通", "氣象"],
+  "tags": [
+    "颱風",
+    "命名制度",
+    "風險溝通",
+    "氣象"
+  ],
   "minutes": 7,
   "intro": "每年夏秋，颱風一個接一個登場，名字總是現成的：動物、花、食物，有時甚至是形容詞。這些名字既不像人名，也不像編號，它們從哪裡來？答案是東京的一個氣象中心、一份由 14 個國家和地區合寫的名單，以及一套運行了四分之一世紀的規則。而名字背後還有一個更微妙的問題：一個為了好溝通而設計的標籤，會不會反過來影響我們對風險的判斷？",
   "sections": [
@@ -99,5 +104,19 @@
       "supports": "Morakot 因 2009 年侵台造成的嚴重災情與傷亡被 WMO 除名，2011 年 6 月由中央氣象局宣布"
     }
   ],
-  "related": ["median", "daylight-saving-time"]
+  "related": [
+    "median",
+    "daylight-saving-time"
+  ],
+  "images": [
+    {
+      "src": "assets/img/011-typhoon-neoguri-iss.jpg",
+      "alt": "從太空俯瞰颱風，白色雲系旋繞出清楚的圓形颱風眼",
+      "caption": "2014 年 7 月，太空人從國際太空站拍下颱風浣熊（Neoguri）。它的名字來自颱風委員會 140 個名字的共用名單，由韓國提供。",
+      "credit": "照片：NASA/ESA，Alexander Gerst，公有領域",
+      "source": "https://commons.wikimedia.org/wiki/File:Typhoon_Neoguri_viewed_from_International_Space_Station_3.jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
+  ]
 }
