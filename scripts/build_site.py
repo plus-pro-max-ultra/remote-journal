@@ -37,6 +37,8 @@ def main():
                 errors.append(f"{path.name}: 圖片缺少 https 來源連結：{src}")
             if not IMG_AFTER.match(str(im.get("after",""))):
                 errors.append(f"{path.name}: 圖片 after 位置無效：{im.get('after')}")
+            if im.get("size","wide") not in ("wide","medium","small"):
+                errors.append(f"{path.name}: 圖片 size 無效：{im.get('size')}（限 wide/medium/small）")
         stories.append(story)
     if errors:
         print("內容檢查失敗：\n- " + "\n- ".join(errors), file=sys.stderr); return 1

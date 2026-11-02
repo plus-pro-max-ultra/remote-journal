@@ -43,7 +43,8 @@
    "credit": "照片：首相官邸，CC BY 4.0，Wikimedia Commons",
    "source": "https://commons.wikimedia.org/wiki/File:Ceremony_of_the_Enthronement_of_His_Majesty_the_Emperor_at_the_Seiden7.jpg",
    "kind": "photo",
-   "after": "intro"
+   "after": "intro",
+   "size": "medium"
   }
  ]
 }
