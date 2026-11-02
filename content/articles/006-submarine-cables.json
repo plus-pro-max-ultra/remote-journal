@@ -125,5 +125,23 @@
   "related": [
     "median",
     "roads"
+  ],
+  "images": [
+    {
+      "src": "assets/img/006-darwin-cable-landing-1871.jpg",
+      "alt": "1871 年達爾文港海灘上，眾人圍著剛拉上岸的海底電纜，海上有帆船",
+      "caption": "1871 年 11 月 7 日，海底電纜在澳洲達爾文港上岸。這不是本文提到的大西洋電纜，而是同一波全球鋪纜潮的現場：電纜上岸的地方，就成了通訊地圖上的節點。",
+      "credit": "照片：澳洲北領地政府攝影師，CC0，Wikimedia Commons",
+      "kind": "photo",
+      "after": "section-1"
+    },
+    {
+      "src": "assets/img/006-submarine-cable-sections.jpg",
+      "alt": "木架上排列的八段海底電纜截面，可見銅線、絕緣層與鋼絲鎧裝",
+      "caption": "巴黎工藝博物館收藏的十九世紀海底電報電纜截面：銅線、絕緣層與一圈圈鎧裝鋼絲。今日海纜的核心已換成頭髮般細的光纖，但鎧裝保護的思路延續至今。",
+      "credit": "照片：Frédéric Bisson，CC BY 2.0，Wikimedia Commons",
+      "kind": "photo",
+      "after": "section-2"
+    }
   ]
 }

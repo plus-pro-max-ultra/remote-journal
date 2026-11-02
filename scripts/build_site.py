@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate published article JSON and build the static website output."""
 from pathlib import Path
-import json, shutil, sys
+import json, re, shutil, sys
 ROOT = Path(__file__).resolve().parents[1]
 ARTICLES = ROOT / "content" / "articles"
 ASSETS = ["index.html", "stories.js", "manifest.webmanifest", "sw.js", "icon-192.png", "icon-512.png", "icon-180.png", "favicon-32.png", "favicon-16.png"]
@@ -26,6 +26,15 @@ def main():
             url=source_url(src)
             if not isinstance(url, str) or not url.startswith("https://"):
                 errors.append(f"{path.name}: 來源連結必須使用 HTTPS：{url}")
+        IMG_AFTER=re.compile(r"^(intro|section-[1-9][0-9]*)$")
+        for im in story.get("images", []):
+            src=im.get("src","")
+            if not src.startswith("assets/img/") or not (ROOT/src).is_file():
+                errors.append(f"{path.name}: 圖片檔案不存在或路徑錯誤：{src}")
+            for k in ("alt","caption","credit"):
+                if not im.get(k): errors.append(f"{path.name}: 圖片缺少欄位 {k}：{src}")
+            if not IMG_AFTER.match(str(im.get("after",""))):
+                errors.append(f"{path.name}: 圖片 after 位置無效：{im.get('after')}")
         stories.append(story)
     if errors:
         print("內容檢查失敗：\n- " + "\n- ".join(errors), file=sys.stderr); return 1
@@ -45,6 +54,7 @@ def main():
     if dist.exists(): shutil.rmtree(dist)
     dist.mkdir()
     for name in ASSETS: shutil.copy2(ROOT/name, dist/name)
+    if (ROOT/"assets").is_dir(): shutil.copytree(ROOT/"assets", dist/"assets")
     (dist/".nojekyll").write_text("", encoding="utf-8")
     print(f"完成：驗證 {len(stories)} 篇文章，網站檔案輸出至 dist/。")
     return 0
