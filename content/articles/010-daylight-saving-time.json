@@ -118,5 +118,16 @@
   "related": [
     "imperial",
     "median"
+  ],
+  "images": [
+    {
+      "src": "assets/img/010-radio-time-clock.jpg",
+      "alt": "黑白照片：一名女子對著收音機，校準家中的時鐘",
+      "caption": "廣播報時的年代：人們對著收音機的報時訊號校準時鐘。「全國同一個時間」是被一層層制度堆出來的；夏令時間是其中最晚近、也最具爭議的一層。",
+      "credit": "照片：佚名，公有領域，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Woman_setting_clock_using_radio_time_signals.jpg",
+      "kind": "photo",
+      "after": "section-1"
+    }
   ]
 }

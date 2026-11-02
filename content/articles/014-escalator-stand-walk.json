@@ -3,7 +3,12 @@
   "title": "電扶梯該站一邊，還是兩邊都站？",
   "subtitle": "「靠右站、左側走」是多數城市的默契，但倫敦地鐵的一場實驗發現：在夠長的電扶梯上，兩側都站人，全體反而更快。效率、安全與禮讓，在四十公分寬的踏階上互相拉扯。",
   "category": "社會與城市",
-  "tags": ["電扶梯", "城市交通", "排隊", "公共禮儀"],
+  "tags": [
+    "電扶梯",
+    "城市交通",
+    "排隊",
+    "公共禮儀"
+  ],
   "minutes": 7,
   "intro": "尖峰時段的捷運站裡，常見一幕：電扶梯右側排起長長的人龍，左側卻空著，偶爾有人快步走上去。讓出左側的人覺得自己守規矩，兩側都站的人覺得隊伍明明可以更短。這個每天都上演的拉鋸，不是誰有沒有禮貌的問題，而是一道可以實際計算的運量數學題：一條電扶梯，到底怎麼用才能送走最多人？各城市的答案並不一致，而且各自拿出了證據。",
   "sections": [
@@ -90,5 +95,28 @@
       "supports": "條例（2021 年 3 月 30 日條例第 12 號、令和 3 年 10 月 1 日施行）規定利用者必須以停下來的狀態使用電扶梯，管理者負有周知義務，知事可對管理者指導、助言與勸告"
     }
   ],
-  "related": ["roads", "daylight-saving-time"]
+  "related": [
+    "roads",
+    "daylight-saving-time"
+  ],
+  "images": [
+    {
+      "src": "assets/img/014-holborn-escalator.jpg",
+      "alt": "地鐵站內的電扶梯，乘客站在階梯上向上移動",
+      "caption": "倫敦地鐵霍本站的電扶梯，本文第三節實驗的現場：垂直高度 23.4 公尺，絕大多數乘客寧可站著，左側長期閒置。",
+      "credit": "照片：N Chadwick，CC BY-SA 2.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Escalator,_Holborn_Underground_Station_-_geograph.org.uk_-_5903043.jpg",
+      "kind": "photo",
+      "after": "section-3"
+    },
+    {
+      "src": "assets/img/014-mrt-bannan-escalator.jpg",
+      "alt": "台北車站地下層通往板南線的電扶梯，上方有指標燈箱",
+      "caption": "台北車站通往板南線的電扶梯（2019 年 8 月攝）。台北捷運的答案是折衷：不禁止行走，但宣導兩側皆可站立、緊握扶手、站穩踏階。",
+      "credit": "照片：Hisaou 28lFIGEU，CC BY-SA 4.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Escalator_to_Bannan_Line_on_MRT_Taipei_Main_Station_B3_20190811.jpg",
+      "kind": "photo",
+      "after": "section-5"
+    }
+  ]
 }

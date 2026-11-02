@@ -87,5 +87,16 @@
   "related": [
     "submarine-cables",
     "median"
+  ],
+  "images": [
+    {
+      "src": "assets/img/009-comet-1a.jpg",
+      "alt": "停在戶外展示的彗星式客機側面，可見一排方形窗戶",
+      "caption": "現存唯一的一架彗星式 1A：注意機身上的方形窗戶。正是這些窗角，成為金屬疲勞裂紋反覆出現的起點。",
+      "credit": "照片：Mike McBey，CC BY 2.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Sole_surviving_Comet_1A_with_infamous_square_windows_(50813310857).jpg",
+      "kind": "photo",
+      "after": "intro"
+    }
   ]
 }

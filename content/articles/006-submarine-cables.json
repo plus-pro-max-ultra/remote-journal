@@ -133,7 +133,8 @@
       "caption": "1871 年 11 月 7 日，海底電纜在澳洲達爾文港上岸。這不是本文提到的大西洋電纜，而是同一波全球鋪纜潮的現場：電纜上岸的地方，就成了通訊地圖上的節點。",
       "credit": "照片：澳洲北領地政府攝影師，CC0，Wikimedia Commons",
       "kind": "photo",
-      "after": "section-1"
+      "after": "section-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Landing_of_the_submarine_cable,_Port_Darwin,_7_November_1871(GN01968).jpg"
     },
     {
       "src": "assets/img/006-submarine-cable-sections.jpg",
@@ -141,7 +142,8 @@
       "caption": "巴黎工藝博物館收藏的十九世紀海底電報電纜截面：銅線、絕緣層與一圈圈鎧裝鋼絲。今日海纜的核心已換成頭髮般細的光纖，但鎧裝保護的思路延續至今。",
       "credit": "照片：Frédéric Bisson，CC BY 2.0，Wikimedia Commons",
       "kind": "photo",
-      "after": "section-2"
+      "after": "section-2",
+      "source": "https://commons.wikimedia.org/wiki/File:Mus%C3%A9e_des_Arts_et_M%C3%A9tiers_-_C%C3%A2bles_sous-marins_(37545950582).jpg"
     }
   ]
 }

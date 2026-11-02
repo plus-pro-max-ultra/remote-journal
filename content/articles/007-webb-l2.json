@@ -107,7 +107,8 @@
       "caption": "韋伯望遠鏡主鏡的其中六面，在馬歇爾太空飛行中心的測試艙裡。這些鍍金鏡面必須維持極低溫才能看見紅外線，這正是它遠赴 L2 的理由之一。",
       "credit": "照片：NASA/MSFC/David Higginbotham，公有領域",
       "kind": "photo",
-      "after": "intro"
+      "after": "intro",
+      "source": "https://commons.wikimedia.org/wiki/File:James_Webb_Primary_Mirror.jpg"
     },
     {
       "src": "assets/img/007-lagrange-points.jpg",
@@ -115,7 +116,8 @@
       "caption": "示意圖：太陽與地球的五個拉格朗日點。L2 位於地球背日側約 150 萬公里，會跟著地球一起繞太陽公轉，而不是固定不動的停車位。",
       "credit": "圖：NOIRLab/NSF/AURA/J. da Silva，CC BY 4.0",
       "kind": "diagram",
-      "after": "section-1"
+      "after": "section-1",
+      "source": "https://commons.wikimedia.org/wiki/File:Earth-Sun_Lagrange_Points_(noirlab2205b).jpg"
     }
   ]
 }

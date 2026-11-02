@@ -3,7 +3,12 @@
   "title": "為什麼全台灣的電，每秒一起脈動 60 次？",
   "subtitle": "頻率是電網的心跳，也是少數無法各退一步的標準：一個 1890 年代的工程妥協，讓日本東西分裂至今，並在 2011 年的震災裡付出代價；而台灣的 60 赫茲，現在由儲能電池在一秒之內守護。",
   "category": "工程與基礎設施",
-  "tags": ["電網", "頻率", "能源基礎設施", "標準化"],
+  "tags": [
+    "電網",
+    "頻率",
+    "能源基礎設施",
+    "標準化"
+  ],
   "minutes": 8,
   "intro": "拿起手邊的電器，標籤上多半印著 60Hz。這個數字的意思是：插座裡的交流電，每秒鐘正負來回擺動 60 次。很少人意識到，這 60 次不是台電單方面宣布的規格，而是全台灣每一部發電機此時此刻共同維持的節拍：只要有一台機組跟不上，整座電網都會感覺到。更奇特的是，這個節拍在世界各地並不一致，而日本這樣一個國土狹長的國家，東西兩半的電網竟然跳著不同的拍子，一百多年都沒能統一。",
   "sections": [
@@ -97,5 +102,19 @@
       "supports": "1890 年西屋選定 60Hz 與弧光燈表現、AEG 1891 年由 40Hz 閃爍經驗提高到 50Hz 的標準起源敘述；1918 年倫敦十種頻率並存；巴西 1938 年立法失敗、1964 年改定 60Hz 至 1978 年完成轉換、墨西哥 1970 年代統一；日美歐頻率與電壓分布格局"
     }
   ],
-  "related": ["imperial", "daylight-saving-time"]
+  "related": [
+    "imperial",
+    "daylight-saving-time"
+  ],
+  "images": [
+    {
+      "src": "assets/img/012-wu-river-pylons.jpg",
+      "alt": "多座高壓電塔橫跨寬闊的河面",
+      "caption": "橫跨烏溪的高壓電塔。全台灣的發電機都必須踩著同一個 60 赫茲的節拍，電才能經由這樣的鐵塔，送進每一個插座。",
+      "credit": "照片：Avalokiteshvara01，CC BY-SA 4.0，Wikimedia Commons",
+      "source": "https://commons.wikimedia.org/wiki/File:Electricity_pylons_over_the_Wu_River.jpg",
+      "kind": "photo",
+      "after": "section-5"
+    }
+  ]
 }
