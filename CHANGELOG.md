@@ -17,3 +17,4 @@
 - 文章索引改為完整靜態清單（依月份分組），取消 JS 分頁；搜尋、領域與月份篩選保留。
 - 首發文章的「首發」標註移除，統一顯示出刊日期（計畫預設 1）。
 - 絕對網址（canonical、社群預覽、sitemap、feed）暫用現行 GitHub Pages 網址；最終網址確定後改 `scripts/build_site.py` 頂端 `SITE_URL` 一處即可（見 release checklist）。
+- 2026-11-04：推送本筆無內容更動，觸發 Cloudflare Workers Builds 對 architecture-v1 的預覽建置（依官方文件，非 production 分支的推送會產生獨立 Preview，不影響正式站）。網站內容與程式無任何變更。
