@@ -105,7 +105,7 @@
     {
       "src": "assets/img/005-mercator-projection.jpg",
       "alt": "墨卡托投影的世界地圖，經線與緯線呈現為等距的平行直線",
-      "caption": "墨卡托投影的世界地圖：經線被拉成平行直線，恆向線成為直線，航海規劃因此簡單；代價是高緯度地區的面積被大幅放大。",
+      "caption": "墨卡托投影的世界地圖：經線被拉成平行直線，恆向線成為直線，航海規劃因此變得簡單；代價是高緯度地區的面積被大幅放大。",
       "credit": "圖：Strebe，CC BY-SA 3.0，Wikimedia Commons",
       "source": "https://commons.wikimedia.org/wiki/File:Mercator_projection_SW.jpg",
       "kind": "diagram",
