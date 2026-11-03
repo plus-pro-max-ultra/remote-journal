@@ -45,6 +45,11 @@
       "date": "2026-11-02",
       "number": "015",
       "id": "movie-popcorn"
+    },
+    {
+      "date": "2026-11-03",
+      "number": "016",
+      "id": "survivorship-bias"
     }
   ]
 }
