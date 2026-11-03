@@ -1,0 +1,85 @@
+{
+  "id": "altitude-boiling-eggs",
+  "title": "高山上的水滾了，為什麼蛋反而煮更久？",
+  "subtitle": "沸點、氣壓與蛋白質的溫度帳：一鍋高山上的水煮蛋",
+  "category": "生活科學",
+  "tags": [
+    "沸點",
+    "氣壓",
+    "登山",
+    "烹調"
+  ],
+  "minutes": 7,
+  "intro": "想像在高山上煮一鍋蛋：高山上的水在較低溫度就會沸騰，壺裡咕嚕作響；可是把蛋放進去，照平地習慣的時間撈起來，蛋白卻還是半透明的。水明明「滾了」，為什麼蛋不熟？答案藏在兩組數字裡：一組決定水幾度沸騰，另一組決定蛋白質幾度凝固，而這兩組數字在高山上被拉開了。",
+  "sections": [
+    {
+      "heading": "一、沸騰不是固定的溫度",
+      "paragraphs": [
+        "水在幾度沸騰，取決於液面上的氣壓：氣壓越低，水分子越容易掙脫液面，沸點就越低。平地一個大氣壓下，水在攝氏 100 度沸騰；美國農業部《家庭罐藏完全指南》的換算表（由國家家庭食品保存中心刊載）列出：海拔 2,000 英尺（約 610 公尺）時沸點是華氏 208 度（約 97.8°C），6,000 英尺（約 1,830 公尺）時 201°F（約 93.9°C），10,000 英尺（約 3,050 公尺）時只剩 194°F（約 90°C）[^2]。美國農業部的食品安全資料也指出，多數食譜將 3,000 英尺（約 915 公尺）以上視為高海拔[^1]。",
+        "以表中的 6,000 英尺（約 1,830 公尺）與 10,000 英尺（約 3,050 公尺）為例，沸水已比平地低了約 6 到 10°C。這裡談的是氣壓對沸點的影響，不是保證高山上每一壺水都比較快煮滾：水量、起始水溫、鍋具與爐火也會影響加熱時間。"
+      ],
+      "callout": "「滾」只代表水到達了當地的沸點，不代表它到達了 100°C。沸騰是一個壓力的函數，不是溫度的保證。"
+    },
+    {
+      "heading": "二、蛋白質不看沸騰，看溫度",
+      "paragraphs": [
+        "蛋熟不熟，決定在蛋白質凝固，而蛋白質認的是溫度，不是「水有沒有滾」。美國蛋品協會（American Egg Board）的技術資料列出：蛋白的凝固範圍是 62.2 到 65°C，蛋黃是 65 到 70°C，全蛋介於 62.2 到 70°C 之間[^3]。在平地的 100°C 沸水裡，蛋很快被遠高於凝固點的水包圍，熱量迅速傳進去，蛋內的蛋白質逐漸凝固。",
+        "高山上的問題不是「水不夠熱到無法凝固蛋白」：90°C 仍然遠高於 70°C，蛋還是煮得熟。真正的差別是速度。水與蛋之間的溫差變小了，熱傳進蛋裡的速率就跟著變慢，凝固同樣一份蛋白質需要更長的時間。這是一場溫度與時間的交換：沸點降十度，不是煮不熟，而是要等更久。"
+      ]
+    },
+    {
+      "heading": "三、高山上的廚房對策",
+      "paragraphs": [
+        "美國科羅拉多州立大學推廣中心給 5,000 英尺（約 1,525 公尺）以上廚房的建議做法很具體：雞蛋冷水下鍋煮滾後轉小火煮 5 分鐘，關火加蓋再燜 15 到 20 分鐘（大蛋 15、特大蛋 20），高山煮蛋仍需要自行測試調整，因為沸點隨海拔而變[^4]。",
+        "還有一條更根本的路：把氣壓加回來。壓力鍋把鍋內壓力提高到一個大氣壓以上，水的沸點跟著回升，讓水能在更高溫度下烹煮。它不必恰好重現平地條件，也能縮短某些料理所需的時間；這也反過來證明了沸點真的是氣壓說了算。"
+      ]
+    },
+    {
+      "heading": "四、「滾了」不等於「夠熱」",
+      "paragraphs": [
+        "水煮蛋只是最容易觀察的例子。同樣的物理作用在所有用水煮的料理上：美國農業部的資料提醒，高海拔幾乎影響所有烹調的時間與溫度，燉煮、燜燒、製作罐頭的殺菌流程都須按海拔採用經驗證的調整方式，不能自行猜測時間[^1]。登山隊在高山營地煮飯、山屋燉湯，面對的是同一張沸點表。",
+        "所以高山煮蛋這件小事，其實是一次很好的單位換算練習：我們習慣用「滾不滾」當作火候的語言，但火候真正的貨幣是溫度與時間。在平地，沸騰恰好是 100°C 的可靠記號，於是「滾了」就能當指令用；上了高山，這個記號貶值了，得改看溫度計，或把時間補回來。"
+      ]
+    }
+  ],
+  "reflection": "下次上山，如果同伴說「水滾了就可以起鍋了」，你可以把高山上那鍋約 90°C 的沸水想一遍：生活裡還有哪些我們以為是「保證」的記號，其實只在特定條件下才成立？",
+  "sources": [
+    {
+      "title": "High Altitude Cooking（美國農業部食品安全檢驗局 FSIS）",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/high-altitude-cooking",
+      "sourceType": "美國聯邦官方食品安全指南",
+      "supports": "高海拔烹調需調整時間與溫度；多數食譜以 3,000 英尺以上視為高海拔；罐藏須採經驗證方法。"
+    },
+    {
+      "title": "Temperatures at which Water Boils at Different Elevations（美國國家家庭食品保存中心，喬治亞大學）",
+      "url": "https://nchfp.uga.edu/how/can/general-information/temperatures-at-which-water-boils-at-different-elevations/",
+      "sourceType": "大學推廣中心資料表（改編自 USDA《家庭罐藏完全指南》2015 修訂版）",
+      "supports": "海拔 0/2,000/4,000/6,000/8,000/10,000 英尺對應沸點 212/208/204/201/197/194°F 的換算表"
+    },
+    {
+      "title": "Coagulation/Thickening（美國蛋品協會 American Egg Board）",
+      "url": "https://www.incredibleegg.org/professionals/manufacturers/real-egg-functionality/coagulation-thickening/",
+      "sourceType": "產業協會技術資料",
+      "supports": "蛋白凝固 62.2-65°C、蛋黃 65-70°C、全蛋 62.2-70°C；凝固為蛋白質變性的三維網絡過程"
+    },
+    {
+      "title": "High Elevation Hard-Cooked Eggs（科羅拉多州立大學推廣中心，2025 年 10 月檢閱）",
+      "url": "https://extension.colostate.edu/resource/high-altitude-hard-cooked-eggs/",
+      "sourceType": "大學推廣中心烹調指南（方法改編自 American Egg Board）",
+      "supports": "5,000 英尺以上的水煮蛋做法：煮滾後小火 5 分鐘、關火燜 15-20 分鐘；高海拔需自行測試調整"
+    }
+  ],
+  "related": [],
+  "images": [
+    {
+      "src": "assets/img/ready-eggs.jpg",
+      "alt": "美國維吉尼亞州的一鍋水煮蛋，2020 年攝。這是烹調情境示意，不是高海拔實驗。",
+      "caption": "美國維吉尼亞州的一鍋水煮蛋，2020 年攝。這是烹調情境示意，不是高海拔實驗。",
+      "credit": "照片：Famartin，CC BY-SA 4.0，Wikimedia Commons；等比例縮放",
+      "source": "https://commons.wikimedia.org/wiki/File:2020-04-27_12_10_35_Nine_Medium_Grade_A_Chicken_Eggs_from_Hillandale_Farms_boiling_in_a_pot_of_water_in_the_Franklin_Farm_section_of_Oak_Hill,_Fairfax_County,_Virginia.jpg",
+      "kind": "photo",
+      "after": "intro",
+      "size": "medium"
+    }
+  ]
+}
