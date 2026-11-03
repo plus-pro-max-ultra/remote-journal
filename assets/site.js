@@ -218,6 +218,18 @@
 
   // ---------------- article ----------------
   if (PAGE === "article") {
+    // Citation markers jump into the sources block: open the details first.
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest("sup.cite a");
+      if (!a) return;
+      e.preventDefault();
+      var li = document.querySelector(a.getAttribute("href"));
+      if (!li) return;
+      var d = li.closest("details");
+      if (d && !d.open) d.open = true;
+      li.scrollIntoView({ behavior: "auto", block: "center" });
+      setTimeout(function () { li.scrollIntoView({ behavior: "auto", block: "center" }); }, 700);
+    });
     var id = document.body.getAttribute("data-id");
     var bm = $("#bookmarkBtn");
     function paintBm() {
