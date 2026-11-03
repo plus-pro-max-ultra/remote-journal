@@ -8,9 +8,11 @@
 
 ## 專案結構
 
-- `index.html`：閱讀網站前端，支援分類、全文搜尋、隨機探索、收藏、個人反思與列印。
-- `content/articles/*.json`：正式文章的唯一來源；新增或修改文章時編輯這裡，不要直接改 `stories.js`。
-- `stories.js`：由建置腳本產生，讓網站可以直接於瀏覽器開啟。閱讀時間由建置時依實際篇幅計算。
+- `index.html`、`archive/`、`articles/`、`about/`、`privacy/`、`feed.xml` 等：由建置腳本產生的網站頁面；請勿直接編輯，改內容請編輯 `content/` 或建置腳本。
+- `content/articles/*.json`：正式文章的唯一來源；新增或修改文章時編輯這裡，不要直接改 `stories.js`。每篇需含 `date` 出刊日期（YYYY-MM-DD）。
+- `content/topic-queue.json`：未來一週預告的候選選題；出刊時文章沿用同一 id，預告自動移除已刊出題目。
+- `assets/site.css`、`assets/site.js`：全站樣式與增強腳本（無 JavaScript 時頁面仍可完整閱讀）。
+- `stories.js`：由建置腳本產生。閱讀時間由建置時依實際篇幅計算。
 - PWA 支援：部署到 HTTPS 後可安裝到主畫面；離線時可讀取已快取的內容，連線時一律取得最新文章。
 - `ops/github-actions/`：預先寫好的 CI 與部署 workflows（目前停用，原因與啟用方式見 `ops/README.md`）。
 - 部署現況：本機建置後推送 `gh-pages` 分支，由 GitHub Pages 從該分支發布。
@@ -25,11 +27,11 @@
 python scripts/build_site.py
 ```
 
-建置會驗證 `content/articles/`（必填欄位、重複 ID、HTTPS 來源、閱讀時間重算），更新 `stories.js`，並將公開網站輸出到 `dist/`。`dist/` 只含網站資產。
+建置會驗證 `content/articles/`（必填欄位、出刊日期、重複 ID、HTTPS 來源、閱讀時間重算），更新 `stories.js`，產生所有頁面（首頁、索引、文章、關於、隱私權、404、feed、sitemap、robots），輸出到 `dist/` 並同步 repo 根目錄。`dist/` 只含網站資產。
 
 ## 新增一篇文章
 
-1. 依 `ARTICLE_TEMPLATE.md` 的骨架與 `EDITORIAL_STANDARD.md` 的標準撰寫，存為 `content/articles/00N-<id>.json`（使用 `sections` 純文字格式，網站會安全渲染）。
+1. 依 `ARTICLE_TEMPLATE.md` 的骨架與 `EDITORIAL_STANDARD.md` 的標準撰寫，存為 `content/articles/00N-<id>.json`（使用 `sections` 純文字格式，網站會安全渲染），並填入 `date` 出刊日期（YYYY-MM-DD，台北時間）。
 2. 執行 `python -m unittest discover -s tests -v` 與 `python scripts/build_site.py`，兩者皆須通過。
 3. 推送 `main` 更新來源；再將建置產物推送 `gh-pages` 更新網站（細節見 `ops/README.md`）。
 

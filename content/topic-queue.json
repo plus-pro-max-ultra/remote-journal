@@ -1,0 +1,9 @@
+{
+  "note": "候選選題：id 是未來文章的正式 slug，出刊時文章 JSON 必須沿用同一 id。預告依 id 穩定識別把已刊出的候選移除（不看出刊日期，避免延期主題被誤刪）。建置時讀取本檔產生首頁預告。",
+  "queue": [
+    {"id": "antibiotic-course", "date": "2026-11-04", "category": "醫學與公共衛生", "title": "抗生素的療程，為什麼不能自己決定？"},
+    {"id": "seven-day-week", "date": "2026-11-05", "category": "歷史與制度", "title": "為什麼一週是七天？"},
+    {"id": "ocean-salt", "date": "2026-11-06", "category": "地理與科學", "title": "海水的鹽從哪裡來，又到哪裡去？"},
+    {"id": "traffic-signal-timing", "date": "2026-11-07", "category": "社會與城市", "title": "為什麼紅綠燈的秒數是這樣決定的？"}
+  ]
+}
