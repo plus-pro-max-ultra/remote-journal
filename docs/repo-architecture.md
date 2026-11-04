@@ -42,7 +42,7 @@ Rules now in force: pushing to a review branch needs no approval. Moving anythin
 
 ## 5. How editing works, and what is safe to edit
 
-Edit on a review branch, not on `main`: `main` deploys to the official edition automatically within about a minute of any change, so editing `main` directly publishes instead of saving a draft. On a review branch, MM can edit freely through GitHub's web interface or any git tool, with no approval needed.
+Edit on a review branch, not on `main`: any change to `main` triggers an automatic production build and deploy to the official edition, so editing `main` directly publishes rather than saving a draft. On a review branch, MM can edit freely through GitHub's web interface or any git tool, with no approval needed.
 
 Safe to edit directly (these are sources; a rebuild will not erase them):
 
@@ -62,7 +62,7 @@ Regenerated on build (edit with care): the HTML at the repository root (`index.h
 
 What review looks like today: review branches are read as source files on GitHub (or as agent-rendered PDFs and screenshots). There is currently no working rendered preview site for branches - the Cloudflare preview build failed on 2026-11-04 and no usable preview URL has been produced, so pushing a branch does not give a browsable preview. Rendered checks happen locally on the agent side before anything ships.
 
-Known notes, none blocking: the branch-preview pipeline is unproven (the one preview build so far failed), so review stays source-based until a preview succeeds. The publication ledger at `ops/publication-ledger.json` records which article is which issue number and date.
+Remaining limitation: the branch-preview pipeline is unproven (the one preview build so far failed), so there is no browsable rendered preview of a branch. Until a preview succeeds, visual review relies on source files or agent-rendered screenshots and PDFs - a real limitation, though source editing and the release flow are unaffected. The publication ledger at `ops/publication-ledger.json` records which article is which issue number and date.
 
 Integration note: the fifteen-manuscript review branch predates the multi-page architecture. If those articles are approved, their content is integrated into the current architecture rather than merging the whole old branch, which would roll back the site structure. Within the approved scope, the branch's wording - including MM's edits - takes precedence.
 
@@ -110,7 +110,7 @@ Integration note: the fifteen-manuscript review branch predates the multi-page a
 
 ## 5. 你的編輯方式與安全範圍
 
-請在審閱分支上編輯，不要直接改 `main`：`main` 一有變動，約一分鐘內就會自動部署到正式版，直接改 `main` 等於立即發布，而不是儲存草稿。在審閱分支上，你可以用 GitHub 網頁或任何 git 工具自由編輯，不需批准。
+請在審閱分支上編輯，不要直接改 `main`：`main` 一有變動就會觸發正式版的自動建置與部署，所以直接改 `main` 等於發布，而不是儲存草稿。在審閱分支上，你可以用 GitHub 網頁或任何 git 工具自由編輯，不需批准。
 
 可以直接改（屬於來源，重建不會洗掉）：
 
@@ -130,6 +130,6 @@ Integration note: the fifteen-manuscript review branch predates the multi-page a
 
 目前審閱的實際形式：審閱分支以 GitHub 上的原始檔閱讀（或由我產生 PDF／截圖）。分支目前沒有可用的網頁預覽：Cloudflare 預覽建置在 2026-11-04 失敗，尚未產生過可用的預覽網址，所以推送分支不會得到可瀏覽的預覽站。上線前的版面檢查由我在本機渲染完成。
 
-目前不影響操作的事項：分支預覽管線尚未驗證（至今唯一一次預覽建置失敗），預覽成功前審閱維持以原始檔為準；出刊紀錄 `ops/publication-ledger.json` 記載每篇文章的期數與日期。
+目前限制：分支預覽管線尚未驗證（至今唯一一次預覽建置失敗），所以在預覽成功前，分支沒有可瀏覽的渲染預覽，視覺審閱只能靠原始檔或代理端渲染的截圖與 PDF，這是目前審閱流程的主要限制；原始檔編輯與發布流程不受影響。出刊紀錄 `ops/publication-ledger.json` 記載每篇文章的期數與日期。
 
 整合說明：十五篇的審閱分支建立於多頁架構之前。若批准，會把文章內容整合進目前的架構，批准範圍內以分支的文字（含你的修改）為準，而不是整支舊分支合併，以免退回舊的網站結構。
