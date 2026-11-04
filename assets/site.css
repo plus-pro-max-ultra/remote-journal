@@ -61,3 +61,6 @@ footer{flex-direction:column;align-items:flex-start;gap:6px}
 .preview-banner{border:1px solid var(--rust);background:#fdf3e3;color:var(--rust);padding:10px 14px;border-radius:4px;font-size:13px;margin:18px 0 4px;font-family:var(--sans);line-height:1.7}
 .preview-group{font:500 21px/1.4 var(--serif);margin:26px 0 10px}
 .preview-cta{padding-bottom:8px}
+
+/* Review rows have date/category/title, not the published issue-number column. */
+@media(min-width:761px){a.topic-row.review-row{grid-template-columns:158px 132px minmax(0,1fr)}}

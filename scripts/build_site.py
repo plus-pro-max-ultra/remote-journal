@@ -522,7 +522,7 @@ def build_preview_index(drafts):
         for d in items:
             date = f'{esc(d["date"])} 預定' if d.get("date") else "待刊"
             out.append(
-                f'<a class="topic-row" href="../articles/{esc(d["id"])}/">'
+                f'<a class="topic-row review-row" href="../articles/{esc(d["id"])}/">'
                 f'<span class="topic-meta-line"><span class="topic-date">{date}</span>'
                 f'<span class="topic-cat">{esc(d["category"])}</span></span>'
                 f'<span class="topic-title">{esc(d["title"])}</span></a>')
