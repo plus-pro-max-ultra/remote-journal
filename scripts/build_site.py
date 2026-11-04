@@ -183,12 +183,12 @@ def footer(prefix):
         "  <div>遠方誌 · 一份讓好奇心有地方安放的閱讀刊物</div>",
         f'  <nav class="foot-nav" aria-label="網站導覽"><a href="{prefix}">首頁</a><a href="{prefix}archive/">文章索引</a><a href="{prefix}about/">關於本刊</a><a href="{prefix}privacy/">隱私權說明</a><a href="{prefix}feed.xml">RSS 訂閱</a></nav>',
         '  <div class="footnote-line">收藏與筆記只保存在目前瀏覽器，不會上傳或同步到其他裝置。</div>',
-        '  <div class="footnote-line">© 2026 遠方誌 <span class="placeholder">版權聲明文字與授權方式待 MM 確認後定案</span></div>',
+        '  <div class="footnote-line">© 2026 遠方誌</div>',
         "</footer>",
     ])
 
 
-REVIEW_BANNER = '<div class="review-banner">本頁為草稿：內容與措辭待 MM 核准後才會正式生效。</div>'
+REVIEW_BANNER = ''  # 2026-11-04 MM 核准上線：草稿橫幅移除（phonemsg-01M6J366M7S0G430WXGY2MP90N）
 TOAST_DIV = '<div class="toast" id="toast" role="status" aria-live="polite"></div>'
 
 
@@ -392,39 +392,35 @@ def build_article(stories, idx):
     return "\n".join(parts)
 
 
-# Draft pages for MM's review (architecture plan v1.0, items 4, 5 and 7).
-# Marked with the review banner; contact route and final wording await MM.
+# About / Privacy pages. Wording reviewed and edited by MM 2026-11-04 (commits 134ebbc, 9653f7a);
+# draft banner, contact placeholders and footer copyright placeholder removed per MM's publish instruction
+# (phonemsg-01M6J366M7S0G430WXGY2MP90N). Contact section returns when MM picks a channel.
 ABOUT_BODY = """
 <section class="prose">
 <h2>這是一份什麼刊物</h2>
 <p>遠方誌是一份閱讀型知識刊物：以具體的故事或問題為入口，交代脈絡、機制、證據與反例，帶讀者理解世界背後的運作方式。自 2026 年 10 月 25 日起，每個台北日期刊出一篇。</p>
 <h2>文章如何產生</h2>
-<p>每篇文章由編輯流程撰寫與查證：從一個可感知的現象或疑問出發，交代必要的背景，逐步拆解背後的機制，再檢驗證據、提出反例與適用邊界，最後把核心概念連結到另一個領域，並說清楚類比的限制。來源優先採用原始資料、官方統計、學術研究、博物館與檔案館、大學教材與專業機構文件；數字必須有來源、單位、年份與比較基準。每篇刊出前都逐條核對，查證不足就延後出刊，不為維持連載降低標準。</p>
+<p>每篇文章經過系統性地撰寫與查證：從一個可感知的現象或疑問出發，交代必要的背景，逐步拆解背後的機制，再檢驗證據、提出反例與適用邊界，最後把核心概念連結到另一個領域，並說清楚類比的限制。來源優先採用原始資料、官方統計、學術研究、博物館與檔案館、大學教材與專業機構文件；數字必須有來源、單位、年份與比較基準。每篇刊出前都逐條核對，查證不足就延後出刊，不為維持連載降低標準。</p>
 <h2>來源如何標示</h2>
 <p>每篇文章末尾列出「查證資料來源」與「延伸探討」：前者逐條標註實際支持的內容，文內如有 [數字] 標記即對應此處編號；後者供進一步閱讀，內容以各來源頁為準。文中提及數據的提供單位時，也會把連結嵌入相關文字，讀到就能點開查證。</p>
 <h2>編輯獨立與內容聲明</h2>
-<p>遠方誌內容不接受贊助，選題與寫作不由任何商業或政治機構決定。文章為一般性閱讀與知識探索，不構成醫療、法律、投資或其他專業建議；涉及專業領域的決定，請諮詢合格的專業人士。文中的詮釋與觀點屬於本刊，事實主張均附可查證的來源。</p>
-<h2>聯絡方式</h2>
-<p><span class="placeholder">聯絡管道待 MM 確認後補上。</span></p>
+<p>遠方誌內容接受讀者贊助（目前在vocus刊載）。文章為一般性閱讀與知識探索，不構成醫療、法律、投資或其他專業建議；涉及專業領域的決定，建議諮詢合格的專業人士。文中的詮釋與觀點屬於本刊，事實主張均附可查證的來源。</p>
 </section>
 """
 
 PRIVACY_BODY = """
 <section class="prose">
 <h2>本刊收集什麼資料</h2>
-<p>沒有。遠方誌沒有帳號、沒有表單、不安裝分析工具，也不放置廣告追蹤；閱讀不需要提供任何個人資料。</p>
+<p>沒有。遠方誌目前沒有帳號、沒有表單；閱讀不需要提供任何個人資料。</p>
 <h2>瀏覽器本機儲存</h2>
 <p>收藏與筆記只儲存在你所用瀏覽器的本機儲存空間，不會傳送到本刊或任何第三方；清除瀏覽器資料即可刪除。網站並使用 service worker 把頁面暫存在你的裝置上，供離線閱讀，這些內容同樣只存在你的裝置。</p>
 <h2>託管服務必然處理的資料</h2>
-<p>本站由第三方託管（目前為 GitHub Pages；新網址使用 Cloudflare Workers）。如同多數網站託管服務，託管方會依自己的隱私權政策處理標準連線紀錄，例如 IP 位址與存取時間：</p>
+<p>本站由第三方託管（使用 Cloudflare Workers）。如同多數網站託管服務，託管方會依自己的隱私權政策處理標準連線紀錄，例如 IP 位址與存取時間：</p>
 <ul>
-<li><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement" target="_blank" rel="noopener noreferrer">GitHub General Privacy Statement</a></li>
 <li><a href="https://www.cloudflare.com/privacypolicy/" target="_blank" rel="noopener noreferrer">Cloudflare Privacy Policy</a></li>
 </ul>
 <h2>未來如有變動</h2>
 <p>若未來啟用分析或廣告（每一項都需要另行決定），本頁會在功能上線前更新；屆時廣告會另外加上 Google 要求的 Cookie 與同意聲明。</p>
-<h2>聯絡方式</h2>
-<p>對本頁內容有疑問，請透過<span class="placeholder">聯絡管道待 MM 確認後補上</span>與我們聯繫。</p>
 <p class="footnote-line">本頁最後更新：2026-11-04</p>
 </section>
 """
