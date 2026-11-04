@@ -18,3 +18,4 @@
 - 首發文章的「首發」標註移除，統一顯示出刊日期（計畫預設 1）。
 - 絕對網址（canonical、社群預覽、sitemap、feed）暫用現行 GitHub Pages 網址；最終網址確定後改 `scripts/build_site.py` 頂端 `SITE_URL` 一處即可（見 release checklist）。
 - 2026-11-04：推送本筆無內容更動，觸發 Cloudflare Workers Builds 對 architecture-v1 的預覽建置（依官方文件，非 production 分支的推送會產生獨立 Preview，不影響正式站）。網站內容與程式無任何變更。
+- 2026-11-04（MM 指示 phonemsg-01M6H8BXMJD2N346A2AZTMH2V1）：頁首品牌區加上方留白（標題不再近乎切頂）；首頁兩行標語改用明體系統字型堆疊（Songti TC／PMingLiU／Noto Serif CJK TC 等，無外部字體服務），第一行「世界不只發生。」放大加粗突出，第二行「它值得被理解。」大小維持原值（仍為主標題基準的 0.8 倍）。本機沙箱無明體字型，像素截圖僅驗證版面、尺寸與間距；明體實際字形需在 iOS／macOS 裝置上確認。
