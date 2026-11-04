@@ -10,16 +10,19 @@ https://github.com/plus-pro-max-ultra/remote-journal
 
 ## 2. Branches and their roles
 
-| Branch | Role | State (2026-11-04) |
+Snapshot of all seven branches as of 2026-11-04:
+
+| Branch | Role | State |
 | --- | --- | --- |
-| `main` | Source of truth: article data, build scripts, styles, tests, and the generated site | Live content through issue 016 |
+| `main` | Current production source: article data, build scripts, styles, tests, and the generated site | Live content through issue 016 |
 | `gh-pages` | Publish-only branch for the GitHub Pages mirror | In sync with main's output |
 | `content-readiness-2026-11-04` | Review branch: the fifteen revised manuscripts under `review/` | Awaiting MM review, unpublished |
 | `daily-review-2026-11-04` | Review branch: issue 017 draft under `drafts/` | Awaiting MM review, unpublished |
 | `architecture-v1` | Completed multi-page architecture work | Merged into main, kept as record |
 | `photo-preview` | Older photo preview work | Inactive; can be deleted when MM wants |
+| `docs/repo-architecture` | This document | Docs only |
 
-Rules now in force: pushing to a review branch needs no approval. Moving anything onto `main` and the official edition requires MM's explicit approval. When a release is approved, the review branch's latest content, including MM's own edits, is what ships.
+Rules now in force: pushing to a review branch needs no approval. Moving anything onto `main` and the official edition requires MM's explicit approval. When a release is approved, the review branch's latest content, including MM's own edits, is what ships - the branch wins over any older local or generated copy.
 
 ## 3. What lives where on `main`
 
@@ -57,7 +60,9 @@ Regenerated on build (edit with care): the HTML at the repository root (`index.h
 - The content validator gates every build: 16 of 16 articles validated, all content tests pass.
 - The daily and batch review branches were pushed and read back through the GitHub API to confirm the remote content matches.
 
-Known notes, none blocking: the old `remote-journal` Worker connection in the Cloudflare dashboard no longer exists and its preview builds will keep failing harmlessly until MM disconnects it; branch preview builds only run when a branch is pushed (enabling the setting does not rebuild older pushes); issue numbers and dates come from `ops/publication-ledger.json`, so a new article enters the site by adding its JSON plus a ledger entry on a review branch.
+What review looks like today: review branches are read as source files on GitHub (or as agent-rendered PDFs and screenshots). There is currently no working rendered preview site for branches - the Cloudflare preview build failed on 2026-11-04 and no usable preview URL has been produced, so pushing a branch does not give a browsable preview. Rendered checks happen locally on the agent side before anything ships.
+
+Known notes, none blocking: the old `remote-journal` Worker connection in the Cloudflare dashboard no longer exists and its preview builds will keep failing harmlessly until MM disconnects it; the branch-preview pipeline as a whole is unproven (the one preview build so far failed), so review stays source-based until a preview succeeds; issue numbers and dates come from `ops/publication-ledger.json`, so a new article enters the site by adding its JSON plus a ledger entry on a review branch.
 
 ---
 
@@ -71,16 +76,19 @@ Known notes, none blocking: the old `remote-journal` Worker connection in the Cl
 
 ## 2. 分支角色
 
-| 分支 | 角色 | 狀態（2026-11-04） |
+以下為 2026-11-04 全部七個分支的快照：
+
+| 分支 | 角色 | 狀態 |
 | --- | --- | --- |
-| `main` | 唯一正式來源：文章資料、建置腳本、樣式、測試與產生的網站 | 已刊至第 016 期 |
+| `main` | 目前正式版來源：文章資料、建置腳本、樣式、測試與產生的網站 | 已刊至第 016 期 |
 | `gh-pages` | 僅供發布的 GitHub Pages 鏡像分支 | 與 main 輸出同步 |
 | `content-readiness-2026-11-04` | 審閱分支：十五篇重修稿，放在 `review/` | 待你審閱，未發布 |
 | `daily-review-2026-11-04` | 審閱分支：第 017 期草稿，放在 `drafts/` | 待你審閱，未發布 |
 | `architecture-v1` | 已完成的多頁架構工作 | 已併入 main，保留紀錄 |
 | `photo-preview` | 早期照片預覽工作 | 停用中；你要清理時可刪 |
+| `docs/repo-architecture` | 本說明文件 | 僅文件 |
 
-現行規則：推送到審閱分支不需批准；推上 `main` 與正式版才需要你明確批准。批准上線時，以審閱分支的最新內容為準，包含你做的修改。
+現行規則：推送到審閱分支不需批准；推上 `main` 與正式版才需要你明確批准。批准上線時，以審閱分支的最新內容為準，包含你做的修改；分支內容優先於任何舊的本機或產生副本。
 
 ## 3. `main` 裡的內容位置
 
@@ -118,4 +126,6 @@ Known notes, none blocking: the old `remote-journal` Worker connection in the Cl
 - 內容驗證器每次都把關：16 篇全部通過，內容測試全數通過。
 - 每日與十五篇的審閱分支已推送，並透過 GitHub API 讀回確認雲端內容一致。
 
-目前不影響操作的事項：Cloudflare 後台舊的 `remote-journal` 連線已不存在，它的預覽建置會繼續失敗但無害，你方便時可中斷連線；分支預覽只在新推送時觸發（開啟設定不會重建舊推送）；新文章靠「新增 JSON＋在 `ops/publication-ledger.json` 登記一期」進入網站，全部在審閱分支上完成。
+目前審閱的實際形式：審閱分支以 GitHub 上的原始檔閱讀（或由我產生 PDF／截圖）。分支目前沒有可用的網頁預覽：Cloudflare 預覽建置在 2026-11-04 失敗，尚未產生過可用的預覽網址，所以推送分支不會得到可瀏覽的預覽站。上線前的版面檢查由我在本機渲染完成。
+
+目前不影響操作的事項：Cloudflare 後台舊的 `remote-journal` 連線已不存在，它的預覽建置會繼續失敗但無害，你方便時可中斷連線；分支預覽管線整體尚未驗證（至今唯一一次預覽建置失敗），在預覽成功前，審閱維持以原始檔為準；新文章靠「新增 JSON＋在 `ops/publication-ledger.json` 登記一期」進入網站，全部在審閱分支上完成。
