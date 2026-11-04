@@ -102,20 +102,26 @@ def render_body(story, prefix):
     return story.get("body", "")
 
 
+def source_link(x):
+    """Link for one source. Non-HTTPS URLs keep the exact bibliography and the
+    true address as text, marked unverified, instead of being dropped (dropping
+    would shift the [n] citation numbering against the source list)."""
+    title = esc(x["title"] or x["url"])
+    if safe_url(x["url"]):
+        return f'<a href="{esc(x["url"])}" target="_blank" rel="noopener noreferrer">{title} ↗</a>'
+    return (f'{title}<br><span class="meta">原始網址（非 HTTPS，原站憑證未能驗證）：'
+            f'{esc(x["url"])}</span>')
+
+
 def sources_html(story):
     srcs = [source_parts(x) for x in story.get("sources", [])]
-    srcs = [x for x in srcs if safe_url(x["url"])]
     ev = [x for x in srcs if str(x["supports"]).strip()]
     fw = [x for x in srcs if not str(x["supports"]).strip()]
     ev_items = "".join(
-        f'<li id="src-{i}"><a href="{esc(x["url"])}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(x["title"] or x["url"])} ↗</a>'
+        f'<li id="src-{i}">{source_link(x)}'
         f'<div class="meta" style="margin-top:4px">支持內容：{esc(x["supports"])}</div></li>'
         for i, x in enumerate(ev, 1))
-    fw_items = "".join(
-        f'<li><a href="{esc(x["url"])}" target="_blank" rel="noopener noreferrer">'
-        f'{esc(x["title"] or x["url"])} ↗</a></li>'
-        for x in fw)
+    fw_items = "".join(f"<li>{source_link(x)}</li>" for x in fw)
     ev_block = ""
     if ev:
         ev_block = (f'<details class="srcblk"><summary><span>查證資料來源</span>'
@@ -136,7 +142,7 @@ def sources_html(story):
     return ev_block + fw_block or '<p class="src-note">此篇尚未補齊可核實的來源。</p>'
 
 
-def head(title, desc, prefix, path, og_type="website", extra=""):
+def head(title, desc, prefix, path, og_type="website", extra="", noindex=False, canonical=True):
     url = SITE_URL + path
     lines = [
         "<!doctype html>",
@@ -146,7 +152,12 @@ def head(title, desc, prefix, path, og_type="website", extra=""):
         '<meta name="theme-color" content="#f4f0e8">',
         f"<title>{esc(title)}</title>",
         f'<meta name="description" content="{esc(desc)}">',
-        f'<link rel="canonical" href="{esc(url)}">',
+    ]
+    if noindex:
+        lines.append('<meta name="robots" content="noindex,nofollow">')
+    if canonical:
+        lines.append(f'<link rel="canonical" href="{esc(url)}">')
+    lines += [
         f'<meta property="og:site_name" content="{esc(SITE_NAME)}">',
         f'<meta property="og:title" content="{esc(title)}">',
         f'<meta property="og:description" content="{esc(desc)}">',
@@ -260,7 +271,7 @@ def topic_rows_html(rows):
     return "".join(out)
 
 
-def build_home(stories, topics):
+def build_home(stories, topics, preview_count=0):
     prefix = "./"
     latest = stories[-1]
     side = stories[max(0, len(stories) - 3):len(stories) - 1]
@@ -283,6 +294,7 @@ def build_home(stories, topics):
         for s in side)
     today = datetime.now(TAIPEI).strftime("%Y-%m-%d")
     topics_html = topic_rows_html(topic_rows(stories, topics, today))
+    preview_span = f'<span>預覽站 · 含 {preview_count} 篇審閱稿</span>' if preview_count else ''
     extra_head = ('<script src="./stories.js"></script>\n'
                   + "<script>window.FARAWAY_TOPICS = " + json.dumps(topics, ensure_ascii=False) + ";</script>")
     parts = [
@@ -290,7 +302,7 @@ def build_home(stories, topics):
         '<body data-root="./" data-page="home">',
         topbar(prefix, saved_nav=True),
         '<div class="shell home" id="homeView">',
-        f'  <div class="edition-status" role="status"><span>最新刊期 {esc(latest["num"])} · {esc(latest["date"])}</span><span>每日出刊 · 台北時間</span></div>',
+        f'  <div class="edition-status" role="status"><span>最新刊期 {esc(latest["num"])} · {esc(latest["date"])}</span>{preview_span}<span>每日出刊 · 台北時間</span></div>',
         '  <section class="hero">',
         '    <div><div class="eyebrow">A FIELD GUIDE TO THE WIDER WORLD</div><h1><span class="sl1">世界不只發生。</span><span class="sl2">它值得被理解。</span></h1><p>從一條塞車的道路、一個古老的制度，或一個反直覺的數字出發。沿著故事走進它的來處、機制與爭議，讀到新聞之外，也讀到世界如何運作。</p></div>',
         f'    <div class="hero-art" aria-label="抽象的道路與地平線插畫"><div class="art-line"></div><div class="art-circle"></div><div class="art-copy"><span>ISSUE NO. {issue_range}</span><strong>每個問題，<br>都是通往遠方的路。</strong></div></div>',
@@ -304,6 +316,11 @@ def build_home(stories, topics):
         '    <div class="empty" id="emptyResult" style="display:none">沒有找到相符的文章。試試不同關鍵字，或清除篩選條件。</div>',
         f'    <div class="more-wrap" id="viewAllWrap"><a class="ghost" href="./archive/">查看全部文章（共 {len(stories)} 篇）→</a></div>',
         "  </section>",
+        *( ['  <section class="preview-cta">',
+            '    <div class="section-head"><div><div class="eyebrow">REVIEW PREVIEW</div><h2>審閱專區</h2>'
+            '<p>這裡是工作預覽站：除了已刊出的文章，另收錄尚未刊出的審閱稿，供逐篇檢閱。審閱稿不會出現在正式版，正式刊出以批准後發布為準。</p></div></div>',
+            f'    <p><a class="ghost" href="./preview/">進入審閱專區（{preview_count} 篇審閱稿）→</a></p>',
+            "  </section>"] if preview_count else [] ),
         '  <section class="topics" id="topicIndex" aria-label="未來一週預告">',
         '    <div class="section-head"><div><div class="eyebrow">COMING WEEK</div><h2>未來一週預告</h2><p>下一週的候選選題；全部已刊出文章請見「文章索引」。</p></div></div>',
         f'    <div class="topic-block"><div class="topic-table" id="previewTopics">{topics_html}</div><p class="topic-note">預告為候選題目，日期為預定出刊日，可能依研究與查證調整；延期時保留「原定」日期標示。</p></div>',
@@ -384,6 +401,153 @@ def build_article(stories, idx):
         f'<a class="solid" href="../{nxt["id"]}/">下一個故事 ↗</a></section>',
         "  </article>",
         "</main>",
+        footer(prefix),
+        TOAST_DIV,
+        scripts_tag(prefix),
+        "</body></html>",
+    ]
+    return "\n".join(parts)
+
+
+# ---------------------------------------------------------------------------
+# Preview layer (preview branch only). Review drafts render on this branch so
+# MM can read and edit them on GitHub before they ship. Drafts never enter
+# content/articles/, the feed, the sitemap, or the publication ledger, carry
+# no issue numbers, and their pages are noindex with no production canonical.
+# The production validator above is unchanged and still governs
+# content/articles/ only.
+
+DRAFT_DIRS = [ROOT / "drafts", ROOT / "review" / "ready-drafts"]
+DRAFT_REQUIRED = {"id", "title", "subtitle", "category", "intro", "sections", "sources"}
+
+PREVIEW_BANNER = ('<div class="preview-banner" role="note">這是審閱稿預覽頁：內容尚未刊出，'
+                  '不會出現在正式版；正式刊出以批准為準。</div>')
+
+
+def load_drafts(published_ids):
+    """Load review drafts from DRAFT_DIRS with lenient, preview-only checks.
+
+    No dates or issue numbers are invented: a draft renders its date only when
+    the JSON already carries one (planned date, still unissued)."""
+    drafts = []
+    errors = []
+    seen = set()
+    for d in DRAFT_DIRS:
+        if not d.is_dir():
+            continue
+        for path in sorted(d.glob("*.json")):
+            try:
+                story = json.loads(path.read_text(encoding="utf-8"))
+            except Exception as e:
+                errors.append(f"{path.name}: JSON 讀取失敗：{e}")
+                continue
+            missing = DRAFT_REQUIRED - set(story)
+            if missing:
+                errors.append(f"{path.name}: 缺少欄位 {', '.join(sorted(missing))}")
+            sid = story.get("id")
+            if not sid or sid in seen or sid in published_ids:
+                errors.append(f"{path.name}: id 空白、重複或與已刊出文章衝突：{sid}")
+            seen.add(sid)
+            date = story.get("date", "")
+            if date and not DATE_RE.match(str(date)):
+                errors.append(f"{path.name}: date 必須是 YYYY-MM-DD：{date}")
+            if not isinstance(story.get("sources"), list) or len(story.get("sources", [])) < 2:
+                errors.append(f"{path.name}: 至少列出 2 個來源")
+            img_after = re.compile(r"^(intro|section-[1-9][0-9]*)$")
+            for im in story.get("images", []):
+                src = im.get("src", "")
+                if not src.startswith("assets/img/") or not (ROOT / src).is_file():
+                    errors.append(f"{path.name}: 圖片檔案不存在或路徑錯誤：{src}")
+                for k in ("alt", "caption", "credit", "source"):
+                    if not im.get(k):
+                        errors.append(f"{path.name}: 圖片缺少欄位 {k}：{src}")
+                if not str(im.get("source", "")).startswith("https://"):
+                    errors.append(f"{path.name}: 圖片缺少 https 來源連結：{src}")
+                if not img_after.match(str(im.get("after", ""))):
+                    errors.append(f"{path.name}: 圖片 after 位置無效：{im.get('after')}")
+            story["origin"] = f"{d.relative_to(ROOT)}/{path.name}"
+            drafts.append(story)
+    for story in drafts:
+        text = story.get("intro", "") + "".join(
+            para for sec in story.get("sections", []) for para in sec.get("paragraphs", []))
+        story["minutes"] = max(1, round(len(re.sub(r"\s", "", text)) / 350))
+    return drafts, errors
+
+
+def draft_meta_line(story):
+    if story.get("date"):
+        return f'{esc(story["category"])}　·　{esc(story["date"])} 預定 · 審閱中　·　{story["minutes"]} 分鐘閱讀'
+    return f'{esc(story["category"])}　·　待刊 · 審閱中　·　{story["minutes"]} 分鐘閱讀'
+
+
+def build_draft_article(story):
+    prefix = "../../"
+    tags = "".join(f'<span class="tag">{esc(t)}</span>' for t in story.get("tags", []))
+    parts = [
+        head(story["title"] + "（審閱稿） · 遠方誌", story["subtitle"], prefix,
+             "/articles/" + story["id"] + "/", og_type="article", noindex=True, canonical=False),
+        f'<body data-root="../../" data-page="article" data-id="{esc(story["id"])}">',
+        topbar(prefix),
+        '<main class="reader visible" id="readerView">',
+        '  <a class="back" href="../../preview/">← 回到審閱專區</a>',
+        '  <article id="readerArticle">',
+        f'    <header class="reader-head"><div class="eyebrow">REVIEW DRAFT / 審閱稿</div>'
+        f'<div class="meta" style="margin-top:12px">{draft_meta_line(story)}</div>'
+        f"<h1>{esc(story['title'])}</h1>"
+        f'<p class="dek">{esc(story["subtitle"])}</p>'
+        f'<div class="reader-meta">{tags}<span class="meta">一篇從現象走向機制的探索</span></div></header>',
+        f'    {PREVIEW_BANNER}',
+        f'    <div class="reader-body"><p>{cite_links(esc(story.get("intro", "")))}</p>'
+        + story_figures(story, "intro", prefix) + render_body(story, prefix) + "</div>",
+        f'    <section class="sources">{sources_html(story)}</section>',
+        f'    <section class="next-read"><div><div class="meta">審閱稿</div><h4>這篇尚未刊出</h4></div>'
+        f'<a class="solid" href="../../preview/">回到審閱專區 ↗</a></section>',
+        "  </article>",
+        "</main>",
+        footer(prefix),
+        TOAST_DIV,
+        scripts_tag(prefix),
+        "</body></html>",
+    ]
+    return "\n".join(parts)
+
+
+def build_preview_index(drafts):
+    prefix = "../"
+    new_today = [d for d in drafts if d.get("origin", "").startswith("drafts/")]
+    ready = [d for d in drafts if not d.get("origin", "").startswith("drafts/")]
+
+    def rows(items):
+        out = []
+        for d in items:
+            date = f'{esc(d["date"])} 預定' if d.get("date") else "待刊"
+            out.append(
+                f'<a class="topic-row" href="../articles/{esc(d["id"])}/">'
+                f'<span class="topic-meta-line"><span class="topic-date">{date}</span>'
+                f'<span class="topic-cat">{esc(d["category"])}</span></span>'
+                f'<span class="topic-title">{esc(d["title"])}</span></a>')
+        return "".join(out)
+
+    body = f"""
+<section class="prose">
+<p>本頁收錄尚未刊出的審閱稿，僅存在於這個預覽站；正式版（journal-for-far.learnman.workers.dev）不含這些內容，刊出以批准為準。</p>
+<p>編輯方式：在 GitHub 的 <code>preview</code> 分支直接編輯對應的 JSON 檔（<code>drafts/</code> 與 <code>review/ready-drafts/</code>），儲存後預覽站會更新；不需要批准。頁面本身不提供線上編輯器。</p>
+</section>
+<h3 class="preview-group">今日新稿（{len(new_today)} 篇）</h3>
+<div class="topic-block"><div class="topic-table">{rows(new_today)}</div></div>
+<h3 class="preview-group">待刊審閱稿（{len(ready)} 篇）</h3>
+<div class="topic-block"><div class="topic-table">{rows(ready)}</div></div>
+"""
+    parts = [
+        head("審閱專區 · 遠方誌（預覽）", "遠方誌預覽站的審閱稿列表；內容尚未刊出。", prefix,
+             "/preview/", noindex=True, canonical=False),
+        '<body data-root="../" data-page="static">',
+        topbar(prefix),
+        '<div class="shell archive-page">',
+        f'  <div class="page-head"><div class="eyebrow">REVIEW PREVIEW</div><h2>審閱專區</h2>'
+        f'<p>共 {len(drafts)} 篇審閱稿；點進任一篇即可閱讀完整預覽。</p></div>',
+        body.strip(),
+        "</div>",
         footer(prefix),
         TOAST_DIV,
         scripts_tag(prefix),
@@ -563,6 +727,11 @@ def main():
             text = story.get("intro", "") + re.sub(r"<[^>]+>", "", story.get("body", ""))
         story["minutes"] = max(1, round(len(re.sub(r"\s", "", text)) / 350))
 
+    drafts, draft_errors = load_drafts({story.get("id") for story in stories})
+    if draft_errors:
+        print("審閱稿檢查失敗：\n- " + "\n- ".join(draft_errors), file=sys.stderr)
+        return 1
+
     (ROOT / "stories.js").write_text(
         "// Generated by scripts/build_site.py. Edit content/articles/*.json instead.\n"
         "window.FARAWAY_STORIES = " + json.dumps(stories, ensure_ascii=False, separators=(",", ":")) + ";\n",
@@ -570,7 +739,7 @@ def main():
 
     build_date = datetime.now(TAIPEI).strftime("%Y-%m-%d")
     pages = {
-        "index.html": build_home(stories, topics),
+        "index.html": build_home(stories, topics, preview_count=len(drafts)),
         "archive/index.html": build_archive(stories),
         "about/index.html": build_static_page(
             "關於遠方誌 · 遠方誌", "遠方誌的編輯方式、查證標準與內容聲明。", "/about/",
@@ -582,6 +751,10 @@ def main():
     }
     for idx in range(len(stories)):
         pages[f"articles/{stories[idx]['id']}/index.html"] = build_article(stories, idx)
+    for story in drafts:
+        pages[f"articles/{story['id']}/index.html"] = build_draft_article(story)
+    if drafts:
+        pages["preview/index.html"] = build_preview_index(drafts)
     files = dict(pages)
     files["feed.xml"] = build_feed(stories)
     files["sitemap.xml"] = build_sitemap(stories, build_date)
@@ -609,7 +782,7 @@ def main():
         target.parent.mkdir(parents=True, exist_ok=True)
         target.write_text(content, encoding="utf-8")
 
-    print(f"完成：驗證 {len(stories)} 篇文章，輸出 {len(files)} 個頁面與檔案至 dist/ 並同步到 repo 根目錄。")
+    print(f"完成：驗證 {len(stories)} 篇已刊出文章、{len(drafts)} 篇審閱稿，輸出 {len(files)} 個頁面與檔案至 dist/ 並同步到 repo 根目錄。")
     return 0
 
 
