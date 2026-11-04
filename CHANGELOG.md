@@ -22,3 +22,4 @@
 - 2026-11-04（MM 指示 phonemsg-01M6H980MPXCYW2SRZQEXFA656）：手機版「遠方誌」仍近乎切頂。原因：480px 斷點的舊規則把 topbar 上下留白設為 0，蓋過前次修正。現於 ≤480px 設 26px/16px、481-760px 設 30px/18px；桌機維持 14px/12px。實測 390px：品牌文字上緣距視窗頂 28px（修正前 2px）。
 - 2026-11-04（MM 指示 phonemsg-01M6J366M7S0G430WXGY2MP90N，核准上線）：併入 MM 對關於頁與隱私頁的親修（134ebbc、9653f7a）並回填至建置來源；移除草稿橫幅、聯絡方式占位區塊（MM 已清空，尚無可公布管道，日後補回）與頁尾版權占位文字；頁尾保留「© 2026 遠方誌」。連同頂部留白／明體標語 UI 改善一併發布。
 - 2026-11-04：頁尾對齊修正。原頁尾無水平留白、貼齊視窗邊緣，且首頁頁尾誤置於 .shell 內造成雙倍縮排；現頁尾與內文欄同寬同距（桌機 26px、手機 17px，全站一致），首頁頁尾移出 .shell。屬同批 UI 上線範圍（phonemsg-01M6J366M7S0G430WXGY2MP90N）。
+- 2026-11-04（MM 指示 phonemsg-01M6JG9DFHVSRVHMGY10PCMH4D「主要是正式版不涉及github」）：正式網址定案為 https://journal-for-far.learnman.workers.dev；SITE_URL 自 GitHub Pages 改為正式網址，canonical、社群預覽、RSS 項目連結、sitemap、robots 與 404 資源位址一律指向正式版。隱私政策託管文字維持 MM 版本（Cloudflare Workers），不補回 GitHub 揭露。GitHub 鏡像維持運作，未刪除或改動。
