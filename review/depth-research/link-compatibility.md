@@ -17,3 +17,11 @@ https://www.zhangqiaokeyan.com/journal-cn-22664/2011s1/ lists the exact paper, a
 Related but NOT identical: https://researchoutput.ncku.edu.tw/en/publications/field-measurements-of-aerodynamic-pressures-in-tunnels-induced-by/ is a verified official NCKU record for Ko, Chen, Hoe and Wang, JWEIA 100(1), 19-29, January 2012, DOI 10.1016/j.jweia.2011.10.008. Abstract confirms Taiwan measurements, wave reflections, speed and cross-section effects, but does not establish all detailed 2011 claims (37-second timing, sensor geometry, exact tunnel dimensions, buffer dimensions). Must not relabel it as the original 2011 paper or silently substitute it for that paper's detailed evidence.
 
 No validator changes, no source deletions, no HTTPS URL fabricated as working, no publication. The remaining integration blocker is narrow: one exact original paper's public link requires valid HTTPS or a future content/source decision. No action required from MM.
+
+## Bounded accessible-original-research follow-up 09:36
+
+The 2012 DOI legitimately resolves through Elsevier to PII S0167610511002121, https://www.sciencedirect.com/science/article/pii/S0167610511002121?via%3Dihub . Fetch had no content; browser human verification remained after a 30-second content wait. Stopped, recorded and released. No challenge bypass, no repeated navigation.
+
+Search found a legitimate NTU repository PDF http://ntur.lib.ntu.edu.tw/bitstream/246246/242403/-1/61.pdf . HTTP and HTTPS fetches returned no content, direct HTTP connection was refused. Targeted title search on the new NTU repository did not recover an equivalent record. NCKU has an abstract only, with no full-text attachment. No full text recovered for this 2012 paper in this bounded attempt, so no claim that it covers the detailed 2011 evidence.
+
+Parent informed. Keep exact 2011 bibliography and verified HTTP original. Integration remains limited by its lack of a verified valid HTTPS route. No manuscript changes; delivered PDF unchanged. No further certificate retries planned.
