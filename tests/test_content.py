@@ -21,6 +21,13 @@ class ContentQualityTests(unittest.TestCase):
         for article_id in ids:
             self.assertRegex(article_id or "", r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
+    def test_published_articles_have_publish_dates(self):
+        for path in ARTICLE_DIR.glob("*.json"):
+            with self.subTest(file=path.name):
+                story = read_json(path)
+                self.assertRegex(story.get("date", ""), r"^\d{4}-\d{2}-\d{2}$",
+                                 f"{path.name}: date 必須是 YYYY-MM-DD 出刊日期")
+
     def test_published_articles_have_core_fields_and_sources(self):
         for path in ARTICLE_DIR.glob("*.json"):
             with self.subTest(file=path.name):

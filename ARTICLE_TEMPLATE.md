@@ -36,3 +36,7 @@
 ## 來源與延伸閱讀
 
 列出標題、作者／機構、日期（如適用）、URL，以及它支持的具體主張。
+
+## JSON 欄位補充（architecture-v1 起）
+
+每篇文章 JSON 需含 `date` 出刊日期欄位（YYYY-MM-DD，台北時間），用於文章頁、RSS 與 sitemap。
