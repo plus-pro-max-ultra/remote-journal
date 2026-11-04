@@ -182,7 +182,7 @@ def topbar(prefix, saved_nav=False):
     saved = ' <button class="ghost js-only" id="savedNav">我的收藏 <span id="savedCount">0</span></button>' if saved_nav else ""
     return "\n".join([
         '<header class="topbar">',
-        f'  <a class="brand" href="{prefix}" aria-label="回到遠方誌首頁"><img class="brandmark" src="{prefix}icon-192.png" alt="" width="34" height="34"><span><span class="brandname">遠方誌</span><span class="brandeng"><span class="brandsep" aria-hidden="true"> | </span>Journal for Far</span><br><span class="brandtag">把世界讀深一點</span></span></a>',
+        f'  <a class="brand" href="{prefix}" aria-label="回到遠方誌首頁"><img class="brandmark" src="{prefix}icon-192.png" alt="" width="36" height="36"><span class="brandtext"><span class="brandname">遠方誌</span><span class="brandeng">Journal for Far</span></span></a>',
         f'  <nav class="top-actions"><a class="ghost" href="{prefix}archive/"><span class="wide-only">文章</span>索引</a> <a class="ghost wide-only" href="{prefix}about/">關於</a>{saved} <a class="solid" href="{prefix}archive/" data-surprise>帶我去遠方 ↗</a></nav>',
         "</header>",
     ])
