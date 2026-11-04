@@ -1,0 +1,237 @@
+[
+  {
+    "path": "review/CHANGELOG.md",
+    "sha256": "2f1c5cfb1bc9a0652011c6272fc0221d415946bbf44e23f56fbd279e5d3827a0",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/DEPTH_CHANGELOG.md",
+    "sha256": "ca17b25b5b187e4435657121f1f731343f9c6d600b24f5e69b281b353135da59",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/EDIT_NOTES.md",
+    "sha256": "ad767cda56eb9d219df9970490f8e5d76de0940f99fe71a735e29582cddc759d",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/PHOTO_LICENSE_MANIFEST.md",
+    "sha256": "66a4511c3e57d22b8189ac954bb8419eb59d6ed2edf1321b45210a3d639a769f",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/READINESS.md",
+    "sha256": "f87dec609d4f30ae2edb3f296c6cc4585311625a55a2805a0cd98f0608cad918",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/archive/atm-dispense-accuracy.json",
+    "sha256": "c9a4581ed379b30162ed860000f1523c73df2afe477d9633308e9959f5c5fd1d",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/archive/container-check-digit.json",
+    "sha256": "ff328fa8e43e3ad09ce332e3de9c0ff6165e75939b8f4a8736465b27f21c28fa",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/READINESS.md",
+    "sha256": "0f58fa9b316497e5cda7ce0ceef3bf20f8230d1369362402efee81cc782d312f",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/abx-cdc-mech.txt",
+    "sha256": "eed39a76bced0b12c6b384710879d10afcf88170793f683b2924faa4482a825b",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/abx-evidence.txt",
+    "sha256": "dfbd2dbd71ddda5a32d168791c2ed5f6ee4ac16154b70408079332fa79c26fc4",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/abx-official.txt",
+    "sha256": "340226b8795bbc3ed7486fba4fffb6cff51694f428678fd2a17f20c9bdafc8e3",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/abx-trial-summary.txt",
+    "sha256": "4f340ab983145c0be5dd404f1a31286bb65b320bbb8e11786ee6c03aa72a8c64",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/daily-2026-11-04/preview-metrics.json",
+    "sha256": "769a413c266eb1a9dff7008df76a33d0a53dcb5fd1a52cd6029c64546eebfb1f",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/link-compatibility.md",
+    "sha256": "678e06898fd59b37f588f344465b621483efa69a409dc4bafe787bcb52837d57",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/notes.md",
+    "sha256": "8d05873b97f3827580614d059a7ae013f9a1921326ecae17c774ebb691cb06bd",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/plan.md",
+    "sha256": "3b031a9695d94630fddd0bc7d65146e4f51a58a9d00c98237593e48cdcb14b3a",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/report.md",
+    "sha256": "b0b8e681ee1f0dcbf91333e1da957a45327ce7e16aa4c9b17c3905429012d21a",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/sources.md",
+    "sha256": "993aa642b12a5dce07b18c51c2c5c4a4c90815a45600c86264121bed4d425678",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/depth-research/verification.md",
+    "sha256": "eca789384dcebae94e4861ed64ccabdb3787fb1496e88995d87f209e7919e6b7",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/altitude-boiling-eggs.json",
+    "sha256": "d3c0261c954758d8a33439f6aad82547960d8541836f2fb5a499c0e11f284df3",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/baggage-carousel-order.json",
+    "sha256": "63af6792bc08243f2c23f33001e66c5239a9eaf1f0ad21e1220f1b60b31cea76",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/braille-six-dots.json",
+    "sha256": "e089e9f4b7be12ea3a05e3b7fdac58ba92d232cfd60a33a07a7a6d831427205c",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/earthquake-early-warning.json",
+    "sha256": "b58189635a83487ca642a82beb81e4d8ad5b2b524bb6aa6d438aaae8e2173221",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/emergency-call-112.json",
+    "sha256": "dc1e450d303da5b8d24a49587314d1f81ad3a6016d266ff6245ec5542cf56d54",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/etc-gantry-tolling.json",
+    "sha256": "d61c05ad167b36c2a8d8a8181a163af3fd55dddecec78d4f5460dfc3e962ea88",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/hsr-tunnel-ears.json",
+    "sha256": "25cc964a4a172358507bc516c6f9d859fcfbce9157fb9ab0e299fc8a6adffe08",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/lottery-draw-integrity.json",
+    "sha256": "bb79947f14a771c5cb596396c2526d1720dfa0fa276a06e86ae38a0d179e763b",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/metro-platform-doors.json",
+    "sha256": "3b80b14e2ac276ed35ad5ce82a7a721e1e84c04ea7bd297494b36cfeb34d6913",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/onigiri-wrap-engineering.json",
+    "sha256": "55e3b9373cf5e294ae2dfd190085b32fd1c4efc16648e34c11a6ac1bf7d4cd56",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/qr-error-correction.json",
+    "sha256": "3cf52e3b6120f27a206f5c26f92a1225983aebc8d442f93425cdb5d628da053e",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/queens-head-neck.json",
+    "sha256": "f6a6e129d576b9b18858cc789ce9cd96407f50c468f42b0133b6a0cf3d5b2df7",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/seed-vault-withdrawal.json",
+    "sha256": "7f27042528dbb76f725dceb12599385eed59da530dce15dec6b72741fe8f2597",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/traffic-light-timing.json",
+    "sha256": "858dbb60ca7c6262eb500e91784cb9951583a9b5c18707589a72d7e031bbeb36",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/ready-drafts/v-formation-birds.json",
+    "sha256": "ac3ea53cc119ec4872b612b237cabcd17b27ad2b0a6cc46b890583279fd45fb7",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/research/notes.md",
+    "sha256": "98a7982ee0f52af9221f812f1766e1484ab8c0b9f1029620fe659326d48ef63e",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/research/report.md",
+    "sha256": "22fce6cf7a1260161fc533caa820701266651ee9bc9552f3661c20e69c4b498c",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/research/sources.md",
+    "sha256": "a6de58260f524adfeaebf10cef06996839a824b9341aa7af9fcdd6a02ea53f62",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "review/research/ten-topic-briefs.json",
+    "sha256": "0db6798068e50a1f237f4df5f57ab5cb4a76fc3cc5d90f5fed46c382e05425dd",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-baggage.jpg",
+    "sha256": "f3a401dc6a941a97f9bd08eb0c825a8aab64b3be6ad8fc3d35b444e7f9232a41",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-braille.jpg",
+    "sha256": "e2e90ca98281c2a142bd8a930326c3559234c36da79d82b24a520a731489ea31",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-eggs.jpg",
+    "sha256": "5d954d87808fe3e2b46335e856ee870bbec8b9dfedfc7d68dbcf50ced351c384",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-etc.jpg",
+    "sha256": "b9d9351e87f3fa539461e1fbced71ce601b5e699528b07bae2631a60117235ce",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-hsr.jpg",
+    "sha256": "d53b4db3a5cedd41fff725de892f12d17c8220c9a3a1855057a3421199c2fbce",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-metro.jpg",
+    "sha256": "3b76d2cd0fc466a88726f07be8eba258ee6cf121bdf9c4e0768c50c211697ad2",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-onigiri.jpg",
+    "sha256": "e1a14f0db17e9c388ce008c26c31ab28bd917e2de365c7484fb8a76ebe6e989f",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-queenshead.jpg",
+    "sha256": "bdcdfc2113019e986b0147c471fceb27d63db4cb94b8aaff46deec929466c013",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  },
+  {
+    "path": "assets/img/ready-traffic.jpg",
+    "sha256": "33dedf2dfca849ca29c5210e16f1222c78c4ba99c2dafe5cce6c89820624d453",
+    "source_commit": "6a2603cfcfa345c58df35ddab32d61929e6870ae"
+  }
+]

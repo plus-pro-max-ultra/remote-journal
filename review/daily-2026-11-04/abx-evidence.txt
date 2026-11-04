@@ -1,0 +1,625 @@
+[1] Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections | New England Journal of Medicine — nejm.org (2024-11-20)
+https://www.nejm.org/doi/full/10.1056/NEJMoa2404991
+
+Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections | New England Journal of Medicine
+
+# Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections
+
+Authors: The BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network Author Info & Affiliations
+
+Published November 20, 2024 N Engl J Med 2025; 392: 1065- 1078 DOI: 10.1056/NEJMoa2404991 VOL. 392 NO. 11 Copyright © 2024
+
+Contents
+
+### Background
+
+Bloodstream infections are associated with substantial morbidity and mortality. Early, appropriate antibiotic therapy is important, but the duration of treatment is uncertain.
+
+### Methods
+
+In a multicenter, noninferiority trial, we randomly assigned hospitalized patients (including patients in the intensive care unit [ICU]) who had bloodstream infection to receive antibiotic treatment for 7 days or 14 days. Antibiotic selection, dosing, and route were at the discretion of the treating team. We excluded patients with severe immunosuppression, foci requiring prolonged treatment, single cultures with possible contaminants, or cultures yielding Staphylococcus aureus. The primary outcome was death from any cause by 90 days after diagnosis of the bloodstream infection, with a noninferiority margin of 4 percentage points.
+
+ ![](https://www.nejm.org/cms/asset/3231c9ef-73a1-47fa-b2cd-fd77ab52a9c9/nejmdo007898_thumb.jpg) 
+
+### Results
+
+Across 74 hospitals in seven countries, 3608 patients underwent randomization and were included in the intention-to-treat analysis; 1814 patients were assigned to 7 days of antibiotic treatment, and 1794 to 14 days. At enrollment, 55.0% of patients were in the ICU and 45.0% were on hospital wards. Infections were acquired in the community (75.4%), hospital wards (13.4%) and ICUs (11.2%). Bacteremia most commonly originated from the urinary tract (42.2%), abdomen (18.8%), lung (13.0%), vascular catheters (6.3%), and skin or soft tissue (5.2%). By 90 days, 261 patients (14.5%) receiving antibiotics for 7 days had died and 286 patients (16.1%) receiving antibiotics for 14 days had died (difference, −1.6 percentage points [95.7% confidence interval {CI}, −4.0 to 0.8]), which showed the noninferiority of the shorter treatment duration. Patients were treated for longer than the assigned duration in 23.1% of the patients in the 7-day group and in 10.7% of the patients in the 14-day group. A per-protocol analysis also showed noninferiority (difference, −2.0 percentage points [95% CI, −4.5 to 0.6]). These findings were generally consistent across secondary clinical outcomes and across prespecified subgroups defined according to patient, pathogen, and syndrome characteristics.
+
+### Conclusions
+
+Among hospitalized patients with bloodstream infection, antibiotic treatment for 7 days was noninferior to treatment for 14 days. (Funded by the Canadian Institutes of Health Research and others; BALANCE ClinicalTrials.gov number, NCT03005145.)
+
+ ![](https://www.nejm.org/cms/asset/86efd90f-b0a3-425c-8d52-6cd38206630a/media/NEJMdo007897_300x200.jpg) 
+
+1m 41s
+
+ ![](https://www.nejm.org/cms/asset/fb936a7d-0405-41c5-8d24-cb2a01f30ff5/media/NEJMdo004718_small.jpg) 
+
+## Notes
+
+This article was published on November 20, 2024, at NEJM.org.
+
+A data sharing statement provided by the authors is available with the full text of this article at NEJM.org.
+
+Supported by grants (PJT-365513 and PJT-176342) from the Canadian Institutes of Health Research, Physicians Services, by the Ontario Ministry of Health Alternate Funding Plan Innovation Fund, by a grant (2017-08) from the Canadian Frailty Network, by the Australian National Health Medical Research Council, and by the New Zealand Health Research Council.
+
+Disclosure forms provided by the authors are available with the full text of this article at NEJM.org.
+
+We thank the patients who participated in the trial and helped to advance the knowledge of antibiotic treatment durations for bloodstream infections.
+
+## Supplementary Material
+
+Protocol (nejmoa2404991_protocol.pdf) Download, PDF (4.56 MB)
+
+Supplementary Appendix (nejmoa2404991_appendix.pdf) Download, PDF (1.01 MB)
+
+Disclosure Forms (nejmoa2404991_disclosures.pdf) Download, PDF (6.27 MB)
+
+Data Sharing Statement (nejmoa2404991_data-sharing.pdf) Download, PDF (70.12 KB)
+
+Published online: November 20, 2024
+
+Published in issue: March 13, 2025
+
+The BALANCE Investigators, for the Canadian Critical Care Trials Group, the Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network, the Australian and New Zealand Intensive Care Society Clinical Trials Group, and the Australasian Society for Infectious Diseases Clinical Research Network
+
+#### Notes
+
+The authors’ full names and academic degrees are as follows: Nick Daneman, M.D., 1 Asgar Rishu, M.B., B.S., 2 Ruxandra Pinto, Ph.D., 3 Benjamin A. Rogers, M.D., Ph.D., 4 Yahya Shehabi, Ph.D., M.B., B.S., 5 Rachael Parke, R.N., Ph.D., 6 Deborah Cook, M.D., 7 Yaseen Arabi, M.D., 8 John Muscedere, M.D., 9 Steven Reynolds, M.D., 10 Richard Hall, B.Sc., 11 Dhiraj B. Dwivedi, M.B.A., 12 Colin McArthur, M.B., Ch.B., 13 Shay McGuinness, M.B., Ch.B., 14 Dafna Yahav, M.D., 15 Bryan Coburn, M.D., Ph.D., 16 Anna Geagea, M.D., 17 Pavani Das, M.D., 18 Phillip Shin, M.D., 17 Michael Detsky, M.D., Ms.H.P., 19 Andrew Morris, M.D., S.M., 20 Michael Fralick, M.D., Ph.D., 21 Jeff E. Powis, M.D., 22 Christopher Kandel, M.D., Ph.D., 22 Wendy Sligl, M.D., 23 Sean M. Bagshaw, M.D., 24 Nishma Singhal, M.D., 25 Emilie Belley-Cote, M.D., Ph.D., 26 Richard Whitlock, M.D., 27 Kosar Khwaja, M.D., 28 Susan Morpeth, M.B., Ch.B., Ph.D., 29 Alex Kazemi, M.B., B.S., 30 Anthony Williams, M.D., 31 Derek R. MacFadden, M.D., Sc.D., 32 Lauralyn McIntyre, M.D., 33 Jennifer Tsang, M.D., Ph.D., 34 Francois Lamontagne, M.D., 35 Alex Carignan, M.D., 36 John Marshall, M.D., 37 Jan O. Friedrich, M.D., D.Phil., 38 Robert Cirone, M.D., 39 Mark Downing, M.D., 40 Christopher Graham, M.D., 41 Joshua Davis, M.B., B.S., Ph.D., 42 Erick Duan, M.D., 43 John Neary, M.D., 44 Gerald Evans, M.D., 45 Basem Alraddadi, M.D., 46 Sameera Al Johani, M.D., 47 Claudio Martin, M.D., 48 Sameer Elsayed, M.D., M.P.H., 49 Ian Ball, M.D., 50 Francois Lauzier, M.D., 51 Alexis Turgeon, M.D., 52, 53 Henry T. Stelfox, M.D., 54 John Conly, M.D., 55 Emily G. McDonald, M.D., 56 Todd C. Lee, M.D., M.P.H., 57 Richard Sullivan, M.B., B.S., 58 Jennifer Grant, M.D.C.M., 59 Ilya Kagan, M.D., 60 Paul Young, M.B., Ch.B., Ph.D., 61 Cassie Lawrence, R.N., 62 Kevin O’Callaghan, M.B., B.Ch., B.A.O., M.P.H.T.M., 63 Matthew Eustace, M.B., B.S., 64 Keat Choong, M.B., Ch.B., 65 Pierre Aslanian, M.D., 66 Ulrike Buehner, M.D., 67 Tom Havey, M.D., 68 Alexandra Binnie, M.D., D.Phil., 69 Josef Prazak, M.D., Ph.D., 70 Brenda Reeve, M.D., 71 Edward Litton, M.B., Ch.B., M.Ac., Ph.D., 72 Sylvain Lother, M.D., 73 Anand Kumar, M.D., 74 Ryan Zarychanski, M.D., 75 Tomer Hoffman, M.D., 76 David Paterson, M.D., 77 Peter Daley, M.D., 78 Robert J. Commons, Ph.D., 79 Emmanuel Charbonney, M.D., Ph.D., 80 Jean-Francois Naud, M.D., 81 Sally Roberts, M.B., Ch.B., 82 Ravindranath Tiruvoipati, Ph.D., 83 Sachin Gupta, M.D., 84 Gordon Wood, M.D., 85 Omar Shum, M.B., B.S., 86 Spiros Miyakis, M.D., Ph.D., 86 Peter Dodek, M.D., 87 Clement Kwok, M.D., 88 and Robert A. Fowler, M.D.C.M. 89 
+
+ 1 Division of Infectious Diseases, Department of Medicine, Sunnybrook Health Sciences Centre, University of Toronto, Toronto; 2 Sunnybrook Research Institute, Sunnybrook Health Sciences Centre, University of Toronto; 3 Department of Critical Care Medicine, Sunnybrook Health Sciences Centre, University of Toronto, Toronto; 4 Department of Infectious Diseases, Monash University, Clayton, Melbourne, VIC, Australia; 5 Department of Intensive Care, Monash Medical Centre, Melbourne, VIC, Australia; 6 Cardiothoracic and Vascular Intensive Care Unit, Auckland City Hospital, Auckland, New Zealand; 7 Department of Medicine, Faculty of Health Sciences, McMaster University, Hamilton, ON, Canada; 8 Intensive Care Department, College of Medicine, King Saud Bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Riyadh, Saudi Arabia; 9 Department of Critical Care Medicine, Queen’s University, Kingston, ON, Canada; 10 Department of Critical Care Medicine, Royal Columbian Hospital, Vancouver, BC, Canada; 11 Critical Care Medicine, Capital District Health Authority, Dalhousie University, Halifax, NS, Canada; 12 Monash Medical Centre, Clayton, VIC, Australia; 13 Critical Care Medicine, Auckland City Hospital, New Zealand; 14 Cardiothoracic and Vascular Intensive Care Unit, Auckland City Hospital, Auckland, New Zealand; 15 Infectious Diseases Unit, Sheba Medical Center, Ramat-Gan, and Faculty of Medicine, Ramat-Aviv, Tel-Aviv, Israel; 16 Infectious Diseases, University Health Network, University of Toronto, Toronto; 17 Critical Care Medicine, North York General Hospital, Toronto; 18 Infectious Diseases, North York General Hospital, Toronto; 19 Critical Care Medicine, Mount Sinai Hospital, Unity Health Toronto, Toronto; 20 Department of Medicine, University of Toronto, Toronto; 21 Sinai Health, Division of General Internal Medicine, Toronto, Toronto; 22 Infectious Diseases, Michael Garron Hospital, Toronto; 23 Critical Care Medicine and Infectious Diseases, University of Alberta, Edmonton, Canada; 24 Department of Critical Care Medicine, University of Alberta and Alberta Health Services, Edmonton, Canada; 25 Department of Medicine, Hamilton Health Sciences, McMaster University, Hamilton, ON, Canada; 26 Department of Anaesthesia, Hamilton General Hospital, McMaster University, Hamilton, ON, Canada; 27 Faculty of Health Sciences, Hamilton General Hospital, McMaster University, Hamilton, ON, Canada; 28 Departments of Surgery and Critical Care, McGill University Health Center, Montreal; 29 Departments of Infectious Diseases and Pathology, Middlemore Hospital, University of Auckland, New Zealand; 30 Organ Donation New Zealand, New Zealand Blood Service, Auckland, New Zealand; 31 Intensive Care Medicine, Middlemore Hospital, Auckland, New Zealand; 32 Division of Infectious Diseases, Ottawa Hospital,Ottawa Hospital Research Institute, Ottawa; 33 Department of Medicine, Ottawa Hospital, University of Ottawa, Ottawa; 34 Niagara Health Knowledge Institute, Niagara Health, St. Catharines, ON, Canada; 35 Department of Medicine, Université de Sherbrooke, QC, Canada; 36 Department of Microbiology and Infectious Diseases, Université de Sherbrooke, QC, Canada; 37 Surgery and Critical Care Medicine, Unity Health Toronto; University of Toronto, Toronto; 38 Critical Care and Medicine, Unity Health Toronto–St. Michael’s Hospital, University of Toronto, Toronto; 39 Critical Care Medicine, Unity Health Toronto, Toronto; 40 Department of Medicine, Unity Health Toronto, Toronto; 41 Department of Medicine, Infectious Diseases, Trillium Health Partners, University of Toronto, Toronto; 42 School of Medicine and Public Health, University of Newcastle, Newcastle, NSW, Australia; 43 Division of Critical Care, Department of Medicine, McMaster University, Hamilton, ON, Canada; 44 St. Joseph’s Healthcare Hamilton, McMaster University, Hamilton, ON, Canada; 45 Department of Medicine (Infectious Diseases), Queen’s University, Kingston, ON, Canada; 46 Department of Medicine, King Faisal Specialist Hospital and Research Center, Al Faisal University, Jeddah Saudi Arabia; 47 Department of Pathology and Laboratory Medicine, King Saud Bin Abdulaziz University for Health Sciences, King Abdullah International Medical Research Center, Riyadh, Saudi Arabia; 48 Department of Medicine, University of Western Ontario, London, ON, Canada; 49 Department of Medicine, London Health Sciences Centre, London, ON, Canada; 50 Department of Medicine, Western University, London, ON, Canada; 51 Department of Medicine, Université Laval, Quebec, QC, Canada; 52 Department of Anesthesiology and Critical Care Medicine, Faculty of Medicine, Université Laval, Quebec, QC, Canada; 53 Population Health and Optimal Health Practice Research Unit, Centre Hospitalier Universitaire de Québec–Université Laval Research Center, Québec, QC, Canada; 54 Department of Critical Care, University of Calgary Cumming School of Medicine, Calgary, AB, Canada; 55 Department of Medicine, University of Calgary and Alberta Health Services (Calgary), Calgary, AB, Canada; 56 Division of General Internal Medicine, Department of Medicine, McGill University Health Centre, Montreal; 57 Division of Infectious Diseases, Department of Medicine, McGill University, Montreal; 58 Department Infectious Diseases, St. George Hospital, UNSW Medicine and Health, Sydney; 59 Divisions of Infectious Diseases and Medical Microbiology, University of British Columbia, Vancouver, Canada; 60 Intensive Care Unit, Rabin Medical Centers, Tel Aviv University, Tel Aviv, Israel; 61 Intensive Care Research Programme, Medical Research Institute of New Zealand, Wellington, New Zealand; 62 Medical Research Institute of New Zealand, Wellington, New Zealand; 63 Department of Infectious Diseases, Redcliffe Hospital, Redcliffe, QLD, Australia; 64 Infectious Diseases, Redcliffe Hospital, University of Queensland, Redcliffe, Australia; 65 Infectious Diseases, Sunshine Coast University Hospital, Birtinya, QLD, Australia; 66 Medicine, Centre Hospitalier de l’Université de Montréal, Université de Montréal, Montreal; 67 Department of Anaesthesia, Rotorua Hospital, Rotorua, New Zealand; 68 Infectious Diseases, William Osler Health System, Brampton, ON, Canada; 69 Critical Care Medicine, William Osler Health System, Brampton, ON, Canada; 70 Department of Intensive Care Medicine, Bern University Hospital, University of Bern, Bern, Switzerland; 71 Brantford General Hospital, McMaster University, Brantford, ON, Canada; 72 Intensive Care Unit, Fiona Stanley Hospital, University of Western Australia, Murdoch, WA, Australia; 73 Department of Medicine, University of Manitoba, Winnipeg, Canada; 74 Division of Critical Care Medicine and Infectious Diseases, Health Sciences Centre, University of Manitoba, Winnipeg, Canada; 75 Department of Internal Medicine, Rady Faculty of Health Sciences, University of Manitoba, Winnipeg, Canada; 76 Infectious diseases Unit, Sheba Medical Center, Ramat Gan, Israel; 77 Infectious Diseases Unit, Royal Brisbane and Women’s Hospital, Brisbane, QLD, Australia; 78 Infectious Diseases, Memorial University, St. John’s, NL, Canada; 79 General and Subspecialty Medicine, Grampians Health Ballarat, Ballarat, VIC, Australia; 80 Service des soins intensifs, Centre Hospitalier de l’Université de Montréal (CHUM), Montreal; 81 Critical Care Medicine, CIUSSS MCQ CHAUR, University of Montreal, Montreal; 82 Clinical Microbiology and Infection Prevention and Control, Auckland Hospital, Auckland, New Zealand; 83 Department of Intensive Care Medicine, Frankston Hospital, Frankston, VIC, Australia; 84 Department of Intensive Care Medicine, Monash University, Melbourne, VIC, Australia; 85 Department of Critical Care, Island Health Authority, Royal Jubilee Hospital, British Columbia, Victoria, Canada; 86 Infectious Diseases, Wollongong Hospital, Wollongong, NSW, Australia; 87 Department of Medicine, St. Paul’s Hospital, University of British Columbia, Vancouver, Canada; 88 Infectious Diseases, Richmond Hospital, Richmond, BC, Canada; 89 Interdepartmental Division of Critical Care Medicine, Department of Medicine, Sunnybrook Health Sciences Centre, University of Toronto, Toronto.
+
+Dr. Daneman can be contacted at nick.daneman@sunnybrook.ca or at the Division of Infectious Diseases, H-wing, Rm. 259, Sunnybrook Health Sciences Centre, University of Toronto, 2075 Bayview Ave., Toronto, Ontario M4N 3M5, Canada. Dr. Fowler can be contacted at rob.fowler@sunnybrook.ca or at the Interdepartmental Division of Critical Care, D-wing, Rm. 503, Sunnybrook Health Sciences Centre, University of Toronto, 2075 Bayview Ave., Toronto, Ontario M4N 3M5, Canada.
+
+1. - Ezaki Masayoshi, 
+- Kato Noriko, 
+- Nagaoka Kentaro, 
+- Murai Yushi, 
+- Sugie Kazushige, 
+- Kamihara Yusuke, 
+- Hounoki Hiroyuki, 
+- Watanabe Toru, 
+- Kawagishi Toshiomi, 
+- Yonemoto Naohiro, 
+- Kawasuji Hitoshi, 
+- Niimi Hideki, 
+- Morinaga Yoshitomo, 
+- Ohama Yuki, 
+- Akeda Yukihiro, 
+- Yamamoto Yoshihiro, 
+
+Association between tazobactam–piperacillin exposure and the subsequent emergence in gram-negative rods: Findings from a single-institution cohort study, International Journal of Antimicrobial Agents, 67, 11, (107953), (2026). https://doi.org/10.1016/j.ijantimicag.2026.107953
+
+Crossref
+2. - Barbara W Trautner, 
+- Nicolas W Cortes-Penfield, 
+- Kalpana Gupta, 
+- Elizabeth B Hirsch, 
+- Valéry Lavergne, 
+
+Oral Fosfomycin for Complicated Urinary Tract Infection Remains a Murky Issue, Clinical Infectious Diseases, (2026). https://doi.org/10.1093/cid/ciag553
+
+Crossref
+3. - Hazal Koca, 
+- Pinar Ayvat, 
+
+From early recognition to precision medicine: advances in the diagnosis and management of adult sepsis and septic shock—a narrative review, Infection, (2026). https://doi.org/10.1007/s15010-026-03019-y
+
+Crossref
+4. - Renato Pascale, 
+- Matteo Montironi, 
+- Maddalena Giannella, 
+
+Reducing antibiotic burden in gram-negative bacteraemia: duration optimization and early oral transition, Current Opinion in Infectious Diseases, (2026). https://doi.org/10.1097/QCO.0000000000001242
+
+Crossref
+5. - Sandra Naegele, 
+- Bianca Baik, 
+- Urmila Ravichandran, 
+- Nirav Shah, 
+- Mary Ellen Acree, 
+
+Mandatory infectious diseases consultation and consensus approach effective at lowering antibiotic duration in uncomplicated gram-negative bacteremia, Antimicrobial Stewardship & Healthcare Epidemiology, 6, 1, (2026). https://doi.org/10.1017/ash.2026.10892
+
+Crossref
+6. - Alberto Enrico Maraolo, 
+- Roberta Astorri, 
+- Paolo Cirillo, 
+- Guido Granata, 
+- Arianna Emiliozzi, 
+- Marco Tescione, 
+- Gioconda Brigante, 
+- Stefania Cicalini, 
+- Nicola Petrosillo, 
+- Ivan Gentile, 
+- Davide Carcione, 
+- Luigi Principe, 
+
+A Comprehensive Review of the Underlying Mechanisms of Resistance and Therapeutic Options for DTR-PA in Bloodstream Infection and Pneumonia: A Clinical Vignette-Based Approach, Microorganisms, 14, 10, (2203), (2026). https://doi.org/10.3390/microorganisms14102203
+
+Crossref
+7. - Aditya Shetty, 
+- Mythri Shankar, 
+
+Emerging therapies and diagnostic innovations for multidrug-resistant infections in kidney allograft recipients: Challenges and future directions, World Journal of Nephrology, 15, 3, (2026). https://doi.org/10.5527/wjn.118797
+
+Crossref
+8. - Emma Larsson, 
+- Arman Valadkhani, 
+- Jesper Eriksson, 
+- Erik Svensk, 
+- Fredrik Hammarskjöld, 
+- Markus Castegren, 
+- Peter Bentzer, 
+- Nicklas Nielsen, 
+- Kristina Svennerholm, 
+- Mikael Eriksson, 
+- Max Bell, 
+
+ WIse CHoices in the ICU ( WICH ‐ ICU ): Protocol and Statistical Analysis Plan for a Stepped‐Wedge Cluster Randomized Trial of Choosing Wisely Interventions in Swedish Intensive Care Units , Acta Anaesthesiologica Scandinavica, 70, 10, (2026). https://doi.org/10.1111/aas.70339
+
+Crossref
+9. - Jelena Roganović, 
+- Vuk Roganović, 
+
+Reassessing Antibiotic Duration in Dental Infections: A Narrative Review and Marginal Benefit–Harm Framework with a Clinical Checklist, Antibiotics, 15, 9, (924), (2026). https://doi.org/10.3390/antibiotics15090924
+
+Crossref
+10. - Frederik H Verbrugge, 
+- Sean van Diepen, 
+
+Truncating tradition in the POET II trial: is a shorter course of antibiotics non-inferior to standard length therapy in left-sided endocarditis?, European Heart Journal: Acute Cardiovascular Care, 15, 9, (712-714), (2026). https://doi.org/10.1093/ehjacc/zuag120
+
+Crossref
+11. See more
+
+[2] Bacteremia Antibiotic Length Actually Needed for Clinical Effectiveness — clinicaltrials.gov
+https://clinicaltrials.gov/study/NCT03005145
+
+# Bacteremia Antibiotic Length Actually Needed for Clinical Effectiveness
+
+- NCT ID: NCT03005145
+- Official title: Bacteremia Antibiotic Length Actually Needed for Clinical Effectiveness: Randomized Controlled Trial
+- Acronym: BALANCE
+- Organization: Sunnybrook Health Sciences Centre
+- Status: COMPLETED
+- Start date: 2017-02-24
+- Completion date: 2023-08-03
+- Primary completion: 2023-05-05
+- Lead sponsor: Sunnybrook Health Sciences Centre
+
+## Summary
+
+The World Health Organization, U.S. Centers for Disease Control and Prevention, Association of Medical Microbiology and Infectious Diseases (AMMI) Canada, and Health Canada have all declared antimicrobial resistance a global threat to health, based on rapidly increasing resistance rates and declining new drug development. Up to 30-50% of antibiotic use is inappropriate, and excessive durations of treatment are the greatest contributor to inappropriate use. Shorter duration treatment (≤7 days) has been shown in meta-analyses to be as effective as longer antibiotic treatment for a range of mild to moderate infections. A landmark trial in critically ill patients with ventilator-associated pneumonia showed that mortality and relapse rates were non-inferior in patients who received 8 vs 15 days of treatment. Similar adequately powered randomized trial evidence is lacking for the treatment of patients with bloodstream infections caused by a wide spectrum of organisms.
+
+## Detailed Description
+
+Bloodstream infections are a common and serious problem, increasing length of hospital stay by 2-3 weeks, adding $25,000-40,000 in excess hospital costs, and tripling the risk of death. At the same time, antibiotic overuse is also a common and serious problem, in that 30-50% of antibiotic use is unnecessary or inappropriate, and results in avoidable drug side effects such as kidney failure, Clostridioides difficile infection, increased costs, and spiralling antibiotic resistance rates. The greatest contributor to antibiotic overuse is excessive durations of treatment.
+
+Extensive research has demonstrated that shorter duration antibiotic treatment (less or equal to 7 days) is as effective as longer duration treatment for a variety of infectious diseases, but this question has not been directly studied in the setting of bloodstream infection. BALANCE team's systematic review of the medical literature, national survey of Canadian infectious diseases and critical care physicians, multicentre retrospective study and BALANCE pilot RCT, all support the need for a randomized controlled trial comparing shorter (7 days) versus longer (14 days) antibiotic therapy for bloodstream infections. Prior to performing the main trial, Investigators completed a pilot trial in ICU patients to establish the feasibility of the research design, and to optimize the definitive trial. Investigators also completed a pilot trial of non-ICUs patients to test the feasibility, compare the patient population in two settings and to assess the reasonableness of expanding the main BALANCE Trial to non-ICU wards. The overall recruitment rate of the non-ICU ward pilot RCT exceeded the recruitment rate in the BALANCE ICU pilot RCT with a protocol adherence of 90%. The results of this pilot were used to estimate the necessary sample size recalculation, after merging the BALANCE ward trial with the BALANCE main trial, with the principle of maintaining an equal to smaller non-inferiority margin by the trial's completion. With the completion of this pilot RCT, the eligibility criteria for the BALANCE trial are also modified to broaden the inclusion of all bacteremic patients admitted to hospital. By defining the duration of treatment for bloodstream infections, BALANCE research program will help maximize the clinical cure of individual patients, while minimizing their risk of drug side effects, C. difficile, and antibiotic resistance. Since this intervention would require no new technology, and would reduce (rather than increase) health care costs, it would offer immediate benefits to patients and the healthcare system.
+
+The BALANCE RCT will randomize hospitalized patients with bloodstream infection to 7 versus 14 days of adequate antibiotic treatment; the antibiotic drugs, doses, routes and interval will be left to the discretion of the treating team. Although placebo controls are not feasible, prolonged allocation concealment to day 7 will be used to mitigate selection bias. The primary analysis will assess whether 7 days is associated with non-inferior 90 day survival as compared to 14 days of treatment. Participants from the vanguard BALANCE pilot RCTs will be included in the BALANCE main RCT, and participating Canadian sites will continue to enrol patients. BALANCE international collaborators include New Zealand, Australia, Saudi Arabia, the United States, Israel and Switzerland.
+
+## Conditions
+
+- Bacteremia
+- Intensive Care
+- Critically Ill
+- Sepsis
+- Mortality
+- Antimicrobial
+
+## Study Design
+
+- Study type: INTERVENTIONAL
+- Phase: NA
+- Enrollment: 3622 (ACTUAL)
+- Allocation: RANDOMIZED
+- Intervention model: PARALLEL
+- Primary purpose: TREATMENT
+- Masking: NONE
+
+## Arms
+
+### Short duration (7 days) (ACTIVE_COMPARATOR)
+
+Patients in 7 day arm will receive adequate antibiotics until the end of day 7 only
+
+Interventions: Other: 7 days of adequate antibiotic treatment
+
+### Long duration (14 days) (ACTIVE_COMPARATOR)
+
+Patients in 14 day arm will receive adequate antibiotics until the end of day 14 only
+
+Interventions: Other: 14 days of adequate antibiotic treatment.
+
+## Interventions
+
+### 7 days of adequate antibiotic treatment (OTHER)
+
+The choice of treatment including type, dose, route and interval of antibiotic will be left at the discretion of treating team as long as it is appropriate for the bacteremia
+
+### 14 days of adequate antibiotic treatment. (OTHER)
+
+The choice of treatment including type, dose, route and interval of antibiotic will be left at the discretion of treating team as long as it is appropriate for the bacteremia
+
+## Primary Outcomes
+
+### 90 day survival
+
+Survival at 90-days recorded as alive or dead at day 90 following index positive blood culture
+
+Time frame: 90 days from index blood culture
+
+## Secondary Outcomes
+
+### Hospital mortality
+
+Recorded as alive or dead at hospital discharge following index positive blood culture
+
+Time frame: Expected average of 4 weeks assessed upto one year
+
+### ICU mortality
+
+Recorded as alive or dead at ICU discharge following index positive blood culture
+
+Time frame: Expected average of 2 weeks assessed upto one year
+
+### Relapse rates of bacteremia with the same organism
+
+Defined as the recurrence of bacteremia due to original infecting organism (same Genus and species) after documentation of negative blood cultures or clinical improvement and within 30 days after completing course of adequate antimicrobial therapy.
+
+Time frame: Upto 30 days after adequate antibiotic treatment
+
+### Antibiotic allergy and adverse events
+
+Effect of medication on body that produces the allergic reaction to a medication like:
+
+* Hives
+* Itching of the skin or eyes
+* Skin rash
+* Swelling of the lips, tongue, or face
+* Wheezing
+* Organ toxicity
+
+Time frame: Upto 30 days from start of antibiotic treatment
+
+### Rates of C. difficile infection in hospital
+
+Defined as a positive PCR or ELISA test for Clostridium difficile toxin in the context of diarrhea within hospital of bacteremia diagnosis.
+
+Time frame: Upto 30 days after index blood culture collection date
+
+### Rates of secondary nosocomial infection/colonization with antimicrobial resistant organisms in hospital
+
+Colonized or infected with at least one highly-resistant microorganism during their hospital stay
+
+Time frame: Upto 30 days after index blood culture collection date
+
+### ICU length of stay
+
+Defined as the duration between index blood culture and discharge from the ICU for a consecutive 48-hour period
+
+Time frame: Expected for an average of 30 days assessed up to 1 year
+
+### Hospital length of stay
+
+Defined as the duration between index blood culture and discharge date from hospital
+
+Time frame: Expected for an average of 30 days assessed up to 1 year
+
+### Mechanical ventilation duration
+
+Defined as the number of consecutive days receiving invasive (via an endotracheal tube or tracheostomy), or non-invasive (via a facemask, nasal mask, or helmet) ventilation
+
+Time frame: Expected for an average of 30 days
+
+### Antibiotic free days
+
+Defined as the number of days during the 28 days after the start of adequate antibiotics in which patients did not receive any antibiotics.
+
+Time frame: Upto 30 days after adequate antibiotic treatment
+
+## Eligibility
+
+- Sex: ALL
+- Minimum age: 18 Years
+- Healthy volunteers: no
+- Standard ages: ADULT, OLDER_ADULT
+
+Inclusion Criteria:
+
+1. Patient is in ICU or non-ICU ward at the time the blood culture is drawn or reported as positive.
+2. Patient has a positive blood culture with pathogenic bacteria.
+
+Exclusion Criteria:
+
+1. Patient already enrolled in the trial
+2. Patient has severe immune system compromise, as defined by: absolute neutrophil count \<0.5x109/L; or is receiving immunosuppressive treatment for solid organ or bone marrow or stem cell transplant
+3. Patient has a prosthetic heart valve or synthetic endovascular graft (post major vessel repair with synthetic material) (note: coronary artery stents are not an exclusion)
+4. Patient has documented or suspected syndrome with well-defined requirement for prolonged treatment:
+
+ i) infective endocarditis; ii) osteomyelitis/septic arthritis; iii) undrainable/undrained abscess; iv) unremovable/unremoved prosthetic-associated infection (e.g. infected pacemaker, prosthetic joint infection, ventriculoperitoneal shunt infection etc.) (note: central venous catheters, including tunneled central intravenous catheter, and urinary catheters are not excluded unless the treating clinical team does not have equipoise for enrollment and randomization to either group)
+5. Patient has a single positive blood culture with a common contaminant organism according to Clinical Laboratory \& Standards Institute (CLSI) Guidelines: coagulase negative staphylococci; or Bacillus spp.; or Corynebacterium spp.; or Propionobacterium spp.; or Aerococcus spp.; or Micrococcus spp.
+6. Patient has a positive blood culture with Staphylococcus aureus or Staphylococcus lugdunensis
+7. Patient has a positive blood culture with Candida spp. or other fungal species.
+8. Blood culture grows rare bacterial pathogens requiring prolonged treatment (e.g. Mycobacteria spp., Nocardia spp., Actinomyces spp., Brucella spp., Burkholderia pseudomallei)
+
+## Locations
+
+68 location(s) across 7 countries
+
+- NYU School of Medicine, New York, United States
+- Cleveland Clinic, Cleveland, United States
+- Bankstown Hospital, Bankstown, Australia
+- St Vincent's Hospital, Darlinghurst, Australia
+- St. George Hospital, Kogarah, Australia
+- John Hunter Hospital, New Lambton Heights, Australia
+- Westmead Hospital, Westmead, Australia
+- Wollongong Hospital ICU, Wollongong, Australia
+- Sunshine Coast University Hospital, Birtinya, Australia
+- Ballarat Hospital, Ballarat, Australia
+
+... and 58 more location(s)
+
+[3] Antimicrobial resistance — who.int (2026-07-16)
+https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance
+
+Antimicrobial resistance 
+
+ WHO/Sarah Pabst At the Malbrán Institute in Buenos Aires, Argentina, scientists study bacteria samples from across Latin America to track and control the emergence of antimicrobial resistance (AMR). 
+
+# Antimicrobial resistance
+
+16 July 2026
+
+## Key facts
+
+- Antimicrobial resistance (AMR) occurs when bacteria, viruses, fungi and parasites do not respond to antimicrobial medicines. As a result, infections become difficult or impossible to treat, increasing the risk of disease spread, severe illness, disability and death. 
+- AMR is a major global health threat. Bacterial AMR was estimated to be associated with more than 4.7 million deaths globally in 2021 (1).
+- The misuse and overuse of antimicrobial are driving the development and spread of drug-resistant pathogens.
+- Lack of adequate access to appropriate new and existing vaccines, diagnostics and medicines also contribute to the crisis. 
+- Approximately 1 in 6 laboratory-confirmed bacterial infections worldwide were resistant to antibiotics in 2023.
+- The world faces an antimicrobial research and development crisis, with few new medicines in the pipeline. 
+
+## Overview
+
+Antimicrobials – including antibiotics, antivirals, antifungals and antiparasitics – are medicines used to prevent and treat infectious diseases in people, animals and plants.
+
+AMR occurs when bacteria, viruses, fungi and parasites do not respond to these medicines. As a result of drug resistance, infections become difficult or impossible to treat, increasing the risk of disease spread, severe illness, disability and death.
+
+## A global concern
+
+AMR affects health, health-care systems and society at large.
+
+Health impacts: AMR is associated with higher morbidity and mortality, and it narrows treatment options for patients with infections. It raises the risk of complications of medical procedures such as surgeries.
+
+Health-care system impacts: AMR drives health-care costs, largely through increased hospital stay and higher need for intensive care. It also increases reliance on second-line antibiotics and additional diagnostic testing.
+
+Societal impacts: AMR disproportionately affects vulnerable populations, reduces human productivity and erodes public trust in medicine. In addition, drug-resistant infections impact the health of animals and plants and reduce productivity in farms, threatening food security.
+
+With the current level of action, total cost to treat resistant bacterial infections alone is predicted to reach US$ 412 billion annually up to 2035, with additional productivity losses of US$ 443 billion per year (2).
+
+Key factors for the emergence and spread of AMR include the inappropriate use of antibiotics; poor access to clean water, sanitation and hygiene (WASH); inadequate infection prevention and control in households, health-care facilities and farms; limited access to vaccines, diagnostics and medicines; and lack of awareness and enforcement of relevant legislation. Too few new antibiotics are being developed to replace those that no longer work, leaving fewer treatment options for people with drug-resistant infections. 
+
+AMR affects all countries, regardless of income, and spreads across borders. People living in low-resource settings and vulnerable populations, such as the very young and very old, are especially impacted.
+
+## What is the present situation?
+
+### Antibiotic use
+
+The misuse and overuse of antibiotics, for example taking them when they are not needed or taking the wrong type, remains one of the main drivers of AMR. In 2022, so-called access antibiotics – those recommended as first-choice treatments for most common infections – accounted for only about half (53%) of global human antibiotic use. So-called watch antibiotics, which carry a higher risk of resistance, made up roughly 45% of use and exceeded 70% of total use in nearly one-third of countries. These figures fall short of the global target which calls for at least 70% of antibiotic use to come from the access group by 2030. 
+
+### Drug resistance in bacteria
+
+One in six laboratory-confirmed bacterial infections causing common infections in people worldwide in 2023 were resistant to antibiotic treatments. Between 2018 and 2023, antibiotic resistance rose in over 40% of the pathogen-antibiotic combinations monitored with an average annual increase of 5–15%. WHO estimates that antibiotic resistance is highest in the WHO South-East Asia and Eastern Mediterranean Regions, where 1 in 3 reported infections were resistant. Resistance is also more common and worsening in places where health systems lack capacity to diagnose or treat bacterial pathogens. Drug-resistant Gram-negative bacteria are becoming more dangerous worldwide, with the greatest burden falling on countries least equipped to respond. Among these, E. coli and K. pneumoniae are the leading drug-resistant Gram-negative bacteria found in bloodstream infections. These are among the most severe bacterial infections that often result in sepsis, organ failure and death. 
+
+In gonorrhoea, a sexually transmitted infection, ciprofloxacin resistance is very high (75%), and ceftriaxone resistance – though still low globally – is rising in some regions, threatening the effectiveness of first-choice treatment.
+
+Multidrug-resistant tuberculosis (MDR-TB) is a form of TB caused by bacteria that do not respond to isoniazid and rifampicin, the two most effective first-line TB drugs. MDR-TB is treatable and curable by using other drugs, which tend to be more expensive and toxic. The estimated proportion of people with a first episode of TB who had drug-resistant TB was 3.2% in 2024, while the proportion among those with a previous history of TB treatment was much higher, at 16%. 
+
+### Drug resistance in fungi 
+
+Fungi can cause a wide range of infections, from candidiasis (thrush) of the mouth or genital area, and ringworm (dermatophytosis) of the skin, hair and nails, to severe and life-threatening infections such as invasive candidiasis or aspergillosis of the lungs. These infections disproportionately impact severely ill patients and those with weakened immune systems, including individuals undergoing cancer chemotherapy, organ transplantation and those living with HIV.
+
+Fungal infections are increasingly difficult to treat due to AMR. The emergence and spread of multi-drug resistant Candidozyma auris (formerly Candida auris), an invasive fungal infection, is of particular concern. Drug-resistant Aspergillus is becoming harder to treat as many strains show resistance to azole antifungals, drugs widely used in both medicine and agriculture.
+
+### Drug resistance in viruses
+
+Over the past decade, the use of antiretroviral therapy (ART) has saved the lives of tens of millions of people living with HIV. However, increased use of HIV medicines has been accompanied by the emergence of HIV drug resistance. HIV drug resistance can lead to increased HIV infections and deaths. 
+
+Beyond HIV, antiviral resistance in influenza viruses is a major public health concern and is closely monitored by WHO through global surveillance networks. WHO also recognizes emerging resistance challenges affecting hepatitis B and C treatment programmes.
+
+### Drug resistance in parasites
+
+The emergence of drug-resistant parasites is a major threat to malaria control. Artemisinin-based combination therapies (ACTs) are the recommended first-line treatment for uncomplicated Plasmodium falciparum malaria. Emergence of partial artemisinin resistance makes selecting the right treatment more challenging and requires close monitoring. 
+
+The emergence of drug resistance against medicines for neglected tropical diseases (NTDs), such as human African trypanosomiasis and leishmaniasis, is a significant threat to NTD programmes. Resistance has been reported in several key medicines, such as melarsoprol, pentavalent antimonials and miltefosine. 
+
+## WHO response
+
+WHO leads global efforts to prevent and control AMR in humans, as part of the Global action plan on antimicrobial resistance (GAP-AMR) 2026–2036. The GAP-AMR aims to preserve the ability to treat human, animal and plant infections by expanding equitable access to and appropriate use of effective antimicrobials and reducing infections through a One Health approach. 
+
+By 2030, the plan aims to enable the attainment of the 2024 UN General Assembly target of 10% reduction in bacterial AMR-associated deaths in humans, while also reducing antimicrobial use in agrifood systems, and minimizing environmental pollution from resistant microbes and antimicrobial residues. 
+
+WHO works closely with the Food and Agriculture Organization (FAO) of the United Nations, the United Nations Environment Programme (UNEP) and the World Organisation for Animal Health (WOAH), together called the Quadripartite, in a coordinated One Health approach to achieve the goals and objectives of the GAP-AMR. 
+
+GAP-AMR is operationalized through national action plans (NAPs), and a separate operational guidance and a monitoring and evaluation framework. The progress of NAPs is monitored through the Tracking AMR Country Self- Assessment Surveys (TrACSS) undertaken annually. 
+
+To achieve the GAP-AMR's goal, there are six interconnected strategic objectives:
+
+1. strengthen awareness and promote appropriate social and behavioural change to reduce antimicrobial resistance risks across all sectors;
+2. strengthen surveillance systems and laboratory networks to inform effective, evidence-driven antimicrobial resistance policies and actions;
+3. intensify infection prevention across all sectors to reduce the burden of infectious diseases and the need for antimicrobials;
+4. ensure equitable access, appropriate use and safe disposal of antimicrobials, diagnostics and other health products across sectors;
+5. accelerate antimicrobial resistance research and innovation across all sectors; and
+6. strengthen multisectoral governance, sustainable financing and accountability for a coordinated antimicrobial resistance response across all sectors and at all levels.
+
+The GAP-AMR is complemented by the WHO strategic and operational priorities to address drug-resistant bacterial infections in the human health sector, 2025–2035, to strengthen the sector-specific response to AMR.
+
+References
+
+1. GBD 2021 Antimicrobial Resistance Collaborators. Global burden of bacterial antimicrobial resistance 1990-2021: a systematic analysis with forecasts to 2050. Lancet. 2024 Sep 28;404(10459):1199-1226. 
+
+2. GLG report: Towards specific commitments and action in the response to antimicrobial resistance (2024). https://www.amrleaders.org/resources/m/item/glg-report
+
+[4] The WHO Essential Medicines List Antibiotic Book — who.int (2021-11-24)
+https://www.who.int/news-room/questions-and-answers/item/the-who-essential-medicines-list-antibiotic-book
+
+The WHO Essential Medicines List Antibiotic Book 
+
+# The WHO Essential Medicines List Antibiotic Book
+
+24 November 2021 | Questions and answers
+
+ What is the EML antibiotic book? 
+
+The EML antibiotic book is a resource to help countries and health care systems implement responsible use of antibiotics recommended by WHO for specific infections and contained in the WHO Model Lists of Essential Medicines. The book provides recommendations on the choice of antibiotics for common infectious diseases These recommendations are complemented by other suggestions on management strategies for infectious diseases, most of which have been derived by ‘expert consensus’ as scientific evidence was limited or absent. However, in some instances, which are specifically highlighted in the book, the guidance in the EML antibiotic book is based on and in full alignment with recommendations in WHO guidelines (e.g. for sexually transmitted infections). 
+
+ The book will be finalized following feedback from a global public consultation. It is important that as many stakeholders as possible contribute their ‘real world’ input to the public consultation so that the guidance can be as close as possible to realities in different clinical settings.
+
+ What kind of information does the EML antibiotic book provide? 
+
+The EML antibiotic book provides information on which antibiotics to use for certain infections but, importantly, also emphasizes when disease management without antibiotics is the best approach. For example, the majority of upper respiratory tract infections, which are mostly viral and/or self-limiting, should not generally be treated with antibiotics. Antibiotics may be necessary in some cases - e.g. signs and symptoms of severe infections, severe immunosuppression, etc. – and the book also outlines these.
+
+ How is the empiric use of Reserve antibiotics covered in the EML antibiotic book? 
+
+The EML antibiotic book has a section dedicated to Reserve antibiotics currently listed in the Model Lists of Essential Medicines. The book describes situations where empiric use of these last-resort antibiotics could be considered in clinical practice – e.g. seriously ill patients known to be colonized by multidrug-resistant organisms and who have not responded to other antibiotics and in whom other causes of treatment failure have been excluded.
+
+ How is the EML antibiotic book integrated with other WHO activities? 
+
+The EML antibiotic book integrates closely with other WHO activities and tools to address antimicrobial resistance, such as the Global Antimicrobial Resistance and Use Surveillance System (GLASS), the Priority Pathogens List, the review of clinical and preclinical antibacterial pipelines and the antimicrobial stewardship toolkit; as well as the WHO Model List of Essential In Vitro Diagnostics. All these activities have been taken into account in the development of the EML antibiotic book, and will integrate and influence each other into the future. 
+
+ In what settings is the EML antibiotic book intended to be used? 
+
+The EML antibiotic book is intended for use by clinicians in both the primary care and hospital settings worldwide. It includes 20 chapters in the primary health care section and 17 in the hospital facility section. It is acknowledged that the majority of antibiotic use happens in the community, but hospitals are an ideal place for transmission of resistance, so it is important to improve antibiotic use in both settings. However, for the hospital setting, the book focuses on community-acquired infections. Nosocomial infections are mentioned in the sections covering the use of Reserve antibiotics and may be addressed in more detail in future editions. 
+
+The recommendations are equally relevant for physicians and health professionals from low-, middle-, and high-income settings. This handbook can make a greater impact in those care settings where currently no or limited guidance on the management of common infections exist.
+
+ What is AWaRe? 
+
+AWaRe (Access, Watch, Reserve) is a classification system of antibiotics developed by WHO in 2017 and updated in 2019 and 2021 aimed at optimizing antibiotic use taking into account what is best for patients in terms of clinical effectiveness and minimal toxicity, while minimizing the risk of developing antimicrobial resistance.
+
+According to this system, antibiotics can fall into one of three groups:
+
+- Access: antibiotics with a narrow spectrum of activity and a lower potential for the development of antimicrobial resistance compared to antibiotics in other AWaRe groups. They are recommended for the empiric treatment of most infections and therefore should be widely available.
+- Watch: antibiotics with a higher potential for the development of antimicrobial resistance with very limited recommended indications for empiric use. Their use should be carefully monitored to avoid overuse.
+- Reserve: antibiotics that should only be used when antibiotics from the other two classes cannot be used (e.g. due to infections caused by multidrug-resistant pathogens).
+
+All antibiotics listed in the WHO Model Lists of Essential Medicines are classified according to the AWaRe groups but there are many more antibiotics classified as Access, Watch or Reserve that are not included on the Model Lists.
+
+The 2021 AWaRe classification of antibiotics is available here.
+
+ What is the additional value of the EML antibiotic book? 
+
+The EML antibiotic book can supplement local guidance and help countries reach the target of 60% of antibiotic use coming from the Access group, established in the WHO 13th General Programme of Work (GPW 13) in 2018. The book puts a strong emphasis on symptomatic care for mild infections in otherwise healthy patients and on the use of Access antibiotics compared to other guidelines. It provides evidence-based guidance for the use of first and second-choice antibiotics for many common infections based on the AWaRe framework.
+
+ What does the EML antibiotic book add to AWaRe? 
+
+The EML antibiotic book is a simple clinical guidance on how to best use antibiotics on the Model Lists of Essential Medicines in children and adults both in primary health care and hospital settings based on the principles of the AWaRe framework in particular by favouring the use of Access antibiotics where appropriate.
+
+Where applicable, the book explicitly mentions the need to consider risk factors for infections caused by multidrug-resistant pathogens especially in very sick patients where an inadequate empiric treatment is most likely to negatively affect cure and survival.
+
+Additionally, GLASS surveillance data are referenced where applicable and situations when local surveillance could be useful to inform empiric treatment are highlighted.
+
+ What is the role of Access antibiotics in the management of infections in primary care? 
+
+Many infections in primary care can be safely managed without antibiotics, namely most upper respiratory tract infections. Nevertheless, when antibiotics are indicated, Access antibiotics remain “first choice”. Nine out of the ten most common infections in primary care are recommended to be managed with either no antibiotics or Access group antibiotics (the only exception being bacterial dysentery-bloody diarrhoea, where Watch antibiotics are recommended).
+
+ How were the infections covered in the EML antibiotic book selected? 
+
+The infections covered in the EML antibiotic book are those addressed in the current Model Lists of Essential Medicines. Antibiotic treatment of these infections has been comprehensively reviewed by the WHO EML antibiotics working group (a group of experts in infectious diseases and microbiology from around the world) and the WHO Expert Committee on Selection and Use of Essential Medicines. The book also includes guidance on the use of the Reserve antibiotics included on the current Model Lists.
+
+ What was the choice of antibiotic treatment options for the different infections based on? 
+
+The antibiotic book gives guidance on first- and second-choice antibiotics for the empiric treatment of common infections in line with the recommendation in the WHO Model Lists of Essential Medicines. These recommendations are based on a deliberative, structured, evidence-based and transparent development process that included assessments of clinical trials, systematic reviews and meta-analyses, and clinical practice guidelines.
+
+The quality of the evidence for each systematic review and meta-analysis was evaluated based on five factors: 
+
+1. Conclusions of the original authors (e.g. including overall quality of the evidence according to the GRADE assessment)
+2. Sample size of the studies 
+3. Number of events 
+4. Number of studies per outcome 
+5. Publication year 
+
+ A rating of high, moderate, low, or very low quality was assigned for each of these five factors.
+
+Clinical practice guidelines were rated using 11 attributes: 
+
+1. The overall objective(s) of the guideline is (are) specifically described
+2. The health question(s) covered by the guideline is (are) specifically described
+3. The population (patients, public, etc.) to whom the guideline is meant to apply is specifically described
+4. The guideline development group includes individuals from all the relevant professional groups
+5. Systematic methods were used to search for evidence
+6. The criteria for selecting the evidence are clearly described
+7. The strengths and limitations of the body of evidence are clearly described
+8. The methods for formulating the recommendations are clearly described
+9. The health benefits, side effects, and risks have been considered in formulating the recommendations
+10. There is an explicit link between the recommendations and the supporting evidence
+11. The guideline has been externally reviewed by experts prior to its publication
+
+Guidelines with scores of 70% or less were judged to be of low quality, while guidelines with scores of 80% or more were judged to be of high quality.
+
+ How were differences in the prevalence of antibiotic resistance among countries taken into account? 
+
+The need to consider the local epidemiological context and individual risk factors is clearly highlighted in the book where relevant. However, the book does not give country-specific examples and users should take the local context into account in terms of when the use of an alternative empiric treatment may be preferable.
+
+ What was the choice of antibiotic dose and treatment duration based on? 
+
+Treatment dose and duration are based on non-systematic reviews of the literature and expert opinion within the EML antibiotic working group. Formal assessments of the quality of the evidence were not performed. The dose and duration of treatment should take into account the specific characteristics of the patient, the clinical setting, the situation and the available resources. Wherever possible, short treatment durations are suggested, and the need to adapt treatment based on microbiology result and to switch patients from intravenous to oral treatment is emphasized.
+
+ How were differences in the availability of supportive tools (e.g. imaging, diagnostics) taken into account in the development of the EML antibiotic book? 
+
+The EML antibiotic book acknowledges that tests and imaging will differ based on local availabilities. For laboratory tests, the WHO Model List of Essential In Vitro Diagnostics was taken as a reference and only tests included in it are mentioned. For imaging, in general the most widely available and less expensive tests are suggested (e.g. ultrasound, X-ray).
+
+ How does the EML antibiotic book help prescribers decide whether their patient needs antibiotics? 
+
+The EML antibiotic book presents the most common clinical presentations of a given syndrome, suggests diagnostic tests (based on the WHO Model List of Essential In Vitro Diagnostics) and imaging to better understand whether a bacterial infection is present and whether it is mild or severe. When available, the book also mentions scoring systems. However, it is clear that personal clinical judgement taking into account the circumstances of the individual patient remains key in terms of deciding how the case should be managed.
+
+ What should be the role of the EML antibiotic book in relation to existing local or national guidelines? 
+
+The EML antibiotic book is a complementary tool to fill potential gaps in existing guidelines. Furthermore, the antibiotic book with its focus on favouring the use of Access antibiotics could be used as a template for updating or adapting local guidelines to help reach the WHO target of 60% Access antibiotic use. Local specificities of the healthcare system, and prevalence of resistance among common pathogens causing infections should always be considered when using the book.
+
+ What if there are differences between the EML antibiotic book and existing WHO guidelines? 
+
+The EML antibiotic book is closely aligned with existing WHO guidelines (e.g. for sexually transmitted diseases, pneumonia in children and sepsis). If differences exist, these are clearly highlighted and justified in the text (e.g. changing prevalence of multidrug-resistant pathogens requiring different empiric treatment, new evidence from clinical trials of more effective and/or less toxic medicines). As new WHO guidelines may become available on topics covered in the book, these will ideally be incorporated in future updates of the book.
+
+ What if a medicine recommended as first choice treatment option is not available in a given country? 
+
+Even though all antibiotics recommended in the book are on the WHO Model Lists of Essential Medicines and should therefore be usually available, it is acknowledged that availability may be a problem in some settings or circumstances. In many instances potential first-choice alternatives are highlighted in the book. 
+
+ How do the treatment recommendations in the EML antibiotic book take into account settings where the prevalence of multidrug-resistant organisms is very high? 
+
+The EML antibiotic book covers empiric antibiotic treatment given when the diagnosis is based on the patient’s history and examination and test results are not yet available and its use in settings with a high prevalence of multidrug-resistant (MDR) organisms could require local adaptation based on local epidemiological data.
+
+Any decision to use antibiotics with broader spectrum (e.g. Watch antibiotics instead of Access antibiotics) should be based on solid data and should be balanced against the risk of further selecting for antibiotic resistance.
+
+To assist in this, the book explicitly mentions (where applicable) the need to consider risk factors for infections caused by multidrug-resistant pathogens especially in very sick patients where an inadequate empiric treatment is most likely to negatively affect cure and survival. Additionally, GLASS surveillance data are referenced where applicable and suggestions on when local surveillance could be useful to inform empiric treatment is given.
+
+ Can the EML antibiotic book be adapted to the local setting? 
+
+We encourage national and regional stakeholders to adapt the book or sections of it for their local use, taking into account the local microbiology epidemiology. However, despite the reality of differences in the epidemiology of multidrug-resistant (MDR) organisms, there is a strong emphasis in the book in avoiding overtreatment of patients with antibiotics with an unnecessarily broad spectrum of activity especially for mild presentations in otherwise healthy patients with no known risk factors for infections caused by MDR pathogens and this is valid everywhere.
+
+ What activities is WHO planning to help implement the use of the EML antibiotic book? 
+
+WHO is currently planning the implementation phase and aims to assist countries in making use of the EML antibiotic book. WHO is committed to generating more evidence on how to improve antibiotic prescribing worldwide and will assist investigators in different settings in designing and analyzing studies about the impact of WHO recommendations on changing clinical decisions, reducing antimicrobial resistance, increasing knowledge about appropriate antibiotic appropriate use and enhancing quality of care.
+
+ Will the EML antibiotic book be regularly updated in the future? 
+
+Yes. The EML antibiotic book will be updated periodically, adding additional chapters and maintaining alignment with updates to the WHO Model Lists of Essential Medicines. 
+
+ Where and in what formats will the EML antibiotic book be made available? 
+
+The final version of the EML antibiotic book and infographics will be made available for free on the WHO website as downloadable PDF documents and also as a smartphone app. The infographics are intended to be a succinct resource for healthcare workers making treatment decisions with their patients, while the full book can be a useful resource for those wanting to know more about the various topics. The planned smartphone app which will incorporate the information from the infographics.
+
+ Will there be a short summary of the EML antibiotic book? 
+
+The EML antibiotic book is complemented by short summaries in the form of infographics (one for adults and one for children for each infection). These will be available on the WHO website as downloadable PDFs and will also be the basis for the smartphone app.
+
+ Will the EML antibiotic book be available in different languages? 
+
+For now, the EML antibiotic book is available only in English. Translation into other official UN languages is planned. National and regional stakeholders are also encouraged to translate the book or sections of it for their local use.
+
+ When will the EML antibiotic book be made available? 
+
+The final version of the EML antibiotic book will be made available in mid-2022, following the public consultation phase. An official release date will be communicated following the end of the consultation period.
