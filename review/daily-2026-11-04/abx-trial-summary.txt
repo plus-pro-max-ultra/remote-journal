@@ -1,0 +1,48 @@
+[1] 376. 7 versus 14 days of Antibiotic Treatment for Patients with Bloodstream Infections - PMC — pmc.ncbi.nlm.nih.gov (2024-10-18)
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11776770/
+
+376. 7 versus 14 days of Antibiotic Treatment for Patients with Bloodstream Infections - PMC 
+
+# 376. 7 versus 14 days of Antibiotic Treatment for Patients with Bloodstream Infections
+
+Nick Daneman
+
+ 1, Rob Fowler
+
+ 2, 1, 2, 3 
+
+ 1 Sunnybrook Health Sciences Centre, University of Toronto, Toronto, Ontario, Canada
+
+ Study Group: The BALANCE Investigators for the Canadian Critical Care Trials Group (CCCTG), Association of Medical Microbiology and Infectious Disease Canada Clinical Research Network (AMMI CRN), Australian and New Zealand Intensive Care Society (ANZICS) Clinical Trials Group and the Australasian Society of Infectious Diseases (ASID) Clinical Research Network
+
+ 2 
+
+ Session: 162. Late Breaker Abstract Session: Practice Changing Abstracts
+
+ Friday, October 18, 2024: 1:45 PM 
+
+© The Author(s) 2025. Published by Oxford University Press on behalf of Infectious Diseases Society of America.
+
+### Background
+
+Bloodstream infections are associated with substantial morbidity and mortality. Early, appropriate antibiotic therapy is important, but optimal duration of treatment is uncertain.
+
+### Methods
+
+In a multicenter, non-inferiority trial, we randomly assigned hospitalized (ward and intensive care unit [ICU]) patients with bloodstream infection to receive 7- versus 14-day antibiotic treatment.
+
+Antibiotic selection, dosing and route were at the discretion of the treating team. We excluded patients with severe immune-suppression, foci requiring prolonged treatment, single cultures with potential contaminants, or cultures yielding Staphylococcus aureus. The primary outcome was 90-day mortality, with a 4% absolute non-inferiority margin.
+
+### Results
+
+Across 74 hospitals in 7 countries, 3608 patients were randomized and included in the intention-to-treat analysis (1,814 to 7-day and 1,794 to 14-day antibiotic treatment). At enrolment, 55% of patients were in the ICU and 45% on hospital wards. Infections were community-onset (75.4%), hospital-acquired (13.4%) and ICU-acquired (11.2%). Bacteremia sources were most commonly from the urinary tract (42.2%), abdomen (18.8%), lung (13.0%), vascular catheters (6.3%), and skin or soft tissue (5.2%). The primary outcome of 90-day mortality occurred in 261 (14.5%) patients receiving 7-day and in 286 (16.1%) receiving 14-day treatment (absolute difference -1.6% [95.7% confidence interval -4.0 to 0.8]), demonstrating non-inferiority of shorter duration treatment. A per-protocol analysis also demonstrated non-inferiority (-2.0% [95% confidence interval -4.5 to 0.6]). These findings were generally consistent across secondary clinical outcomes, and pre-specified patient, pathogen and syndrome subgroups.
+
+### Conclusion
+
+Treating hospitalized patients with bloodstream infection with antibiotics for 7 days is non-inferior to treating for 14 days.
+
+(Funded by the Canadian Institutes of Health Research, Health Research Council of New Zealand, Australian National Medical Research Council, Physicians Services Incorporated Ontario and Ontario Ministry of Health and Long-term Care Innovation Fund; ClinicalTrials.gov NCT03005145)
+
+### Disclosures
+
+ All Authors: No reported disclosures

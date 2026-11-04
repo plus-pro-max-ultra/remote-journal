@@ -23,3 +23,8 @@
 - 2026-11-04（MM 指示 phonemsg-01M6J366M7S0G430WXGY2MP90N，核准上線）：併入 MM 對關於頁與隱私頁的親修（134ebbc、9653f7a）並回填至建置來源；移除草稿橫幅、聯絡方式占位區塊（MM 已清空，尚無可公布管道，日後補回）與頁尾版權占位文字；頁尾保留「© 2026 遠方誌」。連同頂部留白／明體標語 UI 改善一併發布。
 - 2026-11-04：頁尾對齊修正。原頁尾無水平留白、貼齊視窗邊緣，且首頁頁尾誤置於 .shell 內造成雙倍縮排；現頁尾與內文欄同寬同距（桌機 26px、手機 17px，全站一致），首頁頁尾移出 .shell。屬同批 UI 上線範圍（phonemsg-01M6J366M7S0G430WXGY2MP90N）。
 - 2026-11-04（MM 指示 phonemsg-01M6JG9DFHVSRVHMGY10PCMH4D「主要是正式版不涉及github」）：正式網址定案為 https://journal-for-far.learnman.workers.dev；SITE_URL 自 GitHub Pages 改為正式網址，canonical、社群預覽、RSS 項目連結、sitemap、robots 與 404 資源位址一律指向正式版。隱私政策託管文字維持 MM 版本（Cloudflare Workers），不補回 GitHub 揭露。GitHub 鏡像維持運作，未刪除或改動。
+
+## 2026-11-04 第017期審閱準備（未發布）
+- 新增抗生素療程全文與實際已讀來源；人工批准前只留 drafts。
+- 不提供個別醫療天數，保留 BALANCE 試驗範圍與摘要閱讀限制。
+- 不動正式文章、刊期紀錄、預告、首頁或發布分支。
