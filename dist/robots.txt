@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://journal-for-far.learnman.workers.dev/sitemap.xml
