@@ -13,3 +13,9 @@
 未完成材料只放 `work-in-progress`，完成後可整合回此預覽。`main` 是正式網站，仍須 MM 明確批准；批准後要比較完整版本，包含 MM 直接編輯的文字、頁面、樣式與設定，不能只搬文章或用舊模板覆蓋。
 
 舊來源／模板／測試與舊網站均保存在 `archive/2026-11-05/preview-before-single-pages` 及 `archive/2026-11-05/gh-pages-before-single-pages` 標籤。若須使用舊工具，先將本分支的直接修改帶回來源、對照全部差異後再產生；不得盲目重建。
+
+## 文章代號
+
+已有篇數的文章採 `001-roads` 至 `017-antibiotic-course`。第 017 期仍是完成待批准審閱稿，不因加號而正式刊出。`article-identifiers.json` 記錄新舊代號對照；舊路徑與舊 hash 連結保留轉址，收藏與筆記自動對照新代號。十五篇 work-in-progress 稿沒有已定刊號，本次不編正式篇數。
+
+預覽頁的站內連結使用新代號；指向現行正式網站的 canonical、RSS、sitemap 與正式網址尚未改動，待正式版本批准時再核對。

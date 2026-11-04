@@ -4,6 +4,23 @@
 (function () {
   "use strict";
   var ROOT = document.body.getAttribute("data-root") || "./";
+
+  // Numbered identifiers retain existing bookmarks, favorites and notes.
+  var ARTICLE_ID_ALIASES = {"roads":"001-roads","median":"002-median","imperial":"003-imperial","stock":"004-stock","maps":"005-maps","submarine-cables":"006-submarine-cables","webb-l2":"007-webb-l2","smallpox":"008-smallpox","comet-windows":"009-comet-windows","daylight-saving-time":"010-daylight-saving-time","typhoon-names":"011-typhoon-names","power-frequency":"012-power-frequency","runway-numbers":"013-runway-numbers","escalator-stand-walk":"014-escalator-stand-walk","movie-popcorn":"015-movie-popcorn","survivorship-bias":"016-survivorship-bias","antibiotic-course":"017-antibiotic-course"};
+  function currentId(id) { return ARTICLE_ID_ALIASES[id] || id; }
+  try {
+    var savedIds = JSON.parse(localStorage.getItem("faraway-saved") || "[]");
+    if (Array.isArray(savedIds)) {
+      var migrated = savedIds.map(currentId).filter(function (v, i, a) { return a.indexOf(v) === i; });
+      localStorage.setItem("faraway-saved", JSON.stringify(migrated));
+    }
+    Object.keys(ARTICLE_ID_ALIASES).forEach(function (oldId) {
+      var newKey = "faraway-note-" + ARTICLE_ID_ALIASES[oldId];
+      var oldNote = localStorage.getItem("faraway-note-" + oldId);
+      if (oldNote !== null && localStorage.getItem(newKey) === null) localStorage.setItem(newKey, oldNote);
+    });
+  } catch (e) { }
+
   var PAGE = document.body.getAttribute("data-page") || "";
   var $ = function (s, r) { return (r || document).querySelector(s); };
   var $$ = function (s, r) { return Array.prototype.slice.call((r || document).querySelectorAll(s)); };
@@ -34,7 +51,7 @@
   // the real pages.
   function hashRedirect() {
     var m = location.hash.match(/^#\/story\/([A-Za-z0-9_-]+)/);
-    if (m) { location.replace(ROOT + "articles/" + m[1] + "/"); return true; }
+    if (m) { location.replace(ROOT + "articles/" + currentId(m[1]) + "/"); return true; }
     if (location.hash === "#/archive") { location.replace(ROOT + "archive/"); return true; }
     return false;
   }
