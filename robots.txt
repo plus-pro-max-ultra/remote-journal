@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://plus-pro-max-ultra.github.io/remote-journal/sitemap.xml
