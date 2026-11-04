@@ -51,11 +51,11 @@ The `preview` branch adds, on top of all of that:
 ## 4. The two editions
 
 - Official edition: https://journal-for-far.learnman.workers.dev/ - a Cloudflare Workers project connected to this repository. Every push to `main` triggers an automatic build and deploy (deploy command `npx wrangler deploy`). Canonical links, RSS, sitemap and social previews all use this address.
-- Preview edition: https://plus-pro-max-ultra.github.io/remote-journal/ - serves the `gh-pages` branch, built from `preview`. Since 2026-11-05 this is the working review site, not a mirror: it shows the 16 published articles plus the 16 review drafts, and it updates directly whenever `preview` changes, without approval. Published pages still point readers and search engines at the official edition; draft pages are marked as review copies and carry noindex.
+- Preview edition: https://plus-pro-max-ultra.github.io/remote-journal/ - serves the `gh-pages` branch, built from `preview`. As of 2026-11-05 the preview build is pushed and queued for its first GitHub Pages deployment (a GitHub Actions/Pages incident was delaying deploys at writing time); until it lands, the address still serves the old mirror. Once live it is the working review site, not a mirror: the 16 published articles plus the 16 review drafts, updating directly whenever `preview` changes, without approval. Published pages still point readers and search engines at the official edition; draft pages are marked as review copies and carry noindex.
 
 ## 5. How editing works, and what is safe to edit
 
-Edit on the `preview` branch (or a review branch), not on `main`: any change to `main` triggers an automatic production build and deploy to the official edition, so editing `main` directly publishes rather than saving a draft. On `preview`, MM edits freely through GitHub's web interface or any git tool, with no approval needed - the drafts live at `drafts/` and `review/ready-drafts/` as plain JSON source files. There is no inline web editor; editing means editing the source files. After each `preview` change, the agent rebuilds and redeploys `gh-pages`, so the preview site follows the branch.
+Edit on the `preview` branch (or a review branch), not on `main`: any change to `main` triggers an automatic production build and deploy to the official edition, so editing `main` directly publishes rather than saving a draft. On `preview`, MM edits freely through GitHub's web interface or any git tool, with no approval needed - the drafts live at `drafts/` and `review/ready-drafts/` as plain JSON source files. There is no inline web editor; editing means editing the source files. After each `preview` change, the agent rebuilds and redeploys `gh-pages`, so the preview site follows the branch. If the generated files on `gh-pages` itself are ever edited directly, the agent first diffs them against the last deployed build, carries the edits back into the sources, and only then redeploys; anything that cannot be mapped back cleanly is reported instead of overwritten.
 
 Safe to edit directly (these are sources; a rebuild will not erase them):
 
@@ -73,7 +73,7 @@ Regenerated on build (edit with care): the HTML at the repository root (`index.h
 - The content validator gates every build: 16 of 16 articles validated, all content tests pass.
 - The daily and batch review branches were pushed and read back through the GitHub API to confirm the remote content matches.
 
-What review looks like today: the GitHub Pages site is the rendered working preview - MM reads and edits the sixteen drafts there, and the site follows the `preview` branch. Other branches still have no rendered preview of their own; reviewing them means source files on GitHub or agent-rendered PDFs and screenshots. The Cloudflare branch-preview build failed on 2026-11-04 and has never produced a usable preview URL.
+What review looks like today: the GitHub Pages site is becoming the rendered working preview - the build is pushed and its first deployment is pending, after which MM reads and edits the sixteen drafts there, and the site follows the `preview` branch. Other branches still have no rendered preview of their own; reviewing them means source files on GitHub or agent-rendered PDFs and screenshots. The Cloudflare branch-preview build failed on 2026-11-04 and has never produced a usable preview URL.
 
 Remaining limitation: rendered preview exists only for the `preview` branch's content. A one-off branch outside that flow is still reviewed as source or screenshots. GitHub Pages deployments can also lag during GitHub incidents, so a pushed update may take time to appear. The publication ledger at `ops/publication-ledger.json` records which article is which issue number and date.
 
@@ -132,11 +132,11 @@ Promotion after approval: when MM approves content, the agent diffs the full `pr
 ## 4. 兩個版本
 
 - 正式版：https://journal-for-far.learnman.workers.dev/ ，Cloudflare Workers 專案連接此倉庫。每次推送 `main` 會自動建置並部署（部署指令 `npx wrangler deploy`）。標準網址、RSS、網站地圖與分享預覽都用這個網址。
-- 預覽版：https://plus-pro-max-ultra.github.io/remote-journal/ ，服務 `gh-pages` 分支，由 `preview` 建置。自 2026-11-05 起它是工作審閱站而非鏡像：顯示 16 篇已刊文章加 16 篇審閱稿，`preview` 一有變動就直接更新，不需批准。已刊頁面仍把讀者與搜尋引擎導向正式版；審閱稿頁面標示為審閱稿並帶 noindex。
+- 預覽版：https://plus-pro-max-ultra.github.io/remote-journal/ ，服務 `gh-pages` 分支，由 `preview` 建置。截至 2026-11-05，預覽建置已推送、等待第一次 GitHub Pages 部署（撰稿時 GitHub Actions/Pages 事故造成部署延遲）；部署完成前，這個網址仍是舊鏡像。上線後它就是工作審閱站而非鏡像：顯示 16 篇已刊文章加 16 篇審閱稿，`preview` 一有變動就直接更新，不需批准。已刊頁面仍把讀者與搜尋引擎導向正式版；審閱稿頁面標示為審閱稿並帶 noindex。
 
 ## 5. 你的編輯方式與安全範圍
 
-請在 `preview` 分支（或審閱分支）上編輯，不要直接改 `main`：`main` 一有變動就會觸發正式版的自動建置與部署，所以直接改 `main` 等於發布，而不是儲存草稿。在 `preview` 上，你可以用 GitHub 網頁或任何 git 工具自由編輯，不需批准；草稿就是 `drafts/` 與 `review/ready-drafts/` 裡的 JSON 原始檔。頁面本身沒有線上編輯器，編輯等於修改原始檔。每次 `preview` 變動後，我會重新建置並部署 `gh-pages`，讓預覽站跟上分支。
+請在 `preview` 分支（或審閱分支）上編輯，不要直接改 `main`：`main` 一有變動就會觸發正式版的自動建置與部署，所以直接改 `main` 等於發布，而不是儲存草稿。在 `preview` 上，你可以用 GitHub 網頁或任何 git 工具自由編輯，不需批准；草稿就是 `drafts/` 與 `review/ready-drafts/` 裡的 JSON 原始檔。頁面本身沒有線上編輯器，編輯等於修改原始檔。每次 `preview` 變動後，我會重新建置並部署 `gh-pages`，讓預覽站跟上分支。若 `gh-pages` 上產生的檔案被直接修改，重新部署前我會先比對與上次部署的差異，把修改回填到來源，再重新部署；無法對應回來源的修改會回報，不會直接覆蓋。
 
 可以直接改（屬於來源，重建不會洗掉）：
 
@@ -154,7 +154,7 @@ Promotion after approval: when MM approves content, the agent diffs the full `pr
 - 內容驗證器每次都把關：16 篇全部通過，內容測試全數通過。
 - 每日與十五篇的審閱分支已推送，並透過 GitHub API 讀回確認雲端內容一致。
 
-目前審閱的實際形式：GitHub Pages 站就是可瀏覽的工作預覽站，你在那裡閱讀並編輯十六篇審閱稿，網站跟隨 `preview` 分支。其他分支仍沒有自己的渲染預覽，只能以原始檔或我產生的 PDF／截圖審閱。Cloudflare 的分支預覽建置在 2026-11-04 失敗，從未產生可用的預覽網址。
+目前審閱的實際形式：GitHub Pages 站正在轉為可瀏覽的工作預覽站，建置已推送、等待首次部署；部署後你在那裡閱讀並編輯十六篇審閱稿，網站跟隨 `preview` 分支。其他分支仍沒有自己的渲染預覽，只能以原始檔或我產生的 PDF／截圖審閱。Cloudflare 的分支預覽建置在 2026-11-04 失敗，從未產生可用的預覽網址。
 
 目前限制：渲染預覽只涵蓋 `preview` 分支的內容；流程外的臨時分支仍以原始檔或截圖審閱。GitHub 服務事故期間 Pages 部署可能延遲，推送的更新不一定立即出現。出刊紀錄 `ops/publication-ledger.json` 記載每篇文章的期數與日期。
 
