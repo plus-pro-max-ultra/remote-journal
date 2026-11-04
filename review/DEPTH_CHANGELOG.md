@@ -8,3 +8,7 @@
 - Unresolved source discrepancies remain clearly bounded in the articles: Queen measurement sequences and physical quantities, emergency positioning deployment, seed 2019 final-withdrawal month (August vs September).
 - Website integration blocker: two original publications are readable at HTTP but HTTPS certificate endpoints fail. Actual repository validation remains unchanged. Isolated preview allowlisted only the exact two read URLs to inspect renderability; this is not a production pass or publication authorization.
 - No push, no main change, no architecture migration, no deployment. Formal approval remains required.
+
+## 09:34 source compatibility follow-up
+- Replaced ibis PNAS HTTP PDF link with the fully verified exact publisher HTTPS paper. No prose/PDF reflow.
+- Recorded bounded tunnel mirror search and rejected nonidentical 2012 paper substitution. One HTTP-only original remains; production validator unchanged.

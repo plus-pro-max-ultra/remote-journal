@@ -523,8 +523,8 @@ Type:
 Supports: 後續研究觀察幼年隱䴉成對交換領飛與跟隨時間，支持互惠解釋；不外推所有鳥種。
 
 4. Matching times of leading and following suggest cooperation through direct reciprocity during V-formation flight in ibis（PNAS，2015，Voelkl 等）
-http://alt.waldrapp.eu/images/medienberichte/Science/Vlkl_et_al_PNAS_2015.pdf
-Type: 開放原論文全文
+https://www.pnas.org/doi/10.1073/pnas.1413589112
+Type: 出版社原論文全文（HTTPS 已核對正文）
 Supports: 十四隻幼年朱鷺、39公里、跟飛時間、成對隊形、位置交換模型、替代解釋與觀察研究限制。
 
 5. One good turn: birds swap energy-sapping lead role（University of Oxford，2015-02-03）
