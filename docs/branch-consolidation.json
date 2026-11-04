@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-05",
+  "retained_branches": [
+    "preview",
+    "main",
+    "gh-pages"
+  ],
+  "archived": [
+    {
+      "retired_branch": "architecture-v1",
+      "commit": "73e54bffa1c85b713003b105c7eb0a910b66be37",
+      "archive_tag": "archive/2026-11-05/architecture-v1"
+    },
+    {
+      "retired_branch": "photo-preview",
+      "commit": "d9ef7139ab5d6abe0fda7e3e717799b29f21ed65",
+      "archive_tag": "archive/2026-11-05/photo-preview"
+    },
+    {
+      "retired_branch": "content-readiness-2026-11-04",
+      "commit": "c1bc59fb9f6b9104b5f4ab02df9b5c7051536b86",
+      "archive_tag": "archive/2026-11-05/content-readiness-2026-11-04"
+    },
+    {
+      "retired_branch": "daily-review-2026-11-04",
+      "commit": "c7cbd717b32ba2ef6e4846004127bd4cbfcebb39",
+      "archive_tag": "archive/2026-11-05/daily-review-2026-11-04"
+    },
+    {
+      "retired_branch": "docs/repo-architecture",
+      "commit": "4816ae7d8cb072be99378d8bd4755e3631dd7bc1",
+      "archive_tag": "archive/2026-11-05/docs/repo-architecture"
+    }
+  ]
+}

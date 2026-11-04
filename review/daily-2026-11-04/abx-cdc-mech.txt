@@ -1,0 +1,109 @@
+[1] About Antimicrobial Resistance | Antimicrobial Resistance | CDC — cdc.gov (2026-10-25)
+https://www.cdc.gov/antimicrobial-resistance/about/
+
+About Antimicrobial Resistance | Antimicrobial Resistance | CDC
+
+# About Antimicrobial Resistance
+
+ Oct. 25, 2026 
+
+## Key points
+
+- Antimicrobial resistance (AR) happens when germs develop the ability to defeat the drugs designed to kill them.
+- AR has the potential to affect people at any stage of life, as well as the healthcare, veterinary, and agriculture industries.
+- This makes it one of the world's most urgent public health problems.
+
+![Illustration of Shigella.](https://www.cdc.gov/antimicrobial-resistance/media/images/About-Antimicrobial-Resistance.jpg)
+
+### New CDC AR Data Available
+
+![CDC’s new AR Threats Report identifies urgent, serious, concerning threats.](https://www.cdc.gov/antimicrobial-resistance/media/images/artr-computer.jpg)
+
+ The 2026 update to the AR Threats Report is now live and provides the most comprehensive estimates of the impact of drug resistance on human health in the United States to date. Explore the report. 
+
+Antimicrobial resistance (AR) happens when germs like bacteria and fungi develop the ability to defeat the drugs designed to kill them. That means the germs are not killed and continue to grow. Resistant infections can be difficult, and sometimes impossible, to treat.
+
+AR is an urgent global public health threat, estimated to kill over one million people globally each year and associated with nearly 5 million deaths in 2019. According to CDC's 2026 Antimicrobial Resistance Threats Report (AR Threats Report), more than 9.3 million drug-resistant infections occur in the United States each year. More than 39,000 people die as a result. When Clostridioides difficile (C. diff) is added, the U.S. toll of all the threats in the AR Threats Report reaches 9.7 million infections and 50,800 deaths. Although C. diff infections are not typically drug-resistant, it is included in CDC's AR Threats Report because key factors—including antibiotic use and the spread of germs—drive both C. diff infections and the development of antimicrobial resistance, also known as drug resistance.
+
+Bacteria and fungi do not have to be resistant to every antibiotic or antifungal to be dangerous. Resistance to even one antibiotic or antifungal drug can mean serious problems. For example:
+
+- Antimicrobial-resistant infections that require the use of second- and third-line treatments can harm patients by causing serious side effects, such as organ failure and prolong care and recovery, sometimes for months.
+- Many medical advances are dependent on the ability to fight infections using antibiotics, including joint replacements, organ transplants, cancer therapy and the treatment of chronic diseases like diabetes, asthma, and rheumatoid arthritis.
+- In some cases, antimicrobial-resistant infections have no treatment options.
+
+If antibiotics and antifungals lose their effectiveness, then we lose the ability to treat infections and control these public health threats. 
+
+## Terms to know
+
+- Germs are microbes—very small living organisms including bacteria, fungi, parasites and viruses.
+- Pathogens are germs that cause infections. Most germs are harmless and even helpful to people.
+- Bacteria cause infections such as strep throat, foodborne illnesses, and other serious infections.
+- Fungi cause infections like athlete's foot, yeast infections, and other serious infections. 
+- Antibiotics are medicines that fight infections caused by bacteria in humans and animals by either killing the bacteria or making it difficult for the bacteria to grow and multiply.
+- Antifungals are medicines that treat fungal infections by killing or stopping the growth of dangerous fungi in humans, animals or plants.
+- People sometimes use "antibiotic" and "antimicrobial" interchangeably.
+
+## How antimicrobial resistance happens
+
+AR is a naturally occurring process. However, increases in antimicrobial resistance are driven by a combination of germs exposed to antibiotics and antifungals, and the spread of those germs and their resistance mechanisms.
+
+### How antibiotic and antifungal use affects antimicrobial resistance
+
+Antibiotics and antifungals kill some germs that cause infections, but they also kill helpful germs that protect our body from infection. Antimicrobial resistance accelerates when antibiotics and antifungals pressure bacteria and fungi to adapt. The antimicrobial-resistant germs survive, multiply and spread to other germs. These surviving germs have resistance traits in their DNA that can spread to other germs.
+
+### Spread of germs and resistance mechanisms
+
+To survive, germs can develop defense strategies against antibiotics and antifungals called resistance mechanisms. DNA tells the germ how to make specific proteins, which determine the germ's resistance mechanisms. Bacteria and fungi can carry genes for many types of resistance. 
+
+Alarmingly, antimicrobial-resistant germs can share their resistance mechanisms with other germs that have not been exposed to antibiotics or antifungals.
+
+This table gives a few examples of defense strategies used to resist the effects of antibiotics or antifungals.
+
+| Resistance mechanisms | Description |
+| --- | --- |
+| Restrict access of the antibiotic | Germs restrict access by changing the entryways or limiting the number of entryways. Example: Gram-negative bacteria have an outer layer (membrane) that protects them from their environment. These bacteria can use this membrane to selectively keep antibiotic drugs from entering. |
+| Get rid of the antibiotic or antifungal | Germs get rid of antibiotics using pumps in their cell walls to remove antibiotic drugs that enter the cell. Example: Some Pseudomonas aeruginosa bacteria can produce pumps to get rid of several different important antibiotic drugs, including fluoroquinolones, beta-lactams, chloramphenicol, and trimethoprim. Example: Some Candida species produce pumps that get rid of azoles such as fluconazole. |
+| Change or destroy the antibiotic | Germs change or destroy the antibiotics with enzymes, proteins that break down the drug. Example: Klebsiella pneumoniae bacteria produce enzymes called carbapenemases, which break down carbapenem drugs and most other beta-lactam drugs. |
+| Change the targets for the antibiotic or antifungal | Many antibiotic drugs are designed to single out and destroy specific parts (or targets) of a bacterium. Germs change the antibiotic’s target so the drug can no longer fit and do its job. Example: Escherichia coli bacteria with the mcr- 1 gene can add a compound to the outside of the cell wall so that the drug colistin cannot latch onto it. Example: Aspergillus fumigatus changes the cyp1A gene so that triazoles cannot bind to the protein. |
+| Bypass the effects of the antibiotic | Germs develop new cell processes that avoid using the antibiotic’s target. Example: Some Staphylococcus aureus bacteria can bypass the drug effects of trimethoprim. |
+
+## 5 things to know
+
+1. Antimicrobial resistance occurs when germs defeat the antibiotic or antifungal drugs designed to kill them. It does NOT mean your body is resistant to antibiotics or antifungals.
+2. Antimicrobial resistance can affect people at any stage of life. Infections caused by resistant germs are difficult—sometimes impossible—to treat. In many cases, these infections require extended hospital stays, additional follow-up doctor visits and treatments that may be costly and potentially toxic.
+3. Healthy habits can protect you from infections and help stop germs from spreading.
+4. Talk to your healthcare provider or veterinarian about whether antibiotics or antifungals are needed. Antibiotics and antifungals do not work on viruses, such as colds and the flu. These drugs save lives but can lead to side effects and antimicrobial resistance. If you have been taking these drugs, tell your doctor if you have three or more diarrhea episodes in 24 hours.
+5. Tell your healthcare provider if you recently traveled to or received care in another country. Antimicrobial resistance has been found in all regions of the world. Modern trade and travel mean it can move easily across borders and can spread in places like hospitals, farms, the community and the environment.
+
+## Impacts
+
+Antimicrobial resistance is one of the world's most urgent public health problems because it:
+
+- Can affect people at any stage of life.
+- Affects healthcare, veterinary, and agriculture industries.
+- Can make all antibiotics or antifungals ineffective, resulting in unstoppable infections.
+
+Stopping the spread of antimicrobial resistance is crucial. 
+
+## What can you do
+
+We all have a role to play, from travelers, animal owners and caregivers to patients and healthcare providers. 
+
+- Prevent infections in the first place.
+- Improve antibiotic and antifungal use to slow the development of resistance.
+- Stop the spread of antimicrobial resistance when it does develop.
+- Use CDC's Antimicrobial Resistance Communications Toolkit to share about the impact of drug-resistant infections and preventing infections.
+
+![how germs fight back against antibiotics](https://www.cdc.gov/antimicrobial-resistance/media/images/How-Germs-Fight-Back-Against-Antibiotics-thumb.jpg)
+
+![how ar moves from germ-germ](https://www.cdc.gov/antimicrobial-resistance/media/images/How-AR-Moves-thumb.jpg)
+
+![Germs Develop Antibiotic Resistance Over Time - Thumb Image](https://www.cdc.gov/antimicrobial-resistance/media/images/AR-Germs-Develop-Resistance-Over-Time-Thumb.jpg)
+
+ Published: May 15, 2024 
+
+Updated: October 25, 2026 
+
+Reviewed: October 25, 2026 
+
+The information on this page was last reviewed by subject matter experts to ensure accuracy.
