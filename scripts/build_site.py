@@ -531,7 +531,7 @@ def build_preview_index(drafts):
     body = f"""
 <section class="prose">
 <p>本頁收錄尚未刊出的審閱稿，僅存在於這個預覽站；正式版（journal-for-far.learnman.workers.dev）不含這些內容，刊出以批准為準。</p>
-<p>編輯方式：在 GitHub 的 <code>preview</code> 分支直接編輯對應的 JSON 檔（<code>drafts/</code> 與 <code>review/ready-drafts/</code>），儲存後預覽站會在一小時內更新；不需要批准。頁面本身不提供線上編輯器。</p>
+<p>編輯方式：在 GitHub 的 <code>preview</code> 分支直接編輯對應的 JSON 檔（<code>drafts/</code> 與 <code>review/ready-drafts/</code>），儲存後會定期檢查並重建預覽；部署完成後才會顯示更新，不需批准。頁面本身不提供線上編輯器。</p>
 </section>
 <h3 class="preview-group">今日新稿（{len(new_today)} 篇）</h3>
 <div class="topic-block"><div class="topic-table">{rows(new_today)}</div></div>
