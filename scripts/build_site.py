@@ -27,7 +27,7 @@ TOPICS_FILE = ROOT / "content" / "topic-queue.json"
 # Final public address is MM's decision (architecture plan v1.0, decision 7).
 # Until then, absolute URLs (canonical, social preview, sitemap, feed) use
 # the documented GitHub Pages address. Tracked in ops/RELEASE_CHECKLIST.md.
-SITE_URL = "https://plus-pro-max-ultra.github.io/remote-journal"
+SITE_URL = "https://journal-for-far.learnman.workers.dev"  # 2026-11-04 MM: 正式版不涉及 github（phonemsg-01M6JG9DFHVSRVHMGY10PCMH4D）
 SITE_NAME = "遠方誌 | Journal for Far"
 SITE_DESC = "遠方誌：從一個問題出發，讀懂歷史、科學、社會與日常背後的脈絡。"
 TAIPEI = timezone(timedelta(hours=8))
