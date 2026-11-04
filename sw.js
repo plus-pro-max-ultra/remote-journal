@@ -1,6 +1,6 @@
-const CACHE_NAME = "faraway-zine-v26";
+const CACHE_NAME = "faraway-zine-quality-v8";
 const APP_SHELL = [
-  "./", "./index.html", "./archive/", "./about/", "./privacy/",
+  "./", "./index.html", "./archive/", "./about/", "./privacy/", "./preview/",
   "./stories.js", "./assets/site.css", "./assets/site.js",
   "./manifest.webmanifest", "./feed.xml",
   "./icon-192.png", "./icon-512.png", "./favicon-32.png", "./favicon-16.png", "./icon-180.png"

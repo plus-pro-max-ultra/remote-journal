@@ -1,0 +1,22 @@
+{
+  "description": "Preview identifiers only. Publication numbers are established 001-016 plus completed review017; WIP drafts are not assigned publication numbers. Official URLs remain unchanged until an approved release.",
+  "aliases": {
+    "roads": "001-roads",
+    "median": "002-median",
+    "imperial": "003-imperial",
+    "stock": "004-stock",
+    "maps": "005-maps",
+    "submarine-cables": "006-submarine-cables",
+    "webb-l2": "007-webb-l2",
+    "smallpox": "008-smallpox",
+    "comet-windows": "009-comet-windows",
+    "daylight-saving-time": "010-daylight-saving-time",
+    "typhoon-names": "011-typhoon-names",
+    "power-frequency": "012-power-frequency",
+    "runway-numbers": "013-runway-numbers",
+    "escalator-stand-walk": "014-escalator-stand-walk",
+    "movie-popcorn": "015-movie-popcorn",
+    "survivorship-bias": "016-survivorship-bias",
+    "antibiotic-course": "017-antibiotic-course"
+  }
+}
