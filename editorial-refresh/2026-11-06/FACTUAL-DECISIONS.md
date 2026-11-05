@@ -1,4 +1,4 @@
-# 事實措辭待決總表｜003、005–006、008–016
+# 事實措辭待決總表｜003、005–006、008–017
 2026-11-06。以下原句取自本輪已核的gh-pages 8b8f8c5，不是重新撰寫。建議文字尚未替換正文。003已另詢、其餘不因本表產生批准。
 
 ## 003-imperial
@@ -423,3 +423,93 @@ https://conference.nber.org/conf_papers/f245079.pdf 會議論文模型考慮重�
 5. 原「癌症…人瑞…只要結論只對存活者成立就不是偏差」；建議「研究若只描述明確界定的存活者群體，不必然有這種外推偏差；若仍想推論治療效果或基因因果，其他選樣與混雜問題仍須處理」。限定對象不等於自動無偏。
 照片圖說與署名維持；示意照片與史實已分標，未新增視覺主張。
 
+
+## 017-antibiotic-course
+### 原文逐字摘錄
+
+> WHO 在手冊相關問答中也說明，療程須考慮病人特徵、臨床情境與可用資源；在可行時建議較短療程，並強調依微生物檢驗結果調整治療 [4] 。不過這份 2021 年問答對證據本身也保留彈性：劑量與療程的建議來自非系統性文獻回顧及專家意見，並未定為標準處理方式。
+
+### 修正建議、理由及已讀來源
+
+# 017 查核與措辭待決
+
+封存原稿5d744c82ac58173e4d3ab6a1fad06efbf0dfa3a5；品質控管未解除，結構待討論不由本輪代決。六處純文字修順／錯字，沒有重組論證。
+
+## 事實與證據範圍
+
+1. CDC適應症、病毒無效、依處方用藥、剩藥／分享及副作用聯絡，與原文相符。抗藥性的對象、選擇壓力、菌群、DNA傳播及防禦方式也有現行CDC頁支持。
+2. WHO2022書籍概覽支持選藥、劑量、途徑與療程共同規劃；目前列2024、2025新指引與差異摘要，未把概覽冒充全書。2021問答是成書前諮詢時期的文件，不能自動視為2022正式版方法的完整現況。
+3. BALANCE公開摘要支持3,608人、74院、7國，14.5%／16.1%、差-1.6百分點、95.7%CI[-4.0,0.8]、4百分點界值與23.1%延長療程。保留不劣不等同完全相同、更不等於更優的限定。NEJM可讀摘要與附屬資料索引，未取得全文本文；會議摘要可核同一試驗，非第二個獨立試驗。登錄現列3,622及68據點，與刊載分析3,608／74院屬不同記錄欄位，不覆蓋論文結果數字；若要解釋差額需讀全文流程，未臆測原因。
+4. 台灣四不一要與WHO2023依臨床指示完成／不分享吻合。WHO訪談也有簡化的未完成療程促抗藥敘事，本文沒有把它當作普遍因果證明，此界線保留。
+
+## 待確認的精確措辭
+
+原文：「不過這份 2021 年問答對證據本身也保留彈性：劑量與療程的建議來自非系統性文獻回顧及專家意見，並未定為標準處理方式。」
+
+建議：「不過，這份 2021 年問答說明，劑量與療程建議來自非系統性文獻回顧及專家意見，沒有對證據品質作正式評定。」
+
+理由：來源原句是 Formal assessments of the quality of the evidence were not performed，不等於未被定為標準處理方式。這是證據方法的語義修正，不在正文默改。若要轉述最終2022書的方法，須另讀全書相關方法章，不用2021問答替代。
+
+已讀來源：
+https://cdc.gov/antibiotic-use/about/index.html
+https://www.cdc.gov/antimicrobial-resistance/about/
+https://www.who.int/publications/i/item/9789240062382
+https://www.who.int/news-room/questions-and-answers/item/the-who-essential-medicines-list-antibiotic-book
+https://www.nejm.org/doi/full/10.1056/NEJMoa2404991
+https://clinicaltrials.gov/study/NCT03005145
+https://www.cdc.gov.tw/Bulletin/Detail/6NhYstXA0WPZCex8po38mw?typeid=9
+https://www.who.int/podcasts/series/science-in-5/episode--99---three-things-to-keep-in-mind-when-taking-antibiotics
+https://pmc.ncbi.nlm.nih.gov/articles/PMC11776770/
+
+
+## 既有十五篇草稿：第一批
+
+原JSON保留，以下另存草稿副本，未覆寫review/ready-drafts。高山煮蛋無新增事實更正提案。行李與點字待決如下。
+# 行李轉盤查核
+
+已讀原十二項來源。TSA流程限美國，ULD認證／配重／固定、ANA標籤與航線／機場限制、JAL與商務艙同批及分段首批、753四點與交換資料，都有明文。BEUMER為設備商，轉機／抵達分流可以作流程例，不將推廣效益泛化。卡達入口有追蹤與延誤申報，不支持逐件排序。Travel+Leisure2023明說最後裝入常先卸、裝機可任意順序而無保證，並非證明晚報到必先領。中央社2019的99.5%及40年歷史僅來源備查，正文未額外塞入。五處純潤，推論邊界保留。
+
+## 原文與待確認建議
+
+原文：「香港消費者委員會曾公布一宗投訴：包含優先行李的加購服務沒有如期實現，其中一件因掛牌脫落及外判作業而延後，航空公司最後退款。」
+
+建議：「香港消費者委員會曾公布一宗投訴：旅客加購優先服務後，其中一件行李仍接近最後一批才到，旅客發現優先掛牌已丟失。航空公司表示，不排除另一承辦商處理造成延誤，最後退回優先服務費。」
+
+理由：來源把掛牌丟失列為旅客發現，航空公司則說『不排除』承辦商交接原因；並未證明兩者均為確定因果。這是歸因強度更正，不默改正文。
+
+已讀來源：
+https://www.cntraveler.com/story/how-to-get-your-luggage-first-at-baggage-claim
+https://www.travelandleisure.com/how-to-get-your-luggage-to-arrive-first-7506206
+https://www.cna.com.tw/news/ahel/201912130311.aspx
+https://www.tsa.gov/travel/security-screening
+https://www.evaair.com/zh-tw/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/membership-benefit/gold-card/
+https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/
+https://www.ana.co.jp/zh/tw/amc/premium-members/benefits/smooth-flying/
+https://www.jal.co.jp/cn/zhcn/offers/service/optional/prioritybaggage/
+https://www.consumer.org.hk/tc/article/575-Airline_Service_Complaints/575-Airline_Service_Complaints-case
+https://www.qatarairways.com/en/baggage.html
+https://www.beumergroup.com/knowledge/airport/it-is-time-to-rethink-how-airports-handle-inbound-baggage/
+https://www.iata.org/en/programs/ops-infra/baggage/baggage-tracking/
+# 六點點字查核
+
+八筆書目中4與6同一Perkins頁，合計七個獨立頁已讀，不灌水來源數。Campsie2021全文對1833索書／不識布萊葉、1821校內先試、字母與語音雙版本、1822信、工具捐贈及第五列第三欄示例均有明文；未把研究者轉引通信當親閱手稿。Perkins2025引1829前言支持縮小字形／普通字元／音樂。Cambridge2023可讀全文支持63字元加空白、不同語言正字法／英文縮寫與不以明眼閱讀作唯一預設。2**6=64獨立計算，原文包含空白正確。五處純潤，未消除來源間衝突。
+
+## 原文與待確認建議
+
+原文：「AFB 的傳播史列出，1854 年密蘇里盲校率先在美國使用布萊葉系統，1917 年才形成美國標準，1932 年又走向英語點字統一。」
+
+建議：「AFB 的傳播史把美國達成標準的年份列為1917年；Perkins則將美國標準化列在1919年。兩頁並未在相關段落說明年份差異，仍須核對各自所指的決議、採用或落實階段，不能先把它們寫成同一事件。」
+
+理由：AFB確寫1917，Perkins確寫1919；現有頁面不足以逕改成1919或宣稱1917決議／1919實施。1854與1932仍有AFB明文。此段與原文後續「不同層次」解釋需一起重看，不能拿那句替未核的兩年差額補因果。
+
+來源另一差異：Perkins歷史頁說1821巴比耶短暫到校展示；Campsie全文與LoC則否認由他本人展示。正文第四節已採Campsie檔案研究的明確歸因，而非假裝所有機構同意，保留。第五節出版者短期利益是作者從印刷投資作的推論，不改寫為已量測的經濟結果。
+
+已讀來源：
+https://www.afb.org/about-afb/history/online-museums/life-and-legacy-louis-braille/braille-nvents-his-code
+https://www.afb.org/about-afb/history/online-museums/life-and-legacy-louis-braille/braille-recognized/dissemination
+https://www.perkins.org/history-of-braille/
+https://www.perkins.org/braille-barbier/
+https://dsq-sds.org/article/id/790/
+https://www.perkins.org/braille-barbier/
+https://www.cambridge.org/core/journals/applied-psycholinguistics/article/position-paper-on-researching-braille-in-the-cognitive-sciences-decentering-the-sighted-norm/64946B5F1007FE52140E1C4C5AFB356E
+https://blogs.loc.gov/nls-music-notes/2022/04/new-lessons-in-braille-history/
