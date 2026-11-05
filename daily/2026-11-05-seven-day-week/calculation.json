@@ -1,0 +1,23 @@
+{
+  "hour_order": [
+    "土",
+    "木",
+    "火",
+    "日",
+    "金",
+    "水",
+    "月"
+  ],
+  "hours_per_day": 24,
+  "day_first_hour": [
+    "土",
+    "日",
+    "月",
+    "火",
+    "水",
+    "木",
+    "金"
+  ],
+  "remainder": 3,
+  "source": "https://lexundria.com/dio/37.19/cy"
+}
