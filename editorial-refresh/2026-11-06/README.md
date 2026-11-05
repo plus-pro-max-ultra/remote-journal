@@ -2,19 +2,21 @@
 
 2026-11-06 · 33篇全文及草稿
 
+**01:35後更新：[待確認建議重審](REASSESSMENT.md)**。18份決策頁已按新準則調整建議，用精準措辭承擔證據範圍；正文未套用。下方01:03備稿描述是歷史狀態，001–018其後已在gh閱讀，017在gh解除品質控管，main仍未變更。
+
 這一輪已逐篇先查核來源，再潤飾非爭議文字。這裡可以讀完整備審稿、看文字差異，再處理需要確認的事實或解釋。**完成備稿不等於已批准發布。**
 
 - **15篇本輪沒有新增事實修正待決**，包括003已確認的父系限定；仍待整體審閱。
 - **18篇有待確認內容**。建議與原句分開，爭議句暫不默改。表中可直接進入逐篇決策頁。
-- **017仍是品質控管**，不開放網站閱讀，結構問題不由這次潤飾代決。
+- **017在gh已恢復閱讀**，main尚未變更；待確認的WHO語義仍未默改。
 - **018以你剛完成的手動修訂為底**。保留9處改文，另列日曆比喻的解釋範圍建議，不回復舊稿。
-- 兩站已刊正文沒有套用這輪潤飾；這裡只供審閱。005保留遠端最新三處正文改文；004品質提升重寫另軌，不冒充這輪已完成。
+- 001–018已在gh套用非爭議潤飾，main未變更；這裡保留審閱與未決建議。005保留遠端最新三處正文改文；004品質提升重寫另軌，不冒充這輪已完成。
 
 ## 怎麼看
 
 點「全文」讀措辭；點「差異」比對；點「待確認」看原句、建議、理由及來源。可以先看有待決的篇目，再一次審閱其餘措辭。本文中的來源標記對應頁尾來源清單。文字審閱頁不重排圖片，圖說或ALT的事實問題另列待確認，原圖像保留。
 
-## 已刊001–016與品質控管017
+## 001–017（gh可讀；main另依條件發布）
 
 | 編號 | 全文 | 本輪狀態 | 比對／待確認 |
 |---|---|---|---|
@@ -34,7 +36,7 @@
 | 014 | [電扶梯該站一邊，還是兩邊都站？](articles/014-escalator-stand-walk/review.md) | 事實／範圍待確認 | [差異](articles/014-escalator-stand-walk/changes.diff) · [待確認](articles/014-escalator-stand-walk/decisions.md) |
 | 015 | [為什麼電影院的爆米花這麼貴？](articles/015-movie-popcorn/review.md) | 事實／範圍待確認 | [差異](articles/015-movie-popcorn/changes.diff) · [待確認](articles/015-movie-popcorn/decisions.md) |
 | 016 | [只看成功案例，會漏掉什麼？](articles/016-survivorship-bias/review.md) | 事實／範圍待確認 | [差異](articles/016-survivorship-bias/changes.diff) · [待確認](articles/016-survivorship-bias/decisions.md) |
-| 017 | [抗生素的療程，為什麼不能自己決定？](articles/017-antibiotic-course/review.md) | 品質控管不解除；WHO措辭待確認 | [差異](articles/017-antibiotic-course/changes.diff) · [待確認](articles/017-antibiotic-course/decisions.md) |
+| 017 | [抗生素的療程，為什麼不能自己決定？](articles/017-antibiotic-course/review.md) | gh已恢復；WHO措辭待確認 | [差異](articles/017-antibiotic-course/changes.diff) · [待確認](articles/017-antibiotic-course/decisions.md) |
 
 ## 十五篇既有待刊草稿
 
