@@ -1,0 +1,266 @@
+[
+  {
+    "id": "001-roads",
+    "title": "為什麼道路愈寬，交通有時反而愈塞？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/001-roads/index.html",
+    "status": "先查核完成（原始摘要層級及4來源全文）；潤飾審閱稿已存WIP，未發布",
+    "kind": "已刊"
+  },
+  {
+    "id": "002-median",
+    "title": "為什麼「平均數」有時會把現實說得很不像現實？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/002-median/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "003-imperial",
+    "title": "「萬世一系」之下，日本皇位繼承規則真的從未改變嗎？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/003-imperial/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "004-stock",
+    "title": "商品全部賣完，為什麼不一定是最好的結果？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/004-stock/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "005-maps",
+    "title": "為什麼每一張平面世界地圖，都會扭曲地球？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/005-maps/index.html",
+    "status": "已核對最新正文；ALT事實錯誤待MM決定，未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "006-submarine-cables",
+    "title": "你正在讀的這篇文章，是怎麼從海底抵達的？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/006-submarine-cables/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "007-webb-l2",
+    "title": "為什麼韋伯望遠鏡要到 150 萬公里外，還得定期推自己一把？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/007-webb-l2/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "008-smallpox",
+    "title": "天花為什麼是人類唯一根除的傳染病？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/008-smallpox/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "009-comet-windows",
+    "title": "為什麼飛機的窗戶是圓的？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/009-comet-windows/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "010-daylight-saving-time",
+    "title": "為什麼十幾億人每年要撥兩次時鐘？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/010-daylight-saving-time/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "011-typhoon-names",
+    "title": "颱風的名字是誰決定的？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/011-typhoon-names/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "012-power-frequency",
+    "title": "為什麼全台灣的電，每秒一起脈動 60 次？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/012-power-frequency/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "013-runway-numbers",
+    "title": "為什麼機場要花幾十萬，替跑道改名字？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/013-runway-numbers/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "014-escalator-stand-walk",
+    "title": "電扶梯該站一邊，還是兩邊都站？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/014-escalator-stand-walk/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "015-movie-popcorn",
+    "title": "為什麼電影院的爆米花這麼貴？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/015-movie-popcorn/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "016-survivorship-bias",
+    "title": "只看成功案例，會漏掉什麼？",
+    "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
+    "source_path": "articles/016-survivorship-bias/index.html",
+    "status": "待逐項查核；未潤飾",
+    "kind": "已刊"
+  },
+  {
+    "id": "017-antibiotic-course",
+    "title": "抗生素的療程，為什麼不能自己決定？",
+    "source_ref": "5d744c82ac58173e4d3ab6a1fad06efbf0dfa3a5",
+    "source_path": "articles/017-antibiotic-course/index.html",
+    "status": "已作全文來源比較；事實／結構待決，QC不變，未潤飾",
+    "kind": "品質控管"
+  },
+  {
+    "id": "altitude-boiling-eggs",
+    "title": "高山上的水滾了，為什麼蛋反而煮更久？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/altitude-boiling-eggs.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "baggage-carousel-order",
+    "title": "行李轉盤：為什麼你的行李總是看起來最後出來？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/baggage-carousel-order.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "braille-six-dots",
+    "title": "十二個點到六個點：點字的歷史，為什麼不只是天才改良軍用密碼？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/braille-six-dots.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "earthquake-early-warning",
+    "title": "地震已經搖了，警報為什麼才響？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/earthquake-early-warning.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "emergency-call-112",
+    "title": "手機顯示「只能撥緊急電話」，112 到底借到了什麼？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/emergency-call-112.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "etc-gantry-tolling",
+    "title": "國道沒有收費站了，你的通行費是誰在算？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/etc-gantry-tolling.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "hsr-tunnel-ears",
+    "title": "高鐵進隧道，耳朵感到的不是只有海拔",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/hsr-tunnel-ears.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "lottery-draw-integrity",
+    "title": "樂透開獎，怎麼證明沒被動手腳？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/lottery-draw-integrity.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "metro-platform-doors",
+    "title": "捷運列車為什麼每次都能對準月台門？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/metro-platform-doors.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "onigiri-wrap-engineering",
+    "title": "便利商店的飯糰包裝，為什麼要分成好幾片？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/onigiri-wrap-engineering.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "qr-error-correction",
+    "title": "一張磨損的 QR code，手機究竟怎麼把它讀回來？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/qr-error-correction.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "queens-head-neck",
+    "title": "女王頭的脖子，為什麼不能只用一把尺預告結局？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/queens-head-neck.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "seed-vault-withdrawal",
+    "title": "種子備份領出來之後，為什麼還得種一次、再存回去？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/seed-vault-withdrawal.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "traffic-light-timing",
+    "title": "紅燈多等十秒，換來的是誰的順暢？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/traffic-light-timing.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "v-formation-birds",
+    "title": "V 字隊形裡，鳥怎麼找到那個值得跟的位置？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "review/ready-drafts/v-formation-birds.json",
+    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "kind": "待審閱十五篇"
+  },
+  {
+    "id": "seven-day-week",
+    "title": "為什麼一週是七天，卻不必配合月亮？",
+    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_path": "daily/2026-11-05-seven-day-week/draft.json",
+    "status": "11/5來源已查；待依新風格逐段潤飾",
+    "kind": "每日候選"
+  }
+]
