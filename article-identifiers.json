@@ -1,5 +1,5 @@
 {
-  "description": "Preview identifiers only. Publication numbers are established 001-016 plus completed review017; WIP drafts are not assigned publication numbers. Official URLs remain unchanged until an approved release.",
+  "description": "gh-pages numbered articles001–018. Main remains separately approval-gated.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -17,6 +17,7 @@
     "escalator-stand-walk": "014-escalator-stand-walk",
     "movie-popcorn": "015-movie-popcorn",
     "survivorship-bias": "016-survivorship-bias",
-    "antibiotic-course": "017-antibiotic-course"
+    "antibiotic-course": "017-antibiotic-course",
+    "seven-day-week": "018-seven-day-week"
   }
 }
