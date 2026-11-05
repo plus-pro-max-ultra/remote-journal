@@ -42,13 +42,25 @@
 
 研究制度的歷史，可以從每次繼承如何決定，追問誰有資格、誰有權作最後選擇。
 
+## 留給讀者的問題
+
+當一個制度宣稱自己「自古如此」，你會先尋找哪幾種證據，才能判斷它是持續不變的規則，還是跨越不同時代而重新詮釋的傳統？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - 日本宮內廳：皇位繼承制度（現行規則） ↗ 支持內容：文中第三節：現行制度下皇位由皇統男系男子繼承（憲法第二條、皇室典範第一、二條）與繼承順位的官方說明
   https://www.kunaicho.go.jp/en/learn/institution/seido/seido03.html
+<a id="source-2"></a>
+
 - 日本政府：Ensuring a Stable, Appropriate Imperial Succession（2005 年研究文件） ↗ 支持內容：文中第一節：明治《皇室典範》制定前並無同類以成文條文完整規定繼承條件的法規；日本歷史上曾有八位女性天皇
   https://japan.kantei.go.jp/policy/koshitsu/051124_e.pdf
+<a id="source-3"></a>
+
 - The Metropolitan Museum of Art, “Kamakura and Nanbokucho Periods (1185-1392)” ↗ 支持內容：文中第二節新增：1336 年起南北朝並立，至 1392 年合一
   https://www.metmuseum.org/en/essays/kamakura-and-nanbokucho-periods-1185-1392
+<a id="source-4"></a>
+
 - Wikipedia, “Nanboku-chō period” ↗ 支持內容：背景核對（第三手）：1336 年足利尊氏擁立光明天皇於京都、後醍醐天皇退往吉野另立南朝、雙方互爭正統
   https://en.wikipedia.org/wiki/Nanboku-ch%C5%8D_period

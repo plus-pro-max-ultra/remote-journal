@@ -38,13 +38,25 @@
 
 不過，各種資料缺口並不相同：飛機面對的篩子是炮火，基金面對的篩子是績效門檻，而人生建議的篩子往往更隱形，因為失敗者很少登台演講、很少出書。篩選過程越難看見，就越需要主動尋找反面證據；這正是瓦德當年做的事，他不滿足於數彈孔，而是去問：彈孔沒有出現在哪裡？
 
+## 留給讀者的問題
+
+回想一個你最近聽進去的成功建議：給建議的人跨過了哪一道篩子？如果改去問沒跨過那道篩子的人，同樣的建議還會剩下多少？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - A Reprint of 'A Method of Estimating Plane Vulnerability Based on Damage of Survivors'（美國國防技術資訊中心 DTIC 館藏頁，編號 ADA091073） ↗ 支持內容：瓦德 1943 年為哥倫比亞大學統計研究小組撰寫的八份飛機存活性備忘錄確實存在；1980 年由海軍分析中心重印並公開發行；重印說明稱此方法對國防分析仍然有用
   https://apps.dtic.mil/sti/citations/ADA091073
+<a id="source-2"></a>
+
 - Mangel & Samaniego, "Abraham Wald's Work on Aircraft Survivability"（Journal of the American Statistical Association 79(386), 1984, pp. 259-267；作者於加州大學網站公開的全文 PDF） ↗ 支持內容：瓦德方法的技術內容：飛機分為引擎、機身、燃油系統與其餘四個部位；假設未中彈的飛機必定返航；以返航機的彈痕分佈反推各部位中彈後的存活機率；該方法用於二戰，並在韓戰、越戰沿用；備忘錄共八份、一百多頁
   https://people.ucsc.edu/~msmangel/Wald.pdf
+<a id="source-3"></a>
+
 - Elton, Gruber & Blake, "Survivorship Bias and Mutual Fund Performance"（Review of Financial Studies 9(4), 1996, pp. 1097-1120；SSRN 摘要頁） ↗ 支持內容：消失的基金多因績效不佳而退場，許多以合併方式消失；只研究存活基金會高估投資人實際拿到的報酬；作者追蹤 1976 年底存在的全部基金並計入合併條件，以精確估計倖存者偏差
   https://papers.ssrn.com/sol3/papers.cfm?abstract_id=7626
+<a id="source-4"></a>
+
 - Niendorf & Beck, "Good to Great, or Just Good?"（Academy of Management Perspectives 22(4), 2008；此連結為 hmr 雜誌刊載的荷蘭文譯本） ↗ 支持內容：Collins 從 1,435 家公司中選出 11 家的篩選方法與五項原則；作者指出兩個方法論錯誤；以原研究選樣期之後的股價表現進行配對檢定重新檢驗，11 家公司大多未顯著超越比較基準
   https://hmr.nl/wp-content/uploads/2011/02/hmr_2009_125_Niendorf.pdf

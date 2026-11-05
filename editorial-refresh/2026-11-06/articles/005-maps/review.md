@@ -62,13 +62,25 @@
 
 延伸應用：比較兩張以不同投影繪製的世界地圖，或找一張統計圖，試著寫出它保留的特性與犧牲的資訊。
 
+## 留給讀者的問題
+
+下次看到世界地圖、數據圖表或績效儀表板時，你會先問它保留了哪一種特性、犧牲了哪些資訊？如果這張圖要用來回答另一個問題，你是否會選擇不同的呈現方式？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - U.S. Geological Survey：How are different map projections used? ↗ 支持內容：說明所有平面世界地圖都會失真，並比較方向、距離、面積與形狀等不同投影特性。
   https://www.usgs.gov/faqs/how-are-different-map-projections-used
+<a id="source-2"></a>
+
 - U.S. Geological Survey：Map Projections（1993） ↗ 支持內容：介紹地圖投影的用途、各種投影的利弊，以及如何依製圖目的選擇投影。
   https://pubs.usgs.gov/publication/70047422
+<a id="source-3"></a>
+
 - U.S. Geological Survey：Guide to Selecting Map Projections ↗ 支持內容：整理保角、等積、等距等地圖投影性質，說明不同幾何特性之間的取捨。
   https://pubs.usgs.gov/pp/1453/report.pdf
+<a id="source-4"></a>
+
 - Reuters Graphics, “The true size of Africa”（2025-09-03，Mariano Zafra 與 Sudev Kiyada） ↗ 支持內容：文中第二節新增：格陵蘭約 210 萬平方公里、非洲約 3,030 萬平方公里、非洲約為格陵蘭 14 倍、墨卡托地圖上格陵蘭常顯得與非洲一樣大
   https://www.reuters.com/graphics/AFRICA-MAP/lgpdaqrdyvo/

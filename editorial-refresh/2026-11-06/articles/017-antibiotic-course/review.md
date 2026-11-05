@@ -52,23 +52,45 @@ BALANCE 排除了嚴重免疫抑制、感染病灶需要較長療程、培養結
 
 實際帶進診間的問題應該是：這次治療針對什麼感染？預計多久、何時需要再評估？檢驗結果會不會改變用藥？如果出現副作用該怎麼聯絡？CDC 提醒，抗生素可能造成從噁心、腹瀉到嚴重過敏等副作用，發生時應聯絡醫療人員，不能用「一定得吃完」壓過安全警訊。療程不是越長越安心、也不是感覺好了就結束；而是用證據決定需要多少、再依個別情況重新判斷。
 
+## 留給讀者的問題
+
+如果醫師把原先十四天的療程改成七天，和病人自行吃到第七天停下來，兩個決定各自掌握哪些資訊？下次拿到處方時，最值得補問的是哪一項？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Healthy Habits: Antibiotic Do’s and Don’ts（美國 CDC，2025-09-23） ↗ 支持內容：適應症、對病毒無效、依處方服用、不分享／留藥及副作用聯絡。
   https://cdc.gov/antibiotic-use/about/index.html
+<a id="source-2"></a>
+
 - About Antimicrobial Resistance（美國 CDC，現行頁） ↗ 支持內容：抗藥的是微生物；抗生素作用、選擇壓力、存活繁殖、遺傳特徵傳播與防禦方式。
   https://www.cdc.gov/antimicrobial-resistance/about/
+<a id="source-3"></a>
+
 - The WHO AWaRe antibiotic book（WHO，2022-12-09，現行更新說明） ↗ 支持內容：選藥／劑量／途徑／療程共同規劃；2024及2025指引差異與更新中，不宣稱已核讀全書。
   https://www.who.int/publications/i/item/9789240062382
+<a id="source-4"></a>
+
 - The WHO Essential Medicines List Antibiotic Book（WHO 問答，2021-11-24） ↗ 支持內容：可行時較短療程、依病人及微生物結果調整；療程證據為非系統性回顧與專家意見，未正式評定品質。
   https://www.who.int/news-room/questions-and-answers/item/the-who-essential-medicines-list-antibiotic-book
+<a id="source-5"></a>
+
 - Antibiotic Treatment for 7 versus 14 Days in Patients with Bloodstream Infections（BALANCE Investigators，NEJM，2024-11-20 線上發表） ↗ 支持內容：3,608人／74院／7國、排除條件、90天死亡率、區間與不劣性界值、延長實際療程比例。僅讀公開摘要，非完整論文。
   https://www.nejm.org/doi/full/10.1056/NEJMoa2404991
+<a id="source-6"></a>
+
 - BALANCE（ClinicalTrials.gov，NCT03005145） ↗ 支持內容：核對試驗身份與登錄設計；不將登錄當獨立結果證據。
   https://clinicaltrials.gov/study/NCT03005145
+<a id="source-7"></a>
+
 - 「四不一要，Here we go！」2024年世界抗生素週響應活動（台灣疾管署，2024-11-18） ↗ 支持內容：不隨便停藥、遵守醫囑、避免自行買藥及分享他人抗生素。
   https://www.cdc.gov.tw/Bulletin/Detail/6NhYstXA0WPZCex8po38mw?typeid=9
+<a id="source-8"></a>
+
 - Episode #99: Three things to keep in mind when taking antibiotics（WHO，2023-05-12） ↗ 支持內容：依臨床人員指示完成療程、不分享抗生素；未採用其簡化抗藥性敘事作單一普遍因果。
   https://www.who.int/podcasts/series/science-in-5/episode--99---three-things-to-keep-in-mind-when-taking-antibiotics
+<a id="source-9"></a>
+
 - 376. 7 versus 14 days of Antibiotic Treatment for Patients with Bloodstream Infections（Daneman、Fowler，會議摘要，2024-10-18 場次） ↗ 支持內容：研究團隊會議摘要核對試驗對象、排除條件及主要結果。
   https://pmc.ncbi.nlm.nih.gov/articles/PMC11776770/

@@ -46,19 +46,37 @@ L2 適合韋伯，卻未必適合其他任務。L4、L5 在符合條件的理想
 
 這個類比不能直接當成模型使用。軌道修正可由力學與追蹤資料計算；人的工作受疲勞、選擇和外部需求影響，不能直接套用同一套方程式。韋伯提供的問題不是「穩定一定比較好」，而是：為了達到目標，我們願意持續投入什麼，又如何知道這份投入是否值得？
 
+## 留給讀者的問題
+
+下次看到「某探測器抵達 L2」的新聞，試著追問三件事：它是停在那個點上，還是繞著點走？它靠什麼留下來，天生穩定，還是燃料？以及，它用這個代價換到了什麼只有那裡才有的條件？再找一找：SOHO、Gaia、Euclid 這些任務各自停在哪個拉格朗日點，理由和韋伯相同嗎？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Webb's Orbit（NASA Science，韋伯任務官方頁） ↗ 支持內容：L2 位於背陽側 150 萬公里、繞太陽運行；三天到月球距離、約 30 天到 L2（騎車上坡比喻）；六個月光暈軌道規模接近月球軌道；避開地球與月球陰影、可 24 小時觀測；SPF 一百萬；深空網路三座天線、每天最多兩次聯繫；拉格朗日 18 世紀解三體問題；L1 駐有 DSCOVR/SOHO 等、L2 曾有 WMAP/Herschel/Planck
   https://science.nasa.gov/mission/webb/orbit/
+<a id="source-2"></a>
+
 - What is a Lagrange Point?（NASA Science／WMAP 團隊 Neil Cornish，2018-03-27） ↗ 支持內容：拉格朗日點的力學定義（引力＝向心力）；1772 年論文名；L1/L2/L3 為鞍點、不穩定時間尺度約 23 天；L4/L5 在質量比大於 24.96 時穩定；科氏力穩定機制；特洛伊小行星
   https://science.nasa.gov/resource/what-is-a-lagrange-point/
+<a id="source-3"></a>
+
 - How Does Webb Stay Cold?（NASA Science，2025-09-03 更新） ↗ 支持內容：五層 Kapton 遮陽罩、保鮮膜厚度、層間不接觸、鋁與矽鍍膜；向陽面 358 K（85°C）、背陽面約 40 K（-233°C）；MIRI 兩級製冷至 18 K／7 K；南極 Vostok 站 -89°C 紀錄對照；開放式設計相對於數噸冷媒的取捨
   https://science.nasa.gov/mission/webb/science-overview/science-explainers/how-does-webb-stay-cold/
+<a id="source-4"></a>
+
 - JWST Orbit（太空望遠鏡科學研究所 STScI 任務文件） ↗ 支持內容：光暈軌道距 L2 點 25 萬至 83.2 萬公里、週期約六個月、離地最遠 180 萬公里；軌道速度約每秒 1 公里；光壓為主要擾動來源；軌道維持點火名義間隔 42 天、最短 21 天、需 19 天追蹤資料；其他拉格朗日點任務典型每年 3–4 次
   https://jwst-docs.stsci.edu/jwst-observatory-characteristics/jwst-orbit
+<a id="source-5"></a>
+
 - NASA Says Webb's Excess Fuel Likely to Extend its Lifetime Expectations（NASA Webb 任務團隊部落格，2021-12-29） ↗ 支持內容：亞利安五號入軌精度使推進劑足以支持「顯著超過 10 年」（最低基線 5 年）；第一次中途修正點火 65 分鐘、增加每秒 20 公尺；第二次增加每秒 2.8 公尺；太陽能板發射後約 29 分鐘提前展開
   https://science.nasa.gov/blogs/webb/2021/12/29/nasa-says-webbs-excess-fuel-likely-to-extend-its-lifetime-expectations/
+<a id="source-6"></a>
+
 - Precise Ariane 5 launch likely to extend Webb's expected lifetime（歐洲太空總署，2021-12-29） ↗ 支持內容：發射日期 2021-12-25、地點法屬圭亞那、ESA 提供亞利安五號火箭；軌道維持、姿態控制與動量管理為燃料三大用途；此公告與 NASA 同日公告內容相近，不算獨立研究
   https://www.esa.int/Science_Exploration/Space_Science/Webb/Precise_Ariane_5_launch_likely_to_extend_Webb_s_expected_lifetime
+<a id="source-7"></a>
+
 - Webb FAQs（NASA Science 常見問題全集） ↗ 支持內容：不可維修性：哈伯位於約 600 公里低軌道可維修、韋伯在未來十年載具可及範圍之外，且維修評估結論為得不償失；任何一天可觀測約 39% 天空、六個月涵蓋全天；主鏡 6.5 公尺、集光面積約為哈伯六倍
   https://science.nasa.gov/mission/webb/faqs-full/

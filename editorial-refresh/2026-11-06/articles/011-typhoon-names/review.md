@@ -52,19 +52,37 @@
 
 Jung 等人的研究無論最終是否成立，都補上了第四個約束：名字會攜帶意義，無論設計者有沒有放進去。從 Wragge 用政治人物開玩笑，到 14 個成員端出各自的花鳥魚蟲，命名制度演化的方向，其實是一路在移除名字裡多餘的意義，只留下辨識的功能。這幾乎是所有標籤系統的共同命運：代碼、編號與名字，最後都要在「好溝通」與「不多說」之間找到平衡。
 
+## 留給讀者的問題
+
+下一個颱風來臨時，你會先看它的名字，還是它的路徑預報？如果標籤注定影響判斷，命名制度該追求絕對的中性，還是乾脆回到純編號？而在你的生活裡，有哪些名字，早已從標籤變成了記憶本身？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Western North Pacific and the South China Sea Names（世界氣象組織 WMO） ↗ 支持內容：14 個成員各 10 個名字的現行 140 名名單全文；名單順序循環、跨年連續使用（Cimaron 到 Jebi 的例子）；RSMC 東京為熱帶風暴以上強度命名並附四位數編號；第 58 屆會議除名 Wipha、Co-May、Matmo、Mitag、Ragasa、Bualoi、Kalmaegi、Fung-wong 八個名字並要求六個成員遞補
   https://wmo.int/content/tropical-cyclone-naming/western-north-pacific-and-south-china-sea-names
+<a id="source-2"></a>
+
 - Names of Tropical Cyclones（日本氣象廳 RSMC Tokyo） ↗ 支持內容：東京區域專業氣象中心為命名執行者；名單跨年順序使用的官方說明（Damrey 到 Tianma 的例子）
   https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/tyname.html
+<a id="source-3"></a>
+
 - Tropical Cyclone Names in the western North Pacific（香港天文台） ↗ 支持內容：美軍超過半世紀的命名史、1978 年前幾乎全為女性名、1979 年起男女交替；2000 年 1 月 1 日改用新名單；新名單多為花鳥食物而非人名、按貢獻成員順序而非名字字母序使用；除名慣例（受災成員可提議、文化考量）；Durian 2006 年菲律賓逾 570 死 746 失蹤後除名、由 Mangkhut 遞補
   https://www.hko.gov.hk/en/education/tropical-cyclone/classification-naming-characteristics/00144-tropical-cyclone-names-in-the-western-north-pacific.html
+<a id="source-4"></a>
+
 - Naming tropical cyclones（澳洲氣象局 BoM） ↗ 支持內容：命名的溝通功能（提高警覺、多氣旋並存時減少混淆）；Wragge 1887 年以希臘字母、神話人物與政治人物命名、1902 年後沉寂約六十年；澳洲 1963 年採行命名政策、1964 年 Audrey 與 Bessie、1975 年首創男女並用；除名慣例（Tracy 1974）；與當代名人同名即跳過的規則
   https://www.bom.gov.au/resources/learn-and-explore/tropical-cyclone-knowledge-centre/naming-tropical-cyclones
+<a id="source-5"></a>
+
 - Female hurricanes are deadlier than male hurricanes（PNAS, 2014） ↗ 支持內容：1950 到 2012 年美國颶風死亡資料的檔案分析：女性名字颶風死亡顯著較多；六個實驗顯示名字引發性別化強度預期並影響防護行動意願
   https://pmc.ncbi.nlm.nih.gov/articles/PMC4066510/
+<a id="source-6"></a>
+
 - Are female hurricanes really deadlier than male hurricanes?（PNAS 評論，2014） ↗ 支持內容：以同一資料重新分析：原模型脆弱（對 Sandy 預測近兩萬死、實際 159）；1979 年後子樣本無顯著效果；排除四場死亡破百颶風後效果消失；Mann-Whitney 檢定無顯著差異；原作者同刊回覆，交鋒存於同一卷
   https://www.pnas.org/doi/10.1073/pnas.1410910111
+<a id="source-7"></a>
+
 - Morakot removed from typhoon name list over extensive damage（Focus Taiwan, 2011） ↗ 支持內容：Morakot 因 2009 年侵台造成的嚴重災情與傷亡被 WMO 除名，2011 年 6 月由中央氣象局宣布
   https://focustaiwan.tw/society/201106010009

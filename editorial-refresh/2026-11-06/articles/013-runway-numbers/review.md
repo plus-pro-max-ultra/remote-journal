@@ -48,23 +48,45 @@
 
 這也讓人看見一種維護成本：人造標籤參照的自然條件會變，標籤就得定期核對。地圖的磁差要五年校準一次，航圖要定期改版，跑道的數字要重漆。我們以為名字是固定的，其實每一個名字底下都寫著一個到期日。
 
+## 留給讀者的問題
+
+下次在桃園機場的窗邊看到跑道盡頭的 05L 或 23R，可以想到：那不是門牌號碼，而是依跑道磁方位編出的數字。跑道沒有移動，地球磁場的變化卻可能讓它需要改名。生活裡還有哪些看似永久、其實會悄悄過期的標籤？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Aeronautical Information Manual, Chapter 2 Section 3: Airport Marking Aids and Signs（FAA） ↗ 支持內容：跑道編號為跑道中心線磁方位角取最接近的十分之一之整數；平行跑道以 L/R/C 區分；編號由進場方向決定
   https://www.faa.gov/air_traffic/publications/aim_html/chap2_section_3.html
+<a id="source-2"></a>
+
 - Airport Runway Names Shift with Magnetic Field（NOAA NCEI，2017） ↗ 支持內容：磁羅盤仍是航空主要導航儀器之一；外核流動產生約 95% 地磁場；磁北極向西伯利亞漂移；WMM 每五年更新、結合衛星與約 120 座觀測站；費爾班克斯 2009 年 1L-19R 改 2L-20R、預估 2033 年再改、約 24 年一周期；丹佛 17L-35R 方位 172.5 度、磁偏角年變約 0.1 度、約 30 年後才需改名；FAA 要求磁差值與模型誤差正負一度內
   https://www.ncei.noaa.gov/news/airport-runway-names-shift-magnetic-field
+<a id="source-3"></a>
+
 - Long Beach Airport Completes Runway Redesignation（長堤市政府新聞稿，2018） ↗ 支持內容：2018 年 7 月 19 日 7R-25L 改 8R-26L、7L-25R 改 8L-26R；舊編號使用至少 66 年；連續五夜施工；工程費約 45,000 美元；需與 FAA 及終端航圖發布時程協調
   https://longbeach.gov/press-releases/long-beach-airport-completes-runway-redesignation
+<a id="source-4"></a>
+
 - Jersey airport runway re-named as magnetic pole shifts（BBC News，2014） ↗ 支持內容：澤西機場 2014 年 10 月 09/27 改 08/26；舊名自 1952 年啟用；實測方位 084.38 與 264.39 度；機場預估 56 年內不需再改
   https://www.bbc.com/news/world-europe-jersey-29603156
+<a id="source-5"></a>
+
 - Why Airports Rename Runways When the Magnetic Poles Move（Wired，2018） ↗ 支持內容：威契托 2018 年三條跑道更名、花費數十萬美元；奧克蘭 2013 年 27/29 改 28/30；曼徹斯特 2009 年 6L/24R 改 5L/23R；磁北極最快每年移動約 40 英里；飛行員起飛前以跑道方向核對航向儀；2006 年康姆航空 5191 班機錯誤跑道起飛事故 49 人罹難
   https://www.wired.com/story/airports-rename-runways-magnetic-shift/
+<a id="source-6"></a>
+
 - 桃園機場的主跑道是4條還是2條？（交通部飛航服務總台 FAQ，2024 年更新） ↗ 支持內容：桃園機場兩條跑道四個名稱（05L/23R、05R/23L）；依東北西南風向規劃跑道方向、航機逆風起降；北跑道磁方位 054/234；命名取磁方位前兩位數；05 加 180 度即反方向 23
   https://www.anws.gov.tw/FAQDetailC005240.aspx?Cond=034d1e36-165e-49cf-ae2e-20f1888ebd01
+<a id="source-7"></a>
+
 - 國家運輸安全調查委員會改善建議 ASC-ASR-12-03-006 回覆往來紀錄 ↗ 支持內容：民航局函文（2015-01-06）明載「桃園機場 06/24 跑道已改名為 05R/23L 跑道」；整建完成的 05R/23L 於 2015 年 1 月 8 日啟用；更名確切日期未載明
   https://www.ttsb.gov.tw/1133/1154/1155/1160/19603/
+<a id="source-8"></a>
+
 - 桃園國際機場股份有限公司營運概述：機場建設（交通部 102 年年鑑） ↗ 支持內容：2010 年 4 月核定『道面整建及助導航設施提升工程計畫』；以 05R-23L、05L/23R 新編號記載整建與延長工程
   https://www.motc.gov.tw/ch/app/yearbook/doc?detailNo=2&id=21&module=directory&serno=6394&type=s&year=102
+<a id="source-9"></a>
+
 - 桃機進入黑暗期　單道起降影響班機（TVBS，2011-09-09） ↗ 支持內容：2011 年 9 月報導已使用「5 號右跑道」（翻修對象，即今南跑道）與「5 號左跑道」新編號；形容跑道使用超過三十年、首度大翻修；當月 15 日起封閉 5 號左跑道整頓三個月
   https://news.tvbs.com.tw/life/66167

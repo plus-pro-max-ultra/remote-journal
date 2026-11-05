@@ -38,13 +38,25 @@
 
 這些例子也有差異：印表機靠硬體規格綁住墨水匣，你事後很難換陣營；電影院只靠場景獨佔與觀影時光綁住零食，你只要忍住兩小時就能全身而退。學會辨認計量器在哪裡，下次面對「低價入場」時，就能判斷那是真的便宜，還是帳單被藏到了別的商品裡。
 
+## 留給讀者的問題
+
+下次走進一個「入場很便宜、裡面很貴」的地方，試著找出它的爆米花是哪一件商品；再想一步：如果明天規定那件商品只能按成本定價，它的門票會變便宜，還是變貴？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - AMC Entertainment Holdings, Inc. 2025 年度 Form 10-K（會計年度截至 2025-12-31） ↗ 支持內容：2025 年影片放映成本佔票房收入 48.1%（美國市場 51.2%）；餐飲成本佔餐飲收入 19.6%（美國 18.1%）
   https://www.sec.gov/Archives/edgar/data/1411579/000141157926000016/amc-20251231x10k.htm
+<a id="source-2"></a>
+
 - Cinemark Holdings, Inc. 2025 年度 Form 10-K（會計年度截至 2025-12-31） ↗ 支持內容：2025 年美國市場平均票價 10.52 美元、每位觀眾賣品消費 8.30 美元（年增 5.2%）、美國入場 1.203 億人次；電影租金按各片票房以映前議定的滑動費率計算
   https://www.sec.gov/Archives/edgar/data/1385280/000119312526056015/cnk-20251231.htm
+<a id="source-3"></a>
+
 - Ricard Gil & Wesley R. Hartmann, Empirical Analysis of Metering Price Discrimination: Evidence from Concession Sales at Movie Theaters, Marketing Science 28(6), 2009, pp. 1046-1062 ↗ 支持內容：計量式差別定價理論；西班牙連鎖影院實證：賣品購買量與觀影支付意願正相關，高價賣品從高支付意願顧客抽取更多總支出，邊際觀眾票價因而可較低；刮鬍刀刀片與印表機墨水為同類機制
   https://doi.org/10.1287/mksc.1090.0494
+<a id="source-4"></a>
+
 - State of the Cinema Industry（The Cinema Foundation, 2023 年 3 月） ↗ 支持內容：該報告指出美國當時平均票價低於 1971 年經通膨調整後的水準（產業組織觀點，年份以報告為準）
   https://www.thecinemafoundation.org/wp-content/uploads/2023/03/State-of-the-Cinema-Industry-March-2023.pdf

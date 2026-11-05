@@ -54,21 +54,41 @@ Submarine cables carry over 99 per cent of international data exchanges.——�
 
 類比也有邊界。電纜網路繞道的邊際成本接近零，壅塞時加寬「道路」卻會誘發更多需求（誘發交通量的原理並不適用於光纖）。而且冗餘不是免費的：多鋪一條跨洋電纜是一筆龐大的長期投資，每個社會都要決定為「幾乎不會用到的備援」付多少錢。馬祖的答案是事後才浮現的——直到兩條電纜同時斷掉，備援的價值才被看見。事故之後，備援的用途容易理解；事前要說服別人付錢，就難得多。
 
+## 留給讀者的問題
+
+打開 TeleGeography 的海底電纜地圖，找找你住的地方：有幾條真正獨立的路徑連向世界？如果你所在的城市斷線一個月，哪些生活環節會最先出問題——而你認為誰應該為那個「幾乎用不到」的備援付錢？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Taiwan blames Chinese ships for cut internet cables（美聯社，經 PBS 刊載，2023-03-08） ↗ 支持內容：2023 年 2 月馬祖兩條海底電纜先後被切斷、居民仰賴微波備援、過去五年共斷 27 次、官方歸因但無蓄意證據
   https://www.pbs.org/newshour/world/taiwan-blames-chinese-ships-for-cut-internet-cables
+<a id="source-2"></a>
+
 - Submarine Cable Frequently Asked Questions（TeleGeography） ↗ 支持內容：全球 600 多條電纜、使用中總長逾 150 萬公里、電纜構造與埋設方式、25 年設計壽命
   https://www2.telegeography.com/submarine-cable-faqs-frequently-asked-questions
+<a id="source-3"></a>
+
 - Subsea cable design（KIS-ORCA） ↗ 支持內容：深海電纜直徑 17–21 毫米、中繼器間距 50–80 公里、摻鉺光放大器與岸上供電原理、約 95% 通訊需求由海底電纜承載
   https://kis-orca.org/subsea-cables/design/
+<a id="source-4"></a>
+
 - Maintenance / Repair Operations（KIS-ORCA） ↗ 支持內容：約 70% 故障由漁撈與船錨造成、水深與肇因的關係、電纜船待命與抓鉤維修流程
   https://kis-orca.org/subsea-cables/maintenance/
+<a id="source-5"></a>
+
 - Do Submarine Cables Account For Over 99% of Intercontinental Data Traffic?（TeleGeography，Alan Mauldin，2023-05-04） ↗ 支持內容：99% 說法的出處追溯（FCC 2013 年數據）、方向正確但無法精確計算的結論
   https://resources.telegeography.com/2023-mythbusting-part-3
+<a id="source-6"></a>
+
 - Strengthening resilience of submarine cable networks（ITU 新聞稿，2024-11-29） ↗ 支持內容：ITU 秘書長的 99% 引文、每年 150–200 次故障與每週約三次維修、主要肇因為漁撈與船錨
   https://www.itu.int/en/mediacentre/Pages/PR-2024-11-29-advisory-body-submarine-cable-resilience.aspx
+<a id="source-7"></a>
+
 - Media Enquiries & FAQ（ICPC） ↗ 支持內容：網路的備援與繞道設計原則、荷莫茲海峽頻寬佔全球國際頻寬不到 1%
   https://www.iscpc.org/news/media-enquiries/
+<a id="source-8"></a>
+
 - The Transatlantic Cable（美國國會圖書館） ↗ 支持內容：1858 年首條跨大西洋電纜、數週後失效、1866 年建立可靠通訊的歷史
   https://guides.loc.gov/this-month-in-business-history/august/first-transatlantic-telegraph-cable

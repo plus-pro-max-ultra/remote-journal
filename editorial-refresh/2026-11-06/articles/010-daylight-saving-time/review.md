@@ -50,23 +50,45 @@
 
 戰後的台灣從 1946 年起斷續實施夏令時間，多數年份從春末到秋初撥快一小時。執行層面問題不少：部分機關自行縮短辦公時間兩小時，等於抵銷了撥快一小時的效果；各縣市下午上班時間不一致，民眾洽公經常撲空；輿論批評制度違反人體規律。從 1980 年代初期開始，台灣不再施行夏令時間。一個亞熱帶島嶼斷斷續續試了三十多年，最後的結論與半世紀前總督府的評估一致：在這個緯度，不划算。
 
+## 留給讀者的問題
+
+夏令時間把收益寫在戰時的電費單上，成本卻分散在每個人的睡眠、心臟與行事曆裡。當一項制度的原始理由幾乎消失，但改變它需要所有人一起動，你會用哪個指標決定它的去留？而如果不喜歡卻改不掉是協調問題的常態，我們的生活裡還有多少這樣的時鐘？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - 被撥快的一小時：臺灣關於日光節約的故事 ↗ 支持內容：威利特最早推動立法；德國 1916 年 4 月因一戰燃料需求率先實施；1925 年總督府評估未施行及「真正有需要提早的是日本」的批評；1937 年 10 月 1 日改行中央標準時間；1946 年起斷續實施與各縣市作息不一的亂象；1980 年代初停止施行
   https://www.th.gov.tw/Epaper_Content/238/10046/
+<a id="source-2"></a>
+
 - Impact of Extended Daylight Saving Time on National Energy Consumption: Report to Congress（美國能源部，2008） ↗ 支持內容：EPAct 2005 自 2007 年起延長夏令時間；延長期每日節電約 0.5%、合計 1.3 兆瓦小時、占全年用電 0.03%；統計不確定性正負四成（95% 信賴區間）；春季 0.50% 大於秋季 0.38%；南部效果較小；對汽油消費與交通無可測影響
   https://www.energy.gov/sites/default/files/2022-04/Impact%20of%20Extended%20Daylight%20Saving%20Time%20on%20National%20Energy%20Consumption%2C%20Report%20to%20Congress.pdf
+<a id="source-3"></a>
+
 - Does Daylight Saving Time Save Energy? Evidence from a Natural Experiment in Indiana（NBER Working Paper 14429） ↗ 支持內容：印第安納 2006 年全州實施的前後對照；超過 700 萬筆家庭帳單；住宅用電整體增加約 1%、秋季 2% 到 4%；家庭電費每年增加約 900 萬美元、污染社會成本 170 萬到 550 萬美元；照明節省被冷暖氣抵銷的機制
   https://www.nber.org/papers/w14429
+<a id="source-4"></a>
+
 - Does Daylight Saving Time Really Save Energy? A Meta-Analysis（The Energy Journal, 2018） ↗ 支持內容：44 篇研究、162 個估計值；夏令時間期間平均節電 0.34%；未偵測到明顯發表偏誤；差異主要由方法、資料頻率與緯度解釋：離赤道越遠越省、亞熱帶地區反而增加用電；2017 年 77 個國家或地區、逾 15 億人使用夏令時間
   https://meta-analysis.cz/dst/paper/
+<a id="source-5"></a>
+
 - Shifts to and from Daylight Saving Time and Incidence of Myocardial Infarction（NEJM, 2008） ↗ 支持內容：1987 到 2006 年瑞典心肌梗塞登錄；春季轉換後一週發生率比值 1.051（95% 信賴區間 1.032 到 1.071），前三個工作日顯著上升；秋季轉換後一週 0.985（區間跨 1，不顯著）；作者認為睡眠剝奪是最可能解釋
   https://www.nejm.org/doi/full/10.1056/NEJMc0807104
+<a id="source-6"></a>
+
 - Seasonal clock changes in the EU（歐盟部長理事會官方頁面） ↗ 支持內容：執委會 2018 年 9 月提案終止一年兩次撥鐘；歐洲議會 2019 年 3 月通過 2021 年終止；理事會至今未形成立場；無最終決定、無決策時程、現行制度維持；現行指令規定三月與十月最後一個週日轉換
   https://www.consilium.europa.eu/en/policies/seasonal-time-changes/
+<a id="source-7"></a>
+
 - Parliament backs proposal to end switch between summer and winter time in 2021（歐洲議會新聞稿，2019） ↗ 支持內容：2019 年 3 月 26 日以 410 票對 192 票通過；2018 年公開諮詢收到 460 萬份回覆、84% 支持廢除季節性撥鐘；成員國保留選擇所屬時區的權利
   https://www.europarl.europa.eu/news/en/press-room/20190321IPR32107/parliament-backs-proposal-to-end-switch-between-summer-and-winter-time-in-2021
+<a id="source-8"></a>
+
 - H.R.139 - Sunshine Protection Act of 2025（Congress.gov，第 119 屆美國國會） ↗ 支持內容：法案由佛州眾議員 Vern Buchanan 於 2025 年 1 月 3 日提出；2026 年 7 月 14 日眾議院以 308 票對 117 票通過（Roll Call 238）；7 月 15 日送達參議院並交付商業、科學與交通委員會，此後無進一步行動
   https://www.congress.gov/bill/119th-congress/house-bill/139
+<a id="source-9"></a>
+
 - House passes Trump-backed bill that would make daylight saving time permanent（NBC News, 2026-07-14） ↗ 支持內容：參議員 Cotton 以部分地區冬季上午九點才日出、摸黑通勤為由反對、多數黨領袖 Thune 稱強制作法以前試過且被廢；2022 年參議院曾以無異議方式通過同類法案但眾院未處理；1974 年尼克森永久夏令時間生效不到一年即被廢止；19 州已通過附條件的永久夏令時間法案；1966 年《統一時間法》確立現行制度；亞利桑那與夏威夷不實施
   https://www.nbcnews.com/politics/congress/house-passes-bill-daylight-saving-time-permanent-sunshine-protection-rcna587531

@@ -48,27 +48,53 @@
 
 台電的因應是把防線搬進電池與演算法裡：儲能系統在頻率低於 59.98 赫茲時一秒內開始放電，並規劃在全台十處設立即時頻率與頻率變化率測量設備，用數據追蹤這座電網愈來愈輕的心跳。一個 1890 年代定下的節拍，如今要靠二十一世紀的電池與感測器守護。頻率標準沿用百年，維持它的設備與方法卻得不斷更新。
 
+## 留給讀者的問題
+
+頻率是少數無法各退一步的標準，因為電子不會開會，整座電網只能跳同一支舞。當你在日本旅行、看著電器標籤上的 50Hz 與 60Hz，你會想到：生活裡還有哪些看不見的同步，正默默支撐著你以為理所當然的一切？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - 日本における交流電源の周波数（姬路科學館，2014） ↗ 支持內容：1895 年東京電燈引進德國 AEG 50Hz 發電機、向關東東北北海道擴散；大阪電燈 1889 年引進美製 60Hz 發電機為日本最早交流配電、向西擴散；九州 1960 年前兩種頻率各半；戰後統一構想失敗；富士川到糸魚川邊界與併用地區；東海道新幹線靠四座頻率變換變電所受電
   https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf
+<a id="source-2"></a>
+
 - なぜちがう周波数ができてしまったの？（關西電力） ↗ 支持內容：東京德製 50Hz、大阪美製 60Hz 發電機的起源；約一百年來多次統一討論均失敗；富士川到糸魚川邊界、東 50Hz 西 60Hz；單一頻率電器跨區使用的風險清單
   https://www.kepco.co.jp/brand/for_kids/teach/2016_03/detail1.html
+<a id="source-3"></a>
+
 - 東日本大震災が浮かび上がらせた電力インフラの弱点（國際環境經濟研究所，2011） ↗ 支持內容：311 後中部電力 60Hz 側經三座頻率變換所僅能支援 100 萬千瓦、北海道 50Hz 側 60 萬千瓦，合計 160 萬千瓦不及損失發電能力 5%；東西頻率差是計畫停電的另一原因；東清水變電所擴充至 30 萬千瓦、約 700 億日圓
   https://ieei.or.jp/2011/11/opinion111031/4/
+<a id="source-4"></a>
+
 - 電力小辭典：慣量與即時頻率管理（台電月刊 2023 年 12 月號） ↗ 支持內容：轉子每分鐘 3,600 轉維持 60Hz；儲能於 59.98Hz 小功率、59.75Hz 全功率放電；59.5Hz 抽蓄斷開、59.2Hz 低頻電驛；反應於一秒內完成；再生能源無慣量的挑戰；全台十處即時頻率測量與 FPPM 計畫
   https://service.taipower.com.tw/tpcjournal/TPMM/2023/732/files/basic-html/page30.html
+<a id="source-5"></a>
+
 - 電業供電電壓及頻率標準（全國法規資料庫） ↗ 支持內容：第三條：交流電頻率定為 60 赫茲，變動率高低各不得超過百分之四；第四條：110 與 220 伏特供電方式
   https://law.moj.gov.tw/LawClass/LawAll.aspx?pcode=J0030017
+<a id="source-6"></a>
+
 - 臺灣百年電業史話 19：輸電系統（台電電業文物典藏） ↗ 支持內容：電網上所有發電機組必須以相同頻率運作；台灣從南到北所有設備以 60 赫茲運行；日治初期北中南分散供電與私營電廠、後整合為互聯系統；1965 年美東大停電等連鎖故障案例
   https://service.taipower.com.tw/Collection/2009/2025/15014/blogPost
+<a id="source-7"></a>
+
 - Edward L. Owen, “The Origins of 60-Hz as a Power Frequency”（IEEE Industry Applications Magazine, 1997） ↗ 支持內容：文中第一節：Westinghouse 1890 年底至 1891 年選定 60 赫茲的過程、Stillwell 回憶的弧光燈碳棒說法、閃爍動機的另一說
   https://ieeexplore.ieee.org/stampPDF/getPDF.jsp?arnumber=628099
+<a id="source-8"></a>
+
 - Gerhard Neidhöfer, “50-Hz frequency: how the standard emerged from a European jumble”（IEEE Power & Energy Magazine, 2011） ↗ 支持內容：文中第一節：1891 勞芬至法蘭克福 40 赫茲、1892 Oerlikon Hochfelden 50 赫茲、Rathenau 1896 的 50 赫茲理由、1914 倫敦報告 41 站 31 系統 8 種頻率
   https://ocw.uc3m.es/pluginfile.php/542/mod_page/content/15/50Hz_Frequency_History.pdf
+<a id="source-9"></a>
+
 - 巴西 Decreto-Lei 852/1938（第 23 條）與 Lei 4.454/1964（第 1 條） ↗ 支持內容：文中第四節：1938 年法令第 23 條規定全國供電為三相交流 50 赫茲、限期八年統一；1964 年法律第 1 條改定 60 赫茲並要求逐步統一
   https://www.planalto.gov.br/ccivil_03/decreto-lei/1937-1946/del0852.htm
+<a id="source-10"></a>
+
 - CENACE（墨西哥國家能源控制中心）：Quiénes somos ↗ 支持內容：文中第四節：墨西哥 1973 至 1976 年將中部地區由 50 赫茲改為 60 赫茲
   https://www.cenace.gob.mx/QuienesSomos.aspx
+<a id="source-11"></a>
+
 - Benjamin G. Lamme, "The Technical Story of the Frequencies"（AIEE Transactions, 1918，公有領域原文） ↗ 支持內容：1889–1890 年尋找低於 133/125 赫茲的新頻率；Stillwell 分析各引擎轉速後認為 7200 alternations（60 Hz）約為可行上限；變壓器希望更高、引擎式發電機希望更低，妥協得出 60 赫茲；1893 年 60 赫茲大致確立
   https://doi.org/10.1109/T-AIEE.1918.4765522

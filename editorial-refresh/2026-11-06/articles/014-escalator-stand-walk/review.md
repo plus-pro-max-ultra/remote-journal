@@ -48,19 +48,37 @@ TfL 把這道題目做成了實驗。霍本（Holborn）站是倫敦地鐵最繁
 
 所以「該站一邊還是兩邊都站」其實是個條件句：扶梯多長、人潮多密、有多少人真的在走，決定了哪種規矩對全體划算。倫敦用 23.4 公尺的霍本站證明了一種極端，台北用「兩側皆可站立、不禁止行走」保留了另一種彈性，而埼玉選擇用條例把安全置於效率之前。三種答案背後，是三種對風險與時間的不同定價。
 
+## 留給讀者的問題
+
+下次搭上電扶梯，可以看看自己站的位置：你正在參與一場關於效率、安全與禮讓的即時投票。當你身後排起長隊、腳邊的左側空著時，你會選擇讓全體快一點，還是替可能存在的趕時間的人留一條路？你的城市用什麼方式回答這個問題，或許比答案本身更值得一看。
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - 臺北捷運加強宣導電扶梯兩側皆可站立 感謝旅客相互尊重 共同維護良好捷運乘車文化（臺北大眾捷運股份有限公司新聞稿，2024-10-23） ↗ 支持內容：北捷宣導「緊握扶手、站穩踏階」並明確表示兩側皆可站立；大巨蛋散場由專人舉牌引導兩側站立；研議尖峰時段於台北車站等轉乘站加強標示與廣播
   https://www.metro.taipei/News_Content.aspx?n=30CCEFD2A45592BF&s=720C3381BDB1FE7E&sms=72544237BBE4C5F6
+<a id="source-2"></a>
+
 - 臺北捷運重載型電扶梯右側站立並未影響機械元件壽命 呼籲旅客緊握扶手站穩踏階（臺北大眾捷運股份有限公司新聞稿，2019-04-23） ↗ 支持內容：重載型電扶梯檢修紀錄未見靠右站立影響元件壽命；鏈條延展差異可用張力器調整；未限制站立位置或行走；高運量轉乘站約半數人潮由左側步行疏散
   https://www.metro.taipei/News_Content.aspx?n=30CCEFD2A45592BF&s=929103BCD9FA6F60&sms=72544237BBE4C5F6
+<a id="source-3"></a>
+
 - Six month escalator trial at Holborn starts today（Transport for London press release, 18 April 2016） ↗ 支持內容：2016 年 4 月 18 日起六個月試驗要求乘客在兩條上行電扶梯兩側站立、保留第三條供步行；前一試驗顯示兩側站立減少約三成擁擠；霍本站電扶梯垂直高度 23.4 公尺；垂直高度超過 18.5 公尺時兩側站立可能更有效
   https://tfl.gov.uk/info-for/media/press-releases/2016/april/six-month-escalator-trial-at-holborn-starts-today
+<a id="source-4"></a>
+
 - London Underground to pilot new escalator arrangement at Holborn Tube station（Transport for London press release, 10 March 2016） ↗ 支持內容：倫敦地鐵禮儀為靠右站立、左側通行；2015 年 11 至 12 月三週試驗：運量由每分鐘約 80 人理論上可升至 110 人以上，實測增加 30%（同時段 2,500 人增至約 3,250 人）；車站管制由每週數次降為三週一次；LSE 行為科學團隊設計宣導訊息
   https://tfl.gov.uk/info-for/media/press-releases/2016/march/london-underground-planspilot-of-new-escalator-arrangement-at-holborn-tube-station
+<a id="source-5"></a>
+
 - 安全に関するお願い：エスカレーター歩かず立ち止まろう（JR 東日本） ↗ 支持內容：JR 東日本呼籲不要在電扶梯上行走、請停下來，理由是行走可能導致跌倒與碰撞事故
   https://www.jreast.co.jp/company/csr/safe-cx/safety-efforts/safety-request/
+<a id="source-6"></a>
+
 - 埼玉県エスカレーターの安全な利用の促進に関する条例（埼玉縣官方條例說明頁） ↗ 支持內容：條例（2021 年 3 月 30 日條例第 12 號、令和 3 年 10 月 1 日施行）規定利用者必須以停下來的狀態使用電扶梯，管理者負有周知義務，知事可對管理者指導、助言與勸告
   https://www.pref.saitama.lg.jp/a0310/escalator.html
+<a id="source-7"></a>
+
 - KONE, “Escalator Planning Guide”（官方規劃手冊 PDF） ↗ 支持內容：文中第二節踏階寬度修正：KONE 踏階寬度為 600／800／1000 公釐三種規格，600 公釐註明因空間窄不建議用於新式應用
   https://distributors.kone.com/en/Images/KONE-Escalator-Planning-Guide_tcm90-100695.pdf

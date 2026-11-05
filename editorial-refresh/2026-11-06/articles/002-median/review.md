@@ -8,7 +8,17 @@
 
 先看一組簡化的數字。某小公司的五名員工月薪分別是 4 萬、4.5 萬、4.5 萬、5 萬與 32 萬元。總薪資是 50 萬元，除以五人，平均月薪就是 10 萬元。計算沒有錯。
 
-同一組薪資，兩種不同的中心值 員工薪資（萬元） 數值 第 1 人 4 第 2 人 4.5 第 3 人 4.5 第 4 人 5 第 5 人 32 平均數 10 中位數 4.5 這是用來說明統計概念的假設例子，並非真實公司的薪資資料。
+同一組薪資，兩種不同的中心值 
+| 員工薪資（萬元） | 數值 |
+| --- | --- |
+| 第 1 人 | 4 |
+| 第 2 人 | 4.5 |
+| 第 3 人 | 4.5 |
+| 第 4 人 | 5 |
+| 第 5 人 | 32 |
+| 平均數 | 10 |
+| 中位數 | 4.5 |
+ 這是用來說明統計概念的假設例子，並非真實公司的薪資資料。
 
 32 萬元的薪資把平均數往上拉了。可是把五人的薪資由低到高排列，位於正中央的第三個數字是 4.5 萬元，這就是中位數。兩個數都正確，只是描述資料的方式不同。
 
@@ -42,13 +52,25 @@
 
 算式之外，還可以養成一個習慣：聽到「平均而言」時，追問它算的是什麼，又能代表誰。
 
+## 留給讀者的問題
+
+最近你看過哪些用單一數字描述整體狀況的說法？如果補上分布、分組或中位數，可能會改變什麼理解？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - U.S. Census Bureau：平均所得與中位所得的差異 ↗ 支持內容：文中第一節：美國人口普查局對 mean income 與 median income 的官方區分——前者為總收入除以單位數，後者為將分布分成上下兩半的數值
   https://www.census.gov/topics/income-poverty/income/about/faqs.html
+<a id="source-2"></a>
+
 - U.S. Census Bureau, “Income in the United States: 2025”（P60-289，2026-09-15 發布） ↗ 支持內容：文中第一節新增：2025 年美國家庭所得中位數 87,460 美元
   https://www.census.gov/library/publications/2026/demo/p60-289.html
+<a id="source-3"></a>
+
 - U.S. Census Bureau, Historical Income Tables: Households, Table H-3 ↗ 支持內容：文中第一節新增：2025 年五等分位平均家庭所得 19,100／51,700／88,250／142,500／331,800 美元；五數平均 126,670 美元為編輯部依等權合計的計算，非普查局公布值
   https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html
+<a id="source-4"></a>
+
 - OpenStax：Introductory Statistics（免費統計教材） ↗
   https://openstax.org/details/books/introductory-statistics

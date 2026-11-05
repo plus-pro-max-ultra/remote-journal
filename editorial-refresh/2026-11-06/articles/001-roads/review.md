@@ -44,15 +44,29 @@
 
 但類比不能取代證據。不同領域的需求彈性、價格機制與限制條件並不相同。分析其他問題時，也可以問：條件改善之後，人們會怎麼調整行為？至於效率提高會不會抵銷原來的效益，還要看各領域的證據。
 
+## 留給讀者的問題
+
+若一座城市只能選擇一項措施改善交通，你會先問哪些問題，才決定投資道路、大眾運輸、停車管理，還是調整土地使用？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - Duranton & Turner, “The Fundamental Law of Road Congestion” (American Economic Review, 2011) ↗ 支持內容：文中第二節引用的核心研究：分析美國城市州際公路車道里程與車輛行駛里程（VKT），發現 VKT 大致按比例增加，並辨認三個來源：既有居民開車增加、運輸密集型生產活動增加、人口遷入
   https://pubs.aeaweb.org/doi/abs/10.1257/aer.101.6.2616
+<a id="source-2"></a>
+
 - NBER 工作論文版本與研究摘要 ↗ 支持內容：同一研究的 NBER 工作論文版（2009），含完整摘要與正式出版紀錄；摘要載明 VKT 與公路里程等比增加、公共運輸供給對 VKT 無顯著影響的結論
   https://www.nber.org/papers/w15376
+<a id="source-3"></a>
+
 - City Observatory, “Reducing congestion: Katy didn’t”（2015-12-16，Joe Cortright） ↗ 支持內容：文中第二節新增案例：工程費逾 28 億美元、最寬處約 23 車道、完工初期行車時間下降、TranStar 兩個路段 2011-2014 早尖峰 +25 分鐘（30%）、午後 +23 分鐘（55%）；誘發需求為該機構的解讀
   https://cityobservatory.org/reducing-congestion-katy-didnt/
+<a id="source-4"></a>
+
 - Houston Public Media, “Katy Freeway Commuters Finally Get Relief”（2008-10-28） ↗ 支持內容：文中第二節新增案例：重建於 2008 年 10 月完工
   https://www.houstonpublicmedia.org/articles/news/2008/10/28/12510/katy-freeway-commuters-finally-get-relief/
+<a id="source-5"></a>
+
 - Click2Houston, “Houston Commute Times Quickly Increasing”（2014-02-04） ↗ 支持內容：文中第二節新增案例：同期休士頓多數通勤路線也變慢（200 個通勤組合中 85% 變長），人口成長被引為原因之一
   https://www.click2houston.com/news/2014/02/04/houston-commute-times-quickly-increasing/

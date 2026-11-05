@@ -56,23 +56,45 @@
 
 可遷移的核心不是「打更多疫苗」，而是兩件事：讓傳播可視化（監測與通報制度），以及讓圍堵工具便宜到可以無限複製（凍乾疫苗、分叉針）。但這個類比有明確邊界：當一種疾病存在動物儲備宿主、或大多數感染不顯性時，同樣的劇本不會奏效。根除是生物條件、工具成本與國際政治三者的交集——缺了任何一角，天花的故事就無法複製。
 
+## 留給讀者的問題
+
+下次看到「某國消除了某種疾病」的新聞，可以追問三件事：這種病有沒有動物儲備宿主？感染者在發病之前會不會傳染？以及，誰在看守最後的病毒樣本與監測系統？再進一步想：今天那些被認為「不可能根除」的疾病，缺的究竟是一款更好的疫苗，還是下一根「分叉針」——某種能把圍堵成本再壓低一個數量級的工具？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - History of smallpox vaccination（WHO 歷史專頁） ↗ 支持內容：天花是唯一被根除的人類疾病；人痘接種的歷史（中國、印度、蒙塔古夫人、奧尼西默斯與馬瑟）；金納 1796 年實驗與 1801 年論著；每年逾兩百萬死亡；1958 決議、1959 計畫、1967 強化計畫與蘇聯凍乾疫苗；1970 年印度西南爆發 1300 例、123 死與逐戶圍堵；分叉針量產；1971／1975／1977 各大洲消除；總成本約三億美元、三分之二由流行國自付、美國每 26 天回收投資；1980 年宣布根除；天花從無解藥
   https://www.who.int/news-room/spotlight/history-of-vaccination/history-of-smallpox-vaccination
+<a id="source-2"></a>
+
 - History of Smallpox（美國 CDC） ↗ 支持內容：約三成致死；木乃伊與四世紀中國記載；十九世紀疫苗病毒由牛痘轉為痘苗；1959 年計畫資源不足；北美 1952、歐洲 1953、南美 1971、亞洲 1975、非洲 1977 消除；拉希瑪・芭努為最後重型天花病例與 250 塔卡通報獎金、1.5 英里接種圈與 5 英里搜索；馬林 1977 年 10 月病例時間線、誤診經過與 2013 年死於瘧疾時正參與小兒麻痺根除；珍妮特・帕克 1978 年實驗室外洩死亡與其母接種後仍感染；1980 年 5 月 8 日第三十三屆世界衛生大會宣布根除；病毒庫存僅存亞特蘭大 CDC 與科利佐沃 VECTOR 兩處
   https://www.cdc.gov/smallpox/about/history.html
+<a id="source-3"></a>
+
 - Smallpox（WHO 健康主題頁） ↗ 支持內容：天花由痘病毒科天花病毒引起；潛伏期 7–17 天、發燒後才具傳染力；皮疹從臉與手開始；致死率達 30%；1979 年 12 月由 19 國專家組成的全球委員會在日內瓦認證根除；1996 年世界衛生大會決議 1999 年銷毀庫存、其後延期並由諮詢委員會監督兩處儲存庫
   https://www.who.int/health-topics/smallpox
+<a id="source-4"></a>
+
 - Commemorating the 30th anniversary of smallpox eradication（WHO 秘書長演說，2010） ↗ 支持內容：環形接種策略的形成與驗證；「改良縫衣針」之說；冷戰期間美蘇合作；至少三千年傳播鏈斷於印度洋小港
   https://www.who.int/news-room/speeches/item/commemorating-the-30th-anniversary-of-smallpox-eradication
+<a id="source-5"></a>
+
 - Smallpox and its Eradication（Fenner、Henderson、Arita 等，WHO，1988，第十章與第十一章） ↗ 支持內容：1967 年 31 個國家或地區本土流行、通報 131,776 例為十年來最高之一、實地經驗顯示通報率可能僅約百分之一；1967 年蘇聯供應逾 7500 萬劑、美國約 2500 萬劑疫苗；凍乾疫苗在熱帶常溫下可維持效力逾一個月；分叉針於 1967 年底成為首選工具
   https://iris.who.int/bitstream/handle/10665/39485/9241561106.pdf
+<a id="source-6"></a>
+
 - Global Disease Elimination and Eradication as Public Health Strategies（CDC MMWR 達勒姆會議專刊，1999） ↗ 支持內容：天花是全球根除的第五次嘗試，此前瘧疾等計畫失敗；雅司病計畫因不顯性感染普遍而無法根除；黃熱病、日本腦炎等因有非人類儲備宿主不適合根除；天花的有利條件包括耐熱、單劑保護的疫苗，且根除「僅以毫釐之差」成功；小兒麻痺與麥地那龍線蟲病根除進行中
   https://www.cdc.gov/mmwr/pdf/other/mm48su01.pdf
+<a id="source-7"></a>
+
 - Poliomyelitis（WHO 實況報導） ↗ 支持內容：每 200 例感染約 1 例造成不可逆癱瘓；1988 年起每年估計 35 萬例、超過 125 個流行國；病例下降逾 99% 但阿富汗與巴基斯坦本土傳播持續；小兒麻痺無法治癒、只能預防
   https://www.who.int/en/news-room/fact-sheets/detail/poliomyelitis
+<a id="source-8"></a>
+
 - UN declares deadly cattle plague eradicated after global campaign（UN News，2011） ↗ 支持內容：牛瘟 2011 年宣布根除，為史上第二種、第一種動物疾病；最後一次疫情為 2001 年肯亞野生水牛、最後一次接種為 2006 年
   https://news.un.org/en/story/2011/06/379902
+<a id="source-9"></a>
+
 - 50th anniversary of the Expanded Programme on Immunization（WHO） ↗ 支持內容：EPI 於 1974 年在天花根除動能上啟動、最初涵蓋六種兒童疾病；今日每個國家都有國家免疫計畫；冷鏈與注射安全等創新外溢至其他衛生計畫並支撐 COVID-19 疫苗部署
   https://www.who.int/news-room/events/detail/2024/01/01/default-calendar/50th-anniversary-of-the-expanded-programme-on-immunization-(epi)

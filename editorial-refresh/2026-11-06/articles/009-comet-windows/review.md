@@ -56,13 +56,25 @@
 
 除了窗戶形狀，這個故事還揭露一個測試陷阱：測試本身可能改變被測的東西。用強化過的樣品證明量產飛機安全、用美化過的數據證明現場沒問題，結構都一樣。當然，類比有邊界：金屬疲勞有明確的物理定律可算，而管理與制度的「疲勞」沒有公式；但「你的驗證環境和真實環境是不是同一個東西」，是每個領域都該問的問題。
 
+## 留給讀者的問題
+
+下次登機坐在窗邊，可以看看窗框的圓角，然後問三件事：這架飛機累積了多少次加壓循環？它的疲勞壽命當年是怎麼被「證明」的？測試樣品和量產品是同一批嗎？以及，我們今天對哪些新材料、新結構，正處於 1950 年代工程師那種「知道自己還有多少不知道」的位置？
+
 ## 查證資料來源
+
+<a id="source-1"></a>
 
 - De Havilland DH-106 Comet 1（FAA Lessons Learned 事故資料庫） ↗ 支持內容：三起事故的時間線與細節（加爾各答 43 死、厄爾巴 35 死、那不勒斯 21 死）；復飛與吊銷適航證；修改清單獨缺機身疲勞；水下攝影機首次使用與七成殘骸；水槽測試原理與 G-ALYU 約 3,060 次循環；厄爾巴機 1,290 次、那不勒斯機 900 次；原型機 16,000 次與冷作硬化導致量產機僅約 1,000 次；8.25 psi、設計 2.5P 驗證 2P；應力集中解釋；1956 年法規修訂；1XB 起改橢圓窗；安全壽命到破損安全到損傷容限；阿羅哈 243
   https://www.faa.gov/lessons_learned/transport_airplane/accidents/G-ALYV
+<a id="source-2"></a>
+
 - Report of the Court of Inquiry into the Accidents to Comet G-ALYP and Comet G-ALYY（英國運輸與民航部，1955） ↗ 支持內容：公開調查的成立與過程；RAE 殘骸重建與水槽實驗的現場紀錄；厄爾巴事故「壓力艙因疲勞結構失效」的官方結論
   https://www.faa.gov/sites/faa.gov/files/2022-10/G-ALYP_Report_0.pdf
+<a id="source-3"></a>
+
 - The Real Story of the Comet Disaster（Paul Withey，伯明罕大學；RAeS 漢堡講座，2019） ↗ 支持內容：設計諸元與 1952 年 5 月 2 日首航倫敦至約翰尼斯堡、旅程時間減半；蒙皮 0.71/0.91 mm 與 Redux 膠接；估算 190 MPa 對實測峰值 315 MPa（極限強度 450 MPa 的 70%）；裂口起於 ADF 天線窗鉚釘孔、倒角製造瑕疵、初始裂紋小於 1 mm 藏於螺栓頭下；Paris 定律回算壽命 1,272 次對實際 1,290 次；1958 年 10 月 4 日首次跨大西洋定期航班；Nimrod 延續約六十年；適航證 1954 年 4 月 12 日吊銷
   https://www.fzt.haw-hamburg.de/pers/Scholz/dglr/hh/text_2019_01_24_Comet.pdf
+<a id="source-4"></a>
+
 - Comet Aircraft Accidents (Report of Inquiry)（英國國會 Hansard，1955 年 2 月 16 日） ↗ 支持內容：調查報告送交國會；厄爾巴事故「壓力艙因疲勞結構失效」、那不勒斯事故無法打撈但可能同一原因；政府接受全部建議；皇家海軍打撈與 RAE 的貢獻
   https://api.parliament.uk/historic-hansard/commons/1955/feb/16/comet-aircraft-accidents-report-of
