@@ -1,18 +1,18 @@
 # 事實措辭待決總表｜003、005–006、008–017
-2026-11-06。以下原句取自本輪已核的gh-pages 8b8f8c5，不是重新撰寫。建議文字尚未替換正文。003已另詢、其餘不因本表產生批准。
+2026-11-06。以下原句取自本輪已核的gh-pages 8b8f8c5，不是重新撰寫。除003已依MM確認套用備審稿外，建議文字尚未替換正文；其餘不因本表產生批准。
 
 ## 003-imperial
 ### 原文逐字摘錄
 
 > 明治時期的《皇室典範》將繼承規則以成文制度固定下來。戰後，1947 年施行的現行《皇室典範》進一步規定皇位由皇統男性後裔繼承，並列出繼承順位。日本宮內廳公布的現行制度說明，可以直接核對這些規則。 [1]
 
-### 修正建議、理由及已讀來源
+### 已確認及套用備審稿
 
 # 003先查核及待決事項
 
 基準gh-pages8b8f8c5。先重讀官方／博物館資料，再處理非爭議用字。正文爭議句維持原字，不默改。
 
-待MM決定：原文「皇位由皇統男性後裔繼承」；建議「皇位由皇統的男系男性繼承」。宮內廳現行原文male descendants in the male line，原句漏男系，使資格看似更廣。https://www.kunaicho.go.jp/en/learn/institution/seido/seido03.html
+MM於2026-11-06 00:56:42確認：使用「皇位由具有父系皇室血統的男性繼承」。已套用本輪備審正文；不等於上線批准。原文「皇位由皇統男性後裔繼承」；建議「皇位由皇統的男系男性繼承」。宮內廳現行原文male descendants in the male line，原句漏男系，使資格看似更廣。https://www.kunaicho.go.jp/en/learn/institution/seido/seido03.html
 
 - 政府2005報告全文重讀制度史段落：1889以前無同類成文繼承規定、8位女帝10個皇次、皆男系，原稿歸因政府官方整理不混成歷史學共識。https://japan.kantei.go.jp/policy/koshitsu/051124_e.pdf
 - 大都會博物館全文支持1336兩朝形成、吉野／京都、1392結束。1392-1336=56重新計算。https://www.metmuseum.org/en/essays/kamakura-and-nanbokucho-periods-1185-1392
@@ -20,7 +20,9 @@
 - 原稿圖片／日期／署名不改，本輪沒有新增圖像或修改授權。
 - 關於合法性／實權與傳統詮釋是原作者分析，不把單一南北朝案例推成各時代同一機制。
 
-已潤非爭議段落並比對數字與引用，男系修正隔離；本稿仍待決未可發布。不得以潤飾完成解除此問題。
+已潤非爭議段落並比對數字與引用。男系修正已依MM確認套用；本稿仍待整體審閱及另行發布批准。
+
+確認來源：phonemsg-01M6PA8APNJFGTWGVTYXBQMZNP，2026-11-06 00:56:42 Asia/Taipei。原始訊息「那改為「皇位由具有父系皇室血統的男性繼承」。
 
 
 ## 005-maps
@@ -513,3 +515,91 @@ https://dsq-sds.org/article/id/790/
 https://www.perkins.org/braille-barbier/
 https://www.cambridge.org/core/journals/applied-psycholinguistics/article/position-paper-on-researching-braille-in-the-cognitive-sciences-decentering-the-sighted-norm/64946B5F1007FE52140E1C4C5AFB356E
 https://blogs.loc.gov/nls-music-notes/2022/04/new-lessons-in-braille-history/
+
+## hsr-tunnel-ears
+
+# 高鐵隧道耳壓查核
+
+已重讀台灣2011論文全文PDF擷取；林口6482m／74m²、八卦山7364m／90m²、壓力波先到約37秒、正壓對車速2.1–2.2次方、約20m洞口加蓋、外部微壓感測配置吻合。負壓的指數有另值，原稿只說正壓故未混用。RTRI1997公開摘要2.0kPa／任意4秒指非氣密車輛暫行指標，原稿限定保留。NHS2025耳咽管開啟／病因／表現及RTRI微氣壓波現象與措施均相符。2017中國CRH2A研究是摘要與公開段落，不冒充台灣客室實測。2007科技大觀園不作所有現行高鐵設備通則。
+
+## 措辭範圍
+
+四處純潤，無數字／連結改動。
+
+## 因果語氣待確認
+原句：「最後，耳咽管能否及時平衡，才決定同一節車廂裡誰幾乎無感，誰覺得難受。」
+建議：「到了乘客身上，耳咽管能否及時平衡，也會影響同一節車廂裡誰幾乎無感、誰覺得難受。」
+理由：NHS支持其功能及不適因素，並未證明是個人差異唯一充分決定因素。此處屬因果範圍變更，備審正文保留原句，不默改。
+https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/etd
+
+## metro-platform-doors
+
+# 月臺門與停準查核
+
+六項來源已讀；105頁是網頁頁碼、印刷87頁，104為印刷86，174為156，no23頁60為46，保留原書目識別不冒充印刷頁碼。程式曲線／信標回授、ATO/ATP及零速／定位／門側順序、±30cm與>300mm不得自動開門、門個別隔離／手動／緊急疏散、現行FAQ越位不同恢復程序均符。FAQ2024.2.6更新／2026.10.6檢視仍在頁上。2015捷運技術50比較高運量與文湖CBTC，原文沒外推所有現行線路相同硬體。
+
+## 書目支持範圍待確認
+
+原來源2 supports：「開門信號至車門全開約 5.8 秒、10 秒未開即判故障」。其URL是no22網頁104，實際只列速度調整等，沒有該項；no23網頁60則有5.8／10秒，但5.8秒起算點是收到F1定位訊號，不是開門訊號。
+
+建議從來源2支持說明刪除此項，若需要記錄該數據，另歸來源6並改「自列車收到道旁F1訊號至車門完全開啟約5.8秒，10秒內未開則ATP故障燈亮」。正文沒有使用5.8或10，不需加料。此為書目對應與事件起點的事實修正，未默改原來源清單。
+
+五處純潤，數字／連結／來源清單保持原樣。
+
+已讀來源：
+https://ebook.dorts.gov.taipei/ebook/no22/files/basic-html/page105.html
+https://ebook.dorts.gov.taipei/ebook/no22/files/basic-html/page104.html
+https://ebook.dorts.gov.taipei/ebook/no22/files/basic-html/page174.html
+https://data.taipei/api/dataset/0032ad33-327b-40a9-968d-3af94f335b78/resource/12299444-f7c7-45d0-bcdd-b616fe452984/download
+https://www.metro.taipei/News_Content.aspx?n=566DA580861CEE77&s=252722E299897929
+https://ebook.dorts.gov.taipei/ebook/no23/files/basic-html/page60.html
+
+## v-formation-birds
+
+# V字隊形查核
+
+六項原來源已讀。2014Nature公開摘要及正文公開相關段支持空間相位／翼尖路徑、上洗／正後下洗，不稱全隊同時抬翅；2001Nature是公開摘要與圖標，不聲稱讀取付費全文，心率估耗能與受訓白鵜鶘相符，不添節能百分比。2015PNAS全文核14幼鳥、39km、32±12%、60.7%雙鳥隊形、median2s最大41s、替代疲勞預測／地面社交／親緣、接近性模型比偏好模型更近觀察及observational無絕對證明限制均符。RVC／Oxford同研究不是獨立驗證，後者仍稱進一步生理量測待做。NatGeo不代替論文作數值來源。
+
+## 物種名稱待確認
+
+正文兩處原句用「朱鷺」：「Portugal 等人 2014 年發表於《Nature》的朱鷺研究」；「分析十四隻幼年朱鷺在人工引導遷徙中的一段約三十九公里飛行」。原研究均明列Northern bald ibis (Geronticus eremita)，台灣生命大百科中文名為「隱䴉」。來源清單已用隱䴉，正文應一致。
+
+建議逐處改為「隱䴉」，首次可寫「隱䴉（Geronticus eremita）」。這是物種辨識更正，未默改正文，也不等同一般朱鷺個體或所有䴉類的研究。
+https://taieol.tw/pages/258776
+https://www.nature.com/articles/nature12939
+https://www.pnas.org/doi/10.1073/pnas.1413589112
+
+五處純潤；物種名稱待MM確認。
+
+已讀來源：
+https://www.nature.com/articles/nature12939
+https://www.nationalgeographic.com/science/article/birds-that-fly-in-a-v-formation-use-an-amazing-trick
+https://www.rvc.ac.uk/research/research-centres-and-facilities/structure-and-motion/news/pairing-and-sharing-in-v-formation-flight
+https://www.pnas.org/doi/10.1073/pnas.1413589112
+https://www.ox.ac.uk/news/2015-02-03-one-good-turn-birds-swap-energy-sapping-lead-role-2
+https://www.nature.com/articles/35099670
+
+## seven-day-week
+
+# 018手動修訂後查核
+
+使用MM2026-11-06 00:55:45告知修訂完成後，實際取回00c77fe43a8d305ade7326537d01222dbe0b70c7的daily draft.json。保留其9處改文，不使用舊manuscript或舊PDF。來源七項重讀；NASA29.5天／4×7=28、UCL兩傳統／用途與日曆區分、2021研究97/98與120灌溉權文書、2022同研究者義大利起源論非共識、Dio37.19的順序解釋、FranceArchives三旬／第十天休息、Vovelle社會宗教抵抗與1806.1.1正式恢復均符。24%7=3、七日序列土日月火水木金重新計算；1806-01-01是Wednesday（Python proleptic Gregorian），正文只用日期不新增星期。
+
+三處輕量語順，手動修訂基本保留。已有的破折號出自MM本輪改文，沒有當作新作文風擴用。
+
+## 手動句子中的因果範圍，待確認
+
+原文：「抑制變革的力量一部分在於印好的日曆：然即使自己換了一本新的，別人仍按原來的週期做事，兩者就必須重新協調。」
+
+建議：「改動的困難不只在於換一本印好的日曆；即使自己換了一本新的，別人仍按原來的週期做事，兩者就必須重新協調。」
+
+理由：原稿論證與UCL／法國改制材料支持共享生活安排的協調成本，沒有單獨證明印刷日曆本身抑制變革。「不只在於換一本」可承接MM想保留的日曆比喻，又不把紙本變成已驗證原因。此屬解釋範圍，未默改備審正文；不是對MM原編輯作自動覆寫。
+
+已讀來源：
+https://science.nasa.gov/moon/moon-phases/
+https://www.ucl.ac.uk/arts-humanities/hebrew-jewish/hjs-research/research-projects-hjs/calendars-late-antiquity-and-middle-ages-standardization-and-fixation/seven-day-week-roman-empire-and-near-east
+https://discovery.ucl.ac.uk/id/eprint/10126925/3/Stern_Chapter%201.pdf
+https://blogs.fu-berlin.de/zodiacblog/2022/05/02/the-origins-of-the-planetary-week/
+https://lexundria.com/dio/37.19/cy
+https://francearchives.gouv.fr/fr/article/293787022
+https://francearchives.gouv.fr/pages_histoire/38811

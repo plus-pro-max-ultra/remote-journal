@@ -20,7 +20,7 @@
     "title": "「萬世一系」之下，日本皇位繼承規則真的從未改變嗎？",
     "source_ref": "8b8f8c5c95e98c55985fcd473719c1b7175c07f9",
     "source_path": "articles/003-imperial/index.html",
-    "status": "先查核及非爭議文字潤飾已備；男系限定修正待MM決定，未發布",
+    "status": "已查核／已潤；男系措辭依MM確認套用備審稿，未發布",
     "kind": "已刊"
   },
   {
@@ -164,7 +164,7 @@
     "title": "地震已經搖了，警報為什麼才響？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/earthquake-early-warning.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／非爭議純潤備審；未發布，無新增事實修正提案",
     "kind": "待審閱十五篇"
   },
   {
@@ -172,7 +172,7 @@
     "title": "手機顯示「只能撥緊急電話」，112 到底借到了什麼？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/emergency-call-112.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／非爭議純潤備審；未發布，無新增事實修正提案",
     "kind": "待審閱十五篇"
   },
   {
@@ -180,7 +180,7 @@
     "title": "國道沒有收費站了，你的通行費是誰在算？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/etc-gantry-tolling.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／非爭議純潤備審；未發布，無新增事實修正提案",
     "kind": "待審閱十五篇"
   },
   {
@@ -188,7 +188,7 @@
     "title": "高鐵進隧道，耳朵感到的不是只有海拔",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/hsr-tunnel-ears.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已查核／純潤備審；因果語氣待確認，未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -196,7 +196,7 @@
     "title": "樂透開獎，怎麼證明沒被動手腳？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/lottery-draw-integrity.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -204,7 +204,7 @@
     "title": "捷運列車為什麼每次都能對準月台門？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/metro-platform-doors.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布，書目範圍待確認",
     "kind": "待審閱十五篇"
   },
   {
@@ -212,7 +212,7 @@
     "title": "便利商店的飯糰包裝，為什麼要分成好幾片？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/onigiri-wrap-engineering.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -220,7 +220,7 @@
     "title": "一張磨損的 QR code，手機究竟怎麼把它讀回來？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/qr-error-correction.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -228,7 +228,7 @@
     "title": "女王頭的脖子，為什麼不能只用一把尺預告結局？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/queens-head-neck.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -236,7 +236,7 @@
     "title": "種子備份領出來之後，為什麼還得種一次、再存回去？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/seed-vault-withdrawal.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -244,7 +244,7 @@
     "title": "紅燈多等十秒，換來的是誰的順暢？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/traffic-light-timing.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已先查核／純潤備審；未發布",
     "kind": "待審閱十五篇"
   },
   {
@@ -252,15 +252,15 @@
     "title": "V 字隊形裡，鳥怎麼找到那個值得跟的位置？",
     "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
     "source_path": "review/ready-drafts/v-formation-birds.json",
-    "status": "保留既有十五篇；待重查關鍵主張後潤飾",
+    "status": "已查核／純潤備審；物種名稱待確認，未發布",
     "kind": "待審閱十五篇"
   },
   {
     "id": "seven-day-week",
     "title": "為什麼一週是七天，卻不必配合月亮？",
-    "source_ref": "4860a675ccff2610efc1a5dfdda2dad3e7cba24f",
+    "source_ref": "00c77fe43a8d305ade7326537d01222dbe0b70c7",
     "source_path": "daily/2026-11-05-seven-day-week/draft.json",
-    "status": "11/5來源已查；待依新風格逐段潤飾",
+    "status": "018手動最新版已查核／輕潤備審；日曆因果範圍待確認，未發布",
     "kind": "每日候選"
   }
 ]
