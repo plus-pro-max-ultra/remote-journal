@@ -3,5 +3,14 @@
   "prepared_at": "2026-11-06T23:48:00+08:00",
   "stage": "source_checked_polished_local_visual_verified_awaiting_Nov7_gh_release",
   "gh_published": false,
-  "main_approved": false
+  "main_approved": false,
+  "status": "gh_live_verified",
+  "gh_commit": "1cd1ebc80ae797b8c3d1bb2db1673b3af80ed42c",
+  "pages_run": "42301497459",
+  "deployed_at": "2026-11-07T06:03:00+08:00",
+  "verified_at": "2026-11-07T06:12:40+08:00",
+  "live_article_status": 200,
+  "live_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/",
+  "official_approved": false,
+  "deadline_met": true
 }
