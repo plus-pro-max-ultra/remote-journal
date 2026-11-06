@@ -94,5 +94,146 @@
       "sources": 7
     }
   ],
-  "deployment": "pending"
+  "deployment": {
+    "status": "completed",
+    "conclusion": "success",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/actions/runs/42238785399",
+    "head_sha": "c33d9a788a95a427e03e41e579a24ecd3e7d7735"
+  },
+  "live_bodies": [
+    {
+      "id": "001-roads",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "002-median",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "003-imperial",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "004-stock",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "005-maps",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "006-submarine-cables",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "007-webb-l2",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "008-smallpox",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "009-comet-windows",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "010-daylight-saving-time",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "011-typhoon-names",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "012-power-frequency",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "013-runway-numbers",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "014-escalator-stand-walk",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "015-movie-popcorn",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "016-survivorship-bias",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "017-antibiotic-course",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/",
+      "status": 200,
+      "matches": true
+    },
+    {
+      "id": "018-seven-day-week",
+      "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/",
+      "status": 200,
+      "matches": true
+    }
+  ],
+  "verified_at": "2026-11-06T23:05:30+08:00",
+  "main_sha": "7e635c9135a826cf71c2bedbb1557f981ef8c3d6",
+  "gh_sha": "c33d9a788a95a427e03e41e579a24ecd3e7d7735",
+  "live_resource_parity": {
+    "stories.js": true,
+    "index.html": true,
+    "archive/index.html": true,
+    "feed.xml": true,
+    "sw.js": true
+  },
+  "visual_inspection": {
+    "local_viewports": [
+      320,
+      390,
+      1440
+    ],
+    "live_verified": [
+      "008",
+      "010",
+      "015",
+      "017",
+      "018"
+    ],
+    "fresh_browser_required": true,
+    "note": "Existing browser initially showed cached article; clean browser with service-worker bypass displayed current content, including015cost wording and018calendar text."
+  }
 }

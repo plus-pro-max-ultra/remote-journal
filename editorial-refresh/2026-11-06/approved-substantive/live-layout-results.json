@@ -1,0 +1,71 @@
+[
+  {
+    "id": "008-smallpox",
+    "width": 390,
+    "scroll": 390,
+    "body": 3512,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "010-daylight-saving-time",
+    "width": 390,
+    "scroll": 390,
+    "body": 3095,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "015-movie-popcorn",
+    "width": 390,
+    "scroll": 390,
+    "body": 1692,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "017-antibiotic-course",
+    "width": 390,
+    "scroll": 390,
+    "body": 2223,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "018-seven-day-week",
+    "width": 390,
+    "scroll": 390,
+    "body": 2169,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  }
+]
