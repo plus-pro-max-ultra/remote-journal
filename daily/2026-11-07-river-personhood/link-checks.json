@@ -1,0 +1,54 @@
+[
+  {
+    "url": "https://www3.parliament.nz/en/get-involved/features/innovative-bill-protects-whanganui-river-with-legal-personhood",
+    "status": 200,
+    "bytes": 118391,
+    "final_url": "https://www3.parliament.nz/en/get-involved/features/innovative-bill-protects-whanganui-river-with-legal-personhood"
+  },
+  {
+    "url": "https://www.legislation.govt.nz/act/public/2017/7/en/2025-08-27.pdf",
+    "status": 202,
+    "bytes": 0,
+    "final_url": "https://www.legislation.govt.nz/act/public/2017/7/en/2025-08-27.pdf"
+  },
+  {
+    "url": "https://www.tepoutupua.nz/tepaauroa",
+    "status": 200,
+    "bytes": 717962,
+    "final_url": "https://www.tepoutupua.nz/tepaauroa"
+  },
+  {
+    "url": "https://www.govt.nz/assets/Documents/OTS/Whanganui-Iwi/Whanganui-Iwi-Whanganui-River-Deed-of-Settlement-Summary-5-Aug-2014.pdf",
+    "status": 403,
+    "bytes": 881,
+    "final_url": "https://www.govt.nz/assets/Documents/OTS/Whanganui-Iwi/Whanganui-Iwi-Whanganui-River-Deed-of-Settlement-Summary-5-Aug-2014.pdf"
+  },
+  {
+    "url": "https://www.environmentguide.org.nz/regional/te-awa-tupua-whanganui-river-claims-settlement/",
+    "status": 200,
+    "bytes": 20926,
+    "final_url": "https://www.environmentguide.org.nz/regional/te-awa-tupua-whanganui-river-claims-settlement/"
+  },
+  {
+    "url": "https://www.ngatangatatiaki.co.nz/our-story/ruruku-whakatupua/te-kopuka-na-te-awa-tupua/",
+    "status": 200,
+    "bytes": 90115,
+    "final_url": "https://www.ngatangatatiaki.co.nz/our-story/ruruku-whakatupua/te-kopuka-na-te-awa-tupua/"
+  },
+  {
+    "url": "https://www.rnz.co.nz/news/regions_local-democracy-reporting/498002/new-strategy-for-wellbeing-of-whanganui-river-to-be-unveiled",
+    "status": 200,
+    "bytes": 299040,
+    "final_url": "https://www.rnz.co.nz/news/regions_local-democracy-reporting/498002/new-strategy-for-wellbeing-of-whanganui-river-to-be-unveiled"
+  },
+  {
+    "url": "https://freshwater.horizons.govt.nz/have-your-say/te-heke-ngahuru",
+    "error": "HTTPSConnectionPool(host='freshwater.horizons.govt.nz', port=443): Max retries exceeded with url: /have-your-say/te-heke-ngahuru (Caused by NameResolutionError(\"HTTPSConnection(host='freshwater.horizons.govt.nz', port=443): Failed to resolve 'freshwater.horizons.govt.nz' ([Errno -2] Name or service not known)\"))"
+  },
+  {
+    "url": "https://www.tepoutupua.nz/faqs",
+    "status": 200,
+    "bytes": 715624,
+    "final_url": "https://www.tepoutupua.nz/faqs"
+  }
+]

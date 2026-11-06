@@ -1,0 +1,15 @@
+# Findings and constraints
+- Statute HTML returned historical version17Feb2024 with warning; search/current PDF27Aug2025. Must crosscheck used sections against newer PDF before describing current law. Avoid claiming whole act fully read.
+- Direct read HTML sections3,7–20,27–38,41–42. 12 indivisible living whole incl physical/metaphysical,13four values,14legalperson+representation,15decision requirements with agency discretion and purposes retained,16water/private rights exceptions,19river interests and iwi engagement,20one iwi nomination and one Crown nomination jointly appointed. Two people one office, not two competing lobbyists.
+- Te Pou Tupua page full read: organisation's account/interpretation, not neutral performance evaluation. Current-name biographies may be stale; no article need to name holders.
+- Te Pa Auroa page full read: framework+historical hapu perspective; future tense on strategy may lag modern strategy. Do not repeat as current pending project without checking.
+- Parliament28Mar2017full read: royal assent20March2017; petitions1870s; Crown interventions damaged fisheries/weirs; public-law company comparison. Do not reuse first-river ranking or overseas example without current check.
+- EnvironmentGuide first sections read only so far; explanatory NGO legal guide shares some parliament framing. Need remaining page for funding and limits.
+- Research2025PDF fetch partial ends midarticle; treat as partial not full scholarly result.
+- Updated27Aug2025PDF relevant sections12–20,27–30 read and match2024 HTML for these claims. PDFfetch truncated after~s38, not entireAct. Current statute14individual page search returns27Aug2025. Article will cite date-specific PDF and exact clause ranges, not claim legal advice.
+- EnvironmentGuide read remainder: explicitly2017lastupdated; use only corroboratinginstitutiondescription, not current implementation.
+-2014government settlement summary full read. Crucial distinction: NZ$80m iwi redress versus NZ$30m river fund, annual200k20years foroffice. Do not call whole settlement a river restoration budget. Riverbed transferred to TeAwaTupua not iwi, private land/water rights preserved.
+- Iwi postsettlement governance page full read (TeKopuka), May30 2019inauguralhui; membership lists inconsistent with updatedstrategyofficehomepage so do not list currentholders.
+- TeKopukahomepage full read and currentPDF downloaded inworkspace with HTTP20027MB. PDFstillcarries2023submissiondate, so no reliable finalversiondate fromartifact. Use institution role/account and link, not latestfinaladoptionclaims.
+- Horizons OrangaWai pagefullread: councilmusthaveparticularregard, draftconsultationclosed31Mar2024. Oldfuturewordingrecorded, not repeated as present.
+- RNZ2023articlefullread: strategylaunchSeptember2023and2019collaboration.2026Heraldarticleonlypartialread, therefore do not base freshimplementation/conclusion onit. Research2025articlepartialonly, not evidenceofresult.
