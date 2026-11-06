@@ -1,0 +1,812 @@
+[
+  {
+    "id": "001-roads",
+    "width": 320,
+    "scroll": 320,
+    "body": 1686,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "002-median",
+    "width": 320,
+    "scroll": 320,
+    "body": 1429,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "003-imperial",
+    "width": 320,
+    "scroll": 320,
+    "body": 1431,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "004-stock",
+    "width": 320,
+    "scroll": 320,
+    "body": 1595,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "005-maps",
+    "width": 320,
+    "scroll": 320,
+    "body": 1861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "006-submarine-cables",
+    "width": 320,
+    "scroll": 320,
+    "body": 2861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "007-webb-l2",
+    "width": 320,
+    "scroll": 320,
+    "body": 2711,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "008-smallpox",
+    "width": 320,
+    "scroll": 320,
+    "body": 3594,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "009-comet-windows",
+    "width": 320,
+    "scroll": 320,
+    "body": 2924,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "010-daylight-saving-time",
+    "width": 320,
+    "scroll": 320,
+    "body": 3212,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "011-typhoon-names",
+    "width": 320,
+    "scroll": 320,
+    "body": 2696,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "012-power-frequency",
+    "width": 320,
+    "scroll": 320,
+    "body": 2949,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "013-runway-numbers",
+    "width": 320,
+    "scroll": 320,
+    "body": 2637,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "014-escalator-stand-walk",
+    "width": 320,
+    "scroll": 320,
+    "body": 2538,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "015-movie-popcorn",
+    "width": 320,
+    "scroll": 320,
+    "body": 2014,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "016-survivorship-bias",
+    "width": 320,
+    "scroll": 320,
+    "body": 1801,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "017-antibiotic-course",
+    "width": 320,
+    "scroll": 320,
+    "body": 2235,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "018-seven-day-week",
+    "width": 320,
+    "scroll": 320,
+    "body": 2169,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "001-roads",
+    "width": 390,
+    "scroll": 390,
+    "body": 1686,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "002-median",
+    "width": 390,
+    "scroll": 390,
+    "body": 1429,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "003-imperial",
+    "width": 390,
+    "scroll": 390,
+    "body": 1431,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "004-stock",
+    "width": 390,
+    "scroll": 390,
+    "body": 1595,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "005-maps",
+    "width": 390,
+    "scroll": 390,
+    "body": 1861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "006-submarine-cables",
+    "width": 390,
+    "scroll": 390,
+    "body": 2861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "007-webb-l2",
+    "width": 390,
+    "scroll": 390,
+    "body": 2711,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "008-smallpox",
+    "width": 390,
+    "scroll": 390,
+    "body": 3594,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "009-comet-windows",
+    "width": 390,
+    "scroll": 390,
+    "body": 2924,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "010-daylight-saving-time",
+    "width": 390,
+    "scroll": 390,
+    "body": 3212,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "011-typhoon-names",
+    "width": 390,
+    "scroll": 390,
+    "body": 2696,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "012-power-frequency",
+    "width": 390,
+    "scroll": 390,
+    "body": 2949,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "013-runway-numbers",
+    "width": 390,
+    "scroll": 390,
+    "body": 2637,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "014-escalator-stand-walk",
+    "width": 390,
+    "scroll": 390,
+    "body": 2538,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "015-movie-popcorn",
+    "width": 390,
+    "scroll": 390,
+    "body": 2014,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "016-survivorship-bias",
+    "width": 390,
+    "scroll": 390,
+    "body": 1801,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "017-antibiotic-course",
+    "width": 390,
+    "scroll": 390,
+    "body": 2235,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "018-seven-day-week",
+    "width": 390,
+    "scroll": 390,
+    "body": 2169,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "001-roads",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1686,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "002-median",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1429,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "003-imperial",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1431,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "004-stock",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1595,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "005-maps",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "006-submarine-cables",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2861,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "007-webb-l2",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2711,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "008-smallpox",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 3594,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "009-comet-windows",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2924,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "010-daylight-saving-time",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 3212,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "011-typhoon-names",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2696,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "012-power-frequency",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2949,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "013-runway-numbers",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2637,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "014-escalator-stand-walk",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2538,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      },
+      {
+        "loaded": false
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "015-movie-popcorn",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2014,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "016-survivorship-bias",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 1801,
+    "images": [
+      {
+        "loaded": true
+      },
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "017-antibiotic-course",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2235,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "018-seven-day-week",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2169,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  }
+]
