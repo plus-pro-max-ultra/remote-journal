@@ -8,3 +8,13 @@
 7. LSCE 2025-03-18研究機構回顧，全文。https://www.lsce.ipsl.fr/en/the-chauvet-cave-30-years-since-its-discovery-contribution-from-radiocarbon-dating/ 新取樣少量化；年代區間與2016有差，不合併。本稿支持研究仍持續，不用其年代數字。
 8. HTO，Commons照片授權頁，全文。https://commons.wikimedia.org/wiki/File:Paintings_from_the_Chauvet_cave_(museum_replica).jpg 公共領域／博物館複製品。圖片provenance而非原洞年代證據。
 補讀：法國文化部Research Programme、Megaloceros Gallery／first radiocarbon glossary；Smithsonian2016二手回顧不用來取代原研究。
+
+## 最後連結校準，23:20
+
+原索引3 Missouri在原站回404，已移出正式參考書目，不能以讀取器返回舊內容視作現行可用頁。最終來源3改為Historic England 2022指引，核讀第1節原理／處理／測量；來源8為Beta Analytic老木效應全文。兩者支持的主張與書目已同步到完整稿、JSON及gh。
+
+https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/heag312-radiocarbon-dating/
+
+https://www.radiocarbon.com/old-wood-effect.htm
+
+圖片兩個Commons原頁均可讀授權，但檔案下載403，最終未使用照片，不作實際來源圖證據。

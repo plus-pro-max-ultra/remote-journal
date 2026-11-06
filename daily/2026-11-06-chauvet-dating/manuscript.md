@@ -14,7 +14,7 @@
 
 ## 二、碳十四讀到的，首先是木炭
 
-黑色線條提供了一個入口：如果顏料含有木炭，就能取下極少量材料，測量其中的放射性碳。植物生長時吸收碳，木材不再與環境交換碳之後，其中的碳十四仍會衰變。測量留下的碳十四與穩定碳同位素的比例，便能估計材料的年代。密蘇里大學人類學博物館特別提醒，碳十四定年回答的是有機材料的年代，不是物件後來被使用的那一天[^3]。
+黑色線條提供了一個入口：如果顏料含有木炭，就能取下極少量材料，測量其中的放射性碳。植物生長時吸收碳，木材不再與環境交換碳之後，其中的碳十四仍會衰變。測量留下的碳十四與穩定碳同位素的比例，便能估計材料的年代。Historic England 的考古定年指引說明了這套測量程序；Beta Analytic 實驗室的「老木效應」介紹則提醒，木炭中的碳首先對應木材生長的年代，不是後來被使用的那一天[^3][^8]。
 
 放到畫上，差別就很具體：木材形成、成為木炭，再被人拿來畫線，是一串事件。取樣位置貼近筆畫，能讓測量與作畫行為更接近；仍得判斷材料是否曾被保存、混入別的炭，或受到後來碳的污染。地面上一塊炭的年代，與牆上一頭犀牛的年代，也不能只因為在同一座洞就直接畫上等號。
 
@@ -70,11 +70,11 @@ https://c14.arch.ox.ac.uk/calibration.html
 
 常規碳十四年齡與校正年代不同、校正曲線、不確定區間及BP以1950年為基準。
 
-3. Radiocarbon Dating（University of Missouri，Museum of Anthropology）
+3. Radiocarbon Dating and Chronological Modelling: Guidelines and Best Practice（Bayliss、Marshall，Historic England，2022）
 
-https://anthromuseum.missouri.edu/radiocarbon-dating
+https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/heag312-radiocarbon-dating/
 
-生命材料的碳十四／穩定碳比例、材料年代與使用日期的差別、污染問題。
+核讀第1節原理、樣本清理及測量程序；不是肖維洞個案定年。
 
 4. Aurignacian cave art（法國文化部，肖維洞研究介紹）
 
@@ -99,4 +99,10 @@ https://whc.unesco.org/en/list/1426/
 https://www.lsce.ipsl.fr/en/the-chauvet-cave-30-years-since-its-discovery-contribution-from-radiocarbon-dating/
 
 持續採樣研究與新設備減少木炭用量。其活動期範圍不與2016模型混併。
+
+8. Understanding the Old Wood Effect（Beta Analytic，碳十四定年實驗室）
+
+https://www.radiocarbon.com/old-wood-effect.htm
+
+木材年輪生長年代與使用日期的差別，延遲使用與再利用；不據此斷言肖維洞有特定幅度的老木偏差。
 

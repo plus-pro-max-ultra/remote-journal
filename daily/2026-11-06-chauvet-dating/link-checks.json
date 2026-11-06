@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.pnas.org/doi/full/10.1073/pnas.1523158113",
+    "http_status": 403,
+    "note": "全文已由實際來源頁核讀；HTTP機器讀取限制不等來源不存在"
+  },
+  {
+    "url": "https://c14.arch.ox.ac.uk/calibration.html",
+    "http_status": 200,
+    "note": "HTTP readable"
+  },
+  {
+    "url": "https://anthromuseum.missouri.edu/radiocarbon-dating",
+    "http_status": 404,
+    "note": "原站確認404，已移除，以下最終替代來源"
+  },
+  {
+    "url": "https://archeologie.culture.gouv.fr/chauvet/en/aurignacian-cave-art",
+    "http_status": 200,
+    "note": "HTTP readable"
+  },
+  {
+    "url": "https://archeologie.culture.gouv.fr/chauvet/en/datings",
+    "http_status": 200,
+    "note": "HTTP readable"
+  },
+  {
+    "url": "https://whc.unesco.org/en/list/1426/",
+    "http_status": 200,
+    "note": "HTTP readable"
+  },
+  {
+    "url": "https://www.lsce.ipsl.fr/en/the-chauvet-cave-30-years-since-its-discovery-contribution-from-radiocarbon-dating/",
+    "http_status": 200,
+    "note": "HTTP readable"
+  },
+  {
+    "url": "https://historicengland.org.uk/images-books/publications/radiocarbon-dating-chronological-modelling/heag312-radiocarbon-dating/",
+    "fulltext_read": "chapter1 methods",
+    "status": "verified readable source"
+  },
+  {
+    "url": "https://www.radiocarbon.com/old-wood-effect.htm",
+    "fulltext_read": true,
+    "status": "verified readable source"
+  }
+]

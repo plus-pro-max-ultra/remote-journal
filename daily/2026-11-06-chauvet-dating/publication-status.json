@@ -4,6 +4,9 @@
   "id": "019-chauvet-dating",
   "status": "preview_deploy_pending",
   "official_approved": false,
-  "local_checks": "320/390/1440 no overflow;19body mirrors;18previous bodies unchanged",
-  "factcheck_before_draft": true
+  "local_checks": "320/390/1440 no overflow;19 body mirrors;18 old bodies preserved; search/bookmark/note/source accordion/archive passed; actual phone/table/desktop inspected",
+  "factcheck_before_draft": true,
+  "gh_commit": "99c311fbf60aa524deb257129dc10f1a13256675",
+  "pages_run": "42242164033",
+  "source_count": 8
 }
