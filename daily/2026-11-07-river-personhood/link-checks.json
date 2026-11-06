@@ -9,7 +9,8 @@
     "url": "https://www.legislation.govt.nz/act/public/2017/7/en/2025-08-27.pdf",
     "status": 202,
     "bytes": 0,
-    "final_url": "https://www.legislation.govt.nz/act/public/2017/7/en/2025-08-27.pdf"
+    "final_url": "https://www.legislation.govt.nz/act/public/2017/7/en/2025-08-27.pdf",
+    "note": "Direct download202empty;reader service retrieved relevant2025consolidation;latest14HTML separately verified"
   },
   {
     "url": "https://www.tepoutupua.nz/tepaauroa",
@@ -18,10 +19,11 @@
     "final_url": "https://www.tepoutupua.nz/tepaauroa"
   },
   {
-    "url": "https://www.govt.nz/assets/Documents/OTS/Whanganui-Iwi/Whanganui-Iwi-Whanganui-River-Deed-of-Settlement-Summary-5-Aug-2014.pdf",
-    "status": 403,
-    "bytes": 881,
-    "final_url": "https://www.govt.nz/assets/Documents/OTS/Whanganui-Iwi/Whanganui-Iwi-Whanganui-River-Deed-of-Settlement-Summary-5-Aug-2014.pdf"
+    "url": "https://whakatau.govt.nz/te-tira-kurapounamu-treaty-settlements/find-a-treaty-settlement/whanganui-iwi",
+    "status": 200,
+    "bytes": 112564,
+    "final_url": "https://whakatau.govt.nz/te-tira-kurapounamu-treaty-settlements/find-a-treaty-settlement/whanganui-iwi",
+    "note": "replacement after direct check of earlier source link"
   },
   {
     "url": "https://www.environmentguide.org.nz/regional/te-awa-tupua-whanganui-river-claims-settlement/",
@@ -42,8 +44,11 @@
     "final_url": "https://www.rnz.co.nz/news/regions_local-democracy-reporting/498002/new-strategy-for-wellbeing-of-whanganui-river-to-be-unveiled"
   },
   {
-    "url": "https://freshwater.horizons.govt.nz/have-your-say/te-heke-ngahuru",
-    "error": "HTTPSConnectionPool(host='freshwater.horizons.govt.nz', port=443): Max retries exceeded with url: /have-your-say/te-heke-ngahuru (Caused by NameResolutionError(\"HTTPSConnection(host='freshwater.horizons.govt.nz', port=443): Failed to resolve 'freshwater.horizons.govt.nz' ([Errno -2] Name or service not known)\"))"
+    "url": "https://www.whanganui.govt.nz/Community-and-Places/About-Whanganui/Our-District/Te-Awa-Tupua-Whanganui-River-Settlement",
+    "status": 200,
+    "bytes": 117617,
+    "final_url": "https://www.whanganui.govt.nz/Community-and-Places/About-Whanganui/Our-District/Te-Awa-Tupua-Whanganui-River-Settlement",
+    "note": "replacement after direct check of earlier source link"
   },
   {
     "url": "https://www.tepoutupua.nz/faqs",

@@ -8,3 +8,6 @@
 7. HorizonsRegionalCouncilOrangaWai. https://freshwater.horizons.govt.nz/have-your-say/te-heke-ngahuru . Fullread; strategyandcouncildecisionlink, consultationarchive31Mar2024. Notproofimplementationcomplete.
 8. RNZ/LDRMoanaEllis14Sep2023. https://www.rnz.co.nz/news/regions_local-democracy-reporting/498002/new-strategy-for-wellbeing-of-whanganui-river-to-be-unveiled . Fullread; strategydevelopment2019–2023, launch,role. Independentjournalismtype; nogeneraloutcomeclaim.
 Supplement notused:2026Heraldpartial;2025academicanalysispartial; currentlinkedstrategyPDFhas2023submissiondate so finaladoptionnotestablished. TeKopuka https://www.tekopuka.co.nz/ fullread institutionalrole. StrategyexactPDF https://www.tekopuka.co.nz/_files/ugd/59e6e7_825f2715634f458da47196eda7ab021b.pdf HTTP200downloadedbutnoassertionoffinalversiondate.
+
+## 最後連結檢核替換
+來源4改引Te Tari Whakatau官方HTML完整摘要：https://whakatau.govt.nz/te-tira-kurapounamu-treaty-settlements/find-a-treaty-settlement/whanganui-iwi ，已全文核讀並直取200，舊PDF403不再為文章主連結。來源8換區議會：https://www.whanganui.govt.nz/Community-and-Places/About-Whanganui/Our-District/Te-Awa-Tupua-Whanganui-River-Settlement ，全文核讀及直取200。舊Horizons研究筆記僅留查找歷史，不支撐最終稿主張。來源9FAQ全文：https://www.tepoutupua.nz/faqs ，用於hapū／iwi核心聲音。法規第14條最新HTML：https://www.legislation.govt.nz/act/public/2017/0007/latest/DLM6831461.html 。
