@@ -1,10 +1,12 @@
 {
   "issue": "017",
   "id": "017-antibiotic-course",
-  "status": "品質控管",
-  "readable": false,
+  "status": "已確認完成",
+  "readable": true,
   "original_approved_snapshot": "5d744c82ac58173e4d3ab6a1fad06efbf0dfa3a5",
   "archive_tag": "archive/2026-11-05/017-revised-before-quality-control",
   "full_text_sha256": "e8ae2ead407d91f5c49b341c37ca6a95ed163724aced7cb06080a8e74cc9fc93",
-  "publication_ledger_entry_added": false
+  "publication_ledger_entry_added": true,
+  "confirmed_date": "2026-11-06",
+  "basis": "001–018 gh release, all substantive decisions approved; conditional main instruction fulfilled"
 }

@@ -50,6 +50,20 @@
       "date": "2026-11-03",
       "number": "016",
       "id": "survivorship-bias"
+    },
+    {
+      "date": "2026-11-06",
+      "number": "017",
+      "id": "antibiotic-course",
+      "release_type": "confirmed_batch",
+      "original_prepared_date": "2026-11-04"
+    },
+    {
+      "date": "2026-11-06",
+      "number": "018",
+      "id": "seven-day-week",
+      "release_type": "confirmed_batch",
+      "original_prepared_date": "2026-11-05"
     }
   ]
 }

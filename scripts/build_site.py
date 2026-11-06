@@ -9,11 +9,18 @@ def main():
     for old,new in mapping.items():
         assert (ROOT/'articles'/new/'index.html').is_file(),new
         assert (ROOT/'articles'/old/'index.html').is_file(),old
-    qc=(ROOT/'articles/017-antibiotic-course/index.html').read_text()
-    assert '品質控管' in qc and 'reader-body' not in qc and 'class="sources"' not in qc
-    assert 'noindex' in qc
+    stories_text=(ROOT/'stories.js').read_text()
+    stories=json.loads(stories_text[stories_text.index('['):].strip().rstrip(';'))
+    assert len(stories)==18
+    assert len({story['id'] for story in stories})==18
+    for story in stories:
+        page=(ROOT/'articles'/story['id']/'index.html').read_text()
+        assert 'reader-body' in page and 'class="sources"' in page,story['id']
+        assert '品質控管' not in page,story['id']
+        assert 'https://journal-for-far.learnman.workers.dev/articles/'+story['id']+'/' in page,story['id']
     for filename in ['feed.xml','sitemap.xml']:
-        assert 'antibiotic-course' not in (ROOT/filename).read_text()
+        assert '017-antibiotic-course' in (ROOT/filename).read_text()
+        assert '018-seven-day-week' in (ROOT/filename).read_text()
     out=ROOT/'dist'
     if out.exists():shutil.rmtree(out)
     out.mkdir()
@@ -22,6 +29,6 @@ def main():
         if p.is_dir():shutil.copytree(p,out/name)
         else:shutil.copy2(p,out/name)
     (out/'.nojekyll').write_text('')
-    print('Approved direct-edit website validated and packaged; 017 quality-control placeholder only.')
+    print('Confirmed direct-edit website validated and packaged; issues001–018 readable.')
     return 0
 if __name__=='__main__':raise SystemExit(main())
