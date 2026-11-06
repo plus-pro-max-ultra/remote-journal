@@ -2,11 +2,16 @@
   "prepared_date": "2026-11-06",
   "number": "019",
   "id": "019-chauvet-dating",
-  "status": "preview_deploy_pending",
+  "status": "preview_deployment_blocked",
   "official_approved": false,
   "local_checks": "320/390/1440 no overflow;19 body mirrors;18 old bodies preserved; search/bookmark/note/source accordion/archive passed; actual phone/table/desktop inspected",
   "factcheck_before_draft": true,
-  "gh_commit": "99c311fbf60aa524deb257129dc10f1a13256675",
-  "pages_run": "42242164033",
-  "source_count": 8
+  "gh_commit": "7482b6100a0d1a9a6c1222ed6d86c5ec22f085ab",
+  "pages_run": "42244868653",
+  "source_count": 8,
+  "failure": "Pages42242164033updating_pages10minute timeout;build/upload successful;notcontenterror",
+  "retry_note": "rerun-failed-jobs403;unchangedemptycommitusedwithinexistingpreviewdeploymentauthority",
+  "checked_at": "2026-11-06T23:49:35+08:00",
+  "live_article_status": 404,
+  "retry_result": "Fresh log confirmed updating_pages timeout15:48:47Z,canceled15:48:48Z;build/upload success;no further empty-commit retries"
 }
