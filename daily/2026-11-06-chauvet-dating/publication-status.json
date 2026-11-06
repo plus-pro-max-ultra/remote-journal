@@ -1,0 +1,9 @@
+{
+  "prepared_date": "2026-11-06",
+  "number": "019",
+  "id": "019-chauvet-dating",
+  "status": "preview_deploy_pending",
+  "official_approved": false,
+  "local_checks": "320/390/1440 no overflow;19body mirrors;18previous bodies unchanged",
+  "factcheck_before_draft": true
+}

@@ -1,3 +1,7 @@
+> 23:18現況：001–018正式main已部署核實，見[正式版紀錄](approved-substantive/MAIN-ELIGIBILITY.md)。15未刊最新全文潤飾仍在排隊，先完成[11/6獨立新刊019](../../daily/2026-11-06-chauvet-dating/README.md)；舊狀態表為歷史記錄。
+
+> 23:09狀態修正：[原始要求與正式版條件核對](approved-substantive/MAIN-ELIGIBILITY.md)。004資料區、017改寫比較均已交付，不是未完成的全文重寫關卡。舊狀態保留供歷史比對，不能作現行阻擋。
+
 > 最新：MM於22:52通過現行實質裁決，已套用13篇gh文章及5篇未刊稿。下方各輪描述保留其當時狀態，最新稿與差異請以[本次執行總覽](approved-substantive/README.md)為準；004及017結構未結案，main未更新。
 
 [2026-11-06 21:28要求：001–018全文潤飾稿與差異](published-full-polish/README.md)

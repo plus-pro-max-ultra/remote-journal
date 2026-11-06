@@ -1,0 +1,152 @@
+[
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/002-median/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/002-median/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/003-imperial/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/003-imperial/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/004-stock/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/004-stock/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/008-smallpox/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/008-smallpox/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/010-daylight-saving-time/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/010-daylight-saving-time/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/015-movie-popcorn/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/015-movie-popcorn/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/",
+    "status": 200,
+    "body_matches": true,
+    "canonical": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/archive/index.html",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/feed.xml",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/sitemap.xml",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/stories.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/sw.js",
+    "status": 200,
+    "matches": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/antibiotic-course/",
+    "alias": "antibiotic-course",
+    "status": 200,
+    "target_present": true
+  },
+  {
+    "url": "https://journal-for-far.learnman.workers.dev/articles/seven-day-week/",
+    "alias": "seven-day-week",
+    "status": 200,
+    "target_present": true
+  }
+]
