@@ -1,5 +1,5 @@
 {
-  "description": "001–018正式版已確認；019為gh新刊預覽，main尚未批准。",
+  "description": "001–018正式版已確認；019–020為gh新刊預覽，main尚未批准。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -19,6 +19,7 @@
     "survivorship-bias": "016-survivorship-bias",
     "antibiotic-course": "017-antibiotic-course",
     "seven-day-week": "018-seven-day-week",
-    "chauvet-dating": "019-chauvet-dating"
+    "chauvet-dating": "019-chauvet-dating",
+    "river-personhood": "020-river-personhood"
   }
 }
