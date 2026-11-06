@@ -1,0 +1,288 @@
+{
+  "checked_at": "2026-11-07T01:21:00+08:00",
+  "published": [
+    {
+      "slug": "001-roads",
+      "title": "為什麼道路愈寬，交通有時反而愈塞？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "002-median",
+      "title": "為什麼「平均數」有時會把現實說得很不像現實？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/002-median/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "003-imperial",
+      "title": "「萬世一系」之下，日本皇位繼承規則真的從未改變嗎？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/003-imperial/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "004-stock",
+      "title": "商品全部賣完，為什麼不一定是最好的結果？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/004-stock/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "005-maps",
+      "title": "為什麼每一張平面世界地圖，都會扭曲地球？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "006-submarine-cables",
+      "title": "你正在讀的這篇文章，是怎麼從海底抵達的？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "007-webb-l2",
+      "title": "為什麼韋伯望遠鏡要到 150 萬公里外，還得定期推自己一把？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "008-smallpox",
+      "title": "天花為什麼是人類唯一根除的傳染病？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/008-smallpox/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "009-comet-windows",
+      "title": "為什麼飛機的窗戶是圓的？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "010-daylight-saving-time",
+      "title": "為什麼十幾億人每年要撥兩次時鐘？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/010-daylight-saving-time/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "011-typhoon-names",
+      "title": "颱風的名字是誰決定的？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "012-power-frequency",
+      "title": "為什麼全台灣的電，每秒一起脈動 60 次？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "013-runway-numbers",
+      "title": "為什麼機場要花幾十萬，替跑道改名字？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "014-escalator-stand-walk",
+      "title": "電扶梯該站一邊，還是兩邊都站？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "015-movie-popcorn",
+      "title": "為什麼電影院的爆米花這麼貴？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/015-movie-popcorn/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "016-survivorship-bias",
+      "title": "只看成功案例，會漏掉什麼？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "017-antibiotic-course",
+      "title": "抗生素的療程，為什麼不能自己決定？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "018-seven-day-week",
+      "title": "為什麼一週是七天，卻不必配合月亮？",
+      "official": {
+        "status": 200,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/",
+        "body_matches_previous_gh": true
+      },
+      "gh": {
+        "status": 200,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/",
+        "body_matches_previous_gh": true
+      }
+    },
+    {
+      "slug": "019-chauvet-dating",
+      "title": "三萬多年前的人，怎麼已經畫得這麼好？",
+      "official": {
+        "status": 404,
+        "url": "https://journal-for-far.learnman.workers.dev/articles/019-chauvet-dating/",
+        "body_matches_previous_gh": false
+      },
+      "gh": {
+        "status": 404,
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/",
+        "body_matches_previous_gh": false
+      }
+    }
+  ],
+  "unpublished": {
+    "altitude-boiling-eggs": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "baggage-carousel-order": "本次批准的範圍修正已套用WIP；最新全文潤飾待驗收",
+    "braille-six-dots": "批准的省略爭議年份寫法已套用；1917／1919差異未冒稱查清；最新全文潤飾待驗收",
+    "earthquake-early-warning": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "emergency-call-112": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "etc-gantry-tolling": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "hsr-tunnel-ears": "本次批准的壓力／舒適度範圍修正已套用WIP；最新全文潤飾待驗收",
+    "lottery-draw-integrity": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "metro-platform-doors": "本次批准的精度與系統範圍修正已套用WIP；最新全文潤飾待驗收",
+    "onigiri-wrap-engineering": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "qr-error-correction": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "queens-head-neck": "來源量測差異仍具名保留；最新全文潤飾待驗收",
+    "seed-vault-withdrawal": "來源敘述差異仍具名保留；最新全文潤飾待驗收",
+    "traffic-light-timing": "前輪研究與本輪非爭議編修已有；最新全文潤飾待驗收",
+    "v-formation-birds": "本次批准的物種／實驗範圍修正已套用WIP；最新全文潤飾待驗收"
+  }
+}
