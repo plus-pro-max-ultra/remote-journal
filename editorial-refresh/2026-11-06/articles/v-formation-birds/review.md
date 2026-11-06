@@ -1,20 +1,22 @@
-[回到總覽](../../README.md) · [文字差異](changes.diff) · [逐項待確認](decisions.md)
+[回到本輪總覽](../../approved-substantive/README.md)
 
-> 有事實／解釋或書目待確認，原句暫留。本頁不是發布批准。
+> 22:52裁決已套用，仍為未刊稿，未新增正式期數。
 
 # V 字隊形裡，鳥怎麼找到那個值得跟的位置？
+
+從翼尖留下的氣流，到短短幾秒就換位的隱䴉，隊形的證據比「大家輪流當領袖」更有意思。
 
 遠看是一個整齊的 V，近看卻是一連串微調：往後一點、往側邊一點，再改變拍翼的時間，幾秒後又換另一隻帶頭。說鳥排成 V 字能省力，大方向沒有錯；但「跟在後面」並不是一個固定的優惠位置。前鳥持續拍翅，身後留下的氣流也在變動，後鳥得把位置和動作一起配合。研究者因此不能只拍下一張漂亮隊形照。他們要量到每隻鳥在哪裡、翅膀何時拍動，還要分清楚：觀察到符合省力的行為，和直接量到省下多少能量，是不同層次的證據。
 
 ## 一、前鳥後面，不是每個地方都好飛
 
-鳥翼產生升力時，也改變周圍氣流。在理論與研究的描述裡，前鳥側後方有可利用的上洗氣流，正後方則可能落在下洗區。後鳥若站錯位置，並不是「有前鳥就自動省力」。V 字兩臂把後鳥安排在偏向一側的位置，正與這個空氣動力學預測相符[1](#source-1)。
+鳥翼產生升力時，也改變周圍氣流。在理論與研究的描述裡，前鳥側後方有可利用的上洗氣流，正後方則可能落在下洗區。後鳥若站錯位置，並不是「有前鳥就自動省力」。V 字兩臂把後鳥安排在偏向一側的位置，正與這個空氣動力學預測相符[^1]。
 
 但真鳥會拍翼，留下的有利區域不是靜止的跑步機。前鳥每次上下拍動，都使後方流場隨時間改變。後鳥除了找對左右距離及前後距離，還可能需要讓自己的翼尖，在適當時刻通過前鳥留下的路徑。位置只是問題的一半，另一半是時機。
 
 ## 二、看見拍翼配合，才把隊形和機制接起來
 
-Portugal 等人 2014 年發表於《Nature》的朱鷺研究，報告鳥在 V 字位置的相對站位，符合利用上洗氣流的理論預測，並呈現翼尖路徑的協調。當鳥飛在另一隻正後方時，拍翼關係又不相同，作者解釋這可能降低下洗氣流的不利影響。
+Portugal 等人 2014 年發表於《Nature》的隱䴉（Geronticus eremita）研究，報告鳥在 V 字位置的相對站位，符合利用上洗氣流的理論預測，並呈現翼尖路徑的協調。當鳥飛在另一隻正後方時，拍翼關係又不相同，作者解釋這可能降低下洗氣流的不利影響。
 
 這裡的「同步」要小心：研究談的是空間上的相位與翼尖路徑，不是全隊像閱兵一樣同一秒一起抬翅。鳥之間有前後距離，氣流從前方傳到後方也要時間；把這段延遲漏掉，就失去了研究要辨認的配合。
 
@@ -22,7 +24,7 @@ Portugal 等人 2014 年發表於《Nature》的朱鷺研究，報告鳥在 V �
 
 ## 三、心跳、耗能和位置，量的是不同事情
 
-2001 年《Nature》另一項研究在受訓白鵜鶘身上記錄心率，以此估計耗能，摘要報告隊形飛行確有節能優勢[6](#source-6)。這與朱鷺的定位及拍翼資料互補：前者更靠近生理負擔，後者則更靠近氣流利用的動作機制。
+2001 年《Nature》另一項研究在受訓白鵜鶘身上記錄心率，以此估計耗能，摘要報告隊形飛行確有節能優勢[^6]。這與隱䴉的定位及拍翼資料互補：前者更靠近生理負擔，後者則更靠近氣流利用的動作機制。
 
 心率仍是估計耗能的指標，不等於直接量到每一秒代謝了多少能量；不同物種、飛行條件與量測方式，也不能無條件套成同一比例。因此，「V 字隊形有省力機制」比「每一隻都能省固定百分之幾」有更扎實、也更有限定的支持。
 
@@ -30,7 +32,7 @@ Portugal 等人 2014 年發表於《Nature》的朱鷺研究，報告鳥在 V �
 
 ## 四、輪流帶頭，是長途接班還是幾秒一次？
 
-2015 年 Voelkl 等人的《PNAS》研究，分析十四隻幼年朱鷺在人工引導遷徙中的一段約三十九公里飛行[4](#source-4)。鳥平均約三成二時間處於另一隻的尾流位置，但那不是一路保持整齊大 V：觀察到的隊形中，約六成是兩隻成對；一次跟飛的中位時間只有兩秒，最長四十一秒。
+2015 年 Voelkl 等人的《PNAS》研究，分析十四隻幼年隱䴉在人工引導遷徙中的一段約三十九公里飛行[^4]。鳥平均約三成二時間處於另一隻的尾流位置，但那不是一路保持整齊大 V：觀察到的隊形中，約六成是兩隻成對；一次跟飛的中位時間只有兩秒，最長四十一秒。
 
 作者發現，個體替別鳥領飛多久，和自己跟飛多久有相關；特定兩鳥之間的互相領飛時間也相關。這讓「只有前鳥付出，後鳥一直搭便車」的簡單圖像不夠用。隊伍可能由頻繁的小尺度換位，累積出彼此都有機會跟飛的結果。
 
@@ -50,32 +52,32 @@ Portugal 等人 2014 年發表於《Nature》的朱鷺研究，報告鳥在 V �
 
 下次看到 V 字，可以先看它是否真的維持同一個角度、誰在側後方，以及隊形多久改變一次。最值得注意的，往往不是像字母的輪廓，而是隊形裡持續變動的位置和時機。鳥群給我們的不是一條「團隊合作必成功」的寓言，而是一個怎樣把理論、行為與測量逐層接起來的例子。
 
-如果想證明換位確實讓整群省力，你會只量前後位置，還是替同一群鳥加上生理指標？要怎樣比較，才能區分主動互惠、疲倦後落後，以及相鄰位置造成的交換？
+## 延伸提問
 
+如果想證明換位確實讓整群省力，你會只量前後位置，還是替同一群鳥加上生理指標？要怎樣比較，才能區分主動互惠、疲倦後落後，以及相鄰位置造成的交換？
 
 ## 查證資料來源
 
-<a id="source-1"></a>
+[^1]: Upwash exploitation and downwash avoidance by flap phasing in ibis formation flight（Nature，2014-01-15，Portugal 等）
+https://www.nature.com/articles/nature12939
+支持：隱䴉在 V 字位置站在空氣動力學預測的最佳點；V 字位置拍翅同相以捕捉上洗流；正後方則反相以避開下洗流；結論：鳥能感知或預測同伴的尾流結構
 
-1. [Upwash exploitation and downwash avoidance by flap phasing in ibis formation flight（Nature，2014-01-15，Portugal 等）](https://www.nature.com/articles/nature12939)
-   - 隱䴉在 V 字位置站在空氣動力學預測的最佳點；V 字位置拍翅同相以捕捉上洗流；正後方則反相以避開下洗流；結論：鳥能感知或預測同伴的尾流結構
-<a id="source-2"></a>
+[^2]: Birds That Fly in a V Formation Use An Amazing Trick（National Geographic，2014-01-15，Ed Yong）
+https://www.nationalgeographic.com/science/article/birds-that-fly-in-a-v-formation-use-an-amazing-trick
+支持：上洗流/下洗流的標準解釋；Weimerskirch 2001 鵜鶘心率研究（後位鳥心跳較慢、拍翅較少）；皇家獸醫學院微型記錄器與奧地利隱䴉野放計畫的測量方法
 
-2. [Birds That Fly in a V Formation Use An Amazing Trick（National Geographic，2014-01-15，Ed Yong）](https://www.nationalgeographic.com/science/article/birds-that-fly-in-a-v-formation-use-an-amazing-trick)
-   - 上洗流/下洗流的標準解釋；Weimerskirch 2001 鵜鶘心率研究（後位鳥心跳較慢、拍翅較少）；皇家獸醫學院微型記錄器與奧地利隱䴉野放計畫的測量方法
-<a id="source-3"></a>
+[^3]: Pairing and sharing in V formation flight（皇家獸醫學院，2015-02-03）
+https://www.rvc.ac.uk/research/research-centres-and-facilities/structure-and-motion/news/pairing-and-sharing-in-v-formation-flight
+支持：後續研究觀察幼年隱䴉成對交換領飛與跟隨時間，支持互惠解釋；不外推所有鳥種。
 
-3. [Pairing and sharing in V formation flight（皇家獸醫學院，2015-02-03）](https://www.rvc.ac.uk/research/research-centres-and-facilities/structure-and-motion/news/pairing-and-sharing-in-v-formation-flight)
-   - 後續研究觀察幼年隱䴉成對交換領飛與跟隨時間，支持互惠解釋；不外推所有鳥種。
-<a id="source-4"></a>
+[^4]: Matching times of leading and following suggest cooperation through direct reciprocity during V-formation flight in ibis（PNAS，2015，Voelkl 等）
+https://www.pnas.org/doi/10.1073/pnas.1413589112
+支持：十四隻幼年隱䴉、39公里、跟飛時間、成對隊形、位置交換模型、替代解釋與觀察研究限制。
 
-4. [Matching times of leading and following suggest cooperation through direct reciprocity during V-formation flight in ibis（PNAS，2015，Voelkl 等）](https://www.pnas.org/doi/10.1073/pnas.1413589112)
-   - 十四隻幼年朱鷺、39公里、跟飛時間、成對隊形、位置交換模型、替代解釋與觀察研究限制。
-<a id="source-5"></a>
+[^5]: One good turn: birds swap energy-sapping lead role（University of Oxford，2015-02-03）
+https://www.ox.ac.uk/news/2015-02-03-one-good-turn-birds-swap-energy-sapping-lead-role-2
+支持：領飛／跟飛配對與生理測量仍待進行；不與原論文視作兩個獨立試驗。
 
-5. [One good turn: birds swap energy-sapping lead role（University of Oxford，2015-02-03）](https://www.ox.ac.uk/news/2015-02-03-one-good-turn-birds-swap-energy-sapping-lead-role-2)
-   - 領飛／跟飛配對與生理測量仍待進行；不與原論文視作兩個獨立試驗。
-<a id="source-6"></a>
-
-6. [Energy saving in flight formation（Nature，2001，Weimerskirch 等）](https://www.nature.com/articles/35099670)
-   - 白鵜鶘心率作耗能估計及隊形飛行優勢；不據此引用未讀全文中的百分比。
+[^6]: Energy saving in flight formation（Nature，2001，Weimerskirch 等）
+https://www.nature.com/articles/35099670
+支持：白鵜鶘心率作耗能估計及隊形飛行優勢；不據此引用未讀全文中的百分比。

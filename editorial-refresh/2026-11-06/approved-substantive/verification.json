@@ -1,0 +1,98 @@
+{
+  "date": "2026-11-06",
+  "approval_message": "phonemsg-01M6RNHKHCMQPWVMTZF8W3QK39",
+  "main_changed": false,
+  "local_checks": [
+    {
+      "id": "001-roads",
+      "body_matches": true,
+      "sources": 5
+    },
+    {
+      "id": "002-median",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "003-imperial",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "004-stock",
+      "body_matches": true,
+      "sources": 3
+    },
+    {
+      "id": "005-maps",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "006-submarine-cables",
+      "body_matches": true,
+      "sources": 8
+    },
+    {
+      "id": "007-webb-l2",
+      "body_matches": true,
+      "sources": 7
+    },
+    {
+      "id": "008-smallpox",
+      "body_matches": true,
+      "sources": 9
+    },
+    {
+      "id": "009-comet-windows",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "010-daylight-saving-time",
+      "body_matches": true,
+      "sources": 9
+    },
+    {
+      "id": "011-typhoon-names",
+      "body_matches": true,
+      "sources": 7
+    },
+    {
+      "id": "012-power-frequency",
+      "body_matches": true,
+      "sources": 11
+    },
+    {
+      "id": "013-runway-numbers",
+      "body_matches": true,
+      "sources": 9
+    },
+    {
+      "id": "014-escalator-stand-walk",
+      "body_matches": true,
+      "sources": 7
+    },
+    {
+      "id": "015-movie-popcorn",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "016-survivorship-bias",
+      "body_matches": true,
+      "sources": 4
+    },
+    {
+      "id": "017-antibiotic-course",
+      "body_matches": true,
+      "sources": 9
+    },
+    {
+      "id": "018-seven-day-week",
+      "body_matches": true,
+      "sources": 7
+    }
+  ],
+  "deployment": "pending"
+}

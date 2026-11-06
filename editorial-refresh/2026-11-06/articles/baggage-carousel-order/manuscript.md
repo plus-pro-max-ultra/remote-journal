@@ -1,5 +1,7 @@
 # 行李轉盤：為什麼你的行李總是看起來最後出來？
 
+從託運櫃檯到機腹，再從拖車到轉盤：行李每換一次手，「先來後到」就可能失去意義。
+
 行李轉盤旁的人都在等同一班飛機，箱子卻一件件分批出現。「下次晚一點託運就好，最後裝的會先卸。」這個建議把貨艙想成一個抽屜：東西疊在一起，最後放入的在最外面。但旅客在櫃檯交出的箱子，並沒有直接進入那個抽屜。它先經過篩檢、分揀與裝載，抵達後又要與轉機行李分流。要判斷這個訣竅是否可靠，得先看清楚：你控制的是哪一站的時間，而真正決定出件的，又是哪一站。
 
 ## 一、先把「最後」拆成三個不同時刻
@@ -32,7 +34,7 @@
 
 這裡的「首批」不是承諾每位付費者都拿到第一件。多名旅客可能同時有優先待遇，轉機與目的地又會改變適用段落。除了行李條的顏色，更該看航空公司承諾了哪種作業、在哪個抵達點適用，以及沒做到時如何處理。
 
-香港消費者委員會曾公布一宗投訴：包含優先行李的加購服務沒有如期實現，其中一件因掛牌脫落及外判作業而延後，航空公司最後退款[^9]。個案不能算出失敗率，卻指出這種服務仍須經過標籤辨認與人員交接。指令存在，不等於每次執行都不會失手。
+香港消費者委員會記錄過一宗優先行李投訴：旅客的一件行李接近最後一批才到，優先掛牌也已丟失。航空公司將承辦商交接列為可能的延誤原因，最後退回優先服務費[^9]。個案不能算出失敗率，卻指出這種服務仍須經過標籤辨認與人員交接。指令存在，不等於每次執行都不會失手。
 
 ## 五、「已抵達」是一筆紀錄，還不是倒數計時
 
@@ -48,4 +50,56 @@ IATA 的第 753 號決議要求會員航空公司在行李旅程的四個核心�
 
 比較可用的做法是確認行李條上的目的地、保存託運憑證，若加購優先待遇就看清楚適用航段，延誤則使用實際營運航空公司的申報方式。至於「我總是最後拿到」的感覺，若真想檢查，得記下多次航班的等待時間與出件分布；單次漫長的等待，不能替整條物流系統排出一條規則。
 
+## 延伸提問
+
 如果航空公司只能多提供一項資訊，你更想知道箱子最後一次掃描的位置、預計上轉盤的時間，還是優先服務是否有確實執行？哪一項會真正改變你在轉盤前的行動？
+
+## 查證資料來源
+
+[^1]: How to Get Your Luggage First at Baggage Claim（Condé Nast Traveler，2017-07-05）
+https://www.cntraveler.com/story/how-to-get-your-luggage-first-at-baggage-claim
+支持：裝卸系統因機型、航空公司、行李團隊而異；ULD 貨櫃需配重 vs 散裝貨艙；TSA 安檢打亂時序；常客與艙等優先行李；卡達 Track My Bags 與達美 App 追蹤
+
+[^2]: How to Get Your Luggage to Arrive First at Baggage Claim（Travel + Leisure，2023-05-31）
+https://www.travelandleisure.com/how-to-get-your-luggage-to-arrive-first-7506206
+支持：媒體採訪：出件受裝卸順序等多項因素影響，晚託運與登機門託運均無先領保證；優先標籤也有實務例外。
+
+[^3]: 桃機建置行李自動分揀系統 準確率達99.5%（中央社，2019-12-13）
+https://www.cna.com.tw/news/ahel/201912130311.aspx
+支持：桃機一航廈 2019 年啟用行李自動分揀系統（BHS），分揀準確率 99.5%；此前 40 年以人工掃條碼逐件分揀（2019 年時點的報導）
+
+[^4]: Security Screening: Checked Baggage Screening（美國運輸安全管理局 TSA）
+https://www.tsa.gov/travel/security-screening
+支持：美國託運行李報到後由 TSA 安檢，再由航空公司運送及交付；不把流程外推每國完全一致。
+
+[^5]: 無限萬哩遊會員優惠待遇：金卡（長榮航空）
+https://www.evaair.com/zh-tw/infinity-mileagelands/about-infinity-mileagelands/tiers-and-privileges/membership-benefit/gold-card/
+支持：「優先裝卸託運行李」為航空公司正式列名的會員禮遇
+
+[^6]: What is Aircraft ULD in Air Transport?（國際航空運輸協會 IATA）
+https://www.iata.org/en/publications/newsletters/iata-knowledge-hub/what-is-aircraft-uld-in-air-transport/
+支持：ULD 是把行李、貨物、郵件成組固定的裝載單元；裝機後為飛機結構一部分；載重位移會影響飛機重量與平衡、關乎飛安
+
+[^7]: 尊榮會員的優惠待遇：優先裝卸託運行李（全日空 ANA）
+https://www.ana.co.jp/zh/tw/amc/premium-members/benefits/smooth-flying/
+支持：ANA 官方頁面將「優先裝卸託運行李」列為尊榮會員禮遇：行李條貼上優先裝卸標籤，抵達目的地機場後可優先提領
+
+[^8]: 日航國際付費行李優先提取服務（日本航空 JAL）
+https://www.jal.co.jp/cn/zhcn/offers/service/optional/prioritybaggage/
+支持：日航付費行李優先提取服務與首批上轉盤承諾，適用航線及購買條件另有規定；本文不列價格。
+
+[^9]: 機票附加增值服務多投訴　更新調動客服要做好（香港消費者委員會）
+https://www.consumer.org.hk/tc/article/575-Airline_Service_Complaints/575-Airline_Service_Complaints-case
+支持：消委會公布投訴個案：旅客加購含「優先將行李送出提取行李輸送帶」的服務，行李因優先掛牌丟失、由外判承辦商處理，約二十分鐘後才領取，幾乎最後一批；航空公司全數退回費用
+
+[^10]: Your baggage guide（卡達航空 Qatar Airways 官方）
+https://www.qatarairways.com/en/baggage.html
+支持：卡達官方行李頁提供「Track your baggage」追蹤入口與 mishandled／延誤行李申報說明
+
+[^11]: Inbound Baggage Handling: Is It Time to Rethink?（BEUMER，2024-08-29）
+https://www.beumergroup.com/knowledge/airport/it-is-time-to-rethink-how-airports-handle-inbound-baggage/
+支持：拖車／ULD抵達、轉機與目的地分流、自動抵達處理的流程例子，不採其廣泛效益推廣數字。
+
+[^12]: Baggage Tracking（IATA，2026-11-04查閱）
+https://www.iata.org/en/programs/ops-infra/baggage/baggage-tracking/
+支持：753號決議四個追蹤／交接點及航空公司資料交換，不等於連續定位或轉盤順序保證。

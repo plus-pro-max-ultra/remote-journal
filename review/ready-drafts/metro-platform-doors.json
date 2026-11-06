@@ -72,7 +72,7 @@
       "title": "自動列車速度調整與車門控制（同書 p.103-104，臺北市政府捷運工程局）",
       "url": "https://ebook.dorts.gov.taipei/ebook/no22/files/basic-html/page104.html",
       "sourceType": "臺北市政府捷運工程局官方技術出版物（2021 年 6 月出版，記載設計規格，非現行營運參數的即時保證）",
-      "supports": "閉迴路速度調整（誤差回饋決定推進/滑行/煞車）；25-50 km/hr 容許誤差 ±1 km/hr、50 以上 2%；開門信號至車門全開約 5.8 秒、10 秒未開即判故障"
+      "supports": "閉迴路速度調整（誤差回饋決定推進/滑行/煞車）；25-50 km/hr 容許誤差 ±1 km/hr、50 以上 2%"
     },
     {
       "title": "月臺門設備規範（同書 p.174，臺北市政府捷運工程局）",
@@ -96,7 +96,7 @@
       "title": "停車確認及車門控制（捷運工程叢書23，網頁第60頁）",
       "url": "https://ebook.dorts.gov.taipei/ebook/no23/files/basic-html/page60.html",
       "sourceType": "官方工程專書的系統說明",
-      "supports": "定位、ATO煞車、ATP零速確認、車站門側指令之順序；不以書籍歸類推論所有路線現況。"
+      "supports": "定位、ATO煞車、ATP零速確認、車站門側指令之順序；不以書籍歸類推論所有路線現況。列車收到道旁 F1 定位訊號後，至車門完全開啟約 5.8 秒；10 秒內未開啟，ATP 故障燈亮。"
     }
   ],
   "related": [],

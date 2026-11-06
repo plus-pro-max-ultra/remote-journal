@@ -1,5 +1,7 @@
 # 十二個點到六個點：點字的歷史，為什麼不只是天才改良軍用密碼？
 
+一套可自行書寫的工具、一封推翻熟悉故事的信，以及六十四種組合如何成為完整的讀寫系統。
+
 1833 年，查爾斯・巴比耶寫信到巴黎盲校，想索取路易・布萊葉已出版的方法。若你讀過「上尉向少年展示軍用密碼，少年當場發現缺點」的點字起源故事，這封信會很不對勁：依歷史研究者 Philippa Campsie 對原件的解讀，巴比耶當時還不認識布萊葉。兩人的友好通信，發生在六點系統出版之後[^5]。這不會減少布萊葉的成就，卻讓我們得換個問題：真正促成點字的，是一場天才對決，還是一群終於能把自己的話寫下來、再讀回來的人？
 
 ## 一、能讀別人印的書，不等於能留下自己的話
@@ -38,7 +40,7 @@ Campsie 的研究使用巴比耶的出版物、校方通信及後來開放的家
 
 小格子與可自行書寫，沒有自動帶來統一。學校已投資印書設備，教師也熟悉原有字形；採用新系統意味著重學、重印及跨校交換的成本。帕金斯記載，十九世紀美國曾並存多套觸讀系統，有些讀者為了讀不同出版品，得學五、六套。讀者的利益是書越多越好，出版者的短期利益卻未必是立刻換掉設備。
 
-AFB 的傳播史列出，1854 年密蘇里盲校率先在美國使用布萊葉系統，1917 年才形成美國標準，1932 年又走向英語點字統一[^2]。這些日期不是同一個「正式勝出」時刻：一所學校採用、跨機構形成共通規則、不同國家協調，解決的是不同層次的相容問題。
+AFB 的傳播史列出，1854 年密蘇里盲校率先在美國使用布萊葉系統，1932 年又走向英語點字統一。從一所學校採用到跨國共用，讀者、學校與出版機構得逐步協調彼此的碼[^2]。
 
 因此，一套技術好用，未必就會立刻普及。若你換了一套更容易讀的碼，卻讀不到另一所學校印的書，個人的改進可能伴隨社群的斷裂。這和今日檔案格式或通訊標準有可比較之處，但不能因此把點字史簡化成一般的市場競爭；讀寫的自主、受教機會及誰有權決定教材，同樣在其中。
 
@@ -48,4 +50,40 @@ AFB 的傳播史列出，1854 年密蘇里盲校率先在美國使用布萊葉�
 
 重新讀這段歷史，布萊葉的成就反而更具體：他與同學、教師在已有工具與可用原型上，改造了格子、記碼及用途。巴比耶也不必被貶成一個偶然路過的軍官，才顯得布萊葉重要。能寫下自己的想法、自己檢查、交給他人閱讀，才是這場改變最後交到使用者手中的能力。
 
+## 延伸提問
+
 若由點字讀者而非印書機構決定下一項改進，最值得優先處理的會是書籍取得、跨系統相容、書寫工具，還是教學機會？在評估「更好的設計」時，你會讓誰的使用成本先被看見？
+
+## 查證資料來源
+
+[^1]: American Foundation for the Blind 線上博物館：Braille Invents His Code
+https://www.afb.org/about-afb/history/online-museums/life-and-legacy-louis-braille/braille-nvents-his-code
+支持：傳統軍用起源敘事的實例；本文以較具體的檔案研究檢視，不當作該敘事已證實。
+
+[^2]: Dissemination of Braille（American Foundation for the Blind）
+https://www.afb.org/about-afb/history/online-museums/life-and-legacy-louis-braille/braille-recognized/dissemination
+支持：布萊葉過世後的傳播：1878 年國際會議、1854 年密蘇里盲校採用、1917 年美國標準、1932 年英語統一碼。
+
+[^3]: Perkins School for the Blind：The history of braille（2025）
+https://www.perkins.org/history-of-braille/
+支持：第一、二、三、四節：浮凸印刷 1786 年始於巴黎及其優缺點（昂貴、磨損、無法自行書寫）；巴比耶為退役軍官、關注識字、十二點格放不進指尖、未曾以盲人測試（近年研究版本）；布萊葉 1824 年起開發、1829 年出版方法、音樂碼 1829、數學碼 1838；兩人 1833 年相識、通信至 1841 年；各校因印刷投資與明眼教師而遲緩採用、1880 年代起由學生與盲人教師推動；1880 至 1919 年間讀者需懂五、六套系統
+
+[^4]: Louis Braille：1829 年方法前言（經 Campsie 2025 引述）
+https://www.perkins.org/braille-barbier/
+支持：布萊葉自述減少符號佔用空間、普通書寫字元及音樂用途；不是直接親閱手稿。
+
+[^5]: Philippa Campsie，Charles Barbier: A hidden story（Disability Studies Quarterly，2021）
+https://dsq-sds.org/article/id/790/
+支持：巴比耶字母／語音雙版本、工具、校內採用、1821及1833通信、後世傳記敘事之證據批判。
+
+[^6]: Louis Braille, Charles Barbier, and the making of a myth（Perkins，2025-02-10）
+https://www.perkins.org/braille-barbier/
+支持：1829前言及軍用起源故事如何由推測逐步具體化。
+
+[^7]: A position paper on researching braille in the cognitive sciences: decentering the sighted norm（Applied Psycholinguistics，2023）
+https://www.cambridge.org/core/journals/applied-psycholinguistics/article/position-paper-on-researching-braille-in-the-cognitive-sciences-decentering-the-sighted-norm/64946B5F1007FE52140E1C4C5AFB356E
+支持：六點格與語言別正字法、縮寫規則；批評以明眼閱讀為預設的研究設計。
+
+[^8]: New Lessons in Braille History（Library of Congress，2022-04-14）
+https://blogs.loc.gov/nls-music-notes/2022/04/new-lessons-in-braille-history/
+支持：整理Campsie研究、1821校內採用及1833相識的證據，不作第二份獨立檔案研究。

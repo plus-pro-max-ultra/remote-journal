@@ -1,6 +1,8 @@
 # 高鐵進隧道，耳朵感到的不是只有海拔
 
-車窗突然變黑，耳朵像被輕輕壓住，吞一下口水又鬆開。若把它當成爬山時的耳悶，會有一個疑問：高鐵沒有在幾秒內爬升幾百公尺，為什麼壓力仍會改變？隧道裡高速移動的列車，會把前方空氣排開。它引起的壓力變化，會在隧道中先行傳播、反射，再透過車廂的密封與通風系統影響乘客。最後，耳咽管能否及時平衡，才決定同一節車廂裡誰幾乎無感，誰覺得難受。
+一列車會產生先跑到前方的壓力波，隧道、車廂與耳咽管再各自決定，變化有多快傳到鼓膜兩側。
+
+車窗突然變黑，耳朵像被輕輕壓住，吞一下口水又鬆開。若把它當成爬山時的耳悶，會有一個疑問：高鐵沒有在幾秒內爬升幾百公尺，為什麼壓力仍會改變？隧道裡高速移動的列車，會把前方空氣排開。它引起的壓力變化，會在隧道中先行傳播、反射，再透過車廂的密封與通風系統影響乘客。耳咽管調節壓力的速度，也會影響同一節車廂裡，誰幾乎無感、誰覺得難受。
 
 ## 一、車還沒到，壓力波已先過去了
 
@@ -48,4 +50,32 @@
 
 下次車窗變黑，不必把每次耳悶都歸給海拔，也不必從個人感覺反推整座隧道的壓力數字。更準確的描述是，一個外部擾動先經過土木與車輛設計的緩衝，最後才由身體完成平衡。越能分開這幾層，越知道一種改善究竟改善了哪裡。
 
+## 延伸提問
+
 如果要比較兩種列車的乘坐舒適度，你會只比較隧道外部壓力峰值，還是同時量客室壓力變化速率與乘客反應？為什麼一個低峰值，仍可能不是完整答案？
+
+## 查證資料來源
+
+[^1]: Pressure Change in Tunnel and Complaints of Aural Discomfort by Railway Passengers（RTRI Quarterly Review Vol.38 No.3，1997，日本鐵道綜合技術研究所）
+https://www.rtri.or.jp/publish/qr/1997/v38_3/papers6.html
+支持：乘客耳部不適由車內壓力變化造成；新幹線的氣密技術背景；暫行基準：未氣密車輛任何 4 秒內車內壓力變化應在 2.0 kPa 以下
+
+[^2]: 高鐵車輛發展趨勢（張有恆、蘇昭旭，科技大觀園，國科會）
+https://scitechvista.nat.gov.tw/Article/c000003/detail?ID=34e86d43-fff1-4713-b709-065d22e08cb0
+支持：2007 年科普文章以 700T 說明氣密與洞口環設計；車鼻比日本 700 系短一公尺。不外推所有現行列車。
+
+[^3]: Field study on the interior pressure variations in high-speed trains passing through tunnels of different lengths（Journal of Wind Engineering and Industrial Aerodynamics Vol.169，2017，Liu 等）
+https://www.sciencedirect.com/science/article/pii/S0167610517303227
+支持：2017 年研究中國合武線 CRH2A 列車，不同隧道長度下車內外壓力歷程；讀到摘要與公開章節，並非台灣實測。
+
+[^4]: トンネル微気圧波低減対策（鉄道総合技術研究所 RTRI 研究開發頁）
+https://www.rtri.or.jp/rd/division/rd51/rd5120/rd51200101.html
+支持：壓縮波在隧道內以音速傳播，自出口向外放射為脈衝狀微氣壓波，在坑口附近產生發破音並震動民宅建具；實用化對策：隧道緩衝工、車頭先端部小型化・延伸・形狀最佳化、隧道內枝坑、鄰接隧道遮蔽連接；目前最高 320 km/h 營業運轉
+
+[^5]: Advice and treatment for Eustachian tube dysfunction（Rotherham NHS）
+https://www.therotherhamft.nhs.uk/patients-and-visitors/patient-information/etd
+支持：耳咽管在吞嚥、打哈欠時開啟，協助平衡中耳壓力；不保證所有耳悶均能解除。
+
+[^6]: 台灣高速鐵路隧道空氣動力效應之量測（王心慈、蔡培峻、朱登子，隧道建設，2011）
+http://www.suidaojs.com/CN/article/downloadArticleFile.do?attachType=PDF&id=10185
+支持：林口／八卦山幾何、氣壓計與光電同步、波傳播反射、洞內峰值與車速關係、洞口緩衝結構；不當客室量測。
