@@ -1,9 +1,9 @@
 {
   "target_date": "2026-11-07",
   "prepared_at": "2026-11-06T23:48:00+08:00",
-  "stage": "source_checked_polished_local_visual_verified_awaiting_Nov7_gh_release",
-  "gh_published": false,
-  "main_approved": false,
+  "stage": "official_live_verified",
+  "gh_published": true,
+  "main_approved": true,
   "status": "official_live_verified",
   "gh_commit": "e56c889",
   "pages_run": "42301497459",
