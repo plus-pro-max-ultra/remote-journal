@@ -6,7 +6,7 @@
   var ROOT = document.body.getAttribute("data-root") || "./";
 
   // Numbered identifiers retain existing bookmarks, favorites and notes.
-  var ARTICLE_ID_ALIASES = {"roads":"001-roads","median":"002-median","imperial":"003-imperial","stock":"004-stock","maps":"005-maps","submarine-cables":"006-submarine-cables","webb-l2":"007-webb-l2","smallpox":"008-smallpox","comet-windows":"009-comet-windows","daylight-saving-time":"010-daylight-saving-time","typhoon-names":"011-typhoon-names","power-frequency":"012-power-frequency","runway-numbers":"013-runway-numbers","escalator-stand-walk":"014-escalator-stand-walk","movie-popcorn":"015-movie-popcorn","survivorship-bias":"016-survivorship-bias","antibiotic-course":"017-antibiotic-course","seven-day-week":"018-seven-day-week"};
+  var ARTICLE_ID_ALIASES = {"roads":"001-roads","median":"002-median","imperial":"003-imperial","stock":"004-stock","maps":"005-maps","submarine-cables":"006-submarine-cables","webb-l2":"007-webb-l2","smallpox":"008-smallpox","comet-windows":"009-comet-windows","daylight-saving-time":"010-daylight-saving-time","typhoon-names":"011-typhoon-names","power-frequency":"012-power-frequency","runway-numbers":"013-runway-numbers","escalator-stand-walk":"014-escalator-stand-walk","movie-popcorn":"015-movie-popcorn","survivorship-bias":"016-survivorship-bias","antibiotic-course":"017-antibiotic-course","seven-day-week":"018-seven-day-week","river-personhood":"020-river-personhood"};
   function currentId(id) { return ARTICLE_ID_ALIASES[id] || id; }
   try {
     var savedIds = JSON.parse(localStorage.getItem("faraway-saved") || "[]");

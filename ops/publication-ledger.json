@@ -64,6 +64,14 @@
       "id": "seven-day-week",
       "release_type": "confirmed_batch",
       "original_prepared_date": "2026-11-05"
+    },
+    {
+      "date": "2026-11-07",
+      "number": "020",
+      "id": "river-personhood",
+      "release_type": "proofread_approved",
+      "approval_message_id": "phonemsg-01M6T9DXTJPGH829SZJ2S522QJ",
+      "correction_approval_message_id": "phonemsg-01M6T9H23KYQMQVH3DN8QNMRRT"
     }
   ]
 }
