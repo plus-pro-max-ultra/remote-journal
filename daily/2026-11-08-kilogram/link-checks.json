@@ -1,0 +1,47 @@
+[
+  {
+    "url": "https://www.nist.gov/si-redefinition/kilogram-introduction",
+    "status": 200,
+    "final_url": "https://www.nist.gov/si-redefinition/kilogram-introduction"
+  },
+  {
+    "url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-present",
+    "status": 200,
+    "final_url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-present"
+  },
+  {
+    "url": "https://www.bipm.org/en/si-base-units/kilogram",
+    "status": 200,
+    "final_url": "https://www.bipm.org/en/si-base-units/kilogram"
+  },
+  {
+    "url": "https://www.bipm.org/documents/20126/41489673/SI-App2-kilogram.pdf/5881b6b5-668d-5d2b-f12a-0ef8ca437176?version=1.10&t=1655450790135&download=false",
+    "status": 200,
+    "final_url": "https://www.bipm.org/documents/20126/41489673/SI-App2-kilogram.pdf/5881b6b5-668d-5d2b-f12a-0ef8ca437176?version=1.10&t=1655450790135&download=false"
+  },
+  {
+    "url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-kibble-balance",
+    "status": 200,
+    "final_url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-kibble-balance"
+  },
+  {
+    "url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-silicon-spheres-and-international-avogadro-project",
+    "status": 200,
+    "final_url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-silicon-spheres-and-international-avogadro-project"
+  },
+  {
+    "url": "https://physics.aps.org/articles/v12/33",
+    "status": 403,
+    "final_url": "https://physics.aps.org/articles/v12/33"
+  },
+  {
+    "url": "https://www.bipm.org/en/-/2025-02-24-third-consensus-value-of-the-kilogram-to-be-implemented-1",
+    "status": 200,
+    "final_url": "https://www.bipm.org/en/-/2025-02-24-third-consensus-value-of-the-kilogram-to-be-implemented-1"
+  },
+  {
+    "url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-future",
+    "status": 200,
+    "final_url": "https://www.nist.gov/si-redefinition/kilogram/kilogram-future"
+  }
+]

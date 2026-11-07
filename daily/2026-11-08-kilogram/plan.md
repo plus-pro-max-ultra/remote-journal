@@ -1,0 +1,3 @@
+# Nov8 independent issue021 plan
+Question: Why did the kilogram stop being a metal object, and how can a fixed constant become a usable mass standard?
+Distinct from001–020 and15 unpublished drafts. Explain artefact drift, definition vs realization, Kibble balance two modes/electricalquantumstandards, silicon sphere independent path, traceability to ordinary weights, limits of redefinition. Research first then six-section Chinese narrative and full polish. No claiming perfect measurement or digital scales directly weighing Planckconstant. Prepare WIP tonight, gh publish Nov8 by08 Taipei, official needs approval.
