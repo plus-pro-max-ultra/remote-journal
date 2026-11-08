@@ -1,0 +1,1 @@
+Nov9 Faraway022: why a barcode/ISBN has a check digit. Distinguish identifier/data carrier/check digit, EAN13 weighted sum, errors detected and missed, ISBN10X and13 conversion, QR errorcorrection distinct. At least6actualsources, avoid fraud/authenticity claims and universal recovery%. No new paid services. Prepare tonight, gh morning by08Taipei, mainunapproved.

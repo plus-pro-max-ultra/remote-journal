@@ -1,0 +1,36 @@
+{
+  "sums": [
+    60,
+    63,
+    50
+  ],
+  "valid": [
+    true,
+    false,
+    true
+  ],
+  "single_substitutions_tested": 117,
+  "all_single_changes_detected": true,
+  "adjacent_undetected_pairs": [
+    [
+      0,
+      5
+    ],
+    [
+      1,
+      6
+    ],
+    [
+      2,
+      7
+    ],
+    [
+      3,
+      8
+    ],
+    [
+      4,
+      9
+    ]
+  ]
+}

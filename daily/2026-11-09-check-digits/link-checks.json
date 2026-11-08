@@ -1,0 +1,42 @@
+[
+  {
+    "url": "https://www.isbn-international.org/content/what-isbn/10",
+    "status": 200,
+    "bytes": 35205
+  },
+  {
+    "url": "https://support.gs1.org/support/solutions/articles/43000734158-are-the-description-and-price-of-the-item-included-in-the-barcode-",
+    "status": 200,
+    "bytes": 166251
+  },
+  {
+    "url": "https://www.gs1.org/services/how-calculate-check-digit-manually",
+    "status": 403,
+    "bytes": 1484
+  },
+  {
+    "url": "https://maths.ucd.ie/~wgs/notes/chk_dig.pdf",
+    "status": 200,
+    "bytes": 54897
+  },
+  {
+    "url": "https://www.gs1.org/services/verified-by-gs1",
+    "status": 403,
+    "bytes": 1484
+  },
+  {
+    "url": "https://support.gs1.org/support/solutions/articles/43000734165-how-is-an-isbn-used-in-a-gs1-barcode-",
+    "status": 200,
+    "bytes": 166019
+  },
+  {
+    "url": "https://www.qrcode.com/en/about/error_correction.html",
+    "status": 200,
+    "bytes": 4842
+  },
+  {
+    "url": "https://www.denso-wave.com/en/system/qr/fundamental/qrcode/qrc/index.html",
+    "status": 200,
+    "bytes": 38758
+  }
+]
