@@ -28,14 +28,86 @@
 <main class="reader visible" id="readerView">
   <a class="back" href="../../archive/">← 回到文章索引</a>
   <article id="readerArticle">
-    <header class="reader-head"><div class="eyebrow">FIELD NOTES / 002</div><div class="meta" style="margin-top:12px">統計與思考　·　2026-10-25 刊出　·　4 分鐘閱讀</div><h1>為什麼「平均數」有時會把現實說得很不像現實？</h1><p class="dek">一個數字可以算得完全正確，卻仍然不是你真正想知道的答案。</p><div class="reader-meta"><span class="tag">統計學</span><span class="tag">資料判讀</span><span class="tag">日常決策</span><span class="meta">一篇從現象走向機制的探索</span></div><div class="reader-actions"><button class="ghost bookmark js-only" id="bookmarkBtn">＋ 收藏這篇</button><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button></div></header>
-    <div class="reader-body"><p>假設一家公司宣布，員工的平均月薪是十萬元。你走進辦公室，看看同事們的生活，卻發現大多數人的薪水離十萬元還很遠。是公司算錯了嗎？不一定。平均數回答的問題，可能和你想問的不一樣。</p><p>用一組簡化的薪資就能看出差別。某小公司的五名員工月薪分別是 4 萬、4.5 萬、4.5 萬、5 萬與 32 萬元。總薪資是 50 萬元，除以五人，平均月薪就是 10 萬元。計算沒有錯。</p><div class="diagram"><strong>同一組薪資，兩種不同的中心值</strong><table><thead><tr><th>員工薪資（萬元）</th><th>數值</th></tr></thead><tbody><tr><td>第 1 人</td><td>4</td></tr><tr><td>第 2 人</td><td>4.5</td></tr><tr><td>第 3 人</td><td>4.5</td></tr><tr><td>第 4 人</td><td>5</td></tr><tr><td>第 5 人</td><td>32</td></tr><tr><th>平均數</th><th>10</th></tr><tr><th>中位數</th><th>4.5</th></tr></tbody></table><small>這是用來說明統計概念的假設例子，並非真實公司的薪資資料。</small></div><p>32 萬元的薪資把平均數往上拉了。可是把五人的薪資由低到高排列，位於正中央的第三個數字是 4.5 萬元，這就是中位數。兩個數都正確，只是各自呈現了這組薪資的不同面貌。</p>
-<h2>一、平均數回答的是什麼？</h2><p>平均數把所有數值加起來，再除以觀察單位數。計算總量、分配資源或建立某些數學模型時，常會用到它。如果你想知道公司平均在每位員工身上支出多少薪資，就會用到平均數。</p><p>中位數則將排序後的資料分成兩半：一半位於它之上，一半位於它之下。它比較不容易受極端值影響。想知道一個「典型觀察值」大約是多少，也值得看看中位數。</p><p>美國人口普查局對收入統計的說明，也清楚區分 mean income 與 median income：前者是總收入除以單位數，後者是將分布分成上下兩半的數值<sup class="cite"><a href="#src-1">[1]</a></sup>。</p><p>真實資料也能看出兩者的差異。美國人口普查局 2026 年 9 月公布，2025 年美國家庭所得中位數為 87,460 美元<sup class="cite"><a href="#src-2">[2]</a></sup>。同一資料系統的歷史統計表 H-3 列出五等分位的平均家庭所得：最低 20% 為 19,100 美元，次低 51,700，中間 88,250，次高 142,500，最高 20% 為 331,800 美元<sup class="cite"><a href="#src-3">[3]</a></sup>。五個數字的平均約為 126,670 美元，比中位數高約 45%。只說「美國家庭平均所得超過 12 萬美元」，算術沒錯，卻可能讓人高估典型家庭的所得。</p>
-<h2>二、真正的風險不是平均數，而是只看一個數字</h2><p>一個數字容易引用，卻不能呈現整個現象。還要看資料如何分布：數值集中在一起，還是相差很遠？是不是偏向某一側？有沒有極端值？不同群體之間又差多少？</p><p>例如，兩個城市的平均所得可能相近，但其中一座城市的大多數居民所得都集中在平均附近；另一座城市則可能同時有很多低所得者和少數非常高所得者。只看平均數，就看不出這個差異。</p><p>判讀統計時，常要一起看平均數、中位數、分位數、分布圖與樣本背景，才知道一個指標能回答什麼。</p>
-<h2>三、先問想知道什麼，再選指標</h2><p>如果你問「公司平均為每位員工付出多少薪資成本」，平均數很合理；如果你問「一位典型員工大約領多少」，中位數可能更切題；如果你問「高低薪距離有多大」，你還需要其他指標。與其看到數字後才找解釋，不如先決定問題，再選擇統計量。</p><div class="callout"><strong>讀數據時，可以先問三件事：</strong><br/>1. 這個數字的分母是什麼？<br/>2. 它描述的是總量、典型值，還是分布差異？<br/>3. 哪些資訊被這個單一數字隱藏了？</div>
-<h2>四、數字沒有造假，也可能誤導</h2><p>一個人不必捏造數字，也可能透過選擇指標，讓受眾形成片面的印象。這未必出於欺騙，也可能是選錯指標、過度簡化，或忽略了資料的分布。</p><p>算式之外，還可以養成一個習慣：聽到「平均而言」時，追問它算的是什麼，又能代表誰。</p></div>
-<section class="sources"><details class="srcblk"><summary><span>查證資料來源</span><span class="src-count">3 項</span></summary><p class="src-note">實際支持文中事實主張的來源，逐條標註支持的內容；文內如有 [數字] 標記，對應此處編號。</p><ol><li id="src-1"><a href="https://www.census.gov/topics/income-poverty/income/about/faqs.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau：平均所得與中位所得的差異 ↗</a><div class="meta" style="margin-top:4px">支持內容：文中第一節：美國人口普查局對 mean income 與 median income 的官方區分——前者為總收入除以單位數，後者為將分布分成上下兩半的數值</div></li><li id="src-2"><a href="https://www.census.gov/library/publications/2026/demo/p60-289.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau, “Income in the United States: 2025”（P60-289，2026-09-15 發布） ↗</a><div class="meta" style="margin-top:4px">支持內容：文中第一節新增：2025 年美國家庭所得中位數 87,460 美元</div></li><li id="src-3"><a href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau, Historical Income Tables: Households, Table H-3 ↗</a><div class="meta" style="margin-top:4px">支持內容：文中第一節新增：2025 年五等分位平均家庭所得 19,100／51,700／88,250／142,500／331,800 美元；五數平均 126,670 美元為編輯部依等權合計的計算，非普查局公布值</div></li></ol></details><details class="srcblk"><summary><span>延伸探討</span><span class="src-count">1 項資源</span></summary><p class="src-note">供進一步閱讀的資源；未逐條對應文中事實，內容以各來源頁為準。</p><ol><li><a href="https://openstax.org/details/books/introductory-statistics" target="_blank" rel="noopener noreferrer">OpenStax：Introductory Statistics（免費統計教材） ↗</a></li></ol><div class="reflection"><div class="eyebrow">TAKE IT FURTHER</div><h3>把故事帶回自己的思考</h3><p>最近你看過哪些用單一數字描述整體狀況的說法？如果補上分布、分組或中位數，可能會改變什麼理解？</p><textarea id="reflectionNote" placeholder="寫下你的想法、疑問，或之後想追查的線索……"></textarea><div class="save-note">筆記會儲存在目前瀏覽器，不會上傳或同步到其他裝置。</div></div></details></section>
-    <section class="next-read"><div><div class="meta">接著探索</div><h4>沿著另一條線索繼續走</h4></div><a class="solid" href="../imperial/">下一個故事 ↗</a></section>
+    <header class="reader-head">
+<div class="eyebrow">FIELD NOTES / 002</div>
+<div class="meta" style="margin-top:12px">統計與思考　·　2026-10-25 刊出　·　4 分鐘閱讀</div>
+<h1>為什麼「平均數」有時會把現實說得很不像現實？</h1>
+<p class="dek">一個數字可以算得完全正確，卻仍然不是你真正想知道的答案。</p>
+<div class="reader-meta"><span class="tag">統計學</span><span class="tag">資料判讀</span><span class="tag">日常決策</span><span class="meta">一篇從現象走向機制的探索</span>
+</div>
+<div class="reader-actions"><button class="ghost bookmark js-only" id="bookmarkBtn">＋ 收藏這篇</button><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button>
+</div></header>
+    <div class="reader-body">
+<p>假設一家公司宣布，員工的平均月薪是十萬元。你走進辦公室，看看同事們的生活，卻發現大多數人的薪水離十萬元還很遠。是公司算錯了嗎？不一定。平均數回答的問題，可能和你想問的不一樣。</p>
+<p>用一組簡化的薪資就能看出差別。某小公司的五名員工月薪分別是 4 萬、4.5 萬、4.5 萬、5 萬與 32 萬元。總薪資是 50 萬元，除以五人，平均月薪就是 10 萬元。計算沒有錯。</p>
+<div class="diagram"><strong>同一組薪資，兩種不同的中心值</strong>
+<table>
+<thead>
+<tr><th>員工薪資（萬元）</th><th>數值</th>
+</tr></thead>
+<tbody>
+<tr><td>第 1 人</td><td>4</td>
+</tr>
+<tr><td>第 2 人</td><td>4.5</td>
+</tr>
+<tr><td>第 3 人</td><td>4.5</td>
+</tr>
+<tr><td>第 4 人</td><td>5</td>
+</tr>
+<tr><td>第 5 人</td><td>32</td>
+</tr>
+<tr><th>平均數</th><th>10</th>
+</tr>
+<tr><th>中位數</th><th>4.5</th>
+</tr></tbody>
+</table><small>這是用來說明統計概念的假設例子，並非真實公司的薪資資料。</small>
+</div>
+<p>32 萬元的薪資把平均數往上拉了。可是把五人的薪資由低到高排列，位於正中央的第三個數字是 4.5 萬元，這就是中位數。兩個數都正確，只是各自呈現了這組薪資的不同面貌。</p>
+<h2>一、平均數回答的是什麼？</h2>
+<p>平均數把所有數值加起來，再除以觀察單位數。計算總量、分配資源或建立某些數學模型時，常會用到它。如果你想知道公司平均在每位員工身上支出多少薪資，就會用到平均數。</p>
+<p>中位數則將排序後的資料分成兩半：一半位於它之上，一半位於它之下。它比較不容易受極端值影響。想知道一個「典型觀察值」大約是多少，也值得看看中位數。</p>
+<p>美國人口普查局對收入統計的說明，也清楚區分 mean income 與 median income：前者是總收入除以單位數，後者是將分布分成上下兩半的數值<sup class="cite"><a href="#src-1">[1]</a></sup>。</p>
+<p>真實資料也能看出兩者的差異。美國人口普查局 2026 年 9 月公布，2025 年美國家庭所得中位數為 87,460 美元<sup class="cite"><a href="#src-2">[2]</a></sup>。同一資料系統的歷史統計表 H-3 列出五等分位的平均家庭所得：最低 20% 為 19,100 美元，次低 51,700，中間 88,250，次高 142,500，最高 20% 為 331,800 美元<sup class="cite"><a href="#src-3">[3]</a></sup>。五個數字的平均約為 126,670 美元，比中位數高約 45%。只說「美國家庭平均所得超過 12 萬美元」，算術沒錯，卻可能讓人高估典型家庭的所得。</p>
+<h2>二、真正的風險不是平均數，而是只看一個數字</h2>
+<p>一個數字容易引用，卻不能呈現整個現象。還要看資料如何分布：數值集中在一起，還是相差很遠？是不是偏向某一側？有沒有極端值？不同群體之間又差多少？</p>
+<p>例如，兩個城市的平均所得可能相近，但其中一座城市的大多數居民所得都集中在平均附近；另一座城市則可能同時有很多低所得者和少數非常高所得者。只看平均數，就看不出這個差異。</p>
+<p>判讀統計時，常要一起看平均數、中位數、分位數、分布圖與樣本背景，才知道一個指標能回答什麼。</p>
+<h2>三、先問想知道什麼，再選指標</h2>
+<p>如果你問「公司平均為每位員工付出多少薪資成本」，平均數很合理；如果你問「一位典型員工大約領多少」，中位數可能更切題；如果你問「高低薪距離有多大」，你還需要其他指標。與其看到數字後才找解釋，不如先決定問題，再選擇統計量。</p>
+<div class="callout"><strong>讀數據時，可以先問三件事：</strong><br/>1. 這個數字的分母是什麼？<br/>2. 它描述的是總量、典型值，還是分布差異？<br/>3. 哪些資訊被這個單一數字隱藏了？</div>
+<h2>四、數字沒有造假，也可能誤導</h2>
+<p>一個人不必捏造數字，也可能透過選擇指標，讓受眾形成片面的印象。這未必出於欺騙，也可能是選錯指標、過度簡化，或忽略了資料的分布。</p>
+<p>算式之外，還可以養成一個習慣：聽到「平均而言」時，追問它算的是什麼，又能代表誰。</p>
+</div>
+<section class="sources">
+<details class="srcblk"><summary><span>查證資料來源</span><span class="src-count">3 項</span></summary>
+<p class="src-note">實際支持文中事實主張的來源，逐條標註支持的內容；文內如有 [數字] 標記，對應此處編號。</p>
+<ol>
+<li id="src-1"><a href="https://www.census.gov/topics/income-poverty/income/about/faqs.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau：平均所得與中位所得的差異 ↗</a>
+<div class="meta" style="margin-top:4px">支持內容：文中第一節：美國人口普查局對 mean income 與 median income 的官方區分——前者為總收入除以單位數，後者為將分布分成上下兩半的數值</div></li>
+<li id="src-2"><a href="https://www.census.gov/library/publications/2026/demo/p60-289.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau, “Income in the United States: 2025”（P60-289，2026-09-15 發布） ↗</a>
+<div class="meta" style="margin-top:4px">支持內容：文中第一節新增：2025 年美國家庭所得中位數 87,460 美元</div></li>
+<li id="src-3"><a href="https://www.census.gov/data/tables/time-series/demo/income-poverty/historical-income-households.html" target="_blank" rel="noopener noreferrer">U.S. Census Bureau, Historical Income Tables: Households, Table H-3 ↗</a>
+<div class="meta" style="margin-top:4px">支持內容：文中第一節新增：2025 年五等分位平均家庭所得 19,100／51,700／88,250／142,500／331,800 美元；五數平均 126,670 美元為編輯部依等權合計的計算，非普查局公布值</div></li></ol>
+</details>
+<details class="srcblk"><summary><span>延伸探討</span><span class="src-count">1 項資源</span></summary>
+<p class="src-note">供進一步閱讀的資源；未逐條對應文中事實，內容以各來源頁為準。</p>
+<ol>
+<li><a href="https://openstax.org/details/books/introductory-statistics" target="_blank" rel="noopener noreferrer">OpenStax：Introductory Statistics（免費統計教材） ↗</a></li></ol>
+<div class="reflection">
+<div class="eyebrow">TAKE IT FURTHER</div>
+<h3>把故事帶回自己的思考</h3>
+<p>最近你看過哪些用單一數字描述整體狀況的說法？如果補上分布、分組或中位數，可能會改變什麼理解？</p><textarea id="reflectionNote" placeholder="寫下你的想法、疑問，或之後想追查的線索……"></textarea>
+<div class="save-note">筆記會儲存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+</div>
+</details>
+</section>
+    <section class="next-read">
+<div>
+<div class="meta">接著探索</div>
+<h4>沿著另一條線索繼續走</h4>
+</div><a class="solid" href="../imperial/">下一個故事 ↗</a>
+</section>
   </article>
 </main>
 <footer>

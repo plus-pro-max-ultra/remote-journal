@@ -1,5 +1,5 @@
 {
-  "description": "Official articles001–018 and020;019 remains gh-only pending separate approval.",
+  "description": "Official001–018and020–021;019remainsghonlypendingapproval.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -19,6 +19,7 @@
     "survivorship-bias": "016-survivorship-bias",
     "antibiotic-course": "017-antibiotic-course",
     "seven-day-week": "018-seven-day-week",
-    "river-personhood": "020-river-personhood"
+    "river-personhood": "020-river-personhood",
+    "kilogram": "021-kilogram"
   }
 }
