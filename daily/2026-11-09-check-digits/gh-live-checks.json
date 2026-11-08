@@ -1,0 +1,242 @@
+[
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/archive/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/feed.xml",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/sitemap.xml",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/stories.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/sw.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/assets/site.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/article-identifiers.json",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/antibiotic-course/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/comet-windows/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/daylight-saving-time/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/escalator-stand-walk/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/imperial/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/maps/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/median/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/movie-popcorn/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/power-frequency/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/roads/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/runway-numbers/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/seven-day-week/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/smallpox/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/stock/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/submarine-cables/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/survivorship-bias/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/typhoon-names/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/webb-l2/index.html",
+    "status": 200,
+    "exact": true
+  }
+]
