@@ -10,5 +10,8 @@
   "pages_run": 42418641003,
   "main_unchanged": "ad12004fab65993495bbaca2e9b96bff568728f8",
   "official_status": 404,
-  "live_exact_checks": 30
+  "live_exact_checks": 30,
+  "latest_gh_commit": "367de4eded8691933df02c0cff8735a1786078eb",
+  "clarity_verified_at": "2026-11-08T23:31:56+08:00",
+  "clarity_pages_run": 42495059671
 }
