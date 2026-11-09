@@ -1,7 +1,12 @@
 {
-  "status": "prepared_not_published",
-  "target_date": "2026-11-10",
-  "official_approved": false,
-  "gh_published": false,
-  "prepared_at": "2026-11-09T20:01:14.721158+08:00"
+  "status": "gh_pushed_awaiting_deployment",
+  "nominal_issue_date": "2026-11-10",
+  "actual_gh_pushed_at": "2026-11-09T22:43:30+08:00",
+  "gh_commit": "0aeda804c59f458d6e261eb8285c5b86d5a8bb44",
+  "main_official_approved": false,
+  "rule_source": "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+  "scheduled_main_date": "2026-11-10",
+  "scheduled_main_authorized": true,
+  "scheduled_main_authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+  "note": "main approval is no longer separately required; scheduledNov10main authorized, not published tonight"
 }

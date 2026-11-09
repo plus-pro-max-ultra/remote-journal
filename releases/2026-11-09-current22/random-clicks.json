@@ -1,0 +1,134 @@
+[
+  {
+    "current": "001-roads",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "002-median",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "004-stock",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/"
+  },
+  {
+    "current": "005-maps",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/020-river-personhood/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/004-stock/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  }
+]

@@ -2,7 +2,7 @@
 
 目標：2026-11-10 08:00 Asia/Taipei前，新稿先在gh完成並核實，main另待批准。
 
-狀態：前晚已研究、成稿、全文潤飾與本地手機／桌機預覽；尚未發布gh，不能算完成出刊。
+狀態：依11/9 22:41新規則，已於11/9 22:43提前推送023至gh，部署核實中。依22:44新授權，023於表訂11/10自動發布main；今晚不提前正式發布。
 
 - [完整稿件](manuscript.md)
 - [來源與逐節支持](sources.md)
@@ -12,3 +12,5 @@
 - [狀態](publication-status.json)
 
 原始依據：每日出刊phonemsg-01M5ST2TJFQMHBR9R46PNCQAEK；gh先行phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ；08:00期限phonemsg-01M6RQA3N6EWQAVTPVHZBA76MG；頁尾隨機phonemsg-01M6Z79Z39A7B0YS5Y4R3R3SQG。晨間仍須取最新分支，保留所有既有作者HTML。
+
+新規則：審閱版提前一天，11/10早晨目標改為11/11的024，不再重發023。實際完成依publication-status.json及後續live-checks紀錄。
