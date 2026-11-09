@@ -2,7 +2,7 @@
   "status": "gh_review_live_verified",
   "nominal_issue_date": "2026-11-10",
   "actual_gh_pushed_at": "2026-11-09T22:43:30+08:00",
-  "gh_commit": "ca76437",
+  "gh_commit": "331b30c",
   "main_official_approved": false,
   "rule_source": "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
   "scheduled_main_date": "2026-11-10",
@@ -20,7 +20,7 @@
   "final_verified_at": "2026-11-09T22:52:18+08:00",
   "pages_run": 42638036621,
   "pages_conclusion": "success",
-  "last_revision": "reflection request23:03, verified23:06",
+  "last_revision": "Secondreflection331b30c after rejection23:07; awaitingliveverification",
   "owner_finetuning_detected": true,
   "owner_finetuning_commit": "f0e9fe1"
 }
