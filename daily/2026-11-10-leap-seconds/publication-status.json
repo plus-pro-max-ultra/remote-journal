@@ -1,5 +1,5 @@
 {
-  "status": "gh_review_live_verified",
+  "status": "official_live_verified",
   "nominal_issue_date": "2026-11-10",
   "actual_gh_pushed_at": "2026-11-09T22:43:30+08:00",
   "gh_commit": "331b30c",
@@ -23,5 +23,8 @@
   "last_revision": "Secondreflection331b30c after rejection23:07; liveexact/mobile-desktop verified23:14",
   "owner_finetuning_detected": true,
   "owner_finetuning_commit": "f0e9fe1",
-  "reflection2_verified_at": "2026-11-09T23:14:00+08:00"
+  "reflection2_verified_at": "2026-11-09T23:14:00+08:00",
+  "main_commit": "e1f56ed",
+  "main_verified_at": "2026-11-10T06:06:00+08:00",
+  "owner_reflection_commit": "a879c3d"
 }

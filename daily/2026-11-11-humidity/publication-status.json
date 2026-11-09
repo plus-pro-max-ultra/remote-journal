@@ -1,9 +1,13 @@
 {
-  "status": "prepared_not_published",
+  "status": "gh_review_live_verified",
   "nominal_issue_date": "2026-11-11",
   "gh_review_due": "2026-11-10T08:00:00+08:00",
   "prepared_at": "2026-11-09T23:06:00+08:00",
   "scheduled_main_date": "2026-11-11",
   "scheduled_main_authorized": true,
-  "authority_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  "authority_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+  "gh_commit": "d06a1c9",
+  "actual_gh_release_date": "2026-11-10",
+  "verified_at": "2026-11-10T06:06:00+08:00",
+  "usable_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/024-humidity/"
 }

@@ -18,3 +18,5 @@
 22:46首次live核實31檔exact、23篇隨機頁尾實點均有效。審閱連結：https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/ 。最後7a677ef修正文末來源說明句及自動main metadata，等最後兩處部署核實後publication-status標完成。
 
 22:52最後7a677ef兩處亦200且exact，Pages42638036621成功。023提前審閱交付完成，11/10按表訂日自動main。
+
+2026-11-10 06:06晨間發布與實際畫面／檔案／隨機頁尾檢查完成；最新真實狀態見publication-status.json與live checks，不以上方早期備稿敘述判定。

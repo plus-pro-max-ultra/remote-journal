@@ -1,0 +1,162 @@
+[
+  {
+    "file": "index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "archive/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "stories.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "assets/site.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "sw.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "article-identifiers.json",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "feed.xml",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "sitemap.xml",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/016-survivorship-bias/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/024-humidity/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/005-maps/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/011-typhoon-names/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/018-seven-day-week/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/007-webb-l2/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/008-smallpox/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/021-kilogram/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/010-daylight-saving-time/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/012-power-frequency/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/015-movie-popcorn/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/004-stock/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/022-check-digits/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/017-antibiotic-course/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/009-comet-windows/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/003-imperial/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/023-leap-seconds/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/013-runway-numbers/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/006-submarine-cables/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/002-median/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/019-chauvet-dating/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/014-escalator-stand-walk/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/020-river-personhood/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "file": "articles/001-roads/index.html",
+    "status": 200,
+    "exact": true
+  }
+]
