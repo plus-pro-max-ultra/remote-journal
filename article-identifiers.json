@@ -1,5 +1,5 @@
 {
-  "description": "001–018與020–021為正式版；019與022為gh新刊預覽，main尚未批准。",
+  "description": "001–022已正式批准；023為11/10提前一天的gh審閱稿，main尚未批准。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -22,6 +22,7 @@
     "chauvet-dating": "019-chauvet-dating",
     "river-personhood": "020-river-personhood",
     "kilogram": "021-kilogram",
-    "check-digits": "022-check-digits"
+    "check-digits": "022-check-digits",
+    "leap-seconds": "023-leap-seconds"
   }
 }
