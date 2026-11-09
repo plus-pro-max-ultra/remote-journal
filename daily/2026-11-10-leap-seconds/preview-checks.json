@@ -1,0 +1,51 @@
+{
+  "checked_at": "2026-11-09T20:01:26+08:00",
+  "layouts": [
+    {
+      "id": "023-leap-seconds",
+      "width": 320,
+      "scroll": 320,
+      "body": 2404,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "023-leap-seconds",
+      "width": 390,
+      "scroll": 390,
+      "body": 2404,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "023-leap-seconds",
+      "width": 1440,
+      "scroll": 1425,
+      "body": 2404,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    }
+  ],
+  "inspected": [
+    "320px秒數比較表與正文換行",
+    "1440px第一、二節",
+    "390px末節、來源與延伸探討區"
+  ],
+  "body_cites": 2,
+  "end_sources": 9,
+  "article_body_chars": 2370,
+  "target_weekday": "Tuesday",
+  "status": "local_preview_only"
+}

@@ -1,0 +1,2 @@
+# Nov10 independent023
+Question:why can a minute have61seconds? Distinguishatomicseconds,UT1,TAIUTC,implementationand2035decision. Readprimarysourcesandoperators,avoidfuturepolicyoverstatement. Sixsections~1900Chinesechars,twoinlinecites,fullsourcemapping. Prepareonlytonight,ghmorningreleaseby08Taipei. Noautomaticmain.
