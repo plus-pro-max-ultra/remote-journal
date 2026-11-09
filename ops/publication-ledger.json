@@ -85,8 +85,12 @@
       "f0e9fe1",
       "a879c3d"
     ],
-    "status": "push_prepared_live_verification_pending",
-    "excluded": "024 nominalNov11 not official yet"
+    "status": "live_verified",
+    "excluded": "024 nominalNov11 not official yet",
+    "main_commit": "e1f56ed",
+    "verified_at": "2026-11-10T06:06:00+08:00",
+    "exact_files": 31,
+    "random_actual_clicks": 23
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
