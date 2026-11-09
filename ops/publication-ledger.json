@@ -75,14 +75,18 @@
     }
   ],
   "current_official_release": {
-    "approved_at": "2026-11-09T22:41:01+08:00",
-    "source_message_id": "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
-    "source_gh_commit": "1c16a22bce4fa3832a08a48c72918b39521a68e5",
-    "published_main_commit": "116c2a57c7dabffe073e9409804fcf9a308c3ecd",
-    "approved_issues": "001–022",
-    "verified_live_at": "2026-11-09T22:43:05+08:00",
-    "exact_files": 30,
-    "excluded": "023 scheduledNov10, not included before its date"
+    "scheduled_date": "2026-11-10",
+    "number": "023",
+    "id": "023-leap-seconds",
+    "authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "source_gh_commit": "a879c3dcbfd4ef7484f2a111481b7b3626ab3fad",
+    "owner_finetuning_detected": true,
+    "owner_finetuning_commits": [
+      "f0e9fe1",
+      "a879c3d"
+    ],
+    "status": "push_prepared_live_verification_pending",
+    "excluded": "024 nominalNov11 not official yet"
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",

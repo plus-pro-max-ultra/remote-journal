@@ -1,5 +1,5 @@
 {
-  "description": "Official001–022; futureissues publishmain on scheduleddate after one-day-earlyghreview under MM2026-11-09 22:44 standingauthority.",
+  "description": "Official001–023; automatic scheduleddate main under MM2026-11-09 22:44 authority, futuredated issues remain gh review.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -22,6 +22,7 @@
     "chauvet-dating": "019-chauvet-dating",
     "river-personhood": "020-river-personhood",
     "kilogram": "021-kilogram",
-    "check-digits": "022-check-digits"
+    "check-digits": "022-check-digits",
+    "leap-seconds": "023-leap-seconds"
   }
 }
