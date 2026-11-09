@@ -67,9 +67,12 @@
       e.preventDefault();
       var ids = $$(".article-card[data-id]").map(function (c) { return c.getAttribute("data-id"); });
       if (!ids.length && window.FARAWAY_STORIES) ids = window.FARAWAY_STORIES.map(function (s) { return s.id; });
-      if (!ids.length) { location.href = btn.getAttribute("href"); return; }
-      var current = document.body.getAttribute("data-id");
-      var pool = ids.filter(function (x) { return x !== current; });
+      // Article footers use the complete, current numbered collection, not
+      // the cards visible on a page. New issues update this shared registry.
+      if (!ids.length) ids = Object.keys(ARTICLE_ID_ALIASES).map(function (key) { return ARTICLE_ID_ALIASES[key]; });
+      var current = currentId(document.body.getAttribute("data-id"));
+      var pool = ids.map(currentId).filter(function (x, i, all) { return x !== current && all.indexOf(x) === i; });
+      if (!pool.length) { location.href = btn.getAttribute("href"); return; }
       var pick = pool[Math.floor(Math.random() * pool.length)];
       location.href = ROOT + "articles/" + pick + "/";
     });
