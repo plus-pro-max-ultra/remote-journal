@@ -6,7 +6,7 @@
   var ROOT = document.body.getAttribute("data-root") || "./";
 
   // Numbered identifiers retain existing bookmarks, favorites and notes.
-  var ARTICLE_ID_ALIASES = {"roads":"001-roads","median":"002-median","imperial":"003-imperial","stock":"004-stock","maps":"005-maps","submarine-cables":"006-submarine-cables","webb-l2":"007-webb-l2","smallpox":"008-smallpox","comet-windows":"009-comet-windows","daylight-saving-time":"010-daylight-saving-time","typhoon-names":"011-typhoon-names","power-frequency":"012-power-frequency","runway-numbers":"013-runway-numbers","escalator-stand-walk":"014-escalator-stand-walk","movie-popcorn":"015-movie-popcorn","survivorship-bias":"016-survivorship-bias","antibiotic-course":"017-antibiotic-course","seven-day-week":"018-seven-day-week","river-personhood":"020-river-personhood","kilogram":"021-kilogram"};
+  var ARTICLE_ID_ALIASES = {"roads":"001-roads","median":"002-median","imperial":"003-imperial","stock":"004-stock","maps":"005-maps","submarine-cables":"006-submarine-cables","webb-l2":"007-webb-l2","smallpox":"008-smallpox","comet-windows":"009-comet-windows","daylight-saving-time":"010-daylight-saving-time","typhoon-names":"011-typhoon-names","power-frequency":"012-power-frequency","runway-numbers":"013-runway-numbers","escalator-stand-walk":"014-escalator-stand-walk","movie-popcorn":"015-movie-popcorn","survivorship-bias":"016-survivorship-bias","antibiotic-course":"017-antibiotic-course","seven-day-week":"018-seven-day-week","chauvet-dating":"019-chauvet-dating","river-personhood":"020-river-personhood","kilogram":"021-kilogram","check-digits":"022-check-digits"};
   function currentId(id) { return ARTICLE_ID_ALIASES[id] || id; }
   try {
     var savedIds = JSON.parse(localStorage.getItem("faraway-saved") || "[]");
@@ -61,17 +61,20 @@
   }
 
   function setupSurprise() {
-    var btn = $("[data-surprise]");
-    if (!btn) return;
+    $$("[data-surprise]").forEach(function (btn) {
     btn.addEventListener("click", function (e) {
       e.preventDefault();
       var ids = $$(".article-card[data-id]").map(function (c) { return c.getAttribute("data-id"); });
       if (!ids.length && window.FARAWAY_STORIES) ids = window.FARAWAY_STORIES.map(function (s) { return s.id; });
-      if (!ids.length) { location.href = btn.getAttribute("href"); return; }
-      var current = document.body.getAttribute("data-id");
-      var pool = ids.filter(function (x) { return x !== current; });
+      // Article footers use the complete, current numbered collection, not
+      // the cards visible on a page. New issues update this shared registry.
+      if (!ids.length) ids = Object.keys(ARTICLE_ID_ALIASES).map(function (key) { return ARTICLE_ID_ALIASES[key]; });
+      var current = currentId(document.body.getAttribute("data-id"));
+      var pool = ids.map(currentId).filter(function (x, i, all) { return x !== current && all.indexOf(x) === i; });
+      if (!pool.length) { location.href = btn.getAttribute("href"); return; }
       var pick = pool[Math.floor(Math.random() * pool.length)];
       location.href = ROOT + "articles/" + pick + "/";
+    });
     });
   }
   setupSurprise();

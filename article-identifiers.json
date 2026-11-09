@@ -1,5 +1,5 @@
 {
-  "description": "Official001–018and020–021;019remainsghonlypendingapproval.",
+  "description": "Official001–022 approved by MM2026-11-09 22:41; futureissues require separate approval.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -19,7 +19,9 @@
     "survivorship-bias": "016-survivorship-bias",
     "antibiotic-course": "017-antibiotic-course",
     "seven-day-week": "018-seven-day-week",
+    "chauvet-dating": "019-chauvet-dating",
     "river-personhood": "020-river-personhood",
-    "kilogram": "021-kilogram"
+    "kilogram": "021-kilogram",
+    "check-digits": "022-check-digits"
   }
 }

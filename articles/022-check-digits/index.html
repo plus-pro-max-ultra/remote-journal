@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#f4f0e8" name="theme-color"/>
+<title>條碼最後一位數，能替我們檢查什麼？ · 遠方誌</title>
+<meta content="它不是商品的另一項資料，而是替前面的數字設下一道算術檢查。多留一點重複，能讓錯誤留下痕跡，卻不保證知道正確答案。" name="description"/>
+<link href="https://journal-for-far.learnman.workers.dev/articles/022-check-digits/" rel="canonical"/>
+<meta content="遠方誌 | Journal for Far" property="og:site_name"/>
+<meta content="條碼最後一位數，能替我們檢查什麼？ · 遠方誌" property="og:title"/>
+<meta content="它不是商品的另一項資料，而是替前面的數字設下一道算術檢查。多留一點重複，能讓錯誤留下痕跡，卻不保證知道正確答案。" property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://journal-for-far.learnman.workers.dev/articles/022-check-digits/" property="og:url"/>
+<meta content="https://journal-for-far.learnman.workers.dev/icon-512.png" property="og:image"/>
+<link href="../../manifest.webmanifest" rel="manifest"/>
+<link href="../../favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../../favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="../../icon-180.png" rel="apple-touch-icon"/>
+<link href="../../assets/site.css" rel="stylesheet"/>
+<link href="https://journal-for-far.learnman.workers.dev/feed.xml" rel="alternate" title="遠方誌 | Journal for Far RSS" type="application/rss+xml"/>
+<script>document.documentElement.classList.add('js')</script>
+<style>.dating-comparison{margin:32px 0;padding:20px;border:1px solid var(--line,#d9d4ca)}.dating-comparison figcaption{font-weight:700;margin:0 0 12px}.dating-row{display:grid;grid-template-columns:1fr 1.2fr 1.3fr;gap:12px;padding:12px 0;border-top:1px solid #d9d4ca;font-size:.88em;line-height:1.7}.dating-comparison p{margin-bottom:0}@media(max-width:600px){.dating-row{grid-template-columns:1fr;gap:4px}.dating-row strong{color:#254e43}}</style></head>
+<body data-id="022-check-digits" data-page="article" data-root="../../">
+<header class="topbar">
+<a aria-label="回到遠方誌首頁" class="brand" href="../../"><img alt="" class="brandmark" height="36" src="../../icon-192.png" width="36"/><span class="brandtext"><span class="brandname">遠方誌</span><span class="brandeng">Journal for Far</span></span></a>
+<nav class="top-actions"><a class="ghost" href="../../archive/"><span class="wide-only">文章</span>索引</a> <a class="ghost wide-only" href="../../about/">關於</a> <a class="solid" data-surprise="" href="../../archive/">帶我去遠方 ↗</a></nav>
+</header>
+<main class="reader visible" id="readerView">
+<a class="back" href="../../archive/">← 回到文章索引</a>
+<article id="readerArticle">
+<header class="reader-head">
+<div class="eyebrow">FIELD NOTES / 022</div>
+<div class="meta" style="margin-top:12px">數學與日常　·　2026-11-09 刊出　·　9 分鐘閱讀</div>
+<h1>條碼最後一位數，能替我們檢查什麼？</h1>
+<p class="dek">它不是商品的另一項資料，而是替前面的數字設下一道算術檢查。多留一點重複，能讓錯誤留下痕跡，卻不保證知道正確答案。</p>
+<div class="reader-meta"><span class="tag">條碼</span><span class="tag">檢查碼</span><span class="tag">ISBN</span><span class="tag">錯誤偵測</span><span class="meta">一篇從現象走向機制的探索</span>
+</div>
+<div class="reader-actions"><button class="ghost bookmark js-only" id="bookmarkBtn">＋ 收藏這篇</button><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button>
+</div></header>
+<div class="reader-body">
+<p>拿起一本書，背面的 ISBN 有一長串數字。假如把其中一位抄錯，電腦有時不必先查書目，就能提醒這個號碼不對。它沒有讀過那本書，也不必認得出版社。線索藏在最後一位：那不是另一項獨立資料，而是由前面的數字算出的檢查碼。問題是，只多放一位數，究竟能檢查到什麼？</p>
+<h2>一、先分清號碼、條紋和資料庫</h2>
+<p>國際 ISBN 總部把 ISBN 定位為出版品的識別碼，用來區分特定書名、版本與產品形式。例如，同一本作品的平裝本和 EPUB，應分別識別。它不是一本書內容的摘要，也不會因為有了 ISBN，就自動取得法律或著作權保護。</p>
+<p>在零售商品上，類似的識別工作由 GTIN 等號碼負責；條碼讓設備能讀取這些號碼。GS1 的說明指出，一般商品的名稱與價格放在資料庫，掃描取得識別號碼後，再用它查出相關資料。另有把價格或折價金額納入的專用編碼，不能把所有條碼都當成同一種格式。</p>
+<p>因此，至少有兩個不同問題：眼前這串數字有沒有讀錯，以及這串數字對應什麼東西。最後一位的檢查碼主要處理前者。它先檢查數字之間是否符合約定的關係，不必等到找到完整商品資料，才知道輸入可能有問題。</p>
+<h2>二、把總和補成十的倍數</h2>
+<p>以十三位的 GTIN-13 為例，GS1 公開了完整算法：前十二位從左到右，交替乘以 1 和 3，再把結果相加。最後一位要讓這個總和，補成十的倍數。如果原本已經是十的倍數，最後一位就是 0，不是 10<sup class="cite"><a href="#src-3">[3]</a></sup>。</p>
+<p>GS1 的示範號碼是 629104150021。把第 1、3、5、7、9、11 位相加，得到 18；第 2、4、6、8、10、12 位相加，得到 13，再乘以 3，得到 39。兩邊合計 57，距離下一個十的倍數 60 還差 3，所以完整號碼是 6291041500213。</p>
+<p>檢查時則反過來：前十二位照規則計算，再加上最後的 3，總和是 60，就通過這道算術檢查。這裡的 3 不是隨手挑選，也不是某項商品屬性；前面的十二位一旦確定，它的值就跟著確定。</p>
+<h2>三、為什麼不直接把數字相加？</h2>
+<p>如果只把所有位數相加，12 寫成 21，總和完全不變。交替使用不同權重，能讓位置也參與檢查：1 × 1 加 2 × 3 是 7；交換後，2 × 1 加 1 × 3 只剩 5。兩個相鄰數字對調，就有機會留下不同的餘數。</p>
+<p>對 GTIN-13 這套規則而言，只改錯其中一個數字，總和不會仍然維持十的倍數。即使那一位乘了 3，改動量也不會剛好被十整除。大學的檢查碼教材也說明，這類權重設計和模十運算，正是單一位數錯誤能被偵測的原因<sup class="cite"><a href="#src-4">[4]</a></sup>。</p>
+<p>但相鄰交換並非全都抓得到。把 5 × 3 加 0 × 1 換成 0 × 3 加 5 × 1，總和只差 10，最後的餘數相同。示範號碼中的 50 因此可以交換成 05，仍通過檢查。這不是電腦漏算，而是這套規則本來就難以避免的情況。</p>
+<h2>四、通過檢查，不等於找到了真相</h2>
+<p>下面三行示例使用同一個檢查碼 3。第二行只把一位 4 改成 5；第三行則交換相鄰的 5 和 0。兩種錯誤的結果不一樣。</p>
+<div class="story-table" style="overflow-x:auto">
+<table><caption>同一個檢查碼，三種結果</caption>
+<thead>
+<tr><th scope="col">號碼</th><th scope="col">加權總和含末位</th><th scope="col">算術檢查</th>
+</tr></thead>
+<tbody>
+<tr><th scope="row"><code>6291041500213</code></th><td>60</td><td>通過（GS1示例）</td>
+</tr>
+<tr><th scope="row"><code>6291051500213</code></th><td>63</td><td>未通過（4改成5）</td>
+</tr>
+<tr><th scope="row"><code>6291041050213</code></th><td>50</td><td>通過（50交換成05）</td>
+</tr></tbody>
+</table>
+<p class="fig-credit">按GS1規則進行計算；後兩行僅示範錯誤，並非實際商品號碼。</p>
+</div>
+<p>更重要的是，不符合規則通常也沒有告訴我們，到底哪一位錯了。可能是前面某位抄錯，也可能是最後一位錯了。若把檢查碼直接重算、改到能通過，只是讓一組數字重新符合關係，不是把原先想輸入的號碼找回來。</p>
+<p>反過來，符合規則的號碼，也可能根本未被分配，或對應到另一項商品。GS1 的查詢服務分別處理號碼結構、是否由 GS1 發出、授權給哪家公司，以及產品資料是否相符。這些需要登記資料的問題，不能靠最後一位的算術取代；就算號碼正確，也不能單憑這一點判定眼前的實物真偽。</p>
+<h2>五、舊書上的 X，來自另一套規則</h2>
+<p>翻看較早出版的書，有時會看到十位的 ISBN，最後甚至是字母 X。那不是印刷錯誤。舊制 ISBN-10 使用模十一運算：從左到右分別乘以 10、9，一路到 1，總和必須被 11 整除。最後一位若需要數值 10，就用 X 表示。</p>
+<p>這套設計能偵測單一位數錯誤，以及兩個不同數字交換位置。十三位的 ISBN 則使用交替乘 1、3 的模十算法，和前面介紹的 GTIN-13 相同，也就有相鄰數字相差 5 時的交換盲點。位數更多，並不表示每一種錯誤都更容易抓到。</p>
+<p>國際 ISBN 總部記錄，新配發的 ISBN 自 2007 年 1 月 1 日起改為十三位。把舊十位 ISBN 轉成對應的十三位號碼時，要先去掉原檢查碼，加上 978 前綴，再依新算法重算最後一位。不是在舊號碼前面接上三位，就能把舊的 X 原封不動留下。</p>
+<h2>六、抓到錯誤，和修回資料是兩種能力</h2>
+<p>手機能讀取部分髒污的 QR Code，和檢查碼有什麼不同？前面談的是錯誤偵測；QR Code 另加入更多冗餘資料，使用里德－所羅門碼（Reed-Solomon code），在能力範圍內可以修復資料。DENSO WAVE 的說明也指出，提升錯誤修正能力，會增加所需資料量與符號大小。</p>
+<p>但這不代表任意遮住一角都能成功。DENSO WAVE 明確提醒，能否恢復仍取決於污損程度。它列出的修復比例以碼字為單位，不等於保證同樣比例的紙面面積可以隨便擦掉。讀得到、修得回來，以及內容本身可信，仍是不同層次的問題。</p>
+<p>回到書背上那個小小的檢查碼。它沒有多告訴我們作者是誰，卻讓數字之間多了一條可以核對的關係。這一點重複，換來的是某些錯誤不再悄悄混進下一步。可靠的系統不一定能立刻給出答案；有時，它先做到的是在不對的地方停下來。</p>
+</div>
+<section class="sources">
+<details class="srcblk"><summary><span>查證資料來源</span><span class="src-count">8 項</span></summary>
+<p class="src-note">完整來源集中於此，並註明對應章節與支持內容。正文僅保留算法與錯誤偵測兩處查證標記。</p>
+<ol>
+<li id="src-1"><a href="https://www.isbn-international.org/content/what-isbn/10" rel="noopener noreferrer" target="_blank">What is an ISBN?（International ISBN Agency） ↗</a>
+<div class="meta" style="margin-top:4px">第一、五節：識別用途、版本形式、2007年改制、ISBN13權重；不是法律／著作權保護。</div></li>
+<li id="src-2"><a href="https://support.gs1.org/support/solutions/articles/43000734158-are-the-description-and-price-of-the-item-included-in-the-barcode-" rel="noopener noreferrer" target="_blank">Are the description and price of the item included in the barcode?（GS1，2025-06-24） ↗</a>
+<div class="meta" style="margin-top:4px">第一節：一般商品價格與名稱由資料庫取得，變量計價與優惠券例外。</div></li>
+<li id="src-3"><a href="https://www.gs1.org/services/how-calculate-check-digit-manually" rel="noopener noreferrer" target="_blank">How to calculate a check digit manually（GS1） ↗</a>
+<div class="meta" style="margin-top:4px">第二至四節：GTIN13權重、補十、6291041500213完整算例。</div></li>
+<li id="src-4"><a href="https://maths.ucd.ie/~wgs/notes/chk_dig.pdf" rel="noopener noreferrer" target="_blank">Check Digits（University College Dublin數學教材，2012-10-11） ↗</a>
+<div class="meta" style="margin-top:4px">第三、五節：ISBN10模11／X／交換錯誤、ISBN13模10與可逆權重；不採用其中未確認學號猜測。</div></li>
+<li id="src-5"><a href="https://www.gs1.org/services/verified-by-gs1" rel="noopener noreferrer" target="_blank">Verified by GS1（GS1） ↗</a>
+<div class="meta" style="margin-top:4px">第四節：區分結構、核發、授權公司與產品資料；實物真偽限制是本文從算術邊界導出的結論。</div></li>
+<li id="src-6"><a href="https://support.gs1.org/support/solutions/articles/43000734165-how-is-an-isbn-used-in-a-gs1-barcode-" rel="noopener noreferrer" target="_blank">How is an ISBN used in a GS1 barcode?（GS1，2024-08-30） ↗</a>
+<div class="meta" style="margin-top:4px">第五節：移除ISBN10檢查碼、前加978、依新算法重算。</div></li>
+<li id="src-7"><a href="https://www.qrcode.com/en/about/error_correction.html" rel="noopener noreferrer" target="_blank">Error correction feature（DENSO WAVE） ↗</a>
+<div class="meta" style="margin-top:4px">第六節：ReedSolomon、能力與資料／尺寸取捨；比例指codewords非任意面積保證。</div></li>
+<li id="src-8"><a href="https://www.denso-wave.com/en/system/qr/fundamental/qrcode/qrc/index.html" rel="noopener noreferrer" target="_blank">What is a QR Code?（DENSO WAVE） ↗</a>
+<div class="meta" style="margin-top:4px">第六節：污損後可能恢復但視程度可能無法恢復。</div></li></ol>
+</details>
+<details class="srcblk"><summary><span>延伸探討</span><span class="src-count"></span></summary>
+<div class="reflection">
+<div class="eyebrow">TAKE IT FURTHER</div>
+<h3>把故事帶回自己的思考</h3>
+<p>當一個系統顯示「驗證通過」，你會再問它究竟檢查了格式、登記資料，還是眼前實物的真偽嗎？</p><textarea id="reflectionNote" placeholder="寫下你的想法、疑問，或之後想追查的線索……"></textarea>
+<div class="save-note">筆記會儲存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+</div>
+</details>
+</section>
+<section class="next-read">
+<div>
+<div class="meta">接著探索</div>
+<h4>隨機探索另一篇文章</h4>
+</div><a class="solid" data-surprise href="../../archive/">隨機讀一篇 ↗</a>
+</section>
+</article>
+</main>
+<footer>
+<div>遠方誌 · 一份讓好奇心有地方安放的閱讀刊物</div>
+<nav aria-label="網站導覽" class="foot-nav"><a href="../../">首頁</a><a href="../../archive/">文章索引</a><a href="../../about/">關於本刊</a><a href="../../privacy/">隱私權說明</a><a href="../../feed.xml">RSS 訂閱</a></nav>
+<div class="footnote-line">收藏與筆記只保存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+<div class="footnote-line">© 2026 遠方誌</div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="../../assets/site.js"></script>
+</body></html>
