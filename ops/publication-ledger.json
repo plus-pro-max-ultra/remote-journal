@@ -73,5 +73,15 @@
       "approval_message_id": "phonemsg-01M6T9DXTJPGH829SZJ2S522QJ",
       "correction_approval_message_id": "phonemsg-01M6T9H23KYQMQVH3DN8QNMRRT"
     }
-  ]
+  ],
+  "current_official_release": {
+    "approved_at": "2026-11-09T22:41:01+08:00",
+    "source_message_id": "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "source_gh_commit": "1c16a22bce4fa3832a08a48c72918b39521a68e5",
+    "published_main_commit": "116c2a57c7dabffe073e9409804fcf9a308c3ecd",
+    "approved_issues": "001–022",
+    "verified_live_at": "2026-11-09T22:43:05+08:00",
+    "exact_files": 30,
+    "excluded": "023 and later require separate approval"
+  }
 }
