@@ -82,6 +82,13 @@
     "approved_issues": "001–022",
     "verified_live_at": "2026-11-09T22:43:05+08:00",
     "exact_files": 30,
-    "excluded": "023 and later require separate approval"
+    "excluded": "023 scheduledNov10, not included before its date"
+  },
+  "production_rule": {
+    "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "gh_review": "one calendar day before scheduled issue date",
+    "main_release": "automatic on scheduled issue date regardless manual edits or change requests; preserve edits and handle requested corrections",
+    "no_finetuning": "separate reminder to MM, not a release blocker",
+    "morning_deadline": "08:00 Asia/Taipei for current-main and next-gh verified delivery"
   }
 }
