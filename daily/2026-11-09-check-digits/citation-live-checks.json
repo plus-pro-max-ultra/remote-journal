@@ -1,0 +1,17 @@
+[
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/index.html",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/stories.js",
+    "status": 200,
+    "exact": true
+  },
+  {
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/sw.js",
+    "status": 200,
+    "exact": true
+  }
+]

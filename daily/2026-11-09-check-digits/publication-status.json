@@ -10,5 +10,10 @@
   "pages_run": 42528097000,
   "main_unchanged": "10a88f87a908285f087008ab4cb771facdc332ee",
   "official_status": 404,
-  "live_exact_checks": 48
+  "live_exact_checks": 48,
+  "latest_gh_commit": "676f5c7",
+  "citation_cleanup_verified_at": "2026-11-09T08:51:35+08:00",
+  "citation_pages_run": 42542305915,
+  "inline_citation_count": 2,
+  "connection_link_status": "held_for_editorial_review"
 }
