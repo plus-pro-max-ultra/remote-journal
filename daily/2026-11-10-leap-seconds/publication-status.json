@@ -20,7 +20,8 @@
   "final_verified_at": "2026-11-09T22:52:18+08:00",
   "pages_run": 42638036621,
   "pages_conclusion": "success",
-  "last_revision": "Secondreflection331b30c after rejection23:07; awaitingliveverification",
+  "last_revision": "Secondreflection331b30c after rejection23:07; liveexact/mobile-desktop verified23:14",
   "owner_finetuning_detected": true,
-  "owner_finetuning_commit": "f0e9fe1"
+  "owner_finetuning_commit": "f0e9fe1",
+  "reflection2_verified_at": "2026-11-09T23:14:00+08:00"
 }
