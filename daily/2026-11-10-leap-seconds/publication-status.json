@@ -1,8 +1,8 @@
 {
-  "status": "gh_live_body_verified_final_metadata_fix_deploy_pending",
+  "status": "gh_review_live_verified",
   "nominal_issue_date": "2026-11-10",
   "actual_gh_pushed_at": "2026-11-09T22:43:30+08:00",
-  "gh_commit": "0aeda804c59f458d6e261eb8285c5b86d5a8bb44",
+  "gh_commit": "7a677ef2bddd79c8f9792ac4ea8077037a813c19",
   "main_official_approved": false,
   "rule_source": "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
   "scheduled_main_date": "2026-11-10",
@@ -12,9 +12,12 @@
   "actual_gh_live_verified_at": "2026-11-09T22:46:42+08:00",
   "gh_initial_commit": "0aeda804c59f458d6e261eb8285c5b86d5a8bb44",
   "gh_final_commit": "7a677ef",
-  "final_metadata_fix_pending": true,
+  "final_metadata_fix_pending": false,
   "usable_review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/",
   "live_exact_files_initial": 31,
   "live_random_clicks": 23,
-  "main_scheduled_date": "2026-11-10"
+  "main_scheduled_date": "2026-11-10",
+  "final_verified_at": "2026-11-09T22:52:18+08:00",
+  "pages_run": 42638036621,
+  "pages_conclusion": "success"
 }
