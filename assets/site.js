@@ -61,8 +61,7 @@
   }
 
   function setupSurprise() {
-    var btn = $("[data-surprise]");
-    if (!btn) return;
+    $$("[data-surprise]").forEach(function (btn) {
     btn.addEventListener("click", function (e) {
       e.preventDefault();
       var ids = $$(".article-card[data-id]").map(function (c) { return c.getAttribute("data-id"); });
@@ -75,6 +74,7 @@
       if (!pool.length) { location.href = btn.getAttribute("href"); return; }
       var pick = pool[Math.floor(Math.random() * pool.length)];
       location.href = ROOT + "articles/" + pick + "/";
+    });
     });
   }
   setupSurprise();
