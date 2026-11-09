@@ -1,0 +1,140 @@
+[
+  {
+    "current": "001-roads",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/"
+  },
+  {
+    "current": "002-median",
+    "target": "022-check-digits",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/"
+  },
+  {
+    "current": "004-stock",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "005-maps",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "015-movie-popcorn",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "008-smallpox",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/"
+  }
+]
