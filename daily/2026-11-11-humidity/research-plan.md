@@ -1,0 +1,2 @@
+# 024 humidity, nominal2026-11-11, gh2026-11-10 before08
+Explain relative humidity vs dew point via glass condensation, distinguish vapor/liquid, temperature/pressure conditions and room heating vs dehumidification. Read primary science and official weather guidance, avoid air-as-sponge misconception, no health prescriptions; sixsection~2000Chinese chars, two inlinecites/fullsources, phonecomparison. Fresh topic no forcedcrosslinks. Research paused briefly for023requestedreflectionrevision.

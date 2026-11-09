@@ -1,0 +1,50 @@
+{
+  "status": "local_preview_only",
+  "checked_at": "2026-11-09T23:06:21+08:00",
+  "layouts": [
+    {
+      "id": "024-humidity",
+      "width": 320,
+      "scroll": 320,
+      "body": 2224,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "024-humidity",
+      "width": 390,
+      "scroll": 390,
+      "body": 2224,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "024-humidity",
+      "width": 1440,
+      "scroll": 1425,
+      "body": 2224,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    }
+  ],
+  "pixels_inspected": [
+    "320px comparison table",
+    "1440px sections1-2",
+    "390px finalsection/footer"
+  ],
+  "inline_cites": 2,
+  "end_sources": 7,
+  "nominal_date_weekday": "Wednesday"
+}
