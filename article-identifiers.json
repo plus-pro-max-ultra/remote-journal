@@ -1,5 +1,5 @@
 {
-  "description": "001–022正式版；023為11/10稿，11/9提前gh審閱，依MM22:44授權於表訂11/10自動main。",
+  "description": "Official001–023;024 nominal2026-11-11 reviewedgh2026-11-10, automaticmain on scheduleddate under MM22:44authority.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -23,6 +23,7 @@
     "river-personhood": "020-river-personhood",
     "kilogram": "021-kilogram",
     "check-digits": "022-check-digits",
-    "leap-seconds": "023-leap-seconds"
+    "leap-seconds": "023-leap-seconds",
+    "humidity": "024-humidity"
   }
 }
