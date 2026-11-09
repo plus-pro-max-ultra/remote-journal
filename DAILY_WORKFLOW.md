@@ -25,3 +25,12 @@
 ## 空檔工作
 
 11/6 23:43 MM另指示「運算有空閒時就可以進行主題研究或進行目前系統的任何檢查」。實際有空檔時，補未來主題研究或有意義的系統檢查，留下可追溯來源與進度；不能擠掉進行中的每日新刊及08:00期限，不為製造進度重複查詢，也不增加正式發布、花費或帳戶權限。原訊息phonemsg-01M6RRF5CWMH1DFKBFEWBWHF08。
+
+## Article links and random footers (MM 2026-11-09 11:58)
+
+- User instruction: 連結加入（gh)、頁尾的按鍵設定成在所有文章中隨機跳轉（對於所有文章）.
+- gh implementation:193dc9f + binding fix1bac328. All existing article footers use `data-surprise`, label 隨機讀一篇 and heading 隨機探索另一篇文章, fallback `../../archive/` without JavaScript. Copy the current footer pattern for every new article, not an old next-story link.
+- Shared `assets/site.js` binds every `[data-surprise]` button, including header and footer. Article fallback pool comes from all numbered values in `ARTICLE_ID_ALIASES`, deduplicated and excluding the current canonical ID. Keep the registry current when adding an issue so all articles can reach it. Do not use only visible home cards for an article footer.
+- Check actual footer clicks, not merely label/DOM appearance. Verify every current article reaches a different valid article. Deterministic pool tests should cover all eligible targets; use direct numbered paths, not alias intermediate pages.
+- New links must help explain the current question or offer a precise contrast; no link quota. Nov9 approved links:006→002/001,004→002,010↔018. Weaker review options are not approved;022→006 comparison withdrawn.
+- This instruction was executed on gh only. Formal main has its own approved article set; a future authorized main release must not import019/022 or include unapproved articles in its random pool.

@@ -1,0 +1,134 @@
+[
+  {
+    "current": "001-roads",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/"
+  },
+  {
+    "current": "002-median",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  },
+  {
+    "current": "004-stock",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "005-maps",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "022-check-digits",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "002-median",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "002-median",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  }
+]
