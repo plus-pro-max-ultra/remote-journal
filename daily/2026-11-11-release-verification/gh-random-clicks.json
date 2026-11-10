@@ -1,0 +1,152 @@
+[
+  {
+    "current": "001-roads",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "002-median",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "004-stock",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "005-maps",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "002-median",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "015-movie-popcorn",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "024-humidity",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "025-seed-banks",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  }
+]

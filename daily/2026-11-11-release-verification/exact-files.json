@@ -1,0 +1,335 @@
+[
+  {
+    "environment": "main",
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/index.html",
+        "exact": true
+      },
+      {
+        "path": "archive/index.html",
+        "exact": true
+      },
+      {
+        "path": "assets/site.css",
+        "url": "https://journal-for-far.learnman.workers.dev/assets/site.css",
+        "exact": true
+      },
+      {
+        "path": "assets/site.js",
+        "exact": true
+      },
+      {
+        "path": "stories.js",
+        "url": "https://journal-for-far.learnman.workers.dev/stories.js",
+        "exact": true
+      },
+      {
+        "path": "feed.xml",
+        "url": "https://journal-for-far.learnman.workers.dev/feed.xml",
+        "exact": true
+      },
+      {
+        "path": "sitemap.xml",
+        "exact": true
+      },
+      {
+        "path": "sw.js",
+        "url": "https://journal-for-far.learnman.workers.dev/sw.js",
+        "exact": true
+      },
+      {
+        "path": "article-identifiers.json",
+        "url": "https://journal-for-far.learnman.workers.dev/article-identifiers.json",
+        "exact": true
+      },
+      {
+        "path": "articles/001-roads/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/002-median/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/002-median/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/003-imperial/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/003-imperial/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/004-stock/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/005-maps/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/006-submarine-cables/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/007-webb-l2/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/008-smallpox/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/008-smallpox/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/009-comet-windows/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/010-daylight-saving-time/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/011-typhoon-names/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/012-power-frequency/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/013-runway-numbers/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/014-escalator-stand-walk/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/015-movie-popcorn/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/016-survivorship-bias/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/017-antibiotic-course/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/018-seven-day-week/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/019-chauvet-dating/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/020-river-personhood/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/021-kilogram/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/022-check-digits/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/023-leap-seconds/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/023-leap-seconds/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/024-humidity/index.html",
+        "url": "https://journal-for-far.learnman.workers.dev/articles/024-humidity/index.html",
+        "exact": true
+      }
+    ]
+  },
+  {
+    "environment": "gh",
+    "checks": [
+      {
+        "path": "index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/index.html",
+        "exact": true
+      },
+      {
+        "path": "archive/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/archive/index.html",
+        "exact": true
+      },
+      {
+        "path": "assets/site.css",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/assets/site.css",
+        "exact": true
+      },
+      {
+        "path": "assets/site.js",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/assets/site.js",
+        "exact": true
+      },
+      {
+        "path": "stories.js",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/stories.js",
+        "exact": true
+      },
+      {
+        "path": "feed.xml",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/feed.xml",
+        "exact": true
+      },
+      {
+        "path": "sitemap.xml",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/sitemap.xml",
+        "exact": true
+      },
+      {
+        "path": "sw.js",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/sw.js",
+        "exact": true
+      },
+      {
+        "path": "article-identifiers.json",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/article-identifiers.json",
+        "exact": true
+      },
+      {
+        "path": "articles/001-roads/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/002-median/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/002-median/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/003-imperial/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/004-stock/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/005-maps/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/006-submarine-cables/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/006-submarine-cables/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/007-webb-l2/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/008-smallpox/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/009-comet-windows/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/010-daylight-saving-time/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/011-typhoon-names/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/012-power-frequency/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/013-runway-numbers/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/014-escalator-stand-walk/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/015-movie-popcorn/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/016-survivorship-bias/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/017-antibiotic-course/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/018-seven-day-week/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/019-chauvet-dating/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/020-river-personhood/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/021-kilogram/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/022-check-digits/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/023-leap-seconds/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/024-humidity/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/024-humidity/index.html",
+        "exact": true
+      },
+      {
+        "path": "articles/025-seed-banks/index.html",
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/025-seed-banks/index.html",
+        "exact": true
+      }
+    ]
+  }
+]

@@ -15,5 +15,13 @@
     1440
   ],
   "gh_published": false,
-  "main_published": false
+  "main_published": false,
+  "review_status": "live_verified",
+  "gh_commit": "9fef3f2",
+  "review_published_at": "2026-11-11T06:05:00+08:00",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/025-seed-banks/",
+  "main_status": "not_yet_due",
+  "scheduled_main_date": "2026-11-12",
+  "exact_files": 34,
+  "random_actual_clicks": 25
 }
