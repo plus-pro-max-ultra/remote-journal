@@ -64,3 +64,7 @@ footer{flex-direction:column;align-items:flex-start;gap:6px}
 
 /* Review rows have date/category/title, not the published issue-number column. */
 @media(min-width:761px){a.topic-row.review-row{grid-template-columns:158px 132px minmax(0,1fr)}}
+
+/* Preview-only home filter repair: hide nonmatches and retain flex card layout. */
+html.js #articleGrid.filtering .article-card{display:none}
+html.js #articleGrid.filtering .article-card.filter-show{display:flex}
