@@ -1,11 +1,11 @@
 {
-  "status": "source_checked_polished_draft_ready",
+  "status": "review_live_verified_main_scheduled",
   "nominal_date": "2026-11-12",
   "expected_gh_date": "2026-11-11",
   "main_not_before": "2026-11-12",
   "date_weekday": "Thursday",
   "prepared_at": "2026-11-10T20:03:00+08:00",
-  "visual_verified_at": "2026-11-10T20:03:46+08:00",
+  "visual_verified_at": "2026-11-11T06:05:00+08:00",
   "body_chars": 2098,
   "sources": 6,
   "inline_citations": 2,
@@ -14,7 +14,7 @@
     390,
     1440
   ],
-  "gh_published": false,
+  "gh_published": true,
   "main_published": false,
   "review_status": "live_verified",
   "gh_commit": "9fef3f2",
