@@ -1,5 +1,5 @@
 {
-  "description": "Official001–023;024 nominal2026-11-11 reviewedgh2026-11-10, automaticmain on scheduleddate under MM22:44authority.",
+  "description": "001–024正式刊出；025為11/12排定、11/11提前一天的gh審閱稿。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -24,6 +24,7 @@
     "kilogram": "021-kilogram",
     "check-digits": "022-check-digits",
     "leap-seconds": "023-leap-seconds",
-    "humidity": "024-humidity"
+    "humidity": "024-humidity",
+    "seed-banks": "025-seed-banks"
   }
 }
