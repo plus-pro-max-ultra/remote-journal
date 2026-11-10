@@ -68,3 +68,6 @@ footer{flex-direction:column;align-items:flex-start;gap:6px}
 /* Preview-only home filter repair: hide nonmatches and retain flex card layout. */
 html.js #articleGrid.filtering .article-card{display:none}
 html.js #articleGrid.filtering .article-card.filter-show{display:flex}
+
+/* Preview-only narrow-screen header repair: wrap actions below the brand. */
+@media(max-width:360px){body[data-page="home"] .topbar{flex-wrap:wrap;row-gap:10px}body[data-page="home"] .top-actions{flex-wrap:wrap;justify-content:flex-end;width:100%}}
