@@ -1,0 +1,18 @@
+[
+  {
+    "path": "assets/site.css",
+    "exact": true
+  },
+  {
+    "path": "sw.js",
+    "exact": true
+  },
+  {
+    "path": "ops/home-filter-change.md",
+    "exact": true
+  },
+  {
+    "path": "ops/home-narrow-header-change.md",
+    "exact": true
+  }
+]

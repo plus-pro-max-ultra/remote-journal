@@ -1,0 +1,26 @@
+[
+  {
+    "width": 320,
+    "dimensions": {
+      "width": 320,
+      "doc": 320,
+      "viewport": 320
+    }
+  },
+  {
+    "width": 390,
+    "dimensions": {
+      "width": 390,
+      "doc": 390,
+      "viewport": 390
+    }
+  },
+  {
+    "width": 1440,
+    "dimensions": {
+      "width": 1440,
+      "doc": 1425,
+      "viewport": 1425
+    }
+  }
+]
