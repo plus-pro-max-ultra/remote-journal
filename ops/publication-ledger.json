@@ -75,22 +75,18 @@
     }
   ],
   "current_official_release": {
-    "scheduled_date": "2026-11-10",
-    "number": "023",
-    "id": "023-leap-seconds",
+    "scheduled_date": "2026-11-11",
+    "number": "024",
+    "id": "024-humidity",
     "authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
-    "source_gh_commit": "a879c3dcbfd4ef7484f2a111481b7b3626ab3fad",
+    "source_gh_commit": "05a2e221bfac88fee961126bef34802b355fa42f",
     "owner_finetuning_detected": true,
     "owner_finetuning_commits": [
-      "f0e9fe1",
-      "a879c3d"
+      "05a2e22"
     ],
-    "status": "live_verified",
-    "excluded": "024 nominalNov11 not official yet",
-    "main_commit": "e1f56ed",
-    "verified_at": "2026-11-10T06:06:00+08:00",
-    "exact_files": 31,
-    "random_actual_clicks": 23
+    "owner_completion_message": "phonemsg-01M72Z0ECJTR0S4A1GN8XW42EK",
+    "status": "prepared_for_deploy",
+    "excluded": "025futuredate;gh-onlyboardd1d97ad/filterf42bd3a/headerbffd7dcunapproved"
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",

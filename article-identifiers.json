@@ -1,5 +1,5 @@
 {
-  "description": "Official001–023; automatic scheduleddate main under MM2026-11-09 22:44 authority, futuredated issues remain gh review.",
+  "description": "Official001–024; automatic scheduled-date main under MM2026-11-09 22:44 authority;025 stays review only.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -23,6 +23,7 @@
     "river-personhood": "020-river-personhood",
     "kilogram": "021-kilogram",
     "check-digits": "022-check-digits",
-    "leap-seconds": "023-leap-seconds"
+    "leap-seconds": "023-leap-seconds",
+    "humidity": "024-humidity"
   }
 }

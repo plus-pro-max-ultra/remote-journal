@@ -11,8 +11,8 @@ def main():
         assert (ROOT/'articles'/old/'index.html').is_file(),old
     stories_text=(ROOT/'stories.js').read_text()
     stories=json.loads(stories_text[stories_text.index('['):].strip().rstrip(';'))
-    assert len(stories)==23
-    assert len({story['id'] for story in stories})==23
+    assert len(stories)==24
+    assert len({story['id'] for story in stories})==24
     for story in stories:
         page=(ROOT/'articles'/story['id']/'index.html').read_text()
         assert 'reader-body' in page and 'class="sources"' in page,story['id']
@@ -29,6 +29,6 @@ def main():
         if p.is_dir():shutil.copytree(p,out/name)
         else:shutil.copy2(p,out/name)
     (out/'.nojekyll').write_text('')
-    print('Direct-edit official001–023 validated and packaged.')
+    print('Direct-edit official001–024 validated and packaged.')
     return 0
 if __name__=='__main__':raise SystemExit(main())
