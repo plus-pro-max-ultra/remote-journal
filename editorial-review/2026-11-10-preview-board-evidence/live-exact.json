@@ -1,0 +1,18 @@
+[
+  {
+    "path": "index.html",
+    "exact": true
+  },
+  {
+    "path": "assets/site.js",
+    "exact": true
+  },
+  {
+    "path": "sw.js",
+    "exact": true
+  },
+  {
+    "path": "ops/coming-week-change.md",
+    "exact": true
+  }
+]
