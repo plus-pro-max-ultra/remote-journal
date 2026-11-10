@@ -1,0 +1,182 @@
+[
+  {
+    "id": "026-grand-parc",
+    "date": "2026-11-13",
+    "category": "建築與生活",
+    "title": "整修一棟樓，可以不先搬走住戶嗎？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "從GrandParc住戶能否留在家中出發，觀察工程如何安排人的日常，而非把改造只寫成節能數字。",
+    "caveat": "建築師頁首2017與正文2016不一致，EU2017；費用口徑27.2M未稅與EU35M不同。未有長期住戶滿意度資料，不寫永不拆除或所有情境可照搬。",
+    "sources": [
+      {
+        "title": "建築師專案紀錄",
+        "url": "https://www.lacatonvassal.com/index.php?idp=80",
+        "type": "primary",
+        "supports": "保留結構與新增冬園的設計、Aquitanis業主；不是獨立成效評估"
+      },
+      {
+        "title": "EU LivingSpaces案例",
+        "url": "https://culture.ec.europa.eu/cultural-and-creative-sectors/architecture/living-spaces/catalogue/bordeaux",
+        "type": "institutional",
+        "supports": "規劃協調、居住不中斷、諮詢及資金口徑"
+      },
+      {
+        "title": "CatherineSlessor現場評論2019",
+        "url": "https://www.theguardian.com/artanddesign/2019/may/12/grand-parc-bordeaux-lacaton-vassal-mies-van-der-rohe-award",
+        "type": "reporting",
+        "supports": "居民自行使用冬園、施工時未遷出，租金當時保持穩定；非2026現況保證"
+      }
+    ]
+  },
+  {
+    "id": "027-juror-research",
+    "date": "2026-11-14",
+    "category": "法律與審判",
+    "title": "陪審員為什麼不能自己上網查案？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "鎖定英格蘭與威爾斯：資訊更多，何以未必讓審判更公平？主軸是共同證據、答辯機會及問法官的途徑，不是懲罰奇聞。",
+    "caveat": "明示法域、審理期間與例外；2012案例是普通法藐視法庭，不能套成2015新罪的判例。不作個人法律建議。",
+    "sources": [
+      {
+        "title": "JuriesAct1974s20A現行",
+        "url": "https://www.legislation.gov.uk/ukpga/1974/23/section/20A",
+        "type": "primary",
+        "supports": "E+W、審理期間、刻意查相關資料定義、例外與2015施行"
+      },
+      {
+        "title": "LawGazette2024個案",
+        "url": "https://www.lawgazette.co.uk/news/juror-who-researched-law-on-child-neglect-gets-suspended-sentence/5119662.article",
+        "type": "reporting",
+        "supports": "共同程序公平與查詢法律的案例，不能概括每案結果"
+      },
+      {
+        "title": "GOVUK陪審溝通指引",
+        "url": "https://www.gov.uk/jury-service/discussing-the-trial",
+        "type": "official",
+        "supports": "庭外接觸、社群及評議保密的相鄰界線，不拿它代替20A上網規定"
+      }
+    ]
+  },
+  {
+    "id": "028-boro",
+    "date": "2026-11-15",
+    "category": "器物與文化",
+    "title": "補了又補的衣服，怎麼走進博物館？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "從一件衣服由日用品變成展品，追問修補勞動、匱乏與觀看方式，不把貧窮美化成永續標語。",
+    "caveat": "boro是涵蓋多類補綴物的稱呼，不等同單一刺子繡技法；兩館照片有權利限制。研究須補具體物件細節，不宣稱所有日本家庭一樣。",
+    "sources": [
+      {
+        "title": "IQM展覽BORO",
+        "url": "https://www.internationalquiltmuseum.org/exhibition/boro-hidden-and-visible-japanese-mended-textiles",
+        "type": "museum",
+        "supports": "2026已結束展覽、農村用途、反覆修補與策展解讀"
+      },
+      {
+        "title": "CooperHewitt訪談2016",
+        "url": "https://www.cooperhewitt.org/2016/10/25/boro-and-other-japanese-recycled-wonders/",
+        "type": "interview",
+        "supports": "具體衣物及修補多為功能而非裝飾，將專家審美判斷與史實分開"
+      },
+      {
+        "title": "PublicBooks評論2020",
+        "url": "https://www.publicbooks.org/mend-your-ways/",
+        "type": "criticism",
+        "supports": "展覽重新定義美學的評論，僅作詮釋對照"
+      }
+    ]
+  },
+  {
+    "id": "029-concert-applause",
+    "date": "2026-11-16",
+    "category": "音樂與習俗",
+    "title": "音樂還沒結束，觀眾曾經可以鼓掌？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "從今天緊張的樂章間鼓掌，回到聽眾與作曲家的互動；說明禮節如何改變，不教訓新聽眾。",
+    "caveat": "不能從一封信推成所有古典時期音樂會都吵鬧；音樂評論對19世紀習慣轉變較概括，需補歷史文獻，避免單一人物發明禁拍手的說法。",
+    "sources": [
+      {
+        "title": "Mozarteum書信檔案1778-07-03",
+        "url": "https://dme.mozarteum.at/DME/briefe/letter.php?mid=1022",
+        "type": "archive",
+        "supports": "書信作者收件者時間及原件位置，頁面未提供完整可讀轉錄"
+      },
+      {
+        "title": "Laphams書信英譯節錄",
+        "url": "https://www.laphamsquarterly.org/arts-letters/pleasant-surprise",
+        "type": "primary-translation",
+        "supports": "中段喝采、輕聲開場與強奏時反應；明示為Mozart自述"
+      },
+      {
+        "title": "TomService評論2025",
+        "url": "https://www.classical-music.com/articles/silence-at-classical-concerts",
+        "type": "commentary",
+        "supports": "對現今習俗的提問；開頭自述部分玩笑不可當新聞事件"
+      },
+      {
+        "title": "Guardian評論2020",
+        "url": "https://www.theguardian.com/music/2020/aug/31/solved-should-you-applaud-during-a-classical-concert",
+        "type": "commentary",
+        "supports": "當代禮節與不同音樂情境，非精確歷史統計"
+      }
+    ]
+  },
+  {
+    "id": "030-chinampas",
+    "date": "2026-11-17",
+    "category": "農業與城市",
+    "title": "墨西哥城的運河菜園，誰還願意繼續種？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "跟著農人與家庭，看農業文化何以需要收入、水與傳承，主角不是一個高效率古代技術。",
+    "caveat": "2024旱情與訪談必須註明時間，不當2026現況；FAO引言稱floating但技術段落指固定濕地高畦，不能寫成真正漂浮島。報導生物多樣性和從未有文字紀錄等絕對句不可照搬。",
+    "sources": [
+      {
+        "title": "FAOGIAHS系統檔案",
+        "url": "https://www.fao.org/giahs/giahs-around-the-world/mexico-chinampas-agricultural-system/en",
+        "type": "official",
+        "supports": "固定高畦、運河、作物多樣性與城市市場"
+      },
+      {
+        "title": "Mongabay現場報導2024",
+        "url": "https://news.mongabay.com/2024/06/ancient-farming-system-and-campesino-livelihoods-at-risk-in-mexico-city/",
+        "type": "reporting",
+        "supports": "不同農人的經驗、水質旱情與觀光土地用途壓力，需帶時間和說話者"
+      }
+    ]
+  },
+  {
+    "id": "031-monobloc",
+    "date": "2026-11-18",
+    "category": "設計與日常",
+    "title": "一把塑膠椅，如何坐進世界各地的日常？",
+    "status": "research",
+    "statusLabel": "研究中・暫定",
+    "angle": "同一種廉價座椅，在不同地方為何被當成俗氣、實用或珍貴？從使用情境與大量生產看設計價值。",
+    "caveat": "不寫世界第一或使用最多的無數據總量；把策展人的貧富二分當待檢驗觀點，補使用者而非只談設計師；不以單件售價或壽命當全球通則。",
+    "sources": [
+      {
+        "title": "Vitra2017展覽",
+        "url": "https://www.design-museum.de/en/exhibitions/detailpages/monobloc-a-chair-for-the-world.html",
+        "type": "museum",
+        "supports": "單件成形的設計沿革與2017展示脈絡"
+      },
+      {
+        "title": "策展人HengZhi2024",
+        "url": "https://www.kulturaustausch.de/en/issues/indi-pendent/chair-today-gone-tomorrow/",
+        "type": "curator-essay",
+        "supports": "各地使用與價值差異，數字及全球判斷須另核查"
+      },
+      {
+        "title": "Surface展評2017",
+        "url": "https://www.surfacemag.com/articles/design-exhibition-monobloc-a-chair-for-the-world-vitra-design-museum/",
+        "type": "reporting",
+        "supports": "1972原型、技術新奇與不同時期價格觀感"
+      }
+    ]
+  }
+]
