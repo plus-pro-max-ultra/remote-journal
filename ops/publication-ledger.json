@@ -75,22 +75,18 @@
     }
   ],
   "current_official_release": {
-    "scheduled_date": "2026-11-11",
-    "number": "024",
-    "id": "024-humidity",
+    "scheduled_date": "2026-11-12",
+    "number": "025",
+    "id": "025-seed-banks",
     "authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
-    "source_gh_commit": "05a2e221bfac88fee961126bef34802b355fa42f",
+    "source_gh_commit": "82d982469280ff679287831bed3e46cbfce64af9",
     "owner_finetuning_detected": true,
     "owner_finetuning_commits": [
-      "05a2e22"
+      "051be3b"
     ],
-    "owner_completion_message": "phonemsg-01M72Z0ECJTR0S4A1GN8XW42EK",
-    "status": "live_verified",
-    "excluded": "025futuredate;gh-onlyboardd1d97ad/filterf42bd3a/headerbffd7dcunapproved",
-    "main_commit": "e716b0c",
-    "verified_at": "2026-11-11T06:05:00+08:00",
-    "exact_files": 33,
-    "random_actual_clicks": 24
+    "reflection_request": "phonemsg-01M740QE453HP9PZW24YDEHA6B",
+    "status": "prepared_for_deploy",
+    "excluded": "026futuredate;unapprovedghboard/filter/headerpatches"
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",

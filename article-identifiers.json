@@ -1,5 +1,5 @@
 {
-  "description": "Official001–024; automatic scheduled-date main under MM2026-11-09 22:44 authority;025 stays review only.",
+  "description": "Official001–025; scheduled-date release under MM original authority;026future review excluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -24,6 +24,7 @@
     "kilogram": "021-kilogram",
     "check-digits": "022-check-digits",
     "leap-seconds": "023-leap-seconds",
-    "humidity": "024-humidity"
+    "humidity": "024-humidity",
+    "seed-banks": "025-seed-banks"
   }
 }
