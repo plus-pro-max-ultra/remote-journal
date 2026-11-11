@@ -85,8 +85,12 @@
       "051be3b"
     ],
     "reflection_request": "phonemsg-01M740QE453HP9PZW24YDEHA6B",
-    "status": "prepared_for_deploy",
-    "excluded": "026futuredate;unapprovedghboard/filter/headerpatches"
+    "status": "live_verified",
+    "excluded": "026futuredate;unapprovedghboard/filter/headerpatches",
+    "main_commit": "0929abd",
+    "verified_at": "2026-11-12T06:04:00+08:00",
+    "exact_files": 34,
+    "random_actual_clicks": 25
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
