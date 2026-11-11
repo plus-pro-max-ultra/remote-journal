@@ -1,0 +1,152 @@
+[
+  {
+    "current": "001-roads",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "current": "002-median",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/020-river-personhood/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "004-stock",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/024-humidity/"
+  },
+  {
+    "current": "005-maps",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "002-median",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/002-median/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/003-imperial/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/004-stock/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/011-typhoon-names/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "019-chauvet-dating",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/019-chauvet-dating/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/021-kilogram/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/"
+  },
+  {
+    "current": "024-humidity",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "025-seed-banks",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/"
+  }
+]

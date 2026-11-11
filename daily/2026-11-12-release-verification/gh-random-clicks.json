@@ -1,0 +1,158 @@
+[
+  {
+    "current": "001-roads",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "002-median",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "004-stock",
+    "target": "015-movie-popcorn",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/"
+  },
+  {
+    "current": "005-maps",
+    "target": "025-seed-banks",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/025-seed-banks/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/024-humidity/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "008-smallpox",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "015-movie-popcorn",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/004-stock/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "022-check-digits",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/022-check-digits/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/018-seven-day-week/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/017-antibiotic-course/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/024-humidity/"
+  },
+  {
+    "current": "024-humidity",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/023-leap-seconds/"
+  },
+  {
+    "current": "025-seed-banks",
+    "target": "019-chauvet-dating",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/"
+  },
+  {
+    "current": "026-grand-parc",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/020-river-personhood/"
+  }
+]

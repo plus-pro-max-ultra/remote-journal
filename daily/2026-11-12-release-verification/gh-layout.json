@@ -1,0 +1,38 @@
+[
+  {
+    "id": "026-grand-parc",
+    "width": 320,
+    "scroll": 320,
+    "body": 2483,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "026-grand-parc",
+    "width": 390,
+    "scroll": 390,
+    "body": 2483,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  },
+  {
+    "id": "026-grand-parc",
+    "width": 1440,
+    "scroll": 1425,
+    "body": 2483,
+    "images": [
+      {
+        "loaded": true
+      }
+    ],
+    "badCites": 0
+  }
+]

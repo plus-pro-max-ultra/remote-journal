@@ -1,5 +1,5 @@
 {
-  "status": "prepared_visual_verified_not_published",
+  "status": "review_live_verified_main_scheduled",
   "nominal_date": "2026-11-13",
   "expected_gh_date": "2026-11-12",
   "main_not_before": "2026-11-13",
@@ -12,8 +12,12 @@
     390,
     1440
   ],
-  "gh_published": false,
+  "gh_published": true,
   "main_published": false,
   "reflection": "open_life_values_not_comprehension",
-  "image": "original_not_to_scale_spatial_relation_diagram"
+  "image": "original_not_to_scale_spatial_relation_diagram",
+  "gh_commit": "f8be721",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/026-grand-parc/",
+  "review_published_at": "2026-11-12T06:04:00+08:00",
+  "review_status": "live_verified"
 }
