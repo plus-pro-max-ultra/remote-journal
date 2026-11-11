@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "id": "026-grand-parc",
+      "width": 320,
+      "scroll": 320,
+      "body": 2483,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "026-grand-parc",
+      "width": 390,
+      "scroll": 390,
+      "body": 2483,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "026-grand-parc",
+      "width": 1440,
+      "scroll": 1425,
+      "body": 2483,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    }
+  ],
+  "pixels_inspected": [
+    "390_body",
+    "390_diagram",
+    "1440_diagram_body",
+    "390_ending_expanded_reflection"
+  ],
+  "not_live": true
+}

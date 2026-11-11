@@ -1,0 +1,19 @@
+{
+  "status": "prepared_visual_verified_not_published",
+  "nominal_date": "2026-11-13",
+  "expected_gh_date": "2026-11-12",
+  "main_not_before": "2026-11-13",
+  "date_weekday": "Friday",
+  "prepared_at": "2026-11-11T20:04:00+08:00",
+  "sources": 7,
+  "inline_citations": 3,
+  "reviewed_sizes": [
+    320,
+    390,
+    1440
+  ],
+  "gh_published": false,
+  "main_published": false,
+  "reflection": "open_life_values_not_comprehension",
+  "image": "original_not_to_scale_spatial_relation_diagram"
+}
