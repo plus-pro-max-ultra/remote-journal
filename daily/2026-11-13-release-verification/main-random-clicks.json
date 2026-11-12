@@ -1,0 +1,158 @@
+[
+  {
+    "current": "001-roads",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "002-median",
+    "target": "004-stock",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/004-stock/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/009-comet-windows/"
+  },
+  {
+    "current": "004-stock",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/024-humidity/"
+  },
+  {
+    "current": "005-maps",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/023-leap-seconds/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/005-maps/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "018-seven-day-week",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/018-seven-day-week/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "002-median",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/002-median/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "006-submarine-cables",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/006-submarine-cables/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/007-webb-l2/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/024-humidity/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/013-runway-numbers/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "020-river-personhood",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/020-river-personhood/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "019-chauvet-dating",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/019-chauvet-dating/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "023-leap-seconds",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/023-leap-seconds/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "008-smallpox",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/008-smallpox/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "014-escalator-stand-walk",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/"
+  },
+  {
+    "current": "024-humidity",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/"
+  },
+  {
+    "current": "025-seed-banks",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/001-roads/"
+  },
+  {
+    "current": "026-grand-parc",
+    "target": "017-antibiotic-course",
+    "valid": true,
+    "url": "https://journal-for-far.learnman.workers.dev/articles/017-antibiotic-course/"
+  }
+]

@@ -1,0 +1,164 @@
+[
+  {
+    "current": "001-roads",
+    "target": "013-runway-numbers",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/013-runway-numbers/"
+  },
+  {
+    "current": "002-median",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "003-imperial",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "004-stock",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "005-maps",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "006-submarine-cables",
+    "target": "021-kilogram",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/021-kilogram/"
+  },
+  {
+    "current": "007-webb-l2",
+    "target": "009-comet-windows",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/009-comet-windows/"
+  },
+  {
+    "current": "008-smallpox",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/"
+  },
+  {
+    "current": "009-comet-windows",
+    "target": "019-chauvet-dating",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/"
+  },
+  {
+    "current": "010-daylight-saving-time",
+    "target": "016-survivorship-bias",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/016-survivorship-bias/"
+  },
+  {
+    "current": "011-typhoon-names",
+    "target": "001-roads",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/001-roads/"
+  },
+  {
+    "current": "012-power-frequency",
+    "target": "026-grand-parc",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/026-grand-parc/"
+  },
+  {
+    "current": "013-runway-numbers",
+    "target": "012-power-frequency",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/"
+  },
+  {
+    "current": "014-escalator-stand-walk",
+    "target": "007-webb-l2",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/007-webb-l2/"
+  },
+  {
+    "current": "015-movie-popcorn",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  },
+  {
+    "current": "016-survivorship-bias",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "017-antibiotic-course",
+    "target": "024-humidity",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/024-humidity/"
+  },
+  {
+    "current": "018-seven-day-week",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "019-chauvet-dating",
+    "target": "010-daylight-saving-time",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/010-daylight-saving-time/"
+  },
+  {
+    "current": "020-river-personhood",
+    "target": "027-juror-research",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/027-juror-research/"
+  },
+  {
+    "current": "021-kilogram",
+    "target": "003-imperial",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/003-imperial/"
+  },
+  {
+    "current": "022-check-digits",
+    "target": "015-movie-popcorn",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/015-movie-popcorn/"
+  },
+  {
+    "current": "023-leap-seconds",
+    "target": "008-smallpox",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/008-smallpox/"
+  },
+  {
+    "current": "024-humidity",
+    "target": "025-seed-banks",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/025-seed-banks/"
+  },
+  {
+    "current": "025-seed-banks",
+    "target": "005-maps",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/005-maps/"
+  },
+  {
+    "current": "026-grand-parc",
+    "target": "011-typhoon-names",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/011-typhoon-names/"
+  },
+  {
+    "current": "027-juror-research",
+    "target": "019-chauvet-dating",
+    "valid": true,
+    "url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/019-chauvet-dating/"
+  }
+]

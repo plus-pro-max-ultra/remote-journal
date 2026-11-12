@@ -1,5 +1,5 @@
 {
-  "status": "review_live_verified_main_scheduled",
+  "status": "main_live_verified",
   "nominal_date": "2026-11-13",
   "expected_gh_date": "2026-11-12",
   "main_not_before": "2026-11-13",
@@ -13,7 +13,7 @@
     1440
   ],
   "gh_published": true,
-  "main_published": false,
+  "main_published": true,
   "reflection": "open_life_values_not_comprehension",
   "image": "original_not_to_scale_spatial_relation_diagram",
   "gh_commit": "8236733",
@@ -28,5 +28,8 @@
   ],
   "last_owner_verified_at": "2026-11-12T12:36:00+08:00",
   "ambiguity_status": "resolved_by_owner98c3715",
-  "draft_warning": "This local body predates owner edits; use current gh direct HTML, not draft.json, for main release."
+  "draft_warning": "This local body predates owner edits; use current gh direct HTML, not draft.json, for main release.",
+  "main_commit": "695f4be",
+  "main_url": "https://journal-for-far.learnman.workers.dev/articles/026-grand-parc/",
+  "main_verified_at": "2026-11-13T06:03:00+08:00"
 }

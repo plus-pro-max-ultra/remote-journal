@@ -1,5 +1,5 @@
 {
-  "status": "prepared_visual_verified_not_published",
+  "status": "review_live_verified_main_scheduled",
   "nominal_date": "2026-11-14",
   "expected_gh_date": "2026-11-13",
   "main_not_before": "2026-11-14",
@@ -12,9 +12,13 @@
     390,
     1440
   ],
-  "gh_published": false,
+  "gh_published": true,
   "main_published": false,
   "reflection": "open_personal_experience_not_comprehension",
   "jurisdiction": "England and Wales",
-  "visual": "short_attributed_translation_no_generic_photo"
+  "visual": "short_attributed_translation_no_generic_photo",
+  "gh_commit": "495f3d6",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/027-juror-research/",
+  "review_published_at": "2026-11-13T06:03:00+08:00",
+  "review_status": "live_verified"
 }
