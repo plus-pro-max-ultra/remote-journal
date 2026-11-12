@@ -16,8 +16,17 @@
   "main_published": false,
   "reflection": "open_life_values_not_comprehension",
   "image": "original_not_to_scale_spatial_relation_diagram",
-  "gh_commit": "f8be721",
+  "gh_commit": "8236733",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/026-grand-parc/",
   "review_published_at": "2026-11-12T06:04:00+08:00",
-  "review_status": "live_verified"
+  "review_status": "live_verified",
+  "source_html_commit": "98c3715",
+  "owner_finetuning_detected": true,
+  "owner_finetuning_commits": [
+    "311fef5",
+    "98c3715"
+  ],
+  "last_owner_verified_at": "2026-11-12T12:36:00+08:00",
+  "ambiguity_status": "resolved_by_owner98c3715",
+  "draft_warning": "This local body predates owner edits; use current gh direct HTML, not draft.json, for main release."
 }

@@ -1,0 +1,47 @@
+{
+  "checks": [
+    {
+      "id": "027-juror-research",
+      "width": 320,
+      "scroll": 320,
+      "body": 2267,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "027-juror-research",
+      "width": 390,
+      "scroll": 390,
+      "body": 2267,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    },
+    {
+      "id": "027-juror-research",
+      "width": 1440,
+      "scroll": 1425,
+      "body": 2267,
+      "images": [
+        {
+          "loaded": true
+        }
+      ],
+      "badCites": 0
+    }
+  ],
+  "pixels_inspected": [
+    "390_body",
+    "1440_body_quote",
+    "390_quote",
+    "390_expanded_reflection"
+  ],
+  "not_live": true
+}

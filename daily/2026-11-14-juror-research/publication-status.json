@@ -1,0 +1,20 @@
+{
+  "status": "prepared_visual_verified_not_published",
+  "nominal_date": "2026-11-14",
+  "expected_gh_date": "2026-11-13",
+  "main_not_before": "2026-11-14",
+  "date_weekday": "Saturday",
+  "prepared_at": "2026-11-12T20:04:00+08:00",
+  "sources": 6,
+  "inline_citations": 3,
+  "reviewed_sizes": [
+    320,
+    390,
+    1440
+  ],
+  "gh_published": false,
+  "main_published": false,
+  "reflection": "open_personal_experience_not_comprehension",
+  "jurisdiction": "England and Wales",
+  "visual": "short_attributed_translation_no_generic_photo"
+}
