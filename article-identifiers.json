@@ -1,5 +1,5 @@
 {
-  "description": "001–025正式刊出；026為11/13排定、11/12提前一天的gh審閱稿。",
+  "description": "001–026正式刊出；027為11/14排定、11/13提前一天的gh審閱稿。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -26,6 +26,7 @@
     "leap-seconds": "023-leap-seconds",
     "humidity": "024-humidity",
     "seed-banks": "025-seed-banks",
-    "grand-parc": "026-grand-parc"
+    "grand-parc": "026-grand-parc",
+    "juror-research": "027-juror-research"
   }
 }
