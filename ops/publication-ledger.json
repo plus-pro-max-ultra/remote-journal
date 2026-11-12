@@ -75,22 +75,18 @@
     }
   ],
   "current_official_release": {
-    "scheduled_date": "2026-11-12",
-    "number": "025",
-    "id": "025-seed-banks",
+    "scheduled_date": "2026-11-13",
+    "number": "026",
+    "id": "026-grand-parc",
     "authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
-    "source_gh_commit": "82d982469280ff679287831bed3e46cbfce64af9",
+    "source_gh_commit": "82367330a21ff1293b2422103d4e7320b7e3382b",
     "owner_finetuning_detected": true,
     "owner_finetuning_commits": [
-      "051be3b"
+      "311fef5",
+      "98c3715"
     ],
-    "reflection_request": "phonemsg-01M740QE453HP9PZW24YDEHA6B",
-    "status": "live_verified",
-    "excluded": "026futuredate;unapprovedghboard/filter/headerpatches",
-    "main_commit": "0929abd",
-    "verified_at": "2026-11-12T06:04:00+08:00",
-    "exact_files": 34,
-    "random_actual_clicks": 25
+    "status": "prepared_for_deploy",
+    "excluded": "027futuredate;unapprovedghboard/filter/headerpatches"
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",

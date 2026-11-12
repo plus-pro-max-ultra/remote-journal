@@ -1,5 +1,5 @@
 {
-  "description": "Official001–025; scheduled-date release under MM original authority;026future review excluded.",
+  "description": "Official001–026; scheduled-date release under MM original authority;027future review excluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -25,6 +25,7 @@
     "check-digits": "022-check-digits",
     "leap-seconds": "023-leap-seconds",
     "humidity": "024-humidity",
-    "seed-banks": "025-seed-banks"
+    "seed-banks": "025-seed-banks",
+    "grand-parc": "026-grand-parc"
   }
 }
