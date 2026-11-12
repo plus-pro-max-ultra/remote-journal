@@ -85,8 +85,12 @@
       "311fef5",
       "98c3715"
     ],
-    "status": "prepared_for_deploy",
-    "excluded": "027futuredate;unapprovedghboard/filter/headerpatches"
+    "status": "live_verified",
+    "excluded": "027futuredate;unapprovedghboard/filter/headerpatches",
+    "main_commit": "695f4be",
+    "verified_at": "2026-11-13T06:03:00+08:00",
+    "exact_files": 35,
+    "random_actual_clicks": 26
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
