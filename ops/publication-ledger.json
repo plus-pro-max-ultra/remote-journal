@@ -75,22 +75,17 @@
     }
   ],
   "current_official_release": {
-    "scheduled_date": "2026-11-13",
-    "number": "026",
-    "id": "026-grand-parc",
+    "scheduled_date": "2026-11-14",
+    "number": "027",
+    "id": "027-juror-research",
     "authority": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
-    "source_gh_commit": "82367330a21ff1293b2422103d4e7320b7e3382b",
+    "source_gh_commit": "c41d287953532503d64a40007690fec36b605dde",
     "owner_finetuning_detected": true,
     "owner_finetuning_commits": [
-      "311fef5",
-      "98c3715"
+      "6f4f77f"
     ],
-    "status": "live_verified",
-    "excluded": "027futuredate;unapprovedghboard/filter/headerpatches",
-    "main_commit": "695f4be",
-    "verified_at": "2026-11-13T06:03:00+08:00",
-    "exact_files": 35,
-    "random_actual_clicks": 26
+    "status": "prepared_for_deploy",
+    "excluded": "028futuredate;15unscheduledreviewdrafts"
   },
   "production_rule": {
     "source_message_id": "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
