@@ -1,5 +1,5 @@
 {
-  "description": "001–026正式刊出；027為11/14排定、11/13提前一天的gh審閱稿。",
+  "description": "001–027正式刊出；028為11/15排定、11/14提前一天的gh審閱稿；十五篇review區未排刊期。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -27,6 +27,7 @@
     "humidity": "024-humidity",
     "seed-banks": "025-seed-banks",
     "grand-parc": "026-grand-parc",
-    "juror-research": "027-juror-research"
+    "juror-research": "027-juror-research",
+    "boro": "028-boro"
   }
 }
