@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#f4f0e8" name="theme-color"/>
+<title>一張磨損的 QR code，手機究竟怎麼把它讀回來？ | 未刊稿審閱 | 遠方誌</title>
+<meta content="先找到方格，再讀出字碼，最後才修正錯誤；「容錯三成」為什麼不是任意遮住三成面積的保證。" name="description"/>
+<meta content="遠方誌 | Journal for Far" property="og:site_name"/>
+<meta content="一張磨損的 QR code，手機究竟怎麼把它讀回來？" property="og:title"/>
+<meta content="先找到方格，再讀出字碼，最後才修正錯誤；「容錯三成」為什麼不是任意遮住三成面積的保證。" property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://journal-for-far.learnman.workers.dev/icon-512.png" property="og:image"/>
+<link href="../../manifest.webmanifest" rel="manifest"/>
+<link href="../../favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../../favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="../../icon-180.png" rel="apple-touch-icon"/>
+<link href="../../assets/site.css" rel="stylesheet"/>
+<link href="https://journal-for-far.learnman.workers.dev/feed.xml" rel="alternate" title="遠方誌 | Journal for Far RSS" type="application/rss+xml"/>
+<script>document.documentElement.classList.add('js')</script>
+<style>.dating-comparison{margin:32px 0;padding:20px;border:1px solid var(--line,#d9d4ca)}.dating-comparison figcaption{font-weight:700;margin:0 0 12px}.dating-row{display:grid;grid-template-columns:1fr 1.2fr 1.3fr;gap:12px;padding:12px 0;border-top:1px solid #d9d4ca;font-size:.88em;line-height:1.7}.dating-comparison p{margin-bottom:0}@media(max-width:600px){.dating-row{grid-template-columns:1fr;gap:4px}.dating-row strong{color:#254e43}}</style><link href="https://plus-pro-max-ultra.github.io/remote-journal/review/qr-error-correction/" rel="canonical"/></head>
+<body data-id="review-qr-error-correction" data-page="article" data-root="../../">
+<header class="topbar">
+<a aria-label="回到遠方誌首頁" class="brand" href="../../"><img alt="" class="brandmark" height="36" src="../../icon-192.png" width="36"/><span class="brandtext"><span class="brandname">遠方誌</span><span class="brandeng">Journal for Far</span></span></a>
+<nav class="top-actions"><a class="ghost" href="../../archive/"><span class="wide-only">文章</span>索引</a> <a class="ghost wide-only" href="../../about/">關於</a> <a class="solid" data-surprise="" href="../../archive/">帶我去遠方 ↗</a></nav>
+</header>
+<main class="reader visible" id="readerView">
+<a class="back" href="../">← 回到十五篇未刊稿</a>
+<article id="readerArticle">
+<header class="reader-head">
+<div class="eyebrow">UNPUBLISHED / REVIEW</div>
+<div class="meta" style="margin-top:12px">日常科技　·　未排刊期審閱稿　·　11 分鐘閱讀</div>
+<h1>一張磨損的 QR code，手機究竟怎麼把它讀回來？</h1>
+<p class="dek">先找到方格，再讀出字碼，最後才修正錯誤；「容錯三成」為什麼不是任意遮住三成面積的保證。</p>
+<div class="reader-meta"><span class="meta">僅 gh 審閱，未正式刊出，不屬於每日刊期</span></div>
+<div class="reader-actions"><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button>
+</div></header>
+<div class="reader-body"><p>一張餐桌上的 QR code 被磨掉幾塊，手機還能讀出網址。另一張看起來只破了一點，卻怎麼掃都沒反應。若只知道「QR code 最多容錯 30%」，這兩種經驗像是互相矛盾。問題在於手機不是一次看懂整張圖：它先要找到碼、辨認格子，再從黑白排列取得資料，最後才有機會修正錯誤。容錯只保護這條流程中的一部分，不能保證每種破損都讀得回來。</p><h2>一、工廠要的不是更大容量，而是少做幾次動作</h2><p>原昌宏在 2019 年《Synthesiology》的<a href="https://www.aist.go.jp/pdf/aist_e/synthesiology_e/vol12_no1/vol12_01_p19_p28.pdf">開發回顧</a>中說明，DENSO 在 1992 年開始研究新碼，當時製造現場為了管理更多資訊，有時須讀取約十種條碼，反覆掃描拖慢作業，也增加工作疲勞。這份開發者回顧，把起點放在當時現場反覆掃描的負擔。</p><p>把一維條碼堆高，或改成黑白方格，都有機會裝更多資料。團隊選擇方格形式，但新的困難是：掃描器看到的是整張影像，不知道哪裡才是碼；若每次都得在文字和圖案裡慢慢搜尋，容量增加可能換來更慢的作業。因此，讓碼容易被找到，和讓碼裝得更多同樣重要。</p><h2>二、三個大方塊，是讓讀取器先找到地圖</h2><p>QR code 三個角落的定位圖案，不是放商家資訊的地方。DENSO WAVE 說明，它們的黑白寬度比例為 1:1:3:1:1，團隊挑選這個在一般印刷品中少見的特徵，協助讀取器分辨碼與背景<sup class="cite"><a href="#src-1">[1]</a></sup><sup class="cite"><a href="#src-5">[5]</a></sup>。辨認三個角的位置後，才有依據估計符號的方向、大小與傾斜。</p><p>找到外框還不夠。開發回顧另說明，交錯黑白的時序圖案協助推算各格中心，校正圖案則協助處理部分變形。這些部位像量尺與座標，不只是給人看的裝飾。若把嚴重破損的定位結構和資料格混成同一種損失，就會錯估後面校正碼能做的事。</p><p>這也說明「同樣遮住一小塊」為什麼不一定得到相同結果。遮住某些資料後，讀取器仍可能先建立座標；若連座標都不容易辨認，問題發生得比資料復原更早。</p><h2>三、黑白格不是照片，而是有規則的資料序列</h2><p>被讀取的黑白格要依規則轉成位元，再組成字碼。DENSO WAVE 的<a href="https://www.qrcode.com/en/about/error_correction.html">容錯頁</a>將一個字碼定義為 8 個位元。因此，容錯談的計數單位不是「一格」，也不是印刷紙面上肉眼估計的缺角大小。</p><p>碼中還有一些看起來像雜訊的黑白變化，是刻意加入的遮罩處理。開發者回顧說明，這是為了避免黑白分布產生不利讀取的圖樣。它會依規則套用、也能依規則還原，不是在資料上隨便加密。想像相同資訊可以有不同的黑白外觀，就比較容易理解，QR code 的每一格並不各自對應一個固定的文字位置。</p><p>接下來才進入錯誤修正：即使影像取得的部分字碼有錯，只要仍在所用規格的能力範圍，額外資訊便有機會把原資料算回來。先辨識、再解碼、再校正，是概念上的層次；實際軟體可能反覆嘗試，不一定是一條只走一次的直線。</p><h2>四、校正資訊怎麼恢復缺掉的資料</h2><p>QR code 使用里德所羅門碼。直覺上，它不像把同一份網址完整影印三遍，而是增加一組與原資料有數學關係的值；讀到的內容若不符合這些關係，解碼器便能在能力範圍內判斷並修正錯誤。DENSO 的說明也指出，校正資訊本身同樣可能弄髒，所以復原率要以全部字碼計算。</p><p>官方給的示意例是：100 個原資料字碼，加上 100 個校正字碼，共 200 個，最多可修正其中 50 個字碼；50 除以 200 是 25%。在這個示意配置中，額外的校正資訊也計入總量；所以可修正 50 個字碼，對應的是 25%，而非 50%。</p><p>較大的碼還會將資料分塊、各自產生校正字碼，再依規格交錯排列。<a href="https://www.thonky.com/qr-code-tutorial/structure-final-message">Thonky 的技術教學</a>用版本 5、Q 級的實例逐步示範這個過程。這表示錯誤不只看總數，也得看分散到哪些區塊；不能把某一區塊沒用到的能力，想成能無限制借給另一塊。</p><h2>五、百分之三十，究竟是哪個百分之三十？</h2><p>DENSO 的<a href="https://www.qrcode.com/en/about/standards.html">規格頁</a>用字碼明列四個等級：L 約 7%、M 約 15%、Q 約 25%、H 約 30%。同樣原資料，保留更多校正資訊就需要更多空間，或在固定尺寸下減少可放內容。選最高容錯，不是沒有代價。</p><p>開發者 2019 年文章曾以「表面積」作較簡化的說明；現行官方細部規格則明寫 codewords。依後者的「字碼」定義，不把它轉寫成整張碼可任意遮住的面積比例。定位、格子讀取、格式及分塊都會影響是否成功，手機鏡頭、對焦與印刷品質也不是增加校正字碼就能全部解決。</p><p>中央放了商標仍能掃，顯示那個設計在當次讀取條件下仍有餘裕。換一支手機、換一種光線，或再累積污損，都可能改變結果。</p><h2>六、開放讓它通用，容錯卻不替內容作保</h2><p>技術之外，DENSO 公開規格並對符合標準的 QR code 不行使特定專利權；2000 年 6 月，QR code 成為 ISO 國際標準。開發者回顧也很坦白：碼的規格開放，讀取設備及辨識技術仍是商業的一部分。共通格式讓更多人採用，設備與服務則保留了商業空間。</p><p>最後要分清楚另一種正確性：校正碼協助恢復「這張碼原本記錄的內容」，沒有驗證那個網址的主人、交易對象或承諾是否可信。即使每個字碼都精確讀回，內容仍可能不值得信任。耐髒、快速、可通用，分別解決了傳遞工具的問題；我們把它用來付錢或開啟網頁時，仍多了一個工具本身沒有回答的身分問題。</p></div>
+<section class="sources">
+<details class="srcblk"><summary><span>查證資料來源</span><span class="src-count">6 項</span></summary>
+<p class="src-note">保留本輪全文的完整來源與支持範圍；未刊審閱稿，尚未安排刊期。</p>
+<ol><li id="src-1"><a href="https://www.qrcode.com/en/history/" rel="noopener noreferrer" target="_blank">History of QR Code（DENSO WAVE 官方站） ↗</a><div class="meta" style="margin-top:4px">支持內容：收銀員手腕負擔與條碼容量限制的背景；原昌宏兩人團隊與「讀取速度優先」的取捨；定位圖案 1:1:3:1:1 比例的調查過程；1994 年發表、QR 命名由來；2002 年手機普及；規格公開與專利不行使政策</div></li><li id="src-2"><a href="https://www.qrcode.com/en/about/error_correction.html" rel="noopener noreferrer" target="_blank">Error correction feature（DENSO WAVE 官方站） ↗</a><div class="meta" style="margin-top:4px">支持內容：Reed-Solomon 容錯機制與衛星通訊、音樂 CD 的淵源；修正 50 字碼需 100 字碼校正資訊的兩倍代價例；四等級的選用建議與 M 級最常用的說明</div></li><li id="src-3"><a href="https://www.qrcode.com/en/about/standards.html" rel="noopener noreferrer" target="_blank">QR Code Standardization / outline specification（DENSO WAVE 官方站） ↗</a><div class="meta" style="margin-top:4px">支持內容：容錯等級 L/M/Q/H 約 7%/15%/25%/30% 的字碼復原率；容量上限 7,089 數字、1,817 漢字；40 種版本與模組尺寸；ISO/IEC 18004 於 2000 年 6 月通過；專利 2938338 對標準化 QR code 不行使</div></li><li id="src-4"><a href="https://www.aist.go.jp/pdf/aist_e/synthesiology_e/vol12_no1/vol12_01_p19_p28.pdf" rel="noopener noreferrer" target="_blank">Development and popularization of QR code（Synthesiology 英文版 Vol.12 No.1，日本產業技術綜合研究所 AIST，2019） ↗</a><div class="meta" style="margin-top:4px">支持內容：開發始於 1992 年；1994 年發表；製造現場看板管理需讀取約十種條碼的背景；QR code 被宣告為公共領域碼以推動普及</div></li><li id="src-5"><a href="https://www.qrcode.com/en/about/featurePage/featurePage5.html" rel="noopener noreferrer" target="_blank">Position detection patterns（DENSO WAVE 官方站 feature page） ↗</a><div class="meta" style="margin-top:4px">支持內容：QR Code 藉三個角落的定位圖案實現 360 度全向高速讀取，並保證穩定高速讀取、規避背景干擾的負面影響</div></li><li id="src-6"><a href="https://www.thonky.com/qr-code-tutorial/structure-final-message" rel="noopener noreferrer" target="_blank">Structure Final Message（Thonky QR Code Tutorial） ↗</a><div class="meta" style="margin-top:4px">支持內容：版本5-Q分塊、獨立產生校正字碼與交錯排列；以官方規格說明約束概括。</div></li></ol>
+</details>
+<details class="srcblk"><summary><span>延伸探討</span><span class="src-count"></span></summary>
+<div class="reflection">
+<div class="eyebrow">TAKE IT FURTHER</div>
+<h3>把故事帶回自己的思考</h3>
+<p>生活中有哪些東西，必須容許我們弄錯、忘記或磨損一點，才真的好用？想起一項你希望更寬容的規則或服務：你願意為這份餘裕多付出什麼，又希望它在哪裡明確畫出界線？</p><textarea id="reflectionNote" placeholder="寫下你的想法、疑問，或之後想追查的線索……"></textarea>
+<div class="save-note">筆記會儲存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+</div>
+</details>
+</section>
+<section class="next-read">
+<div>
+<div class="meta">接著探索</div>
+<h4>繼續審閱其他未刊稿</h4>
+</div><a class="solid" href="../">回到十五篇 ↗</a>
+</section>
+</article>
+</main>
+<footer>
+<div>遠方誌 · 一份讓好奇心有地方安放的閱讀刊物</div>
+<nav aria-label="網站導覽" class="foot-nav"><a href="../../">首頁</a><a href="../../archive/">文章索引</a><a href="../../about/">關於本刊</a><a href="../../privacy/">隱私權說明</a><a href="../../feed.xml">RSS 訂閱</a></nav>
+<div class="footnote-line">收藏與筆記只保存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+<div class="footnote-line">© 2026 遠方誌</div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="../../assets/site.js"></script>
+</body></html>

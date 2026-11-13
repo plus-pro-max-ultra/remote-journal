@@ -1,0 +1,532 @@
+[
+  {
+    "width": 320,
+    "scroll": 305,
+    "board": 7,
+    "selection": "整修一棟樓，可以不先搬走住戶嗎？",
+    "brand": 10,
+    "content": 17,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "board": 7,
+    "selection": "整修一棟樓，可以不先搬走住戶嗎？",
+    "brand": 10,
+    "content": 17,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "board": 7,
+    "selection": "整修一棟樓，可以不先搬走住戶嗎？",
+    "brand": 26,
+    "content": 26,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "board": 7,
+    "selection": "整修一棟樓，可以不先搬走住戶嗎？",
+    "brand": 148.5,
+    "content": 148.5,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "board": 7,
+    "selection": "陪審員為什麼不能自己上網查案？",
+    "brand": 10,
+    "content": 17,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "board": 7,
+    "selection": "陪審員為什麼不能自己上網查案？",
+    "brand": 10,
+    "content": 17,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "board": 7,
+    "selection": "陪審員為什麼不能自己上網查案？",
+    "brand": 26,
+    "content": 26,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "board": 7,
+    "selection": "陪審員為什麼不能自己上網查案？",
+    "brand": 148.5,
+    "content": 148.5,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "altitude-boiling-eggs"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "altitude-boiling-eggs"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "altitude-boiling-eggs"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 12,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "baggage-carousel-order"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 12,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "baggage-carousel-order"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 12,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "baggage-carousel-order"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "braille-six-dots"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "braille-six-dots"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "braille-six-dots"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "earthquake-early-warning"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "earthquake-early-warning"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "earthquake-early-warning"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "emergency-call-112"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "emergency-call-112"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "emergency-call-112"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "etc-gantry-tolling"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "etc-gantry-tolling"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 8,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "etc-gantry-tolling"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "hsr-tunnel-ears"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "hsr-tunnel-ears"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "hsr-tunnel-ears"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 3,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "lottery-draw-integrity"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 3,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "lottery-draw-integrity"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 3,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "lottery-draw-integrity"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "metro-platform-doors"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "metro-platform-doors"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "metro-platform-doors"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 5,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "onigiri-wrap-engineering"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 5,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "onigiri-wrap-engineering"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 5,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "onigiri-wrap-engineering"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "qr-error-correction"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "qr-error-correction"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "qr-error-correction"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "queens-head-neck"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "queens-head-neck"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "queens-head-neck"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "seed-vault-withdrawal"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "seed-vault-withdrawal"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "seed-vault-withdrawal"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "traffic-light-timing"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "traffic-light-timing"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "traffic-light-timing"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "v-formation-birds"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "v-formation-birds"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sourceCount": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "v-formation-birds"
+  }
+]
