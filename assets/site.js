@@ -157,27 +157,17 @@
     function renderTopics() {
       var box = $("#previewTopics");
       if (!box || !window.FARAWAY_TOPICS || !window.FARAWAY_STORIES) return;
-      var stories = window.FARAWAY_STORIES;
-      var taken = {};
-      stories.forEach(function (s) { if (s.date) taken[s.date] = true; });
       var today = taipeiTodayStr();
-      var queue = window.FARAWAY_TOPICS.filter(function (t) { return !stories.some(function (s2) { return s2.id === t.id; }); });
-      var dates = []; var i = taken[today] ? 1 : 0;
-      while (dates.length < 7 && i < 40) { dates.push(addDaysStr(today, i)); i++; }
+      var dates = [];
+      for (var i = 1; i <= 7; i++) dates.push(addDaysStr(today, i));
       var byDate = {};
-      queue.forEach(function (t) { if (t.date >= today) byDate[t.date] = t; });
-      var rows = [];
-      queue.filter(function (t) { return t.date < today; }).sort(function (a, b) { return a.date < b.date ? -1 : 1; })
-        .forEach(function (t) { rows.push({ date: t.date, topic: t, delayed: true }); });
-      queue.forEach(function (t) { if (t.date >= today && taken[t.date] && dates.indexOf(t.date) !== -1) rows.push({ date: t.date, topic: t, delayed: true }); });
-      dates.forEach(function (d) { rows.push({ date: d, topic: byDate[d] || null, delayed: false }); });
-      box.innerHTML = rows.map(function (r) {
-        var dateLabel = (r.delayed ? "原定 " : "") + r.date + "（" + weekdayZh(r.date) + "）";
-        if (!r.topic) {
-          return '<div class="topic-row preview"><span class="topic-meta-line"><span class="topic-num">候選</span><span class="topic-date">' + esc(dateLabel) + '</span><span class="topic-cat">研擬中</span></span><span class="topic-title" style="color:var(--muted)">題目確認後公布 <span class="topic-badge">預告</span></span></div>';
-        }
-        var t = r.topic;
-        return '<div class="topic-row preview"><span class="topic-meta-line"><span class="topic-num">候選</span><span class="topic-date">' + esc(dateLabel) + '</span><span class="topic-cat">' + esc(t.category) + '</span></span><span class="topic-title">' + esc(t.title) + ' <span class="topic-badge">' + (r.delayed ? "順延・研究中" : "預告・研究中") + "</span></span></div>";
+      window.FARAWAY_TOPICS.forEach(function(t) { if (dates.indexOf(t.date) !== -1) byDate[t.date] = t; });
+      box.innerHTML = dates.map(function(d) {
+        var t = byDate[d];
+        var title = t ? esc(t.title) : "題目未選定";
+        if (t && t.href && (/^\.\/articles\/[a-z0-9-]+\/$/.test(t.href) || /^https:\/\/plus-pro-max-ultra\.github\.io\/remote-journal\/articles\/[a-z0-9-]+\/$/.test(t.href))) title = '<a href="' + esc(t.href) + '">' + title + '</a>';
+        var num = t && /^\d{3}-/.test(t.id) ? t.id.slice(0,3) : "待定";
+        return '<div class="topic-row preview"><span class="topic-meta-line"><span class="topic-num">' + num + '</span><span class="topic-date">' + esc(d + "（" + weekdayZh(d) + "）") + '</span><span class="topic-cat">' + esc(t ? t.category : "待選題") + '</span></span><span class="topic-title">' + title + ' <span class="topic-badge">' + esc(t ? t.statusLabel : "尚未排定") + '</span></span></div>';
       }).join("");
     }
     renderTopics();
