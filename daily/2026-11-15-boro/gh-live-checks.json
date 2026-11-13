@@ -1,0 +1,154 @@
+[
+  {
+    "width": 320,
+    "scroll": 305,
+    "selection": "027",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "027-juror-research"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "selection": "027",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "027-juror-research"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "selection": "027",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "027-juror-research"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "selection": "027",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "027-juror-research"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "selection": "028",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "028-boro"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "selection": "028",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "028-boro"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "selection": "028",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "028-boro"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "selection": "028",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "028-boro"
+  }
+]

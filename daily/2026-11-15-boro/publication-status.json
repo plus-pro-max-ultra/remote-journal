@@ -3,12 +3,15 @@
   "scheduled_date": "2026-11-15",
   "timezone": "Asia/Taipei",
   "review_due": "2026-11-14T08:00:00+08:00",
-  "status": "prepared_source_checked_polished_local_visual_verified",
-  "gh_published": false,
+  "status": "gh_one_day_review_live_verified",
+  "gh_published": true,
   "main_published": false,
   "source_count": 7,
   "section_count": 6,
   "numeric_citations": 3,
   "image": "Cooper Hewitt public domain sleeping mat2017-15-1",
-  "preserve": "ghc41d28715unscheduledreviewpages;maind3c9f72approvedhomepage;latestowner027HTML"
+  "preserve": "ghc41d28715unscheduledreviewpages;maind3c9f72approvedhomepage;latestowner027HTML",
+  "gh_commit": "c658743",
+  "gh_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/028-boro/",
+  "verified_at": "2026-11-14T06:04:00+08:00"
 }
