@@ -1,0 +1,152 @@
+{
+  "altitude-boiling-eggs": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "1dc0a2f4d2e1352f81c8de53d1a13d1a379bf0d160ff09ee98de49a585a36690",
+    "text_edits": 6,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "baggage-carousel-order": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "7beb84e7ac5bdcfed1fedd1b3e312cf06b8ccd2cabef836561007d78bc6b0080",
+    "text_edits": 6,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 12
+  },
+  "braille-six-dots": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "aad26255ea86543faddcc5ea28b7bb3c3bae78b31959dfb71e8a181544d854ef",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 8
+  },
+  "earthquake-early-warning": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "a8d0cf9afc26edb1d2224c70526a3d8d132a1b6759d1f0d29c4ed7ee194c8674",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 8
+  },
+  "emergency-call-112": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "546215cc77eb780fb0d32254d26cf90e2f5126b78deaaf78510d128e47f8b88c",
+    "text_edits": 3,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 8
+  },
+  "etc-gantry-tolling": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "03eded8161737b3575e514264864e7a52ac77725bda21682df8f551055c5b423",
+    "text_edits": 3,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 8
+  },
+  "hsr-tunnel-ears": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "07e197f229b177381d7177c60ee143bd504deb9b34f5d228442b8a3b6de87455",
+    "text_edits": 5,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "lottery-draw-integrity": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "55f125ae5fa1c9d79f7ebdc97a340af7b0bb11a0544474fa03a21f9d1c68e590",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 3
+  },
+  "metro-platform-doors": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "c9cacb1bf0de4879d1edbc89b513eea0439f889571edc8ac6ef1096b0f4a318a",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "onigiri-wrap-engineering": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "b502913390649cd97f68d5e19ac683bc0853876d6f024b9e75f751dad8223a74",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 5
+  },
+  "qr-error-correction": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "3feb1f75509323dd6dfeec753dc9e42805c1528c71a8858adf0f19c8d7449b01",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "queens-head-neck": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "ece1160dce871f0e1394f1657703210d58924ce85bcf0a90d73473a6cbbe603b",
+    "text_edits": 5,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 7
+  },
+  "seed-vault-withdrawal": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "3f16c6e610a69b18db21b1332561209a67b7821310060ba1f9c8830549d61d1c",
+    "text_edits": 5,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "traffic-light-timing": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "bf01e4179921050dd0df8a8bc11602834154629f431912469d1118084e82ff1e",
+    "text_edits": 6,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  },
+  "v-formation-birds": {
+    "state": "prose-review-complete",
+    "baseline_sha256": "347877e4ad88309f8a146b48ea40f51dc9efbb10a6c63d59d7b09dfa3a23f454",
+    "text_edits": 4,
+    "reflection_revised": true,
+    "sources_unchanged": true,
+    "source_scope": "prior research ledger retained; current core-source spot checks completed",
+    "section_count": 6,
+    "original_source_count": 6
+  }
+}

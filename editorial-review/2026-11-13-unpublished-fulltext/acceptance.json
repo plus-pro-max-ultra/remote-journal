@@ -1,0 +1,107 @@
+[
+  {
+    "id": "seed-vault-withdrawal",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "v-formation-birds",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "earthquake-early-warning",
+    "source_count": 8,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "hsr-tunnel-ears",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "traffic-light-timing",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "lottery-draw-integrity",
+    "source_count": 3,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "etc-gantry-tolling",
+    "source_count": 8,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "emergency-call-112",
+    "source_count": 8,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "baggage-carousel-order",
+    "source_count": 12,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "braille-six-dots",
+    "source_count": 8,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "onigiri-wrap-engineering",
+    "source_count": 5,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "qr-error-correction",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "queens-head-neck",
+    "source_count": 7,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "altitude-boiling-eggs",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  },
+  {
+    "id": "metro-platform-doors",
+    "source_count": 6,
+    "sections": 6,
+    "sources_unchanged": true,
+    "reflection_changed": true
+  }
+]
