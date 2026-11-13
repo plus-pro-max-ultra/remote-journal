@@ -230,7 +230,7 @@
   if (PAGE === "article") {
     // Citation markers jump into the sources block: open the details first.
     document.addEventListener("click", function (e) {
-      var a = e.target.closest("sup.cite a");
+      var a = e.target.closest("sup.cite a, a.source-link");
       if (!a) return;
       e.preventDefault();
       var li = document.querySelector(a.getAttribute("href"));
