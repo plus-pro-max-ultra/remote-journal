@@ -74,3 +74,6 @@ html.js #articleGrid.filtering .article-card.filter-show{display:flex}
 
 /* Reader source names remain clickable; relationships are distinct from sources. */
 .reader-body .source-link{color:inherit;text-decoration:underline;text-decoration-color:#809489;text-decoration-thickness:1px;text-underline-offset:.2em}.reader-body .source-link:hover,.reader-body .source-link:focus-visible{color:var(--green);text-decoration-color:currentColor}.reader-body .related-reading{margin:36px 0 12px;padding:23px 24px;background:#e8ece4;border:1px solid #c8d3c5;border-left:4px solid var(--green);font-family:var(--sans)}.reader-body .related-reading h3{font:500 26px/1.4 var(--serif);margin:5px 0 17px}.related-item+.related-item{border-top:1px solid #c8d3c5;margin-top:17px;padding-top:17px}.reader-body .related-title{display:block;font:600 18px/1.7 var(--serif);color:var(--green);text-underline-offset:.18em}.reader-body .related-reading p{font:14px/1.85 var(--sans);margin:7px 0 0;color:#4e5e52}@media(max-width:500px){.reader-body .related-reading{padding:18px 17px}.reader-body .related-reading h3{font-size:24px}}
+
+/* Desktop brand and navigation share the home content column. */
+@media(min-width:761px){.topbar{padding-left:max(26px,calc((100% - 1180px)/2 + 26px));padding-right:max(26px,calc((100% - 1180px)/2 + 26px))}}
