@@ -1,5 +1,5 @@
 {
-  "description": "Official001–027;028future review and fifteenunscheduledreviewdrafts excluded.",
+  "description": "Official001–028;029future review and fifteenunscheduledreviewdrafts excluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -27,6 +27,7 @@
     "humidity": "024-humidity",
     "seed-banks": "025-seed-banks",
     "grand-parc": "026-grand-parc",
-    "juror-research": "027-juror-research"
+    "juror-research": "027-juror-research",
+    "boro": "028-boro"
   }
 }
