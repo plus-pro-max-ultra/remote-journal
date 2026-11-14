@@ -1,0 +1,15 @@
+{
+  "id": "029-concert-applause",
+  "scheduled_date": "2026-11-16",
+  "timezone": "Asia/Taipei",
+  "review_due": "2026-11-15T08:00:00+08:00",
+  "status": "source_checked_polished_local_visual_verified",
+  "gh_published": false,
+  "main_published": false,
+  "section_count": 6,
+  "source_count": 7,
+  "numeric_citations": 3,
+  "source_name_links": 1,
+  "image": "none;no irrelevantdecorativephoto",
+  "preserve": "main4bf0f33official027;ghc658743028reviewplus15unscheduledreviewpages"
+}
