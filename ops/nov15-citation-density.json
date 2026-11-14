@@ -1,0 +1,192 @@
+{
+  "authority": "phonemsg-01M7DKXAGRSSENB3M9ZYH5C7MS",
+  "scope": "ghonly;mainunchanged",
+  "method": "existing meaningfulnames/phrases linked to samepreviouslycitedsource;fullsources/support/textretained",
+  "results": [
+    {
+      "file": "articles/010-daylight-saving-time/index.html",
+      "before": 5,
+      "after": 0,
+      "mapped": [
+        [
+          5,
+          "《新英格蘭醫學期刊》"
+        ],
+        [
+          6,
+          "2018 年，歐盟執委會"
+        ],
+        [
+          7,
+          "歐洲議會"
+        ],
+        [
+          8,
+          "《陽光保護法》（H.R.139）"
+        ],
+        [
+          1,
+          "國史館臺灣文獻館"
+        ]
+      ]
+    },
+    {
+      "file": "articles/011-typhoon-names/index.html",
+      "before": 5,
+      "after": 0,
+      "mapped": [
+        [
+          4,
+          "澳洲氣象局"
+        ],
+        [
+          3,
+          "香港天文台"
+        ],
+        [
+          1,
+          "WMO 名單頁面"
+        ],
+        [
+          5,
+          "Jung 等人的研究"
+        ],
+        [
+          6,
+          "Christensen 與 Christensen 的評論"
+        ]
+      ]
+    },
+    {
+      "file": "articles/012-power-frequency/index.html",
+      "before": 6,
+      "after": 2,
+      "mapped": [
+        [
+          7,
+          "Stillwell 的回憶"
+        ],
+        [
+          8,
+          "Rathenau 在 1896 年說明"
+        ],
+        [
+          9,
+          "巴西 1938 年的法令"
+        ],
+        [
+          10,
+          "墨西哥政府"
+        ]
+      ]
+    },
+    {
+      "file": "articles/016-survivorship-bias/index.html",
+      "before": 4,
+      "after": 0,
+      "mapped": [
+        [
+          2,
+          "1984 年的技術回顧"
+        ],
+        [
+          1,
+          "1980 年由海軍分析中心重新印行"
+        ],
+        [
+          3,
+          "Elton、Gruber 與 Blake"
+        ],
+        [
+          4,
+          "Niendorf 與 Beck"
+        ]
+      ]
+    },
+    {
+      "file": "articles/018-seven-day-week/index.html",
+      "before": 6,
+      "after": 0,
+      "mapped": [
+        [
+          1,
+          "NASA 的月相說明"
+        ],
+        [
+          2,
+          "倫敦大學學院的研究計畫"
+        ],
+        [
+          3,
+          "Ilaria Bultrighini 與 Sacha Stern 在 2021 年的研究章節"
+        ],
+        [
+          4,
+          "柏林自由大學的研究說明"
+        ],
+        [
+          6,
+          "法國檔案館的曆法說明"
+        ],
+        [
+          7,
+          "歷史學家 Michel Vovelle 文章"
+        ]
+      ]
+    },
+    {
+      "file": "articles/021-kilogram/index.html",
+      "before": 5,
+      "after": 0,
+      "mapped": [
+        [
+          1,
+          "美國國家標準暨技術研究院（NIST）的歷史介紹"
+        ],
+        [
+          2,
+          "NIST 對舊制度的回顧"
+        ],
+        [
+          3,
+          "國際度量衡局列出的值"
+        ],
+        [
+          4,
+          "國際度量衡局並未限定只能用哪一種實驗"
+        ],
+        [
+          5,
+          "NIST 的原理說明"
+        ]
+      ]
+    },
+    {
+      "file": "review/queens-head-neck/index.html",
+      "before": 5,
+      "after": 0,
+      "mapped": [
+        [
+          3,
+          "TVBS 報導"
+        ],
+        [
+          4,
+          "北觀處的公開說明"
+        ],
+        [
+          7,
+          "《Taipei Times》報導"
+        ],
+        [
+          3,
+          "TVBS 的表述"
+        ],
+        [
+          4,
+          "北觀處一份未標示明確發布日期的回應"
+        ]
+      ]
+    }
+  ]
+}
