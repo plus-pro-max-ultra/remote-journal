@@ -1,0 +1,1 @@
+Prepare Nov17 issue030 for Nov16earlyghreview. Topic living chinampa agriculture Xochimilco: mechanism, labor and markets, water/urban ecology, not floating rafts. Research UNESCO/FAO/UNAM and growers/primary project plus reporting. Six sections, exact scope for statistics and dated evidence, open-ended life-connected reflection. No new policy or publishing effect yet; WIP only.

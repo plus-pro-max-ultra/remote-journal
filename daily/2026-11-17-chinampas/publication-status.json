@@ -1,0 +1,15 @@
+{
+  "id": "030-chinampas",
+  "scheduled_date": "2026-11-17",
+  "timezone": "Asia/Taipei",
+  "review_due": "2026-11-16T08:00:00+08:00",
+  "status": "source_checked_polished_local_visual_verified",
+  "gh_published": false,
+  "main_published": false,
+  "section_count": 6,
+  "source_count": 7,
+  "numeric_citations": 1,
+  "source_name_links": 2,
+  "image": "none;noirrelevantdecorativephoto",
+  "preserve": "main2912e32official028;gh9a49d6d029reviewplus15unscheduledreviewpages;oldcitationbatchpreviewonly"
+}
