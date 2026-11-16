@@ -1,5 +1,5 @@
 {
-  "description": "001–029正式刊出；030為11/17排定、11/16提前一天的gh審閱稿；十五篇review區未排刊期。",
+  "description": "001–030正式刊出；031為11/18排定、11/17提前一天的gh審閱稿；十五篇review區未排刊期。",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -30,6 +30,7 @@
     "juror-research": "027-juror-research",
     "boro": "028-boro",
     "concert-applause": "029-concert-applause",
-    "chinampas": "030-chinampas"
+    "chinampas": "030-chinampas",
+    "monobloc": "031-monobloc"
   }
 }
