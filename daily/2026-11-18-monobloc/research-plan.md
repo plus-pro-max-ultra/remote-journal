@@ -1,0 +1,2 @@
+# 031 Nov18 Monobloc
+Prepare six-section Traditional Chinese issue for Nov17 one-day review. Trace single-piece manufacture, economics, stackable use, repair/value and limits of recycling. No unsupported global-most-common count or universal polymer claims. Prefer museum/history and documented local production/repair over stereotypes. Six sources minimum; fetched evidence; existing site style; WIP only tonight.
