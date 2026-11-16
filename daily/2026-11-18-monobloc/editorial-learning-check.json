@@ -1,0 +1,94 @@
+{
+  "reviewed_at": "2026-11-17T01:00:00+08:00",
+  "compared_gh_commit": "5c27fb008765febd15cac6b60f7604d9482d427c",
+  "examples_version": "editorial-learning/examples.md 2026-11-17",
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "unresolved": [],
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "第二節材料版本、第四節GEN_1、第五節影評場景",
+      "decision": "already present",
+      "evidence": "1967／1999及早期／退役明示；巴西例歸Thomas Edelmann影評，未擴成全球回收率。安全限制不能為求少否定刪掉。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第一節1972與第二節Panton檔案、第五節回收",
+      "decision": "not mechanically applied",
+      "evidence": "保留Vitra對原型定位、策展人的觀點、影評而非親看影片的歸屬，它們影響主張意思；普通搬運／堆疊解釋不另點機構。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第一節第一段、第三節第二段、第六節第二段",
+      "decision": "revised",
+      "changes": [
+        {
+          "before": "它不是一個品牌，也不是所有工廠共同生產的同一款產品。看起來相近的塑膠椅，仍可能有不同的形狀、材料與品質。",
+          "after": "Monobloc 指的是一類椅子，而非單一品牌或型號。不同工廠做出的產品，形狀、材料與品質仍有差異。"
+        },
+        {
+          "before": "它所實現的設計價值，部分正在這些不太醒目的工作裡：不用把椅子固定在特定房間，也不用先準備一套昂貴的家具，便能安排一群人坐下。",
+          "after": "它所實現的設計價值，部分就在搬運與收納的方便：需要時搬出座位，結束後疊放收好，同一個空間便能接待不同的人與活動。"
+        },
+        {
+          "before": "這不是要我們把便宜都稱讚一遍，也不是因為有人需要它，就不再問塑膠廢棄物怎麼辦。比較有用的改變，是把問題問細：",
+          "after": "把使用者的處境納入考慮，也讓評價多了幾個具體問題："
+        }
+      ],
+      "evidence": "改用類別定義、搬出／疊放／接待的動作，去掉先替讀者造一個全盤稱讚便宜的誤會再否定的開場。",
+      "retained": "第二節「沒有接縫」接材料／製造反例，第四節承重與輔具安全限制，第五節不把場景當全球比例，均有實質辨別作用而保留；不是以否定字數為分數。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from MM edit",
+      "location": "第三節與第五節",
+      "decision": "checked",
+      "evidence": "保留具體搬運收納、分選／切碎／清洗；不以「另一種可能」收段。第三節原先「工作」過虛，已改動作。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from MM edit",
+      "location": "第三節第二段",
+      "decision": "revised",
+      "evidence": "030把菜園指為生產系統所提示的對象精準，移用為明說搬運／收納與使用空間，不硬套「系統／可行道路」字樣。030輸入疑點全部未模仿／未代改。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present",
+      "evidence": "請讀者想一件一直用的物品及更換時的價值取捨；不要求答對材料或回收知識。"
+    }
+  ],
+  "before_hashes": {
+    "article-preview.html": "eb07754bc18e809fa6dda9787b53418e445d91f1dbdd773e84add61a80676eea",
+    "manuscript.md": "39e52ffcb14648797ba309397b3f8bbf9f5113ca8033e1a9e6e21d5c24bbcab1",
+    "draft.json": "18f37a4c21de079ad6c7448109c3cd2223811011e1c46fcc04952df0093a1f92",
+    "reader-body.html": "2c7b7ad4a69492c8f3b5f00aaff7f95203adeb2b4954a8061815398d92e34792"
+  },
+  "after_hashes": {
+    "article-preview.html": "57051b199ba5575d88c37dacaa0657767814eea8d8ac23bb4da98aa60d5925f3",
+    "manuscript.md": "cf96bba20fb45801db8b2a7e7a822a8bd1de8898dff05789ad4e42718e845ba1",
+    "draft.json": "8007b7f5591807ab80e6167e569ef6e846dd48bd2cd6e8a437d217e9f6ef50a7",
+    "reader-body.html": "a887d5a7563d91095f36bec93d624bcad6a30c65c406f094f362ca3c7ba22a45"
+  },
+  "judgment_limit": "本次實際全文比較與詞句審查；不等於獨立外部評審，不宣稱消除全部缺點。",
+  "visual_check": {
+    "widths": [
+      320,
+      390,
+      1440
+    ],
+    "inspected": [
+      "first-390.png",
+      "history-390.png",
+      "reflection-1440.png"
+    ],
+    "result": "readable, no horizontal overflow; six sections, seven sources, zero numeric citations"
+  }
+}
