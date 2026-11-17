@@ -1,0 +1,84 @@
+{
+  "issue": "032-silbo",
+  "status": "complete",
+  "assessed_at": "2026-11-17T20:05:32+08:00",
+  "visual_role": "比較保留的詞句與改變的聲音線索，幫助理解口哨為何可傳話；原先也評估以實際吹哨手勢照片呈現身體技巧。",
+  "existing_nontext_support": [
+    "one original speech-to-whistle concept diagram"
+  ],
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Commons Silbo Gomero category and three individual file pages; web search Silbo Gomero whistler",
+        "checked_at": "2026-11-17 evening",
+        "result_summary": "Found actual demonstration,1991whistler and2015restaurantdemonstration candidates; file descriptions and licensing read, but raw image delivery throttled before pixel inspection. Did not conclude images unavailable or unsuitable in general."
+      },
+      {
+        "query_or_source": "Creative Commons BY-SA3.0 and BY4.0 deed pages",
+        "checked_at": "2026-11-17 evening",
+        "result_summary": "Verified commercial sharing, attribution/link and applicable share-alike/change notices; no asset adopted from Commons."
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Demostraci%C3%B3n_de_silbo_gomero%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_01.jpg",
+      "relevance": "2012LaGomera actual demonstration could show finger/lip position.",
+      "decision": "not_selected",
+      "reason": "File-page and rights checked; binary retrieval403then429; waited indicated120seconds once,still429andstopped. Could not inspect candidate pixels, so not adopted. Not a claim the photo is irrelevant.",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Demostraci%C3%B3n_de_silbo_gomero%2C_La_Gomera%2C_Espa%C3%B1a%2C_2012-12-14%2C_DD_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "credit": "Diego Delso, delso.photo",
+        "terms_url": "https://creativecommons.org/licenses/by-sa/3.0/"
+      },
+      "pixels": "not inspected; download unavailable"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:El_Silbo.jpg",
+      "relevance": "Historic1991whistler candidate for body technique.",
+      "decision": "not_selected",
+      "reason": "Rights and description inspected on file page; same asset host unavailable, no pixel inspection. A single present-oriented mechanism diagram chosen rather than an uninspected historical portrait.",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:El_Silbo.jpg",
+        "license": "GFDL and migrated CC BY-SA indicated; version not fully verified for this unused candidate",
+        "credit": "Akalvin"
+      },
+      "pixels": "not inspected"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:La_Gomera-Agulo-14-Restaurant_La_Zula-Pfeifsprache-2015-gje.jpg",
+      "relevance": "2015Agulo restaurant demonstration, not rural long-distance work or school classroom.",
+      "decision": "not_selected",
+      "reason": "Would require clear demonstration caption and pixel inspection; no adoption while raw asset host throttled. Diagram more directly compares acoustic information without presenting restaurant scene as field communication.",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:La_Gomera-Agulo-14-Restaurant_La_Zula-Pfeifsprache-2015-gje.jpg",
+        "license": "CC BY 4.0",
+        "credit": "Gerd Eichmann",
+        "terms_url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "pixels": "not inspected"
+    }
+  ],
+  "decision": {
+    "outcome": "original_visual",
+    "rationale": "An original concept comparison supports section2 directly. Photograph investigation had real candidates and rights checks but transport prevented pixel review; do not silently substitute an unseen photo or call public photos nonexistent. No fixed image quota.",
+    "selected_candidate_urls": []
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "032-silbo-preview/history-390.png:concept diagram readable and uncropped",
+      "032-silbo-preview/history-1440.png:diagram labels/caption/section transition checked",
+      "320/390/1440 no horizontal overflow; image fully loaded",
+      "032-silbo-preview/history-320.png inspected after final wording update: small labels readable, uncropped",
+      "032-silbo-preview/reflection-390.png inspected: life-linked prompt and footer fit"
+    ]
+  },
+  "unresolved": [],
+  "limitation": "No photo selected. Diagram is schematic only, not measured frequencies or exact sound classes. Candidate pixels not viewed, expressly not a completed visual vetting of those photos."
+}

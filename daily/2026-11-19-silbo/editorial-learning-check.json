@@ -1,0 +1,78 @@
+{
+  "reviewed_at": "2026-11-17T20:05:32+08:00",
+  "compared_gh_commit": "8a89ca744030c469798cc0b8175b70212645ec74",
+  "examples_version": "editorial-learning/examples.md at WIPa1ac70a",
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "unresolved": [],
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "第四節知覺研究、第五節設課",
+      "decision": "already present",
+      "evidence": "研究從句首限定2017、孤立母音、不同背景聽者，末段交代完整對話尚需其他線索；1999與2018分明，不以設課當2026全民流利。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第二節聲音機制／第四五節研究制度",
+      "decision": "already present",
+      "evidence": "一般聲音機制直接說，研究與制度具名外鏈供核對，不每段用機構引言開場；六筆來源及支持範圍全保留。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第三節第二段、第五節第一段",
+      "decision": "revised",
+      "changes": [
+        {
+          "before": "這並非哨語獨有的事情。電話訊號不好時，我們也會靠前後文接住聽漏的字",
+          "after": "日常對話也常靠前後文幫忙。電話訊號不好時，我們會靠前後文接住聽漏的字"
+        },
+        {
+          "before": "一項本領過去用得上，不保證下一代一定有機會學到。Silbo 的傳授逐漸有了學校參與。",
+          "after": "一項本領要傳到下一代，得有人帶著練，也有可以練習的時間。Silbo 的傳授逐漸有了學校參與。"
+        }
+      ],
+      "evidence": "將先否定哨語獨有／前代會用不保證學到，改成前後文怎麼幫忙、傳授需要誰和時間。第四節實驗限制與圖說非實測限制有辨別作用，保留。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from MM029 edits",
+      "location": "第二節與第五六節",
+      "decision": "already present",
+      "evidence": "用嘴唇、舌、手指、開始／結束對話與示範／練習等具體動作；不以另一種可能收束聲音機制。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from MM030 edits",
+      "location": "第二節示意圖與第五節傳授",
+      "decision": "not mechanically applied",
+      "evidence": "清楚說出改變的是頻率線索，沿用的是詞句；傳授說教師／材料／練習場景。不硬套生產系統、可行道路，也不學030輸入疑點。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present",
+      "evidence": "回到讀者家人／朋友／同事的省略表達與新來者如何加入，開放價值判斷，無須答對母音、學制日期或語言術語。"
+    }
+  ],
+  "before_hashes": {
+    "article-preview.html": "cfed07f0e7c319d868e6c42f8cb6ce886d001227a6efbbc54bfa1145159ac622",
+    "reader-body.html": "0a8a4bb34d12cb9ff6c9e2ca5c319d29ec9258ac31635810c051b72737148ec4",
+    "draft.json": "d868bee19003d9785a02104b1027dbdd9ec53e7db05159298268d1d654e67c29",
+    "manuscript.md": "f0d030d63cce2735acab6d4d6df6c206a5da373ed7ab2a933dafadb08a43192d",
+    "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
+  },
+  "after_hashes": {
+    "article-preview.html": "5b9b885df11187543f1da4ffc9ff73a97288293a52f18a1c464e304e9162b3f8",
+    "reader-body.html": "2e32ea26ced4b51f76bb4475a6b1f17b9c91fd7fc42a1c17abb8a35f52dbce5f",
+    "draft.json": "9708f74d6eebfe57b16fef37686d562303ae7cd8344d6e51c894b76ae1c96a34",
+    "manuscript.md": "ff55b871013a4e0f9f7ce8b58693fc9f263324fd55b6840143ab16686e574a24",
+    "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
+  },
+  "judgment_limit": "實際全文重讀與逐項判斷，非外部獨立中文評審；自動檢查只驗紀錄和雜湊。"
+}
