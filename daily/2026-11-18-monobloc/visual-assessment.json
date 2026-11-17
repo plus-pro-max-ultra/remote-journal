@@ -1,0 +1,26 @@
+{
+  "issue": "031-monobloc",
+  "status": "legacy_incomplete",
+  "assessed_at": "2026-11-17T12:00:00+08:00",
+  "visual_role": "稽核觀察：可能以椅型／堆疊／材料版本支撐理解；尚未完成實際候選調查",
+  "existing_nontext_support": [
+    "none"
+  ],
+  "investigation": {
+    "performed": false,
+    "searches": []
+  },
+  "candidates": [],
+  "decision": {
+    "outcome": "no_image",
+    "rationale": "原稿採不使用未核授權展場／電影劇照；這只是局部理由，不足證明已做公開圖庫候選評估。",
+    "selected_candidate_urls": []
+  },
+  "verification": {
+    "pixels": "not_applicable",
+    "evidence": []
+  },
+  "unresolved": [
+    "No verified public-library candidate investigation recorded at authoring; not retroactively completed by this process update."
+  ]
+}

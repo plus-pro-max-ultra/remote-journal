@@ -1,0 +1,22 @@
+{
+  "issue": "",
+  "status": "not_started",
+  "assessed_at": "",
+  "visual_role": "",
+  "existing_nontext_support": [],
+  "investigation": {
+    "performed": false,
+    "searches": []
+  },
+  "candidates": [],
+  "decision": {
+    "outcome": "",
+    "rationale": "",
+    "selected_candidate_urls": []
+  },
+  "verification": {
+    "pixels": "not_applicable",
+    "evidence": []
+  },
+  "unresolved": []
+}
