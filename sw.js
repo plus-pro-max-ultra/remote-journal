@@ -1,4 +1,4 @@
-const CACHE_NAME = "faraway-zine-031-photo-nov18-v36";
+const CACHE_NAME = "faraway-zine-032-nov18-v35";
 const APP_SHELL = [
   "./", "./index.html", "./archive/", "./about/", "./privacy/", "./preview/",
   "./stories.js", "./assets/site.css", "./assets/site.js",

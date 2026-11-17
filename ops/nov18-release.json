@@ -1,0 +1,15 @@
+{
+  "issue": "032-silbo",
+  "scheduled_date": "2026-11-19",
+  "status": "one_day_early_review",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M7N7AAV9K7XPR56EG3MZ5ZA5"
+  ],
+  "preserved": "MM027HTML,approvedhomepage,olderarticles;15reviewdraftsgh-only",
+  "executed_at": "2026-11-18T06:01:48+08:00",
+  "photo_condition": "MM031hardcondition satisfied by LouisaMeyerCCBY4.0 semicirclephoto,rawpixels/rights/livepreviewverified;preservedMM1303f22nineedits",
+  "zero_finetuning_reminder": false,
+  "reviewed_owner_commit": "1303f226d5f8a810fde2020041f7b3c8443014e4"
+}
