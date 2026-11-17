@@ -72,10 +72,10 @@
     "reader-body.html": "2c7b7ad4a69492c8f3b5f00aaff7f95203adeb2b4954a8061815398d92e34792"
   },
   "after_hashes": {
-    "article-preview.html": "57051b199ba5575d88c37dacaa0657767814eea8d8ac23bb4da98aa60d5925f3",
-    "manuscript.md": "cf96bba20fb45801db8b2a7e7a822a8bd1de8898dff05789ad4e42718e845ba1",
-    "draft.json": "8007b7f5591807ab80e6167e569ef6e846dd48bd2cd6e8a437d217e9f6ef50a7",
-    "reader-body.html": "a887d5a7563d91095f36bec93d624bcad6a30c65c406f094f362ca3c7ba22a45"
+    "article-preview.html": "4e2e49d9aa374f98619c1e281dd1eff9c36dc5c2386ef8d015cd5eeca7d9b2cf",
+    "manuscript.md": "b00e5d2196d7c0c6f20321847e2f2513f08fd3e360798b74ed3ae87935c8ffd8",
+    "draft.json": "dad2bcae9395469d68356b86acdcaa7bf71568b2ff7c6d227beb921fea4411c0",
+    "reader-body.html": "44af533c668944bc3c8254106269787db2f26d2558472b814f1db6be4f5869d3"
   },
   "judgment_limit": "本次實際全文比較與詞句審查；不等於獨立外部評審，不宣稱消除全部缺點。",
   "visual_check": {
@@ -90,5 +90,10 @@
       "reflection-1440.png"
     ],
     "result": "readable, no horizontal overflow; six sections, seven sources, zero numeric citations"
+  },
+  "nov18_followup": {
+    "reviewed_at": "2026-11-18T01:06:24+08:00",
+    "owner_source_commit": "1303f226d5f8a810fde2020041f7b3c8443014e4",
+    "action": "Preserved all nine edited blocks from gh including possible input issue; synchronized mirrors, added only authorizedphotograph. Do not blindly apply ownerphrase as newrule."
   }
 }

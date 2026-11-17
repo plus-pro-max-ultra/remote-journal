@@ -1,0 +1,1 @@
+Nov18 actual photo investigation and pixels complete under new MM031hardcondition. Owner1303f22nineblockedits preserved verbatim including possible input issue. Prior legacyassessment not retroactively revised as done onNov17. Thirdsectionphoto byLouisaMeyer,CCBY4.0,source andlicense links infigure. Mainstill030;ghphoto update now, official release waits morning and freshchecks.

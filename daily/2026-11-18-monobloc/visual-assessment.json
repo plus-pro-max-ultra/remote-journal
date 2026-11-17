@@ -1,26 +1,75 @@
 {
   "issue": "031-monobloc",
-  "status": "legacy_incomplete",
-  "assessed_at": "2026-11-17T12:00:00+08:00",
-  "visual_role": "稽核觀察：可能以椅型／堆疊／材料版本支撐理解；尚未完成實際候選調查",
-  "existing_nontext_support": [
-    "none"
-  ],
+  "assessed_at": "2026-11-18T01:06:24+08:00",
+  "status": "complete",
+  "supersedes_legacy_assessment": "New actual investigation Nov18 only. Does not retroactively validate Nov17 process-only legacy record.",
+  "authority": "MM phonemsg-01M7N7AAV9K7XPR56EG3MZ5ZA5 requires actual matching photograph before031officialrelease",
+  "visual_role": "Third section: one-piece chair forms and flexible placement of seats in a shared room, not a stacking/manufacturing demonstration",
   "investigation": {
-    "performed": false,
-    "searches": []
+    "done": true,
+    "queries": [
+      "Wikimedia Commons Monobloc chairs stacked plastic chairs"
+    ],
+    "candidates": [
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_1.jpg",
+        "subject": "coloured monobloc chairs arranged in semicircular rows indoors",
+        "author": "Louisa Meyer",
+        "license": "CC BY4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "rights_checked": true,
+        "decision": "selected",
+        "reason": "Pixels actually inspected, chair form and flexible seat arrangement directly support section3. No visible people. No asserted brand, venue, prototype, country, photograph date or movie provenance."
+      },
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_2.jpg",
+        "author": "Louisa Meyer",
+        "license": "CC BY4.0",
+        "decision": "not selected",
+        "reason": "Alternative of same room; file page rights checked but pixels not inspected. Selected firstphoto already fills role."
+      },
+      {
+        "source_page": "https://commons.wikimedia.org/wiki/File:Stacked_Chairs_(2542477661).jpg",
+        "author": "Rennett Stowe",
+        "license": "CC BY2.0",
+        "decision": "not selected",
+        "reason": "File page/license checked, pixels not inspected. Firstphoto selected for verified room-layout role; no need to add unreviewed second image."
+      }
+    ]
   },
-  "candidates": [],
   "decision": {
-    "outcome": "no_image",
-    "rationale": "原稿採不使用未核授權展場／電影劇照；這只是局部理由，不足證明已做公開圖庫候選評估。",
-    "selected_candidate_urls": []
+    "mode": "photos",
+    "reason": "Actual photograph supports seating-use section, required by MM latest031instruction",
+    "selected": [
+      {
+        "asset": "assets/img/031-monobloc-semicircle.jpg",
+        "source_page": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_1.jpg",
+        "author": "Louisa Meyer",
+        "license": "CC BY4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "original_dimensions": [
+          3648,
+          2736
+        ],
+        "served_dimensions": [
+          1440,
+          1080
+        ],
+        "edits": "proportionate resize/jpeg compression only; no crop",
+        "placement": "after first paragraph of section3",
+        "max_css_width": 720,
+        "sha256": "663cf74ad3d5895f3213d19de9d82331859cfe33ca9f76900deef74c50ebc9b6"
+      }
+    ]
   },
   "verification": {
-    "pixels": "not_applicable",
-    "evidence": []
-  },
-  "unresolved": [
-    "No verified public-library candidate investigation recorded at authoring; not retroactively completed by this process update."
-  ]
+    "rights": true,
+    "pixels": "inspected",
+    "evidence": [
+      "originalphotograph1100preview",
+      "localphoto3203901440actualpixels",
+      "32039010241440nooverflowallimagesloaded"
+    ],
+    "owner_text": "All paragraph/heading nodes and reflection equal1303f22; only figure/caption added. storiesmirror031synced from HTML, other30entries unchanged."
+  }
 }
