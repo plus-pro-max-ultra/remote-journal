@@ -35,6 +35,14 @@
         "decision": "not selected",
         "reason": "File page/license checked, pixels not inspected. Firstphoto selected for verified room-layout role; no need to add unreviewed second image."
       }
+    ],
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Wikimedia Commons Monobloc chairs stacked plastic chairs",
+        "checked_at": "2026-11-18T01:06:24+08:00",
+        "result_summary": "Actual category and three candidate file pages inspected, licenses read. Selected originalphoto successfully retrieved using browser after direct image requests403, originalpixels and responsive articlepixels checked."
+      }
     ]
   },
   "decision": {
@@ -60,6 +68,11 @@
         "max_css_width": 720,
         "sha256": "663cf74ad3d5895f3213d19de9d82331859cfe33ca9f76900deef74c50ebc9b6"
       }
+    ],
+    "outcome": "photos",
+    "rationale": "Actual photograph supports seating-use section, required by MM latest031instruction",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_1.jpg"
     ]
   },
   "verification": {
@@ -68,8 +81,57 @@
     "evidence": [
       "originalphotograph1100preview",
       "localphoto3203901440actualpixels",
-      "32039010241440nooverflowallimagesloaded"
+      "32039010241440nooverflowallimagesloaded",
+      "Live01:07HTMLandphotoexact,32039010241440load/nooverflow;3901440actualpixelsinspected"
     ],
     "owner_text": "All paragraph/heading nodes and reflection equal1303f22; only figure/caption added. storiesmirror031synced from HTML, other30entries unchanged."
-  }
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_1.jpg",
+      "relevance": "Third section: one-piece chair forms and flexible placement of seats in a shared room, not a stacking/manufacturing demonstration",
+      "decision": "selected",
+      "reason": "Pixels actually inspected, chair form and flexible seat arrangement directly support section3. No visible people. No asserted brand, venue, prototype, country, photograph date or movie provenance.",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_1.jpg",
+        "license": "CC BY4.0",
+        "credit": "Louisa Meyer"
+      },
+      "caption": "Different-colour one-piece chairs arranged in semicircular rows; Louisa Meyer,CCBY4.0; resized only",
+      "alt": "Indoor seating in curvedrows",
+      "layout": "original4:3,720CSSpxmax,responsive width100%"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_2.jpg",
+      "relevance": "potential alternative monobloc or stackedchair photograph",
+      "decision": "not selected",
+      "reason": "Alternative of same room; file page rights checked but pixels not inspected. Selected firstphoto already fills role.",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Monobloc_Chairs_2.jpg",
+        "license": "CC BY4.0",
+        "credit": "Louisa Meyer"
+      },
+      "caption": null,
+      "alt": null,
+      "layout": null
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Stacked_Chairs_(2542477661).jpg",
+      "relevance": "potential alternative monobloc or stackedchair photograph",
+      "decision": "not selected",
+      "reason": "File page/license checked, pixels not inspected. Firstphoto selected for verified room-layout role; no need to add unreviewed second image.",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Stacked_Chairs_(2542477661).jpg",
+        "license": "CC BY2.0",
+        "credit": "Rennett Stowe"
+      },
+      "caption": null,
+      "alt": null,
+      "layout": null
+    }
+  ],
+  "unresolved": []
 }
