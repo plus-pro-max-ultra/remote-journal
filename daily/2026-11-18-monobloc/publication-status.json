@@ -2,9 +2,9 @@
   "issue": "031-monobloc",
   "scheduled_date": "2026-11-18",
   "review_due": "2026-11-17T08:00:00+08:00",
-  "status": "gh_review_live_visual_assessment_legacy_incomplete",
+  "status": "official_released",
   "gh": true,
-  "main": false,
+  "main": true,
   "source_count": 7,
   "numeric_citations": 0,
   "named_source_links": 5,
@@ -16,5 +16,12 @@
   "editorial_learning_check": "completed 2026-11-17 against gh5c27fb0; record and hash validated",
   "gh_commit": "8a89ca744030c469798cc0b8175b70212645ec74",
   "gh_verified_at": "2026-11-17T06:36:00+08:00",
-  "visual_assessment": "legacy_incomplete; source/wording checks completed separately; no retrospective image search claimed"
+  "visual_assessment": "legacy_incomplete; source/wording checks completed separately; no retrospective image search claimed",
+  "main_commit": "cea5e6177d83f78fc9806aeb7f3777e2dd12cf56",
+  "main_url": "https://journal-for-far.learnman.workers.dev/articles/031-monobloc/",
+  "photo_condition": "actualLouisaMeyerCCBY4.0photo included;MM1303f22edits preserved",
+  "zero_edit_reminder": false,
+  "verified_at": "2026-11-18T06:03:51+08:00",
+  "live_text_files_exact": 97,
+  "live_layout_checks": 16
 }
