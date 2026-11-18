@@ -1,0 +1,13 @@
+{
+  "issue": "033-turf-houses",
+  "scheduled_date": "2026-11-20",
+  "status": "one_day_early_review",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "MM027HTML,approvedhomepage,olderarticles;15reviewdraftsgh-only",
+  "executed_at": "2026-11-19T06:02:24+08:00",
+  "zero_finetuning_reminder_for_032": true,
+  "owner_edit_check": "032article history contains only initial4c4c61e; no later MMZine message asofNov19 06:01; reminder separate, not a publication block"
+}
