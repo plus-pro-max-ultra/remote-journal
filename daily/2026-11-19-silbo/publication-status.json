@@ -2,9 +2,9 @@
   "issue": "032-silbo",
   "scheduled_date": "2026-11-19",
   "review_due": "2026-11-18T08:00:00+08:00",
-  "status": "one_day_early_review",
+  "status": "official_release",
   "gh": true,
-  "main": false,
+  "main": true,
   "source_count": 6,
   "numeric_citations": 0,
   "named_source_links": 4,
@@ -19,7 +19,11 @@
   "visual_assessment": "complete for selected original diagram; unused candidate pixels not inspected, recorded as limitation",
   "gh_commit": "4c4c61e1afd57694421ac0ce660a279d2cee8e4e",
   "gh_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/032-silbo/",
-  "verified_at": "2026-11-18T06:03:51+08:00",
-  "live_text_files_exact": 97,
-  "live_layout_checks": 16
+  "verified_at": "2026-11-19T06:05:22+08:00",
+  "live_text_files_exact": 99,
+  "live_layout_checks": 16,
+  "main_url": "https://journal-for-far.learnman.workers.dev/articles/032-silbo/",
+  "main_commit": "7b71af7a206ffb48d61a2365fe03c3992e86d910",
+  "zero_finetuning_reminder": true,
+  "owner_check": "Only initial4c4c61earticle commit, no subsequent MMZine request throughNov19 06:01; separate reminder reported to main06:04"
 }

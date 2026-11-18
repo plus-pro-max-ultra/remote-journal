@@ -2,13 +2,18 @@
   "issue": "033-turf-houses",
   "scheduled_date": "2026-11-20",
   "review_due": "2026-11-19T08:00:00+08:00",
-  "status": "ready_in_work_in_progress",
+  "status": "one_day_early_review",
   "main": false,
-  "gh": false,
+  "gh": true,
   "source_count": 7,
   "numeric_cites": 0,
   "named_source_links": 4,
   "photographs": 2,
   "rights": "CCBY-SA4.0bothphotos;explicitfigurecredits/source/license/resize/samelicense",
-  "reviewed_at": "2026-11-18T20:05:30+08:00"
+  "reviewed_at": "2026-11-18T20:05:30+08:00",
+  "verified_at": "2026-11-19T06:05:22+08:00",
+  "live_text_files_exact": 99,
+  "live_layout_checks": 16,
+  "gh_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/033-turf-houses/",
+  "gh_commit": "78e818e4f5161431561d081b851d214be4386b05"
 }
