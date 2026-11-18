@@ -1,5 +1,5 @@
 {
-  "description": "Official001–031;032future review and fifteenunscheduledreviewdrafts excluded.",
+  "description": "Official001–032;033future review and fifteenunscheduledreviewdrafts excluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -31,6 +31,7 @@
     "boro": "028-boro",
     "concert-applause": "029-concert-applause",
     "chinampas": "030-chinampas",
-    "monobloc": "031-monobloc"
+    "monobloc": "031-monobloc",
+    "silbo": "032-silbo"
   }
 }
