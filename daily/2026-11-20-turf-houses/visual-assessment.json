@@ -1,0 +1,84 @@
+{
+  "issue": "033-turf-houses",
+  "status": "complete",
+  "assessed_at": "2026-11-18T20:05:30+08:00",
+  "visual_role": "兩張實照互補：一張辨認草皮牆/屋頂/木造山牆，一張進入木板與床位的室內住法；不只有風景、不需另造示意圖。",
+  "existing_nontext_support": [],
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Wikimedia Commons Glaumbaer turf houses interior badstofa",
+        "checked_at": "2026-11-18T20:05:30+08:00",
+        "result_summary": "實際搜尋分類與三檔案頁，選兩張CCBY-SA4.0，透過瀏覽器成功取得原檔並實看，不沿用032403/429當通則。CC4.0Deed核分享/改作與署名同授權條件。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Glaumbaer-pjt1.jpg",
+      "relevance": "第一節實際草皮厚牆、屋頂與木山牆的不同材料",
+      "decision": "selected",
+      "reason": "檔案頁與原圖已核；圖中層疊牆體清楚，遠處可見木造門窗與草皮屋頂。選此角度讓讀者不只看正面如童話小屋。原圖不裁切，不把背景教堂當農舍單元。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Glaumbaer-pjt1.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "credit": "Pjt56",
+        "conditions": "署名、原頁與授權連結、註縮圖未裁切，圖片沿同授權，無外部聯絡或背書暗示"
+      },
+      "caption": "Glaumbær農舍的草皮牆、屋頂與木造山牆。Pjt56/Commons/CCBY-SA4.0，縮小未裁切、圖沿同授權",
+      "alt": "Glaumbær屋群的草皮厚牆、草皮屋頂與露出門窗的木造山牆",
+      "layout": "1440x954,width100%,max720CSSpx,heightauto"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Ba%C3%B0stofa.jpg",
+      "relevance": "第三節木板內裝與床位，補足外觀照看不到的住法",
+      "decision": "selected",
+      "reason": "原圖已實看，木板、斜屋頂下沿牆床位清楚；原頁只說baðstofa，無農舍識別，不擅指Glaumbær或Þverá，圖說明示房間形式參照而非第四節研究現場。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Ba%C3%B0stofa.jpg",
+        "license": "CC BY-SA 4.0",
+        "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+        "credit": "Sigridurld",
+        "conditions": "署名、原頁／授權連結、縮小未裁切，圖片沿用同授權"
+      },
+      "caption": "baðstofa室內陳設、木板與床位，非本文Þverá研究現場。Sigridurld/Commons/CCBY-SA4.0",
+      "alt": "木板包覆的baðstofa室內，兩張床沿著斜屋頂下的牆面排列",
+      "layout": "1050x1400,portrait3:4,max420CSSpx,width100%,heightauto"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Icelandic_turf_houses.jpg",
+      "relevance": "同一農舍外景備選",
+      "decision": "not_selected",
+      "reason": "實讀檔案頁稱原作者tone-mapping重製；已有直接實看牆體候選，無需加入另一個近似外景。此候選原圖未實看、頁面抽取缺明確CC版本，不採用亦不推為所有照片不能用。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Icelandic_turf_houses.jpg",
+        "license": "抽取頁未明列版本",
+        "credit": "Chris from Chicago"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "兩張實際照片分別支撐材料與居住布局，尺寸依橫/直性質調整；不以其他農舍室內冒充研究現場。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Glaumbaer-pjt1.jpg",
+      "https://commons.wikimedia.org/wiki/File:Ba%C3%B0stofa.jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "originalexterior1100x729 andinterior675x900 actuallyinspected",
+      "033-turf-preview/photo-390.png actual exterior/caption readable",
+      "033-turf-preview/interior-390.png andinterior-1440.png actual portrait not cropped,420maxdoesnotfilldesktop",
+      "32039010241440nooverflow/sixsections/sevensources/allimagesloaded;finalwordingrerendercomplete",
+      "finalphoto1440/interior320/reflection390pixelsinspected20:05; no crop/overflow/overlap"
+    ]
+  },
+  "unresolved": []
+}

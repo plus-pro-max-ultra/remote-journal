@@ -1,0 +1,99 @@
+{
+  "reviewed_at": "2026-11-18T20:04:34+08:00",
+  "compared_gh_commit": "4c4c61e1afd57694421ac0ce660a279d2cee8e4e; latest owner0311303f226d5f8a810fde2020041f7b3c8443014e4",
+  "examples_version": "E01-E07,031-owner-1303f22.json actual sourcepairs",
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "第一、二、四、六節",
+      "decision": "already present",
+      "evidence": "以Glaumbær、Laufás、Þverá的房間和時間限定，地板研究主詞是Milek研究個案；不把十三／十四屋數衝突、維京生活、全國居住現況或舒適能耗概括帶入。 第四節將可以做改成研究記錄了做法，不把歷史個案當現代建議。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第一節材料機制／第二三節具體館藏／第四節研究",
+      "decision": "already present",
+      "evidence": "木構架、草皮和石材直接解釋，具名外鏈留在特定建築年代、富裕住宅與研究結果。全文七來源含支持範圍，非每段機構起句。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第二三六節",
+      "decision": "revised",
+      "evidence": "刪除一次畫圖永不改的自設反面，將窮人／田園二元否定改為看具體房間，將不減參觀價值改為說明新增觀看方向；灰不等於烹飪位置與照片非Þverá仍有實質辨別作用而保留。 末段刪掉自己的屋頂種草這個自設反面，直問住得好。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from MM029",
+      "location": "第一、四、五節",
+      "decision": "revised",
+      "evidence": "圍護層改為厚牆與屋頂。其餘保留柱梁、補灰、鋪草皮、清走、拆換等動作；不使用另一種可能取代解釋。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from MM030",
+      "location": "第四至六節",
+      "decision": "already present",
+      "evidence": "以誰做什麼支撐維護敘述，而非套入生產系統或可行道路。這篇指家務與建築保存，非重用030農業結尾。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present",
+      "evidence": "想住過或常去的地方誰維持舒適，以及想保留什麼、讓誰少做工作。可從生活回答，不需答對草皮工法或地層名詞。"
+    },
+    {
+      "example": "E07",
+      "classification": "inference from MM0311303f22",
+      "location": "標題／第四至六節",
+      "decision": "retained with scope",
+      "evidence": "讀九處真實前後段；標題以一家人生活為問題，家務和修繕作評價對象而非只屋頂外觀，不硬換成價值一詞。疑似原稿輸入問題不學、不修作者文。"
+    }
+  ],
+  "actual_wording_changes": [
+    {
+      "before": "厚實的圍護層有助保溫",
+      "after": "厚牆與屋頂有助保溫"
+    },
+    {
+      "before": "今天看見的屋群，收納著幾代人對空間的調整，並非一次畫好圖、此後完全不變的整體。",
+      "after": "今天看見的屋群，收納著幾代人對空間的調整。"
+    },
+    {
+      "before": "把它一概想成窮人的小屋，或反過來看成人人平等親密的田園生活，都會漏掉屋裡實際的分別。",
+      "after": "同樣的草皮技術，用在不同身分和用途的建築上。要問住得如何，還得走進具體的房間，看有哪些設備、由誰使用。"
+    },
+    {
+      "before": "這不減少參觀的價值，反而多給了一個觀看方向。",
+      "after": "這些說明讓參觀多了一個方向。"
+    },
+    {
+      "before": "泥土地板需要維護。變濕、磨損或凹凸不平的地方，可以補上灰料；有些地方重新鋪草皮，太厚的舊地層則清走。",
+      "after": "研究記錄了維護地板的做法：人們在變濕、磨損或凹凸不平的地方補上灰料，有些地方重新鋪草皮，太厚的舊地層則清走。"
+    },
+    {
+      "before": "草皮屋留給今天的問題，也許不在於要不要把自己的屋頂種滿草，而在於我們怎樣理解「住得好」。",
+      "after": "把這些房子帶回今天的生活，可以重新想想「住得好」是什麼意思。"
+    }
+  ],
+  "before_hashes": {
+    "draft.json": "c2b24d61f01df61acb0c0ce9cbde5640e081df42ebd2d00d0186aa41b6e569c5",
+    "reader-body.html": "23fa14382b75c85974719d8e92c778255e1f243d2a01e64fa58bf7906ca17764",
+    "article-preview.html": "fc17e334eec14317df324d06c140cf4acc948414bb4d0bb7482c512daa89f7c8",
+    "manuscript.md": "2da0d9d2780ef33cdc83e70e2ed90e103712755a36d5e9711383bfb3f2fc93f7"
+  },
+  "after_hashes": {
+    "draft.json": "2b8d5c4f1a5e723fa00762004ee7d9b6efb633316a105eac6392a2318965f739",
+    "reader-body.html": "3a4d7cfbb21f1a330044bc797892fa996ed0d13727bcd4b8ed3124471ab63b52",
+    "article-preview.html": "5bca1c357f5d907f11c2f38c4a1e5b0f8bac2c46ba2776a84910de3bfe5e905f",
+    "manuscript.md": "69da5a1b8ec588a9d27bef157f70354342247b796f003ceeab98657c3054474c"
+  },
+  "unresolved": [],
+  "limit": "Actual fulltext reread and source comparison, not an external independent Chinese review; checker validates record/hash only."
+}
