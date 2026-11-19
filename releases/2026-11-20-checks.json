@@ -1,0 +1,154 @@
+[
+  {
+    "width": 320,
+    "scroll": 305,
+    "selection": "033",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "033-turf-houses"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "selection": "033",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "033-turf-houses"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "selection": "033",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "033-turf-houses"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "selection": "033",
+    "board": 7,
+    "review": false,
+    "mode": "official",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sources": 7,
+    "images": true,
+    "badCites": false,
+    "mode": "official",
+    "page": "033-turf-houses"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "selection": "034",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "034-haenyeo"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "selection": "034",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "034-haenyeo"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "selection": "034",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "034-haenyeo"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "selection": "034",
+    "board": 7,
+    "review": true,
+    "mode": "preview",
+    "page": "home"
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "sections": 6,
+    "sources": 6,
+    "images": true,
+    "badCites": false,
+    "mode": "preview",
+    "page": "034-haenyeo"
+  }
+]

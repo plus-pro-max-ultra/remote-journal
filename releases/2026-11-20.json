@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-11-20T06:04:50+08:00",
+  "main": "8073b6f1695bdb2f45a5902ce8bce2b1f4b250af",
+  "gh": "d4f4244de40dc6bdec93faf216bfe7152bbc1937",
+  "official": "033-turf-houses",
+  "review": "034-haenyeo",
+  "exact_text_files": 101,
+  "responsive_checks": 16,
+  "main_layout": "unchanged except actual month options bugfix",
+  "gh_layout": "compactdropdownpreviewretained;notapprovedformain",
+  "owner033_finetuning": "nonefoundinhistoryormessagesthroughNov20 06:00;separatereminderreportedparent",
+  "images": "033twoCCBYSA4.0and034oneCCBY2.0author/license/captionpreserved",
+  "source": "latestgh033HTML;WIP034e53cfdf;olderarticlesCSSexact"
+}

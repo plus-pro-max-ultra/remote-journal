@@ -2,8 +2,16 @@
   "issue": "034-haenyeo",
   "nominal_date": "2026-11-21",
   "gh_review_date": "2026-11-20",
-  "status": "prepared_for_morning_review_release",
+  "status": "one_day_early_review_verified",
   "prepared_at": "2026-11-19T20:04:35+08:00",
-  "not_published_to_gh": true,
-  "not_published_to_main": true
+  "not_published_to_gh": false,
+  "not_published_to_main": true,
+  "gh_commit": "d4f4244de40dc6bdec93faf216bfe7152bbc1937",
+  "actual_gh_review_date": "2026-11-20",
+  "updated_at": "2026-11-20T06:03:31+08:00",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/034-haenyeo/",
+  "verified_at": "2026-11-20T06:04:50+08:00",
+  "live_exact_files": 101,
+  "responsive_checks": 16,
+  "layout_separation_verified": true
 }
