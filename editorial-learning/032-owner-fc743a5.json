@@ -72,5 +72,12 @@
       "after": "從拉戈梅拉島居民用口哨交流的方式，可以看見：訊息要傳得遠，除了找得到傳送的方法，也要讓另一端的人有機會學會聽。保留一種說話方式，同時是在保留一個可以向人開口、等待回答的位置。"
     }
   ],
-  "notes": "Preserve direct edit exactly; semantic environmental statement and possible missing understanding verb reported to main; no corrections applied."
+  "notes": "Preserve direct edit exactly; semantic environmental statement and possible missing understanding verb reported to main; no corrections applied.",
+  "owner_followup": {
+    "message": "phonemsg-01M7RZPY9C5R5TZKQX9QV15ZVJ",
+    "at": "2026-11-19T12:05:52+08:00",
+    "selection": "Do not change1,change2",
+    "environment_sentence": "owner declined proposed change; preserved, no repeated request",
+    "missing_verb": "approved adding聽懂only"
+  }
 }

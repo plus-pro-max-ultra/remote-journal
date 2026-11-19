@@ -5,9 +5,7 @@
   "full_text_reread": true,
   "facts_and_limits_preserved": true,
   "owner_text_untouched": true,
-  "unresolved": [
-    "Owner environmental-condition sentence and missing-understanding-verb issue reported to main; no silent corrections."
-  ],
+  "unresolved": [],
   "checks": [
     {
       "example": "E01",
@@ -74,6 +72,13 @@
       "location": "title,sections1/3/4/5/6",
       "decision": "preserve exact mainHTML and mirror togh; do not learn unresolved input/semantic issues",
       "evidence": "032-owner-fc743a5.json eleven actual pairs; avoid abstract catch-metaphor when understanding/inference is intended"
+    },
+    {
+      "example": "E09decision",
+      "classification": "explicit owner selection",
+      "location": "section1environment andsection4missing verb",
+      "decision": "preserve1unchanged,apply2only",
+      "evidence": "phonemsg-01M7RZPY9C5R5TZKQX9QV15ZVJ12:05:52; approval exchange at12:04included both exact proposals"
     }
   ],
   "before_hashes": {
@@ -84,10 +89,10 @@
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
   "after_hashes": {
-    "article-preview.html": "01e845954e7950697d6bcc352b2dd1a8775ad7476686ac3c7160034b0a8ce2fb",
-    "reader-body.html": "c3ffaa4bf40acaa856de57e7d6528fafff1cee91421c1263d3ff4b7f91b86cf0",
-    "draft.json": "ef53596fda790f34580f50d98773ba5be7d444f4aab1ef59aeb0ed8cbff06949",
-    "manuscript.md": "d6703cb29281f5d7c1d459fdc86aa4cfd61e670e4c9f71a91922b2c488aeea06",
+    "article-preview.html": "9b299f3f0108f211e20a10a8090e5fa0e3608ab2da8a0ecfd3e67e1ddf5d730e",
+    "reader-body.html": "0cc246fe2364f633448eac1b2d41900a58d7356e3deacb02f22572d7c6580b66",
+    "draft.json": "03b198060a36f188399f60d56af6cc3dd7b16177f4fff193fd9a7b74242744c5",
+    "manuscript.md": "20de65433b168ee69d26e634980ff90618fb16fb78548051e03b290d33f3ba11",
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
   "judgment_limit": "實際全文重讀與逐項判斷，非外部獨立中文評審；自動檢查只驗紀錄和雜湊。",
