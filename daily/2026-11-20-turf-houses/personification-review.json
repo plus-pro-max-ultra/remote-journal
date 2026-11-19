@@ -6,7 +6,7 @@
   "reviewed_gh_commit": "78e818e4f5161431561d081b851d214be4386b05",
   "scope": "Full body, subtitle, title and reflection; style only, no fact or meaning change authority created",
   "article_changed": true,
-  "status": "three_wording_only_fixes_applied_to_preview_pending_live_verification",
+  "status": "four_wording_only_fixes_applied_to_preview_pending_live_verification",
   "findings": [
     {
       "before": "木頭山牆露出門窗，像是從草坡裡探出來。",
@@ -22,6 +22,11 @@
       "before": "也看不見這些材料各自承擔的工作。",
       "after": "也看不見這些材料各自的用途。",
       "decision": "applied"
+    },
+    {
+      "before": "這樣的安排提醒我們：一個房間的用途，可以隨著一天裡正在做的事改變。",
+      "after": "在這樣的安排裡，一個房間的用途，可以隨著一天裡正在做的事改變。",
+      "decision": "applied after10:53clarification"
     }
   ],
   "not_automatically_flagged": [
@@ -31,8 +36,9 @@
   ],
   "next_draft": "034full reread will include this explicit preference; do not force changes unrelated to meaning.",
   "retained_after_context_review": [
-    "Arrangement reminding readers connects experience with variable room use, no object feelings or intentions; retained as ordinary explanatory wording.",
     "House group containing generations of spatial changes is a material record metaphor with explanatory value; retained.",
     "Structural skeleton, connecting corridor and house still standing describe physical functions; retained."
-  ]
+  ],
+  "clarification_message": "phonemsg-01M7RVJ4ENJXZHMGBHX10A8WJG",
+  "clarification": "Human actor versus medium distinction, not only feelings or intentions"
 }

@@ -58,6 +58,13 @@
       "location": "延伸思考",
       "decision": "already present",
       "evidence": "回到讀者家人／朋友／同事的省略表達與新來者如何加入，開放價值判斷，無須答對母音、學制日期或語言術語。"
+    },
+    {
+      "example": "E08clarification",
+      "classification": "explicit preference",
+      "location": "title,section1paragraphs1/3,conclusion",
+      "decision": "wording-only actor/medium correction",
+      "evidence": "source original10:53whistle example; human users restored as actors; evidence and sources unchanged"
     }
   ],
   "before_hashes": {
@@ -68,11 +75,29 @@
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
   "after_hashes": {
-    "article-preview.html": "5b9b885df11187543f1da4ffc9ff73a97288293a52f18a1c464e304e9162b3f8",
-    "reader-body.html": "2e32ea26ced4b51f76bb4475a6b1f17b9c91fd7fc42a1c17abb8a35f52dbce5f",
-    "draft.json": "9708f74d6eebfe57b16fef37686d562303ae7cd8344d6e51c894b76ae1c96a34",
-    "manuscript.md": "ff55b871013a4e0f9f7ce8b58693fc9f263324fd55b6840143ab16686e574a24",
+    "article-preview.html": "3730cea176208b9800458ad4dbd1f34deb73e251781aefa7488d84c31175854f",
+    "reader-body.html": "7f4d2c23b2c4b51c1914a22573246c65187202d6d4a1d8f8a0a5842a7f4cb462",
+    "draft.json": "bfb608ae8c653fa32aefeca36c711f29096df0f5756e8dccd252ed3feb609711",
+    "manuscript.md": "09220e20e7fa110d24e8ec86b436b06afe1d94246ec9288a4d0187e10360520a",
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
-  "judgment_limit": "實際全文重讀與逐項判斷，非外部獨立中文評審；自動檢查只驗紀錄和雜湊。"
+  "judgment_limit": "實際全文重讀與逐項判斷，非外部獨立中文評審；自動檢查只驗紀錄和雜湊。",
+  "actual_wording_changes": [
+    {
+      "before": "隔著山谷，口哨怎麼說出一句話？",
+      "after": "隔著山谷，人怎麼用口哨傳話？"
+    },
+    {
+      "before": "口哨承接的是語音裡可辨認的特徵，再把它們串成有意思的話。",
+      "after": "使用者把語音裡可辨認的特徵轉成口哨聲，再把這些聲音串成有意思的話。"
+    },
+    {
+      "before": "在這裡，口哨有了比引起注意更進一步的工作：把話送給對方。",
+      "after": "在這裡，人們不只用口哨引起注意，也用它把話傳給對方。"
+    },
+    {
+      "before": "拉戈梅拉島的哨聲提醒我們：",
+      "after": "從拉戈梅拉島居民用口哨交流的方式，可以看見："
+    }
+  ]
 }

@@ -61,6 +61,13 @@
       "location": "opening and section1 paragraph2",
       "decision": "three wording-only revisions; ordinary explanatory metaphors retained",
       "evidence": "phonemsg-01M7RV4N7RTHKH0CFG3395GYNW; personification-review.json; latestgh78e818ehas no owner033edits"
+    },
+    {
+      "example": "E08clarification",
+      "classification": "explicit preference",
+      "decision": "revised one further phrase after10:53human-actor/medium clarification",
+      "evidence": "phonemsg-01M7RVJ4ENJXZHMGBHX10A8WJG; ordinary physical functions retained",
+      "location": "section3paragraph1"
     }
   ],
   "actual_wording_changes": [
@@ -99,6 +106,10 @@
     {
       "before": "也看不見這些材料各自承擔的工作。",
       "after": "也看不見這些材料各自的用途。"
+    },
+    {
+      "before": "這樣的安排提醒我們：一個房間的用途，可以隨著一天裡正在做的事改變。",
+      "after": "在這樣的安排裡，一個房間的用途，可以隨著一天裡正在做的事改變。"
     }
   ],
   "before_hashes": {
@@ -108,10 +119,10 @@
     "manuscript.md": "2da0d9d2780ef33cdc83e70e2ed90e103712755a36d5e9711383bfb3f2fc93f7"
   },
   "after_hashes": {
-    "draft.json": "714e5baaaacf0dcc86cc4a57e2364f875f597b3968992f17297e7e9ff6758a19",
-    "reader-body.html": "50c0b3ec612094107591676d6487410ae23985fe7a90dcb89e2f1ea953f01d65",
-    "article-preview.html": "cd989a7216d9e0f3a68a2c40503673f0ad22f17480c5f5ff5f46ba587dbcf1dc",
-    "manuscript.md": "e0c7cdddd0d9dc58b428f85b6403a7addc29ca78789f74e44980e3f6410f1987"
+    "draft.json": "56193f1b1fa9ac08fe41dc720424bd5471cf6b9c539a28fc46aa7837b7e09ae7",
+    "reader-body.html": "b33f919255f5da35272f8a73eee089d81df88e25a7253d3ddb88659dfdae0dc7",
+    "article-preview.html": "1ee7ed0c75f77b13318e2d4b239cc382c065c7f59046f487c901337549b8197f",
+    "manuscript.md": "8f04a5f16704e0e5d434b24aa5a72a571770aa42c5264a2950c46a9d30e9cc45"
   },
   "unresolved": [],
   "limit": "Actual fulltext reread and source comparison, not an external independent Chinese review; checker validates record/hash only."
