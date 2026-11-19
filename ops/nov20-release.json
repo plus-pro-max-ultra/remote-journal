@@ -1,0 +1,15 @@
+{
+  "issue": "033-turf-houses",
+  "scheduled_date": "2026-11-20",
+  "status": "official_release",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latest033HTML,allolderarticles,independentmainandgharchiveUI",
+  "layout_separation": "mainCSSexact03c4589;mainJSonlyaliasaddition;mainoriginalarchivecontrols;ghcompactdropdownspreserved",
+  "month_bug_fix": "onlyactualdata-monthvaluesviaexplicitarchiveMonthSelect;nounrelatedcategoryoptions",
+  "executed_at": "2026-11-20T06:02:45+08:00",
+  "zero_finetuning_reminder_for033": true,
+  "edit_evidence": "gh033history only publication and agent wording edits, no authenticated033fine-tuningmessage throughNov20 06:00; reminder separately,notreleaseblocker"
+}
