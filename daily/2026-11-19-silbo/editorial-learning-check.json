@@ -1,11 +1,13 @@
 {
   "reviewed_at": "2026-11-17T20:05:32+08:00",
-  "compared_gh_commit": "8a89ca744030c469798cc0b8175b70212645ec74",
-  "examples_version": "editorial-learning/examples.md at WIPa1ac70a",
+  "compared_gh_commit": "mainfc743a531a81b1460662677c652004cda10e4da6directowneredit;gh6b3dda2pre-sync",
+  "examples_version": "E01-E09",
   "full_text_reread": true,
   "facts_and_limits_preserved": true,
   "owner_text_untouched": true,
-  "unresolved": [],
+  "unresolved": [
+    "Owner environmental-condition sentence and missing-understanding-verb issue reported to main; no silent corrections."
+  ],
   "checks": [
     {
       "example": "E01",
@@ -65,6 +67,13 @@
       "location": "title,section1paragraphs1/3,conclusion",
       "decision": "wording-only actor/medium correction",
       "evidence": "source original10:53whistle example; human users restored as actors; evidence and sources unchanged"
+    },
+    {
+      "example": "E09",
+      "classification": "direct owner edits; inferred wording lessons separated from unresolved fact/input issues",
+      "location": "title,sections1/3/4/5/6",
+      "decision": "preserve exact mainHTML and mirror togh; do not learn unresolved input/semantic issues",
+      "evidence": "032-owner-fc743a5.json eleven actual pairs; avoid abstract catch-metaphor when understanding/inference is intended"
     }
   ],
   "before_hashes": {
@@ -75,10 +84,10 @@
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
   "after_hashes": {
-    "article-preview.html": "3730cea176208b9800458ad4dbd1f34deb73e251781aefa7488d84c31175854f",
-    "reader-body.html": "7f4d2c23b2c4b51c1914a22573246c65187202d6d4a1d8f8a0a5842a7f4cb462",
-    "draft.json": "bfb608ae8c653fa32aefeca36c711f29096df0f5756e8dccd252ed3feb609711",
-    "manuscript.md": "09220e20e7fa110d24e8ec86b436b06afe1d94246ec9288a4d0187e10360520a",
+    "article-preview.html": "01e845954e7950697d6bcc352b2dd1a8775ad7476686ac3c7160034b0a8ce2fb",
+    "reader-body.html": "c3ffaa4bf40acaa856de57e7d6528fafff1cee91421c1263d3ff4b7f91b86cf0",
+    "draft.json": "ef53596fda790f34580f50d98773ba5be7d444f4aab1ef59aeb0ed8cbff06949",
+    "manuscript.md": "d6703cb29281f5d7c1d459fdc86aa4cfd61e670e4c9f71a91922b2c488aeea06",
     "../../assets/img/032-silbo-message.svg": "7ee9183e949d094bbcea5481d24de06163223a9b0573b4dae195e59d4937eadf"
   },
   "judgment_limit": "實際全文重讀與逐項判斷，非外部獨立中文評審；自動檢查只驗紀錄和雜湊。",
