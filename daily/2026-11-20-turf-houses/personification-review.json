@@ -6,7 +6,7 @@
   "reviewed_gh_commit": "78e818e4f5161431561d081b851d214be4386b05",
   "scope": "Full body, subtitle, title and reflection; style only, no fact or meaning change authority created",
   "article_changed": true,
-  "status": "four_wording_only_fixes_applied_to_preview_pending_live_verification",
+  "status": "live_verified",
   "findings": [
     {
       "before": "木頭山牆露出門窗，像是從草坡裡探出來。",
@@ -40,5 +40,9 @@
     "Structural skeleton, connecting corridor and house still standing describe physical functions; retained."
   ],
   "clarification_message": "phonemsg-01M7RVJ4ENJXZHMGBHX10A8WJG",
-  "clarification": "Human actor versus medium distinction, not only feelings or intentions"
+  "clarification": "Human actor versus medium distinction, not only feelings or intentions",
+  "verified_at": "2026-11-19T10:57:00+08:00",
+  "gh_commit": "6b3dda237ef22f014e4ccc6f8a8f0e226caea09b",
+  "live_text_files_exact": 99,
+  "live_layout_checks": 16
 }

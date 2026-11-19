@@ -26,5 +26,10 @@
   "facts_sources_dates_url_release_unchanged": true,
   "title_is_editor_wording_within_scope_not_user_exact_approved_text": true,
   "owner_edit_check": "main7b71af7 gh85e5a90;032contains no later owner edit; sources verified live before change",
-  "status": "prepared_pending_live_verification"
+  "status": "live_verified",
+  "verified_at": "2026-11-19T10:57:00+08:00",
+  "gh_commit": "6b3dda237ef22f014e4ccc6f8a8f0e226caea09b",
+  "live_text_files_exact": 99,
+  "live_layout_checks": 16,
+  "main_commit": "ee7b82d215dc3b274f477100727f7b15f1b76a56"
 }
