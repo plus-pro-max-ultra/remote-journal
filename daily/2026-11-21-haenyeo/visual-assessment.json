@@ -1,0 +1,77 @@
+{
+  "issue": "034-haenyeo",
+  "status": "complete",
+  "assessed_at": "2026-11-19T20:04:35+08:00",
+  "visual_role": "辨認海女岸邊使用的潛水衣、浮具與網袋，讓抽象職業敘述有真實物件參照；不以照片證明人物身分或合作規則。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "WikimediaCommonsHaenyeocategory andKoreaJeju02/04 files;Haenyo8101 candidate;CCBY2.0deed",
+        "checked_at": "2026-11-19T20:04:35+08:00",
+        "result_summary": "候選頁與原圖兩張實查，02岸邊裝備可用；04原圖其實是博物館模型展示不作實際潛採照片。8101授權版本未由抽取確認，未採。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Jeju-Haenyeo-02.jpg",
+      "relevance": "第一節tewak浮具／網袋與岸上整理",
+      "decision": "selected",
+      "reason": "實看原圖是海女岸邊與網袋浮具，非模型。原頁2007年照片，不稱現在、特定村落或報導人物。作者和CCBY2.0及Flickr授權複核記錄可見。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Jeju-Haenyeo-02.jpg",
+        "license": "CC BY 2.0",
+        "license_url": "https://creativecommons.org/licenses/by/2.0/",
+        "credit": "karendotcom127",
+        "conditions": "署名／來源／授權鏈接，註明縮小與JPEG壓縮未裁切；CCBY可商用改作，無背書暗示"
+      },
+      "caption": "岸邊的海女、浮具與網袋，可對照採集工作所用的裝備。此為裝備的實景參照，非文中受訪者的現場照片。攝影：karendotcom127／Wikimedia Commons，CC BY 2.0；僅縮小尺寸與JPEG壓縮，未裁切。",
+      "alt": "穿黑色潛水衣的海女在岸邊整理浮具旁的網袋，身旁可見另一人",
+      "layout": "1440x956 JPEG from2048x1360, width100% max680CSSpx, heightauto, uncropped"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Korea-Jeju-Haenyeo-04.jpg",
+      "relevance": "傳統裝備展示候選",
+      "decision": "not_selected",
+      "reason": "原圖實看為博物館服裝與人物模型展示，與02實際岸邊裝備用途重複，不能冒充潛水現場。本文不另講服裝史，無需第二張。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Korea-Jeju-Haenyeo-04.jpg",
+        "license": "CC BY 2.0",
+        "credit": "karendotcom127"
+      }
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Haenyo_8101.jpg",
+      "relevance": "海女情景候選",
+      "decision": "not_selected",
+      "reason": "初讀頁抽取CC版本不完整且未實看原圖；已有具體裝備候選，不繼續用這張；不推論公開圖庫都不能用。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Haenyo_8101.jpg",
+        "license": "version unconfirmed",
+        "credit": "uploaderIdobi; author not resolved"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "一張真實岸邊照片足以辨認裝備；不靠裝飾性海景或模型冒充工作現場。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Korea-Jeju-Haenyeo-02.jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "original02and04pixelsinspected20:01;02actualshoreworkinggear,04museumdisplaynotselected",
+      "/downloads/034-haenyeo-preview/top-390.png inspected: title/dek/tags8minutescorrect",
+      "/downloads/034-haenyeo-preview/photo-390.png andphoto-1440.png inspected:uncropped,caption/licenselegible,max680notfullwidth",
+      "/downloads/034-haenyeo-preview/reflection-320.png inspected:openquestion,textarea/footerfitted",
+      "32039010241440sixsections6sources,nohorizontaloverflow"
+    ]
+  },
+  "unresolved": []
+}

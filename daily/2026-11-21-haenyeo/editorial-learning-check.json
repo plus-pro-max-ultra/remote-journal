@@ -1,0 +1,109 @@
+{
+  "reviewed_at": "2026-11-19T20:04:35+08:00",
+  "compared_gh_commit": "96ddb58aa7d724f19fb50727d8f82c209c777a28; main03c4589 preserves fc743a5 with user-selected verb;0311303f22 and032fc743a5 actual block pairs read",
+  "examples_version": "E01-E09",
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "第三五六節",
+      "decision": "revised",
+      "evidence": "2015牛島田野／2024兩校研究／2025Ko個案各有主詞日期；把採集量改成報導的一次採集，避免擴為初學者普遍平均。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第一二節與研究段",
+      "decision": "already present",
+      "evidence": "裝備用途與漁場規則直接解釋，博物館工作區分、研究方法與個案保留歸屬；六尾註非逐段機構起句。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第二、三節及圖說",
+      "decision": "revised",
+      "evidence": "保留個別潛採與部分海藻集體作業的實質區分，不創平均分配通則；圖說以裝備參照交代照片用途。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from029",
+      "location": "第三節",
+      "decision": "revised",
+      "evidence": "把隨時問隨時示範換成穿裝備、辨認危險生物，動作具體且有田野支持；無教授閉氣操作。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from030",
+      "location": "第四至六節",
+      "decision": "already present",
+      "evidence": "逐項說搬運乾燥販售、訓練實習加入團體，未機械套入系統／可行道路措辭。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present",
+      "evidence": "從讀者自己的團體新人經驗問保留與調整，無需答出海女分級或制度知識，容許不同取捨。"
+    },
+    {
+      "example": "E07",
+      "classification": "inference from031",
+      "location": "標題",
+      "decision": "already present",
+      "evidence": "標題直接問人如何共同工作和加入；不是器物評價，未套價值一詞。已讀031九區塊對照，疑似輸入問題不學。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "標題及全文",
+      "decision": "already present",
+      "evidence": "人下潛、採集、討論、傳授與決定，浮具只供扶靠、網袋存漁獲；未讓海、石圍、工具代替人說話，仍保留一般比喻。"
+    },
+    {
+      "example": "E09",
+      "classification": "inference from032",
+      "location": "第一節及第五節",
+      "decision": "revised",
+      "evidence": "重讀032十一處對照，理解／操作的主體與動作清楚。經驗影響發言權的推論改為協會明示上軍帶領角色。032環境句與缺字不學，MM選擇已執行不重開。"
+    }
+  ],
+  "actual_wording_changes": [
+    {
+      "before": "這種差別既影響採集，也影響討論時誰的意見較有分量。",
+      "after": "協會的介紹裡，上軍海女也擔任帶領社群的角色。經驗上的差別，因而同時關係到技術傳授與團體分工。"
+    },
+    {
+      "before": "所謂傳授，因而也包括一起做事時能隨時問、隨時示範的機會。",
+      "after": "所謂傳授，也包括一起做事時，請資深者示範怎麼穿裝備、辨認危險生物的機會。"
+    },
+    {
+      "before": "她剛入行時的採集量仍比資深者少。",
+      "after": "報導記下的一次採集裡，她的收穫比資深者少，卻已為親手採到海產感到高興。"
+    },
+    {
+      "before": "照片不指認文中受訪者，也不作為特定訓練或合作情節的現場。",
+      "after": "此為裝備的實景參照，非文中受訪者的現場照片。"
+    },
+    {
+      "before": "全文核讀，研究2014牛島田野",
+      "after": "核讀方法、結果與結論，研究2014牛島田野"
+    }
+  ],
+  "before_hashes": {
+    "draft.json": "ca2305022f56c3f74ed1362e2ee4ba04cb12ddfdbb78d5a2eb56c475c2bb6f54",
+    "reader-body.html": "559caebede221af1174368de67e63d2b16d900f74af196ddc068997cd1a6dc0d",
+    "article-preview.html": "60a72fc488fc7c5d909c3394f035dd3c9422f14ac550f339aa588ee982cd2bcc",
+    "manuscript.md": "39f11c11185d4f75dad369b265456b798f6dd8fb1bbba64aa44dc20b942f6a55"
+  },
+  "after_hashes": {
+    "draft.json": "7d5bd2c51a35aff03ada95ff7a6cba90d69e43d2ae22b49e42862dffa3f2ff24",
+    "reader-body.html": "9e0e8f5331e543733ae054726267c2d043225be171efea1ff79c470976c1b659",
+    "article-preview.html": "722c8a2ebdc16d89dfbe3a6a8113b1b30af108b4003c9c5432eae2c477e33632",
+    "manuscript.md": "6f5e878155ac03ee9e23fad8bdcf0c872510ae14a8461edae88f871b9be53218"
+  },
+  "unresolved": [],
+  "limit": "Human-language full reread and source-scope check, not independent external review. Record checker validates completeness only."
+}
