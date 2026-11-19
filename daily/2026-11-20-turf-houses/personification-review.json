@@ -1,0 +1,38 @@
+{
+  "issue": "033-turf-houses",
+  "reviewed_at": "2026-11-19T10:46:00+08:00",
+  "source_message": "phonemsg-01M7RV4N7RTHKH0CFG3395GYNW",
+  "source_time": "2026-11-19T10:45:58+08:00",
+  "reviewed_gh_commit": "78e818e4f5161431561d081b851d214be4386b05",
+  "scope": "Full body, subtitle, title and reflection; style only, no fact or meaning change authority created",
+  "article_changed": true,
+  "status": "three_wording_only_fixes_applied_to_preview_pending_live_verification",
+  "findings": [
+    {
+      "before": "木頭山牆露出門窗，像是從草坡裡探出來。",
+      "after": "草皮屋頂下的木頭山牆上，露出門窗。",
+      "decision": "applied"
+    },
+    {
+      "before": "木頭則負責屋內的重要結構與裝修。",
+      "after": "木頭則用於屋內的重要結構與裝修。",
+      "decision": "applied"
+    },
+    {
+      "before": "也看不見這些材料各自承擔的工作。",
+      "after": "也看不見這些材料各自的用途。",
+      "decision": "applied"
+    }
+  ],
+  "not_automatically_flagged": [
+    "木柱與橫梁構成骨架 describes structure; analogy is not automatically emotional or intentional.",
+    "走廊串起 and 通道接起工作 describe spatial relations; check precision, not a blanket ban on inanimate subjects.",
+    "Reflection asks about human maintenance and shared work, with no object feelings or intentions."
+  ],
+  "next_draft": "034full reread will include this explicit preference; do not force changes unrelated to meaning.",
+  "retained_after_context_review": [
+    "Arrangement reminding readers connects experience with variable room use, no object feelings or intentions; retained as ordinary explanatory wording.",
+    "House group containing generations of spatial changes is a material record metaphor with explanatory value; retained.",
+    "Structural skeleton, connecting corridor and house still standing describe physical functions; retained."
+  ]
+}
