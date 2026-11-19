@@ -200,28 +200,16 @@
     var acats = [];
     rows.forEach(function (r) { var k = r.getAttribute("data-cat"); if (acats.indexOf(k) === -1) acats.push(k); });
     acats.sort(function (a, b) { return a.localeCompare(b, "zh-Hant"); });
-    var af = $("#archiveFilters");
+    var af = $("#archiveCategorySelect");
     if (af) {
-      af.innerHTML = "";
-      var aall = document.createElement("button");
-      aall.className = "chip active"; aall.setAttribute("data-afilter", "all"); aall.textContent = "全部探索";
-      af.appendChild(aall);
-      acats.forEach(function (c) {
-        var b = document.createElement("button");
-        b.className = "chip"; b.setAttribute("data-afilter", c); b.textContent = c;
-        af.appendChild(b);
-      });
-      af.addEventListener("click", function (e) {
-        var b = e.target.closest("[data-afilter]"); if (!b) return;
-        astate.filter = b.getAttribute("data-afilter");
-        $$(".chip", af).forEach(function (x) { x.classList.toggle("active", x === b); });
-        arender();
-      });
+      var all = document.createElement("option"); all.value = "all"; all.textContent = "全部領域"; af.appendChild(all);
+      acats.forEach(function(c){var o=document.createElement("option");o.value=c;o.textContent=c;af.appendChild(o);});
+      af.addEventListener("change",function(){astate.filter=af.value;arender();});
     }
     var asi = $("#archiveSearchInput");
     if (asi) asi.addEventListener("input", function () { astate.q = asi.value.trim().toLowerCase(); arender(); });
     var ac = $("#archiveClear");
-    if (ac) ac.addEventListener("click", function () { asi.value = ""; astate.q = ""; astate.filter = "all"; astate.month = "all"; var ms = $("#archiveMonthSelect"); if (ms) ms.value = "all"; arender(); });
+    if (ac) ac.addEventListener("click", function () { asi.value = ""; astate.q = ""; astate.filter = "all"; astate.month = "all"; var ms = $("#archiveMonthSelect"); if (ms) ms.value = "all"; if (af) af.value = "all"; arender(); });
     var ams = $("#archiveMonthSelect");
     if (ams) ams.addEventListener("change", function () { astate.month = ams.value; arender(); });
   }

@@ -77,3 +77,8 @@ html.js #articleGrid.filtering .article-card.filter-show{display:flex}
 
 /* Desktop brand and navigation share the home content column. */
 @media(min-width:761px){.topbar{padding-left:max(26px,calc((100% - 1180px)/2 + 26px));padding-right:max(26px,calc((100% - 1180px)/2 + 26px))}}
+
+/* Archive-only compact filter prototype. Original categories unchanged. */
+.archive-page .archive-selects{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin-bottom:8px}
+.archive-page .archive-selects select{width:100%;min-width:0;min-height:44px}
+@media(max-width:760px){.archive-page .topic-meta-line{gap:10px}.archive-page .topic-date{min-width:0}.archive-page .topic-cat{margin-left:auto}}

@@ -1,0 +1,15 @@
+{
+  "applied_at": "2026-11-20T01:14:21.256758+08:00",
+  "source_request": "phonemsg-01M7TCN29132D91DQP6VQC4581",
+  "preview_grant": "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
+  "scope": "gh archive-only compact filter UI; original category names and article data preserved; month dropdown pollution fixed; official layout NOT approved",
+  "changed": [
+    "archive/index.html",
+    "assets/site.css",
+    "assets/site.js",
+    "sw.js",
+    "scripts/rebuild_archive_months.py"
+  ],
+  "publication_separation": "Next033main may copy latestgh033article HTML and required033images/mirrors only. Do not copy preview assets/site.css or archive control markup/behavior into main. Keep main shared assets base; only current article alias registry expansion there. On either branch rebuild month options by explicit#archiveMonthSelect from row data, never first-select fallback. Preview control count is now2selects, not22chips; keep when adding034.",
+  "tests": "32039043076010241440 no overflow; all21categories+all,33rows; month/categoryintersection,search0,clearreset; localpixels3203901440inspected"
+}
