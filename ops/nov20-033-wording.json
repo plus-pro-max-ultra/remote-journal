@@ -1,0 +1,13 @@
+{
+  "observed_commit": "a20094b50bdc91145d2ee2e494fe6533268301ea",
+  "observed_account": "plus-pro-max-ultra",
+  "identity_caveat": "Repository authorship not authenticated owner approval",
+  "scope": "two unambiguous input corrections on gh only; current directHTML mirrored to stories; no main synchronization grant found",
+  "authority_messages": [
+    "phonemsg-01M6RGQZ5FX4M6MTYVJNPFTPQY",
+    "phonemsg-01M6KNKTK75DK0737MWVHQKJ83"
+  ],
+  "main_pending_approval": true,
+  "preserved": "all other current articleHTML, sources, images, title, reflection; observed initial commit remains in history",
+  "checked_at": "2026-11-20T23:23:00+08:00"
+}
