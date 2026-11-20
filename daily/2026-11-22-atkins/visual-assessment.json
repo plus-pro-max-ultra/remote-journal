@@ -1,0 +1,105 @@
+{
+  "issue": "035-atkins",
+  "status": "complete",
+  "assessed_at": "2026-11-20T20:05:14+08:00",
+  "visual_role": "看清藍曬海藻的淡白輪廓、細節與名稱，再看扉頁的書名與紙張，從單張植物圖轉入成書工作。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Anna Atkins Met cyanotype photographs search, selected museum pages 291504/291531/286656 plus collection API and rights policy",
+        "checked_at": "2026-11-20T20:05:14+08:00",
+        "result_summary": "三張原圖下載並實看；兩張物種葉片加扉頁比較。三件API均明確public domain，Met政策CC0。NYPL數位舊連結讀取失敗，不採其中序文為已讀證據。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/291504",
+      "relevance": "原書葉片接觸成像、命名與書籍編排",
+      "decision": "selected",
+      "reason": "淡白輪廓、半透明差異、分枝與標籤均明確，支撐第二三節，不替拉丁舊題名作現代鑑種。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://www.metmuseum.org/art/collection/search/291504",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/291504",
+        "license": "Public Domain; The Met Open Access CC0",
+        "license_url": "https://www.metmuseum.org/policies/image-resources",
+        "credit": "Anna Atkins / The Metropolitan Museum of Art",
+        "conditions": "API isPublicDomain=true, museum policy unrestricted use under CC0; caption retains attribution and source though CC0 does not require it"
+      },
+      "original_image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-010.jpg",
+      "original_dimensions": [
+        3266,
+        4000
+      ],
+      "caption": "Anna Atkins，《Sargassum bacciferum》，約1853年，藍曬。可見標本形態、明暗差異與名稱標籤；此處沿用原件題名，不代替今日物種鑑定。The Metropolitan Museum of Art，2005.100.557 (7)，Open Access／CC0；僅縮小尺寸與JPEG壓縮，未裁切。",
+      "alt": "藍色書頁上淡白色海藻斜向展開，下方有Sargassum bacciferum手寫名稱",
+      "layout": "1143x1400 JPEG, max460CSSpx specimen / max420CSSpx title, width100%, heightauto, no cropping"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/286656",
+      "relevance": "原書葉片接觸成像、命名與書籍編排",
+      "decision": "selected",
+      "reason": "原書扉頁顯示命名、排版與書頁形式，支撐第四節成書，不將Met存本混同NYPL未合訂存本。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://www.metmuseum.org/art/collection/search/286656",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/286656",
+        "license": "Public Domain; The Met Open Access CC0",
+        "license_url": "https://www.metmuseum.org/policies/image-resources",
+        "credit": "Anna Atkins / The Metropolitan Museum of Art",
+        "conditions": "API isPublicDomain=true, museum policy unrestricted use under CC0; caption retains attribution and source though CC0 does not require it"
+      },
+      "original_image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-004.jpg",
+      "original_dimensions": [
+        3266,
+        4000
+      ],
+      "caption": "《Photographs of British Algae: Cyanotype Impressions》的扉頁，書冊製作於1843–53年。書名、邊框與紙張一同保存在圖像中，和單獨觀看一片海藻有所不同。Anna Atkins／The Metropolitan Museum of Art，2005.100.557 (1–154)，Open Access／CC0；僅縮小尺寸與JPEG壓縮，未裁切。此為大都會博物館存本，非前段所述紐約公共圖書館的未合訂存本。",
+      "alt": "英國海藻藍曬書的藍色扉頁，白色花體字寫著書名Photographs of British Algae與Cyanotype Impressions",
+      "layout": "1143x1400 JPEG, max460CSSpx specimen / max420CSSpx title, width100%, heightauto, no cropping"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/291531",
+      "relevance": "原書葉片接觸成像、命名與書籍編排",
+      "decision": "not_selected",
+      "reason": "已實看原圖，細密分枝漂亮但同為植物葉片，與第一圖功能較重複；第二圖改採扉頁更切合成書主題。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://www.metmuseum.org/art/collection/search/291531",
+        "api_url": "https://collectionapi.metmuseum.org/public/collection/v1/objects/291531",
+        "license": "Public Domain; The Met Open Access CC0",
+        "license_url": "https://www.metmuseum.org/policies/image-resources",
+        "credit": "Anna Atkins / The Metropolitan Museum of Art",
+        "conditions": "API isPublicDomain=true, museum policy unrestricted use under CC0; caption retains attribution and source though CC0 does not require it"
+      },
+      "original_image_url": "https://images.metmuseum.org/CRDImages/ph/original/DP-17302-037.jpg",
+      "original_dimensions": [
+        3266,
+        4000
+      ],
+      "caption": "",
+      "alt": "",
+      "layout": "not used"
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "選一張標本圖版與一張原書扉頁，兩圖功能不同；無另添氣氛海景或虛構現場。",
+    "selected_candidate_urls": [
+      "https://www.metmuseum.org/art/collection/search/291504",
+      "https://www.metmuseum.org/art/collection/search/286656"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "all3museumoriginals inspected at20:01, bookpageedgesandlabelsvisible",
+      "second render uses actual currentgh CSS/JS and local035assets; first assetless render discarded",
+      "top390/photo390/titlepage1440/reflection320 actualpixelsinspected20:04,legible,fitted,uncropped",
+      "32039010241440 checks:6sections6sources2figures,allimagesloaded,nohorizontaloverflow"
+    ]
+  },
+  "unresolved": []
+}

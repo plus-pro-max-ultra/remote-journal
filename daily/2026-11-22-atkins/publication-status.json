@@ -1,0 +1,14 @@
+{
+  "issue": "035-atkins",
+  "nominal_date": "2026-11-22",
+  "gh_review_date": "2026-11-21",
+  "prepared_at": "2026-11-20T20:05:14+08:00",
+  "status": "ready_for_one_day_early_review",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "authority_messages": [
+    "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ]
+}

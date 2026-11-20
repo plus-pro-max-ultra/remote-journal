@@ -1,0 +1,99 @@
+{
+  "reviewed_at": "2026-11-20T20:05:14+08:00",
+  "compared_gh_commit": "d4f4244de40dc6bdec93faf216bfe7152bbc1937; 0311303f22 and032fc743a5 original block pairs reread, owner-selected032聽懂followup remains closed",
+  "examples_version": "E01-E09",
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "第三、四節及扉頁圖說",
+      "decision": "revised",
+      "evidence": "Herschel未合訂形態限NYPL特定存本；扉頁年代改以書冊1843–53製作交代，不把某張紙精確定年。未採存世份數或每冊固定頁數。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第二節、第四節",
+      "decision": "already present",
+      "evidence": "感光與分冊手工直述；Schaaf對個體代表性的判斷、Pollack展評存本描述保留歸屬與日期。6尾註保留。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第三節、第五節",
+      "decision": "revised",
+      "evidence": "資訊限制以顏色、表面、角度、個體差異說明；刪去正文對無證據職涯願望的自設警語，換實際1853/1854合作書冊及編排。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from029",
+      "location": "第二節",
+      "decision": "revised",
+      "evidence": "原來讓紙張接近日光下的標本語意不順，改再用玻璃壓住，放到日光下曝光，交代人操作與步驟。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from030",
+      "location": "第四節",
+      "decision": "already present",
+      "evidence": "製作工作明列準備感光紙、重放標本、曝光清洗、配名稱與整理批次，不空稱漫長過程或系統。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present",
+      "evidence": "以讀者自己送人小冊子的選擇與解釋空間為題，不要求答攝影機制或判斷史料。"
+    },
+    {
+      "example": "E07",
+      "classification": "inference from031",
+      "location": "標題及第三節",
+      "decision": "already present",
+      "evidence": "標題對準不用相機怎麼成書，第三節評價的是可見形態而非所有植物特徵。不是物件價值題，不機械套價值或未使用時間。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "標題、全文",
+      "decision": "already present",
+      "evidence": "人取得、製作、排版、命名、分享；紙和鐵鹽為物理成像，未讓書或海藻自己說話、記憶、提醒。普通線條描述保留。"
+    },
+    {
+      "example": "E09",
+      "classification": "inference from032",
+      "location": "全文、第二節",
+      "decision": "already present",
+      "evidence": "操作／觀看／選擇主體清楚。未照學032原環境句或輸入缺字，既有MM決定不重開；不把所有比喻都禁用。"
+    }
+  ],
+  "before_hashes": {
+    "draft.json": "5b44568c1186f23ff9cc61a83115ce37f7820d1776a7c63cf0f686e38d49f63c",
+    "article-preview.html": "d9489ec8bf9f7fd662bff8af472c8aa9815c13eb86fe3c2053dfa5733d64d594"
+  },
+  "after_hashes": {
+    "draft.json": "c41a7b9bfafb1c4968f98e2c7b9de05c05390cde3818246e1b09199bbd8802e4",
+    "article-preview.html": "60ff7ba95990739e552175e54cb99ff1c66f79ed504a12a1ac2279cd54fa2d0b",
+    "reader-body.html": "c409490e25be5c3fe6f077857d4f69131d0a6215426f93b1f4f3eaf51f9ea611",
+    "manuscript.md": "4d97f840c8e40e53710f4d1ad97c91be47f100503ffe79afcf4bf4d02f9305d7"
+  },
+  "unresolved": [],
+  "limit": "Record validates completeness, not independent external editorial review.",
+  "actual_wording_changes": [
+    {
+      "before": "讓紙張接近日光下的標本。",
+      "after": "放到日光下曝光。"
+    },
+    {
+      "before": "扉頁，1843–53年。",
+      "after": "扉頁，書冊製作於1843–53年。"
+    },
+    {
+      "before": "第五節以Getty訪問的無證據職涯願望限制收尾。",
+      "after": "第五節改以1853與1854合作書冊及編排工作收尾，意圖限制只留查核紀錄。"
+    }
+  ]
+}
