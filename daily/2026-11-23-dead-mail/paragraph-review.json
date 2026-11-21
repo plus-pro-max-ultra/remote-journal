@@ -1,0 +1,80 @@
+{
+  "reviewed_at": "2026-11-21T21:28:14+08:00",
+  "user_message": "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8",
+  "hook_exception": true,
+  "review": [
+    {
+      "location": "一1",
+      "intent": "區分延誤、退回與dead mail",
+      "development": "從不同處理路線推到MRC角色，五句互相接續。",
+      "sentences": 5
+    },
+    {
+      "location": "一2",
+      "intent": "地址線索如何失去",
+      "development": "舉破損與原始缺漏，再指出補救步驟需分類。",
+      "sentences": 5
+    },
+    {
+      "location": "二1",
+      "intent": "外部線索查找與可見成果",
+      "development": "具體查字查地名，再用相簿物件讓讀者看到補全記錄。",
+      "sentences": 5
+    },
+    {
+      "location": "二2",
+      "intent": "成功相簿的選樣限制",
+      "development": "交代回寄信封的收集方式，說明能看與不能計算的成果。",
+      "sentences": 5
+    },
+    {
+      "location": "三1",
+      "intent": "查找目的與拆閱界線",
+      "development": "裝箱單／信內線索連到最低必要閱讀，解釋權限為何依目的。",
+      "sentences": 5
+    },
+    {
+      "location": "三2",
+      "intent": "資料比對也需要接觸控制",
+      "development": "搜尋欄位與2021公告安排說明資訊越多、權限越需管理。",
+      "sentences": 4
+    },
+    {
+      "location": "四1",
+      "intent": "知道地址仍可能退不回",
+      "development": "Parcel Select額外郵資與拒收導致成本留給郵政，不推定所有業者動機。",
+      "sentences": 5
+    },
+    {
+      "location": "四2",
+      "intent": "前端分類影響末端負擔",
+      "development": "受損可投遞包裹本應先修補，含郵方指出非正式政策的回應。",
+      "sentences": 5
+    },
+    {
+      "location": "五1",
+      "intent": "未領物品需要不同處分",
+      "development": "列依性質處理去向，區分清庫存／拍賣收入與原物歸還。",
+      "sentences": 5
+    },
+    {
+      "location": "五2",
+      "intent": "處分紀錄決定外部可追查程度",
+      "development": "具日期FOIA案例說明當次資料粒度，未擴成今日無紀錄。",
+      "sentences": 5
+    },
+    {
+      "location": "六1",
+      "intent": "成功率的衡量對象",
+      "development": "並列稽核與管理方不同分母目的，不以爭議數字噱頭替代解釋。",
+      "sentences": 5
+    },
+    {
+      "location": "六2",
+      "intent": "工序結束與使用者交付的差別",
+      "development": "連回查詢／退款／理賠與後續交代，接向生活中的服務責任。",
+      "sentences": 5
+    }
+  ],
+  "judgment": "Every paragraph read in full; sentence count is diagnostic only, no padded or forced merges. Topic compares current032–035 and withdrawn candidate."
+}

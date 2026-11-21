@@ -1,0 +1,93 @@
+{
+  "issue": "036-dead-mail",
+  "status": "complete",
+  "assessed_at": "2026-11-21T21:28:14+08:00",
+  "visual_role": "比較一件實際難辨地址的歷史信封與背面補正解答，支持第二節的線索補全與成功案例選樣。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Smithsonian dead letter album CC0; LOC Bain dead letter office; Commons USPS dead letter office; Smithsonian official conversation kit",
+        "checked_at": "2026-11-21T21:28:14+08:00",
+        "result_summary": "LOC歷史辦公室照片原頁與Bain權利已讀，原圖取得失敗；Smithsonian同件album原頁CC0，官方PDF提供信封D及解答可抽取原圖，逐像素核對Healdsburg與原章記。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21",
+      "relevance": "第二節同一歷史信封與相簿背面解答，能看到所缺地址怎麼被補全。",
+      "decision": "selected",
+      "reason": "官方PDF含同件原物照片，不需擷取低畫質搜尋圖；兩張互相解釋，保留未裁切原嵌入圖。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21",
+        "license": "CC0, image explicitly public domain, may copy/modify/distribute",
+        "credit": "Smithsonian National Postal Museum, 1984.1128.333.1–21",
+        "conditions": "僅物件影像，不複製教案版面、商標或將整份教案稱CC0。PDF p14、17可核對相同原物。"
+      },
+      "original_media_container": "https://womenshistory.si.edu/sites/default/files/documents/dead_letter_office_album_conversations.pdf",
+      "original_pdf_pages": [
+        14,
+        17
+      ],
+      "dimensions": [
+        [
+          1013,
+          601
+        ],
+        [
+          721,
+          452
+        ]
+      ],
+      "extraction": "embedded xref35 and45, JPEG bytes copied without crop/rescale",
+      "caption": "《Blind Reading》中的信封與對應解答頁；這本簿子收錄郵戳為1883–84年的信封。原章記表示指定州內沒有這個郵局；背面記下補正後的Healdsburg, Sonoma Co, California。這是成功查找後留下的個案，不是今日郵務操作畫面。Smithsonian National Postal Museum，1984.1128.333.1–21，CC0；影像取自館方教學資料第14、17頁的原嵌入圖，未裁切。",
+      "alt": [
+        "剪貼簿上的舊信封，手寫收件地址旁蓋有NO SUCH OFFICE IN STATE NAMED紅色章記",
+        "同本剪貼簿的解答頁，寫著Healdsburg, Sonoma Co, California，對應前一張信封補正後的地名"
+      ],
+      "layout": "一個figure兩圖上下對照，max560CSSpx，width100%,heightauto，均未裁切"
+    },
+    {
+      "url": "https://www.loc.gov/resource/ggbain.00566/",
+      "relevance": "歷史死信局辦公空間",
+      "decision": "not_selected",
+      "reason": "權利無已知限制，但原圖擷取403或逾時；未以搜尋縮圖冒充原件，且信封對照更支持本文問題。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://www.loc.gov/rr/print/res/274_bain.html",
+        "license": "No known restrictions on publication, Bain collection",
+        "credit": "Library of Congress Prints and Photographs Division, LC-DIG-ggbain-00566"
+      }
+    },
+    {
+      "url": "https://postalmuseum.si.edu/object/npm_0.052985.319",
+      "relevance": "死信局留下的黃色金屬玩具飛機",
+      "decision": "not_selected",
+      "reason": "原物影像CC0已核，但不能說明當年何以投遞失敗，對本文線索補全無額外幫助，未硬加物件。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://postalmuseum.si.edu/object/npm_0.052985.319",
+        "license": "CC0",
+        "credit": "Smithsonian National Postal Museum, 0.052985.319"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "採同件信封與解答兩圖，可直接比較，勝過一般信箱氣氛照或未取得原圖的辦公室照片。",
+    "selected_candidate_urls": [
+      "https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "原官方PDF第14、17頁及兩張原嵌入JPEG已實看，解答Healdsburg, Sonoma Co, California與D對上。",
+      "32039010241440載入／寬度／六節八來源完整，390圖版與1440雙圖上下對照實看，字樣可核、無裁切。",
+      "390開頭與320延伸思考實看，正文／標題／按鍵不溢位。最終8分鐘與圖說短修後再截圖。"
+    ]
+  },
+  "unresolved": []
+}

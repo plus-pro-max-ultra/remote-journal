@@ -1,0 +1,23 @@
+{
+  "issue": null,
+  "nominal_date": null,
+  "gh_review_date": null,
+  "prepared_at": "2026-11-21T20:05:25+08:00",
+  "status": "unscheduled_research",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "authority_messages": [
+    "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M6KR6G5Y98X3PS3EH61Z1462",
+    "phonemsg-01M6KRBNYQY23WAY2VAMFK7XV4"
+  ],
+  "release_separation": "036Nov23 replacement is daily/2026-11-23-dead-mail.035review unchanged;033/034officialcomplete.",
+  "visual_verified_at": "2026-11-21T20:06:00+08:00",
+  "former_issue": "036-wave-piloting",
+  "former_nominal_date": "2026-11-23",
+  "withdrawn_at": "2026-11-21T21:28:14+08:00",
+  "reason": "MM Nov21 21:17:56 topic convergence feedback. Do not publish as036. Preserve research; no new publication date chosen.",
+  "decision_source": "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8"
+}

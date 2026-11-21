@@ -1,0 +1,19 @@
+{
+  "issue": "036-dead-mail",
+  "nominal_date": "2026-11-23",
+  "gh_review_date": "2026-11-22",
+  "prepared_at": "2026-11-21T21:28:14+08:00",
+  "status": "draft_ready",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "replaces": "withdrawn036-wave-piloting, now unscheduled research",
+  "authority_messages": [
+    "phonemsg-01M6KR6G5Y98X3PS3EH61Z1462",
+    "phonemsg-01M6KRBNYQY23WAY2VAMFK7XV4",
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8"
+  ],
+  "release_separation": "035main and036gh dueNov22;033/034officialcomplete;035reviewHTMLunchanged",
+  "visual_verified_at": "2026-11-21T21:29:29+08:00"
+}

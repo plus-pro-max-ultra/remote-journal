@@ -1,0 +1,114 @@
+{
+  "reviewed_at": "2026-11-21T21:28:14+08:00",
+  "compared_gh_commit": "ab9e95e385f04772ef8641caed955c06e687a66a",
+  "examples_version": "E01–E09 plus latest033/034 before-after originals and Nov21 explicit preference",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "各節",
+      "decision": "applied and full-context reread",
+      "evidence": "歷史查找／2021公告／2022報導／2026稽核日期與對象就句內交代，不把USPS當全球規則。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一、三至六節",
+      "decision": "applied and full-context reread",
+      "evidence": "投遞路線和成本機制直述；制度、稽核與異議需具名歸屬，完整八來源在頁尾。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "二2、五2",
+      "decision": "applied and full-context reread",
+      "evidence": "兩處限制保留可理解的後果：成功簿如何收集、取得彙整卻不能逐件追溯。刪掉初稿第三節末機械自我澄清，仍由2021公告主詞保存範圍。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二、四節",
+      "decision": "applied and full-context reread",
+      "evidence": "具體辨字、查地名、修補、拒收與郵資，不用抽象接住變化。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "四至六節",
+      "decision": "applied and full-context reread",
+      "evidence": "辨識修補、倉儲工時、紀錄與分母的工作說清楚，不泛加系統或可能。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "applied and full-context reread",
+      "evidence": "對重要物品與承諾未完成的後續期待，讀者可選擇不同責任標準，不是郵件規則測驗。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "五、六節",
+      "decision": "applied and full-context reread",
+      "evidence": "分清清庫存、收入、歸還與工序完成的評價對象；不是機械要求所有器物無人用時價值。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied and full-context reread",
+      "evidence": "職員／使用者／郵方執行查找與判斷，資料與信封作線索；死信作歷史術語非自由擬人。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "標題、全文",
+      "decision": "applied and full-context reread",
+      "evidence": "人的查找與物件去向分清，不用信件自行記住或理解。032既定不改1／補聽懂2不重開。"
+    },
+    {
+      "example": "033a20094b",
+      "classification": "observed edit hypothesis",
+      "location": "全文",
+      "decision": "applied and full-context reread",
+      "evidence": "實讀原始前後區塊，保留具體主詞和實作直述；不學舊輸入錯字。已同步正式，不再記待批准。"
+    },
+    {
+      "example": "034436f291",
+      "classification": "observed edit hypothesis",
+      "location": "全文",
+      "decision": "applied and full-context reread",
+      "evidence": "實讀原始前後區塊，收入事實不作風格教訓；owner選擇已定，不再問。後續資料仍查源而不推定公式。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與十二段",
+      "decision": "applied and full-context reread",
+      "evidence": "波浪稿未刊即撤為未排程研究；新題公共服務例外而非再寫傳承。各段意旨與解釋鏈已實讀，見paragraph-review.json，不把句數當品質判定。"
+    },
+    {
+      "example": "final-source-wording",
+      "classification": "source precision",
+      "location": "四2、五1",
+      "decision": "wording corrected",
+      "evidence": "受損件處理把分歧改為發現，避免把違規事例與官方政策當必然衝突；拍賣把一封信配一買家改為物品按批出售，避免暗示私人通信逐封拍賣。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "9fc6f026e4c3098b1513808924d7ba225fe60895d3b6bbdf9c24914edcc2c447",
+    "article-preview.html": "830eb6d7e17ccd50edcc6364476f8199cb31d04f05397205dc479e54bcf7f6df",
+    "reader-body.html": "2e91614176576e5e6af3cf64e7ad4f0d92996f6e207237177f48c69839df4c47",
+    "manuscript.md": "978e98dc0230fb368bf0a2810c81e8efa2da8c769680cd50637932aca6e190cf"
+  },
+  "after_hashes": {
+    "draft.json": "850058dc163376cf6a3765cd44af4c4c575d163aa930adcb4e81912c182ecdde",
+    "article-preview.html": "7d2405e60b7a72e535df0e2d5e1b86e3bfe781a91eb3e8eff090533c0c36db20",
+    "reader-body.html": "f969f42442c642aa228ae10a43f9452ef026cf3f5a718f9585229ff63566a8f0",
+    "manuscript.md": "35ba645155cac40d637c9bc3d236257572ef0e7cc9a15281ee928eabb8d7c406"
+  },
+  "unresolved": []
+}
