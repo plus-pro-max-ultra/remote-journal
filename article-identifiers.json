@@ -1,5 +1,5 @@
 {
-  "description": "Official001–033;034future review and fifteenunscheduledreviewdrafts excluded.",
+  "description": "Official001–034;035 future review and fifteenunscheduledreviewdrafts excluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -33,6 +33,7 @@
     "chinampas": "030-chinampas",
     "monobloc": "031-monobloc",
     "silbo": "032-silbo",
-    "turf-houses": "033-turf-houses"
+    "turf-houses": "033-turf-houses",
+    "haenyeo": "034-haenyeo"
   }
 }
