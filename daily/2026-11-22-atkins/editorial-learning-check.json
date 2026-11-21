@@ -95,5 +95,15 @@
       "before": "第五節以Getty訪問的無證據職涯願望限制收尾。",
       "after": "第五節改以1853與1854合作書冊及編排工作收尾，意圖限制只留查核紀錄。"
     }
-  ]
+  ],
+  "prepublication_addendum": {
+    "reviewed_at": "2026-11-21T06:03:09+08:00",
+    "latest_gh": "436f291eb17cee4f313269590702252466e0e56b before035release",
+    "reviewed_diffs": [
+      "033a20094bwholebodychanges",
+      "034436f291tenbodyblocks"
+    ],
+    "judgment": "Latest edits prefer direct objects and shorter explanations in these articles; not word bans or proof of authenticated owner identity.035alreadydescribesexposure,labels,preparingpaper,sortingpages. No035bodychangesneededafterreread. Do not learn033inputerrors or034unsupportedincomeformula. Pending033mainapprovaland034semanticdecision separate from035readiness.",
+    "full_manuscript_reread": true
+  }
 }

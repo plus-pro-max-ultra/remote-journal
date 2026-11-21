@@ -1,0 +1,99 @@
+{
+  "reviewed_at": "2026-11-21T20:05:25+08:00",
+  "compared_gh_commit": "ab9e95e385f04772ef8641caed955c06e687a66a",
+  "examples_version": "E01-E09 plus033a20094b/034436f291 raw before-after records",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "二、四、五、六節與圖說",
+      "decision": "already present, full-context reread",
+      "evidence": "2009研究結果以當時限定，2014報導回顧2006/2010，2026Kelen自身經驗不升通則；mattang不指特定地理。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "第一節與第四節",
+      "decision": "already present, full-context reread",
+      "evidence": "浪與地形關係直述；特定研究的浮標/衛星/模型方法和2026個人判斷保留署名年份，七項尾註。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第二至五節",
+      "decision": "already present, full-context reread",
+      "evidence": "知識限制同時帶出船怎樣動、模型怎樣學、研究有何對應、備船與追蹤安排；未以整段空泛否定收尾。必要研究未解與無定址圖仍明說。"
+    },
+    {
+      "example": "E04",
+      "classification": "inference from029",
+      "location": "二、五節",
+      "decision": "already present, full-context reread",
+      "evidence": "抬起、傾斜、向前俯下及準備船等具體動作，未把傳承只寫成接住變化。"
+    },
+    {
+      "example": "E05",
+      "classification": "inference from030",
+      "location": "五、六節",
+      "decision": "already present, full-context reread",
+      "evidence": "保存需要船、航行機會、安全備援，沒有用空泛系統或可能代替工作內容。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present, full-context reread",
+      "evidence": "讀者自己難用文字傳授的熟悉、共同經驗與自由摸索，沒有棒圖知識測驗或標準答案。"
+    },
+    {
+      "example": "E07",
+      "classification": "inference from031",
+      "location": "標題與圖說",
+      "decision": "already present, full-context reread",
+      "evidence": "航海者為判斷主體，圖說評價的是特定mattang模型用途；不機械套未使用時價值。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "already present, full-context reread",
+      "evidence": "人學習、感受、判斷與傳授，浪轉向/交會是物理作用，棒圖整理關係是實際媒介功能；無海洋說話、棒圖記住路等擬人。"
+    },
+    {
+      "example": "E09",
+      "classification": "inference from032",
+      "location": "二、三節",
+      "decision": "already present, full-context reread",
+      "evidence": "用辨認、感到、注意等直接動詞，未把媒介當理解主體。032既定不改1/只補聽懂2不重開。"
+    },
+    {
+      "example": "033a20094b",
+      "classification": "observed edit hypothesis, authorship not permission",
+      "location": "全文再讀",
+      "decision": "already present, full-context reread",
+      "evidence": "已讀完整改動前後文；取對象、動作、隔間/維護的直接程度作參考，不照學兩個已修輸入錯字或幾代人間；無全站禁詞，未同步已刊main。"
+    },
+    {
+      "example": "034436f291",
+      "classification": "observed edit hypothesis, factual gap excluded",
+      "location": "二、五節",
+      "decision": "already present, full-context reread",
+      "evidence": "保留把實作講清楚的方向；不照學未經來源支持的收入公式、海藻範圍擴張或輸入錯字。034仍由parent等既有問題回覆。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "e1939ccfc0ba5bf4cdc04a82370332f4bfd34688941688c89f8cae9c325a1ecc",
+    "article-preview.html": "82ffd9623d61acd784acb6bf17676738a7734877701e0cb1ded489e7e703ab35"
+  },
+  "after_hashes": {
+    "draft.json": "ee744a8cd1940ca61227f9c65cf90931e2dd66155c0ef8ff6bc6e66ddc56fef0",
+    "article-preview.html": "1aa6c3a97bc498e7a29d8eb351c4f17581dd219637d26228ecc3a7b805ce8df0",
+    "reader-body.html": "a1e10a8e8c1148db0d80d94f937ad310e0ba1cfb5a3d315dfe3df822d709efcb",
+    "manuscript.md": "3d81633d87a11e100c9cc9c653541c0dd410f1a4ed7216ee26cefb16d66b6aff"
+  },
+  "unresolved": [],
+  "limit": "Completeness record, not automated language judgment; first composition already applied earlier lessons. Source notes shortened for readers; full ledger retained."
+}

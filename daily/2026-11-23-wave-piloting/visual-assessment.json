@@ -1,0 +1,79 @@
+{
+  "issue": "036-wave-piloting",
+  "status": "complete",
+  "assessed_at": "2026-11-21T20:05:25+08:00",
+  "visual_role": "看清mattang細條的弧線、交會、殼與整體方框，理解岸上教學模型而非手機地圖或海上實景。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Marshallese stick charts museum open collection; LOC item mattang rights; Smithsonian nmnhanthropology8503054; Met311297",
+        "checked_at": "2026-11-21T20:05:25+08:00",
+        "result_summary": "兩件實物原圖實看；MetAPI無開放影像；LOC原件與權利及1772px圖已核，採LOC一張。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://www.loc.gov/item/2010586180/",
+      "relevance": "第三節的無特定地理mattang教學模型",
+      "decision": "selected",
+      "reason": "形制、殼與曲線清楚，無擅自把每線對照實際島路；比實驗室物件照片更可讀。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://www.loc.gov/item/2010586180/",
+        "license": "LOC Map Collections: no known US copyright or other restrictions; not labelled CC0",
+        "credit": "Library of Congress, Geography and Map Division, 2010586180",
+        "conditions": "原件權利欄表示館方未發現限制，保留署名連結，不以公開可見等於授權。"
+      },
+      "original_image_url": "https://tile.loc.gov/image-services/iiif/service:gmd:gmd9:g9461:g9461p:ct003133/full/pct:12.5/0/default.jpg#h=1416&w=1771",
+      "original_dimensions": [
+        1772,
+        1417
+      ],
+      "caption": "Mattang 類棒圖，Majuro，編目年代約1920年代。此類圖用於理解浪與島的關係，不代表某個特定地理區域；殼也不宜直接對成今日地圖上的島名。Library of Congress, Geography and Map Division，2010586180。館方未發現此件有美國著作權或其他使用限制；僅縮小尺寸與JPEG壓縮，未裁切。",
+      "alt": "深色底板上細木條交織成近方形框架，內有彎弧與斜線，幾個交點繫著淺色貝殼",
+      "layout": "1440x1152 JPEG,max660CSSpx,width100%,heightauto,uncropped"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/311297",
+      "relevance": "另一件Rebbilib型實物",
+      "decision": "not_selected",
+      "reason": "API isPublicDomain=false且沒有開放主圖，不取用。",
+      "rights": {
+        "status": "restricted",
+        "source_url": "https://www.metmuseum.org/art/collection/search/311297",
+        "license": "Not public domain per museum API",
+        "credit": "The Metropolitan Museum of Art"
+      }
+    },
+    {
+      "url": "https://www.si.edu/object/stick-chart:nmnhanthropology_8503054",
+      "relevance": "1973採集的棒圖，可見細條、殼與弧",
+      "decision": "not_selected",
+      "reason": "已看800px實物影像，中央實驗室袋與標籤分散注意且與mattang不同，對本文無新增教學功能，採一圖即可。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://www.si.edu/object/stick-chart:nmnhanthropology_8503054",
+        "license": "Object page shows CC0; individual full media terms not pursued because candidate not selected",
+        "credit": "Smithsonian National Museum of Natural History"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "一張訓練模型圖完整支持物件形制，不另加無關海景或假造歷史航行圖。",
+    "selected_candidate_urls": [
+      "https://www.loc.gov/item/2010586180/"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "LOC原圖1050px縮看與Smithsonian800px原件照實看",
+      "手機390開頭及圖版、桌機1440圖版、320延伸思考實際像素已看：文字清楚，無裁切與溢位",
+      "32039010241440六節七來源一圖載入及寬度檢查；新增第七來源後再驗一次"
+    ]
+  },
+  "unresolved": []
+}

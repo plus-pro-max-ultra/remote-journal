@@ -1,0 +1,18 @@
+{
+  "issue": "036-wave-piloting",
+  "nominal_date": "2026-11-23",
+  "gh_review_date": "2026-11-22",
+  "prepared_at": "2026-11-21T20:05:25+08:00",
+  "status": "draft_ready",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "authority_messages": [
+    "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M6KR6G5Y98X3PS3EH61Z1462",
+    "phonemsg-01M6KRBNYQY23WAY2VAMFK7XV4"
+  ],
+  "release_separation": "035 main and036 gh independently due Nov22;034 held income,033 postrelease main sync closed unless owner reopens",
+  "visual_verified_at": "2026-11-21T20:06:00+08:00"
+}

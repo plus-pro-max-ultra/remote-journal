@@ -1,0 +1,74 @@
+[
+  {
+    "width": 320,
+    "scroll": 305,
+    "selection": "035",
+    "board": 7,
+    "review": true
+  },
+  {
+    "width": 320,
+    "scroll": 305,
+    "count": 35,
+    "cat": true,
+    "months": [
+      "all",
+      "2026-11",
+      "2026-10"
+    ]
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "selection": "035",
+    "board": 7,
+    "review": true
+  },
+  {
+    "width": 390,
+    "scroll": 375,
+    "count": 35,
+    "cat": true,
+    "months": [
+      "all",
+      "2026-11",
+      "2026-10"
+    ]
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "selection": "035",
+    "board": 7,
+    "review": true
+  },
+  {
+    "width": 1024,
+    "scroll": 1009,
+    "count": 35,
+    "cat": true,
+    "months": [
+      "all",
+      "2026-11",
+      "2026-10"
+    ]
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "selection": "035",
+    "board": 7,
+    "review": true
+  },
+  {
+    "width": 1440,
+    "scroll": 1425,
+    "count": 35,
+    "cat": true,
+    "months": [
+      "all",
+      "2026-11",
+      "2026-10"
+    ]
+  }
+]
