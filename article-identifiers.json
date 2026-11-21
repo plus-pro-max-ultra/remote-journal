@@ -1,5 +1,5 @@
 {
-  "description": "001–033正式刊出；034為11/21排定、尚供審閱；035為11/22排定、11/21提前一天的gh審閱稿；十五篇review未排刊期。",
+  "description": "001–035official;036Nov23one-dayearlyreview;fifteenreviewdraftsunscheduled.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -35,6 +35,7 @@
     "silbo": "032-silbo",
     "turf-houses": "033-turf-houses",
     "haenyeo": "034-haenyeo",
-    "atkins": "035-atkins"
+    "atkins": "035-atkins",
+    "dead-mail": "036-dead-mail"
   }
 }

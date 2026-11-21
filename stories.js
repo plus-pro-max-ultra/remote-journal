@@ -3575,7 +3575,7 @@ window.FARAWAY_STORIES = [
     "id": "035-atkins",
     "num": "035",
     "date": "2026-11-22",
-    "title": "安娜・阿特金斯如何用藍曬呈現植物？",
+    "title": "如何用藍曬呈現植物？",
     "subtitle": "安娜・阿特金斯把海藻放在感光紙上，做出白色輪廓與藍色底的圖版。從一片標本到一本書，得經過哪些選擇與反覆製作？",
     "category": "攝影與植物",
     "tags": [
@@ -3586,7 +3586,7 @@ window.FARAWAY_STORIES = [
     ],
     "minutes": 9,
     "related": [],
-    "intro": "一片海藻斜放在藍色書頁上，分枝與小小的圓形構造呈現淡白色，下方寫著拉丁名稱。乍看像用白筆細細描出，實際上，安娜・阿特金斯（Anna Atkins）把標本放在感光紙上，靠曝光留下了形狀。她從 1843 年開始製作《英國海藻：藍曬印象》（Photographs of British Algae: Cyanotype Impressions）。這是一項攝影計畫，也是一項出版工作：讀者看到的每一頁，都需要有人取得標本、排好位置，再親手印出。",
+    "intro": "一片海藻斜放在藍色書頁上，分枝與小小的圓形構造呈現淡白色，下方寫著拉丁名稱。乍看像用白筆細細描出，實際上，安娜・阿特金斯（Anna Atkins）把標本放在感光紙上，靠曝光留下了形狀。她從 1843 年開始製作《英國海藻：藍曬印象》（Photographs of British Algae: Cyanotype Impressions）。這是一項攝影計畫，也是一項出版工作：讀者看到的每一頁，都要有人取得標本、排好位置，再親手印出。",
     "sections": [
       {
         "heading": "一、她想讓讀者看見哪一種海藻？",
@@ -3671,5 +3671,110 @@ window.FARAWAY_STORIES = [
       }
     ],
     "body": "\n<p>一片海藻斜放在藍色書頁上，分枝與小小的圓形構造呈現淡白色，下方寫著拉丁名稱。乍看像用白筆細細描出，實際上，安娜・阿特金斯（Anna Atkins）把標本放在感光紙上，靠曝光留下了形狀。她從 1843 年開始製作《英國海藻：藍曬印象》（Photographs of British Algae: Cyanotype Impressions）。這是一項攝影計畫，也是一項出版工作：讀者看到的每一頁，都要有人取得標本、排好位置，再親手印出。</p>\n<h2>一、她想讓讀者看見哪一種海藻？</h2>\n<p>十九世紀的植物同好會採集、壓製、分類，也會交換標本。文字描述形態，圖像幫助讀者把模樣與特性連結。當內容分枝很細、個體又小時，要把標本畫清楚，既需要時間，也需要繪圖的技巧。</p>\n<p>阿特金斯不是因為不會畫，才轉向攝影。她年輕時已為父親翻譯的貝類著作繪製插圖，後來也持續研究植物。她接觸藍曬時，面對的是如何把標本的細節做成可分享的圖像。</p>\n<p>她的海藻圖版採用 William Henry Harvey 在 1841 年《英國海藻手冊》中的命名。那本手冊沒有插圖，與阿特金斯的計畫—用影像補充已有的文字分類—有著鮮明的對比。頁底的學名，讓讀者能把一片形狀和書裡討論的種類連在一起。</p>\n<h2>二、沒有鏡頭，形狀從哪裡來？</h2>\n<p>藍曬是使用感光鐵鹽的攝影方法，由 John Herschel 在 1842 年提出。阿特金斯把處理過的紙、海藻標本與標籤安排好，再用玻璃壓住，放到日光下曝光。製作時不需要鏡頭把遠處的景物投射進來，影像就在物件與紙接觸的地方形成。</p>\n<p>光照得到的部分，經過處理後形成藍色；標本遮住光的地方則比較淺。海藻有些部分較厚，有些較薄、可以透光，於是同一片圖像裡也會出現明暗差別。最後用水清洗，才得到可以保存的圖版。這裡的藍，是成像材料形成的顏色，並非海藻原本就是藍色。</p>\n<p>這類不用相機、直接由物件遮光形成的照片，稱為物影照片（photogram）。它和隔著鏡頭拍下海藻的做法不同：壓平的程度、物件與紙的距離、分枝是否重疊，都會影響紙上呈現的線條。</p>\n<figure class=\"article-figure\" style=\"max-width:460px;margin:2rem auto\"><img alt=\"藍色書頁上淡白色海藻斜向展開，下方有Sargassum bacciferum手寫名稱\" height=\"1400\" loading=\"lazy\" src=\"../../assets/img/035-atkins-sargassum.jpg\" style=\"display:block;width:100%;height:auto\" width=\"1143\"/>\n<figcaption style=\"font-size:.85rem;line-height:1.75;color:var(--muted);margin-top:.65rem\">Anna Atkins，《Sargassum bacciferum》，約1853年，藍曬。可見標本形態、明暗差異與名稱標籤；此處沿用原件題名，不代替今日物種鑑定。<a href=\"https://www.metmuseum.org/en/art/collection/search/291504\" rel=\"noopener noreferrer\" target=\"_blank\">The Metropolitan Museum of Art，2005.100.557 (7)</a>，<a href=\"https://www.metmuseum.org/policies/image-resources\" rel=\"noopener noreferrer\" target=\"_blank\">Open Access／CC0</a>；僅縮小尺寸與JPEG壓縮，未裁切。</figcaption>\n</figure>\n<h2>三、印得很細，仍有看不到的部分</h2>\n<p>看《Sargassum bacciferum》這一頁，可以沿著淡色分枝，一路辨認細小形狀如何排列。深藍背景把輪廓襯得清楚，頁底的標籤則把圖像和名稱連起來。這是接觸印相擅長保留的資訊。</p>\n<p>不過，讀者無法從藍白影像恢復海藻的原色，也不容易據此判斷表面觸感，或看見未在這個角度顯露的構造。<a href=\"https://www.gallery.ca/magazine/your-collection/the-cyanotypes-of-pioneering-photographer-anna-atkins\" rel=\"noopener noreferrer\" target=\"_blank\">攝影史學者 Larry J. Schaaf</a>還指出，印相緊繫著眼前這一片標本，它的形態未必代表同種植物的典型樣貌。</p>\n<p>手繪插圖可以另外安排細部、選取特徵，把不同角度放在同一張圖裡；阿特金斯的物影照片，則保留了這一片標本在紙面上的形態。兩種方式提供不同的觀看條件。攝影進入植物研究之後，手繪版畫仍繼續被使用。</p>\n<h2>四、做成一本書，要把每一頁重新做過</h2>\n<p>今天買一本印刷攝影書，通常拿到的是由同一套印版或數位檔複製的頁面。阿特金斯的書裡，圖版本身就是一張張藍曬原作。想再做另一份，就得準備另一張感光紙，重新放上標本、曝光、清洗。</p>\n<p>標本可以用來製作多張圖版，卻不會把整本書的製作一起省掉。她還要取得不同種類的海藻，配上名稱，整理成批。<a href=\"https://www.nypl.org/events/exhibitions/galleries/visual-world/item/4105\" rel=\"noopener noreferrer\" target=\"_blank\">第一批分冊在 1843 年 10 月出現</a>，後續持續製作到 1853 年。這段時間，包含了大量重複而細緻的手工。</p>\n<p>分冊也影響讀者如何收到它。Aperture 在 2019 年的展評描述，紐約公共圖書館保存的一部、原屬 Herschel 的存本，仍由手縫的小冊組成，沒有合訂成一大本。這個存本讓人看見，書的形成其實有可能是一批批寄給同好的頁面，再由持有人整理裝訂。</p>\n<figure class=\"article-figure\" style=\"max-width:420px;margin:2rem auto\"><img alt=\"英國海藻藍曬書的藍色扉頁，白色花體字寫著書名Photographs of British Algae與Cyanotype Impressions\" height=\"1400\" loading=\"lazy\" src=\"../../assets/img/035-atkins-title.jpg\" style=\"display:block;width:100%;height:auto\" width=\"1143\"/>\n<figcaption style=\"font-size:.85rem;line-height:1.75;color:var(--muted);margin-top:.65rem\">《Photographs of British Algae: Cyanotype Impressions》的扉頁，書冊製作於1843–53年。書名、邊框與紙張一同保存在圖像中，和單獨觀看一片海藻有所不同。Anna Atkins／<a href=\"https://www.metmuseum.org/art/collection/search/286656\" rel=\"noopener noreferrer\" target=\"_blank\">The Metropolitan Museum of Art，2005.100.557 (1–154)</a>，<a href=\"https://www.metmuseum.org/policies/image-resources\" rel=\"noopener noreferrer\" target=\"_blank\">Open Access／CC0</a>；僅縮小尺寸與JPEG壓縮，未裁切。此為大都會博物館存本，非前段所述紐約公共圖書館的未合訂存本。</figcaption>\n</figure>\n<h2>五、她的圖冊，還靠哪些人與條件？</h2>\n<p>阿特金斯的海藻來自自己採集，也來自其他植物同好提供。父親 John George Children 的科學工作背景，讓她有機會接觸研究者與新的攝影方法；家庭的經濟條件，也支持她長期投入植物與圖像製作。這些條件和她本人的細心、技術，一起影響了計畫能做到的規模。</p>\n<p>把她只寫成孤獨的天才，便會忽略標本如何到她手上；只寫成順手按下某個新發明，又會漏掉選擇物件、處理紙張、安排構圖與反覆印相的工作。她使用 Herschel 的方法，做出了他人能閱讀和收藏的圖冊。</p>\n<p>後來，她也與好友 Anne Dixon 合作。1853 年的《英國與外國蕨類藍曬》、1854 年的花卉與蕨類冊，把取材擴展到更多植物。海藻分枝、蕨葉與花朵的形狀各異，製作者也得調整方向、並置與疏密。長期使用同一種方法，仍可以做出不同的頁面。</p>\n<h2>六、從書頁看圖，和從牆上看圖</h2>\n<p>阿特金斯的藍曬如今常作為單張圖像出現在展覽、網站或印刷品上。這樣看，很容易注意藍色、線條和留白。回到書頁，還會看見標籤、頁邊、相鄰頁面，以及同一個計畫如何累積不同標本。</p>\n<p>科學用途和美感並不是只能擇一的兩端。為了讓分枝清楚，她需要調整排列；把圖像納入書冊，又得考慮文字放哪裡、頁面容納多少東西。這些安排一方面幫助辨認，一方面也構成我們今天覺得好看的畫面。</p>\n<p>看她的書，可以暫時把「照片是不是如實記錄」換成更細的問題：這張圖保留了什麼，又是透過哪些選擇才讓人看清楚？我們整理旅行照片、工作筆記或家人的舊物時，同樣在決定哪些細節留下、如何命名、用什麼次序交給別人看。記錄的價值，除了內容本身，也與這些安排有關。</p>\n"
+  },
+  {
+    "id": "036-dead-mail",
+    "num": "036",
+    "date": "2026-11-23",
+    "title": "信寄不到，也退不回，最後會去哪裡？",
+    "subtitle": "從美國的「死信局」到今天的郵件復得中心，一件投遞失敗的郵件，還牽涉查找失主、拆閱界線，以及誰來負擔善後。",
+    "category": "郵政與公共服務",
+    "tags": [
+      "郵件",
+      "公共服務",
+      "隱私",
+      "退件"
+    ],
+    "minutes": 8,
+    "related": [],
+    "intro": "收件地址少了幾個字，寄件人又沒有留下地址，一封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是終點，職員的任務卻包括再找一次：還有沒有辦法把它交到寄件人或收件人手上？",
+    "sections": [
+      {
+        "heading": "一、投遞失敗之後，還有不同的去處",
+        "paragraphs": [
+          "郵件沒有準時出現，不一定已經成了「死信」。有些只是延誤，有些地址需要補正，有些能退回寄件人。美國郵政所說的 dead mail，重點在於兩條路都行不通：無法交給原來的收件人，也無法退回寄件人。今天處理這類郵件的專責單位，是郵件復得中心（Mail Recovery Center，MRC）。辨認這個差別，才能理解為什麼有些郵件仍在一般投遞流程裡，有些則得改用查找失主的方式處理。",
+          "失敗也不全是字跡潦草造成的。封套可能破損、標籤可能脫落，原本足夠投遞的資訊因而不見了；也可能從一開始就少了必要地址。十九世紀的職員因此得面對寫錯地名、缺少州名、無人認領等不同情況。每一種問題，需要補足的線索並不相同。若只是把它們一概歸為「寄丟」，便難以知道還能在哪個步驟補救。"
+        ]
+      },
+      {
+        "heading": "二、地址不完整，怎麼再找一次？",
+        "paragraphs": [
+          "歷史上的死信局，會先從封套上能看到的資訊著手。職員要辨認手寫字，也要查地名、語言與街道資料，把看來不合理的組合逐一核對。美國國家郵政博物館保存的《Blind Reading》剪貼簿，收了郵戳為 1883 至 1884 年的二十一件信封剪貼。它們的問題包括「沒有這個郵局」「未寫州名」與「地址難以辨認」等。簿裡另有補全地址的標記，以及寫在背面的正確地址，讓人看出職員曾在哪裡補上缺口。",
+          "這本簿子的形成，也和郵件後來的去向有關。碰上特別難解、又成功送達的例子，職員會請收件人把信封寄回，加入辦公室的收藏。因此，眼前看到的是挑選過的成功案例，不是當年所有失敗郵件的樣本。它能顯示職員做成了哪些查找，卻無法單靠這本簿子算出整體成功率。要知道一個服務做得如何，既要看解決得漂亮的個案，也要知道還有多少東西沒能回到失主手上。"
+        ]
+      },
+      {
+        "heading": "三、想找出失主，可以看多少內容？",
+        "paragraphs": [
+          "封套線索用盡後，打開郵件可能提供另一條路。包裹裡的裝箱單，可能還留著外箱已看不到的姓名與地址；信內也可能有寄件人的資料。但郵件之所以交給郵政處理，並不表示寄件人願意讓所有工作者任意閱讀。博物館對歷史死信局的說明指出，獲准開啟的職員，只能閱讀查找寄收件人所需的最少內容。這項安排把「為了完成投遞而查找」和「自由查看私人通信」分開，工作目的同時也是權限的界線。",
+          "今天，查找還包括比對兩邊的紀錄：一邊是中心收到的物品，一邊是使用者提出的遺失描述。USPS 的搜尋頁因此不只問追蹤號碼，也問容器樣式、內容的品牌、顏色、尺寸，以及有助辨識的照片。2021 年的聯邦公報公告，則列出相關系統會處理的寄收件人、物品描述與影像資料，並規定存取須符合職務需要。要讓物品更容易被認出，往往得收集更多資訊；如何限制使用與接觸範圍，便成為服務本身的一部分。"
+        ]
+      },
+      {
+        "heading": "四、為什麼有人不願意收回自己的退件？",
+        "paragraphs": [
+          "今天的復得中心，還得處理電商物流造成的退件。2026 年 9 月公布的一份郵政監察長稽核報告指出，部分 Parcel Select 郵件原本的運費不包含退回服務，退件送回時，退件收受方需要另付郵資。若對方拒收，物品就可能繼續轉往復得中心。報告記錄到，有些業者持續拒收，物品的運送與處理費用因而由郵政負擔。這時難題不只是「不知道地址」，也包含地址知道了，卻沒有人願意接下退件與費用。",
+          "把所有這類包裹都送去中心，也會占用原本用來找失主的空間和工時。同一份稽核還指出，部分包裝受損、卻仍有辦法投遞的包裹，被不當送進中心。依規定，這些包裹應先在原來的處理單位修補，再繼續投遞。郵方回應強調，因包裝受損而直接轉送中心，並非正式政策。這些發現讓人看見，末端單位的負擔，有一部分其實來自前面各站是否做好辨識、修補與退件處理。"
+        ]
+      },
+      {
+        "heading": "五、沒人領回，不等於可以一直堆著",
+        "paragraphs": [
+          "郵件復得中心有保管與查找的工作，也得決定查找結束後怎麼處理。依 USPS 的說明，未能領回的物品，會按性質進入捐贈、回收、銷毀或拍賣等不同流程。拍賣通常按批次出售，而非把每一件物品分開賣。這些去向要分開看，因為清出庫存、取得收入，和把原物交還失主，是不同的成果。對失主而言，原本寄出的紀念物是否回來，也很難只用處分所得衡量。",
+          "能否知道拍賣物品的去向，取決於郵方保留了什麼紀錄。Motherboard 記者 Aaron Gordon 在 2022 年報導，曾透過資訊公開申請，向 USPS 索取拍賣物品資料。郵方提供了 2015 至 2019 年的批次與收入彙整，卻表示沒有記者要求的逐件物品、售價與批次售價紀錄。那次查詢因此能看見拍賣收入，卻無法逐一追溯賣掉了什麼。當物品無法交還失主，能留下多細的處分紀錄，便影響外界還能如何檢查這項服務。"
+        ]
+      },
+      {
+        "heading": "六、服務做到哪一步，才算完成？",
+        "paragraphs": [
+          "2026 年的稽核，也把問題指向郵件復得中心如何報告自己的成效。中心原有的退回率，以符合退回條件的一部分包裹為計算對象；監察長認為，還應觀察所有送進中心的包裹有多少回到使用者手上。郵方則回應，原本的指標就是為可退回的包裹設計，把全部包裹放進去會扭曲這個指標。兩種算法問的事情不同：前者看經篩選後的查找成果，後者還要看中心收到的東西，最後大多去了哪裡。報告中的這項爭議，也讓人更有理由先問清楚，一個「成功率」究竟把哪些對象算進去。",
+          "這也是投遞服務比「把東西運走」多出來的責任。收進中心、完成登記、結束查詢、清空倉位，都可能代表某一道工序結束，卻不必然代表寄收件人的事情已經辦完。USPS 的搜尋說明也明白區分找尋郵件、申請退款與保險理賠，並不保證每件東西都能尋回。從失主的角度看，至少還需要知道目前找到什麼、還能做什麼，以及沒找到時會怎麼處理。當一個服務遇到例外，能否交代這些後續，往往比一句「已處理」更有幫助。"
+        ]
+      }
+    ],
+    "reflection": "想像你交付了一件對自己很重要、對別人卻未必值錢的東西。如果對方沒能完成原本的承諾，你最希望得到什麼樣的後續：繼續找、清楚說明、補償，還是別的安排？你願意等到什麼時候，又會如何判斷對方真的負起責任？",
+    "sources": [
+      {
+        "title": "Dead Letter Office，Lynn Heidelbaugh，Smithsonian National Postal Museum",
+        "url": "https://postalmuseum.si.edu/exhibition/about-postal-operations-administration/dead-letter-office",
+        "supports": "第一至三節：先投遞、再退回、皆不可行才成dead mail；歷史辦公室依封套線索解讀，必要時只讀查找姓名地址所需內容。歷史敘述不擴成所有國家現行開信權限。"
+      },
+      {
+        "title": "Dead Letter Office Blind Reading album，館藏1984.1128.333.1–21，Smithsonian National Postal Museum",
+        "url": "https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21",
+        "supports": "第二節與圖版：1883–84郵戳信封21件剪貼、成功補全地址章記、工作者要求成功收件者寄回信封入冊。作者不明，不指稱Clara Richter親製。原件頁明確CC0與影像可複製改作散布。"
+      },
+      {
+        "title": "What is the USPS Mail Recovery Center?，USPS",
+        "url": "https://faq.usps.com/articles/Knowledge/What-is-the-USPS-Mail-Recovery-Center",
+        "supports": "第一、三、五節：官方失物處理單位定義、掃描與價值選擇、開啟尋找地址、未領物品捐贈／回收／銷毀／批次拍賣。本稿不採FAQ可能過時現場拍賣鐘點、確切價值或持有天數作服務建議。"
+      },
+      {
+        "title": "Missing Mail and Lost Packages，USPS",
+        "url": "https://www.usps.com/help/missing-mail.htm",
+        "supports": "第三、六節：搜尋需要寄收件地址、容器、追蹤或收據、內容品牌型號色尺寸及圖片；不保證尋回，搜尋和退款／保險理賠分列。非替台灣讀者提供USPS承諾，不保證追蹤碼單獨足夠或所有內容都安全轉寄。"
+      },
+      {
+        "title": "Privacy Act; System of Records，Federal Register 86(8)，2021-01-13",
+        "url": "https://www.govinfo.gov/content/pkg/FR-2021-01-13/html/2021-00530.htm",
+        "supports": "第三節：2021公告說明MRCS比對庫存與搜尋申請，資料含寄收件人、描述、影像；存取須職務必要與權限、受控區域。不把一份制度公告當2026零外洩或零違規的保證；生效條款在無相反意見下2/12，本文只說公告如何規定。"
+      },
+      {
+        "title": "Evaluating Mail Recovery Center Package Growth，USPS Office of Inspector General，2026-09-22，25-150-R26",
+        "url": "https://www.uspsoig.gov/reports/audit-reports/evaluating-mail-recovery-center-package-growth",
+        "supports": "第四至六節：已讀完整摘要及PDF相關方法、背景pp3–5、發現pp7–10與管理回應、處理瑕疵pp15–17、方法pp19–21。寄返Parcel Select需額外郵資，部分退件被拒；受損可送者應先修復；回收率指標與實際包裹整體不同，管理方對分母有異議。不採75%樣本當全國比率；不以OIG估計作全郵務遺失率。PDF https://www.uspsoig.gov/sites/default/files/reports/2026-09/25-150-r26.pdf"
+      },
+      {
+        "title": "Post Office Auctions $8 Million Worth of Mail Annually, Has No Idea What It’s Selling，Aaron Gordon，VICE/Motherboard，2022-01-11",
+        "url": "https://www.vice.com/en/article/post-office-auctions-dollar8-million-worth-of-mail-annually-has-no-idea-what-its-selling/",
+        "supports": "第五節：記者透過FOIA查詢拍賣，報導郵方僅供2015–19批次與收入資料，並非逐件記錄；用作已具日期的外部查詢案例。非2026仍無紀錄或今後拍賣政策已核。標題金額與投機購買建議不採。"
+      },
+      {
+        "title": "Dead Letter Office Blind Reading Album Conversation Kit，Smithsonian American Women’s History Initiative",
+        "url": "https://womenshistory.si.edu/sites/default/files/documents/dead_letter_office_album_conversations.pdf",
+        "supports": "第二節與圖版：館方教學PDF p14信封D與p17反面解答，館藏相同編號、解答Healdsburg, Sonoma Co, California。擷取原嵌入圖35與45，不將整頁教案誤認CC0，僅用原件頁明確CC0之館藏物影像。"
+      }
+    ],
+    "body": "\n<p>收件地址少了幾個字，寄件人又沒有留下地址，一封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是終點，職員的任務卻包括再找一次：還有沒有辦法把它交到寄件人或收件人手上？</p>\n<h2>一、投遞失敗之後，還有不同的去處</h2>\n<p>郵件沒有準時出現，不一定已經成了「死信」。有些只是延誤，有些地址需要補正，有些能退回寄件人。美國郵政所說的 dead mail，重點在於兩條路都行不通：無法交給原來的收件人，也無法退回寄件人。今天處理這類郵件的專責單位，是郵件復得中心（Mail Recovery Center，MRC）。辨認這個差別，才能理解為什麼有些郵件仍在一般投遞流程裡，有些則得改用查找失主的方式處理。</p>\n<p>失敗也不全是字跡潦草造成的。封套可能破損、標籤可能脫落，原本足夠投遞的資訊因而不見了；也可能從一開始就少了必要地址。十九世紀的職員因此得面對寫錯地名、缺少州名、無人認領等不同情況。每一種問題，需要補足的線索並不相同。若只是把它們一概歸為「寄丟」，便難以知道還能在哪個步驟補救。</p>\n<h2>二、地址不完整，怎麼再找一次？</h2>\n<p>歷史上的死信局，會先從封套上能看到的資訊著手。職員要辨認手寫字，也要查地名、語言與街道資料，把看來不合理的組合逐一核對。美國國家郵政博物館保存的《Blind Reading》剪貼簿，收了郵戳為 1883 至 1884 年的二十一件信封剪貼。它們的問題包括「沒有這個郵局」「未寫州名」與「地址難以辨認」等。簿裡另有補全地址的標記，以及寫在背面的正確地址，讓人看出職員曾在哪裡補上缺口。</p>\n<figure class=\"article-figure\" style=\"max-width:560px;margin:2rem auto\"><img alt=\"剪貼簿上的舊信封，手寫收件地址旁蓋有NO SUCH OFFICE IN STATE NAMED紅色章記\" height=\"601\" loading=\"lazy\" src=\"../../assets/img/036-mail-envelope.jpg\" style=\"display:block;width:100%;height:auto\" width=\"1013\"/>\n<img alt=\"同本剪貼簿的解答頁，寫著Healdsburg, Sonoma Co, California，對應前一張信封補正後的地名\" height=\"452\" loading=\"lazy\" src=\"../../assets/img/036-mail-solution.jpg\" style=\"display:block;width:100%;height:auto;margin-top:1rem\" width=\"721\"/>\n<figcaption style=\"font-size:.85rem;line-height:1.75;color:var(--muted);margin-top:.65rem\">《Blind Reading》中的信封與對應解答頁；這本簿子收錄郵戳為1883–84年的信封。原章記表示指定州內沒有這個郵局；背面記下補正後的Healdsburg, Sonoma Co, California。這是成功查找後留下的個案，不是今日郵務操作畫面。<a href=\"https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21\" rel=\"noopener noreferrer\" target=\"_blank\">Smithsonian National Postal Museum，1984.1128.333.1–21，CC0</a>；影像取自館方<a href=\"https://womenshistory.si.edu/sites/default/files/documents/dead_letter_office_album_conversations.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">教學資料第14、17頁</a>的原嵌入圖，未裁切。</figcaption>\n</figure>\n<p>這本簿子的形成，也和郵件後來的去向有關。碰上特別難解、又成功送達的例子，職員會請收件人把信封寄回，加入辦公室的收藏。因此，眼前看到的是挑選過的成功案例，不是當年所有失敗郵件的樣本。它能顯示職員做成了哪些查找，卻無法單靠這本簿子算出整體成功率。要知道一個服務做得如何，既要看解決得漂亮的個案，也要知道還有多少東西沒能回到失主手上。</p>\n<h2>三、想找出失主，可以看多少內容？</h2>\n<p>封套線索用盡後，打開郵件可能提供另一條路。包裹裡的裝箱單，可能還留著外箱已看不到的姓名與地址；信內也可能有寄件人的資料。但郵件之所以交給郵政處理，並不表示寄件人願意讓所有工作者任意閱讀。博物館對歷史死信局的說明指出，獲准開啟的職員，只能閱讀查找寄收件人所需的最少內容。這項安排把「為了完成投遞而查找」和「自由查看私人通信」分開，工作目的同時也是權限的界線。</p>\n<p>今天，查找還包括比對兩邊的紀錄：一邊是中心收到的物品，一邊是使用者提出的遺失描述。<a href=\"https://www.usps.com/help/missing-mail.htm\" rel=\"noopener noreferrer\" target=\"_blank\">USPS 的搜尋頁</a>因此不只問追蹤號碼，也問容器樣式、內容的品牌、顏色、尺寸，以及有助辨識的照片。2021 年的聯邦公報公告，則列出相關系統會處理的寄收件人、物品描述與影像資料，並規定存取須符合職務需要。要讓物品更容易被認出，往往得收集更多資訊；如何限制使用與接觸範圍，便成為服務本身的一部分。</p>\n<h2>四、為什麼有人不願意收回自己的退件？</h2>\n<p>今天的復得中心，還得處理電商物流造成的退件。<a href=\"https://www.uspsoig.gov/reports/audit-reports/evaluating-mail-recovery-center-package-growth\" rel=\"noopener noreferrer\" target=\"_blank\">2026 年 9 月公布的一份郵政監察長稽核報告</a>指出，部分 Parcel Select 郵件原本的運費不包含退回服務，退件送回時，退件收受方需要另付郵資。若對方拒收，物品就可能繼續轉往復得中心。報告記錄到，有些業者持續拒收，物品的運送與處理費用因而由郵政負擔。這時難題不只是「不知道地址」，也包含地址知道了，卻沒有人願意接下退件與費用。</p>\n<p>把所有這類包裹都送去中心，也會占用原本用來找失主的空間和工時。同一份稽核還指出，部分包裝受損、卻仍有辦法投遞的包裹，被不當送進中心。依規定，這些包裹應先在原來的處理單位修補，再繼續投遞。郵方回應強調，因包裝受損而直接轉送中心，並非正式政策。這些發現讓人看見，末端單位的負擔，有一部分其實來自前面各站是否做好辨識、修補與退件處理。</p>\n<h2>五、沒人領回，不等於可以一直堆著</h2>\n<p>郵件復得中心有保管與查找的工作，也得決定查找結束後怎麼處理。依 USPS 的說明，未能領回的物品，會按性質進入捐贈、回收、銷毀或拍賣等不同流程。拍賣通常按批次出售，而非把每一件物品分開賣。這些去向要分開看，因為清出庫存、取得收入，和把原物交還失主，是不同的成果。對失主而言，原本寄出的紀念物是否回來，也很難只用處分所得衡量。</p>\n<p>能否知道拍賣物品的去向，取決於郵方保留了什麼紀錄。Motherboard 記者 Aaron Gordon <a href=\"https://www.vice.com/en/article/post-office-auctions-dollar8-million-worth-of-mail-annually-has-no-idea-what-its-selling/\" rel=\"noopener noreferrer\" target=\"_blank\">在 2022 年報導</a>，曾透過資訊公開申請，向 USPS 索取拍賣物品資料。郵方提供了 2015 至 2019 年的批次與收入彙整，卻表示沒有記者要求的逐件物品、售價與批次售價紀錄。那次查詢因此能看見拍賣收入，卻無法逐一追溯賣掉了什麼。當物品無法交還失主，能留下多細的處分紀錄，便影響外界還能如何檢查這項服務。</p>\n<h2>六、服務做到哪一步，才算完成？</h2>\n<p>2026 年的稽核，也把問題指向郵件復得中心如何報告自己的成效。中心原有的退回率，以符合退回條件的一部分包裹為計算對象；監察長認為，還應觀察所有送進中心的包裹有多少回到使用者手上。郵方則回應，原本的指標就是為可退回的包裹設計，把全部包裹放進去會扭曲這個指標。兩種算法問的事情不同：前者看經篩選後的查找成果，後者還要看中心收到的東西，最後大多去了哪裡。報告中的這項爭議，也讓人更有理由先問清楚，一個「成功率」究竟把哪些對象算進去。</p>\n<p>這也是投遞服務比「把東西運走」多出來的責任。收進中心、完成登記、結束查詢、清空倉位，都可能代表某一道工序結束，卻不必然代表寄收件人的事情已經辦完。USPS 的搜尋說明也明白區分找尋郵件、申請退款與保險理賠，並不保證每件東西都能尋回。從失主的角度看，至少還需要知道目前找到什麼、還能做什麼，以及沒找到時會怎麼處理。當一個服務遇到例外，能否交代這些後續，往往比一句「已處理」更有幫助。</p>\n"
   }
 ];
