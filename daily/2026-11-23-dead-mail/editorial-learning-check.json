@@ -1,6 +1,6 @@
 {
   "reviewed_at": "2026-11-21T22:32:04+08:00",
-  "compared_gh_commit": "9f38b399e1927b91dfb57aed7a3591c40fe142cd",
+  "compared_gh_commit": "3b8c317a7519d08cdd52e6941f9c5005c42f74bc",
   "examples_version": "E01–E09 plus latest033/034 before-after originals and Nov21 explicit preference",
   "checks": [
     {
@@ -100,6 +100,13 @@
       "location": "036second/thirdsectionsandparagraphreview",
       "decision": "No new036wordingrequired",
       "evidence": "Full035beforeaftercompared;036already explains what imagery/records reveal and uses directtaskverbs. Doesnotcopyowner emdash orforce same construction.036paragraphs eachdevelop point;no meaningchanges."
+    },
+    {
+      "example": "Nov21-2233-titlebreadth",
+      "classification": "explicit preference",
+      "location": "036title",
+      "decision": "Existing title fits, no change",
+      "evidence": "Mailwhereaboutsquestion coverssearch/privacy/return/disposalaccountability,notoneimplementationstep.035titlefollowupshowsrelevancewithoutunnecessarynarrowing;notnewbanonnamedsubjects."
     }
   ],
   "full_text_reread": true,
