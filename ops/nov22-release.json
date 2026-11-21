@@ -1,0 +1,12 @@
+{
+  "issue": "035-atkins",
+  "nominal_date": "2026-11-22",
+  "executed_at": "2026-11-22T06:01:49+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect035HTML7b92dc2 title如何用藍曬呈現植物？,body6eb55d8;fifthheading;allolderHTML;approvedcompactarchive",
+  "nofinetuning_reminder": false,
+  "withdrawn_wave": "unscheduledresearch,notpublished"
+}
