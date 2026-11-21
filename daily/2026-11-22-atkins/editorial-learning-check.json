@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-11-21T22:32:04+08:00",
-  "compared_gh_commit": "3b8c317a7519d08cdd52e6941f9c5005c42f74bc",
+  "reviewed_at": "2026-11-22T06:05:14+08:00",
+  "compared_gh_commit": "46d3052419fea822478217e312ae53694203acf9",
   "examples_version": "E01-E09",
   "full_text_reread": true,
   "facts_and_limits_preserved": true,
@@ -82,6 +82,13 @@
       "location": "035title",
       "decision": "Broadened relevant focus, no body/head5 change",
       "evidence": "Ownerphonemsg-01M7Z8DZWAC900N8K9341DH6R1 asks relevant not too narrow. Title asks howAtkinsrepresentsplantswithcyanotypes,includesscience,imagechoices,bookworkandviewingwithoutlimitingtobookproduction."
+    },
+    {
+      "example": "0357b92dc2latesttitle",
+      "classification": "directHTMLpreservation",
+      "location": "titlemetadata,h1,mirrors",
+      "decision": "Owner removedname;preserve exact latest title",
+      "evidence": "Only3HTMLtitlelines differfrom3b8c317;mainbody/reflection equal latestgh. Complete035manuscriptrereadNov22. Existingownerpunctuationandshortparagraphsnotnormalized."
     }
   ],
   "before_hashes": {
@@ -91,10 +98,10 @@
     "manuscript.md": "689444c6372fb003bc79ba418ef90e2abfdc3b73441ce1e860d8dba8e2cb1fec"
   },
   "after_hashes": {
-    "draft.json": "182c4604204add6cc11204820f7fa4b8e9a6a22fdebc6a8871d7c287577d0e94",
-    "article-preview.html": "9f12d08a95879f5b253fde58c20febde30ff77549771ca54b2fe248057301899",
+    "draft.json": "05f33bc53b9f9fd75f4efad7aa1c58e8f9ad90e22be11164c47d1057a73b4c68",
+    "article-preview.html": "83bc038efb5eca3f81f94744175ee0a79510581e05734915e9adabfa8e28ad63",
     "reader-body.html": "8c427755d27ff1f93e98f441e5161179850f87cd6fe18c5fc6aea9ba6a06d7a2",
-    "manuscript.md": "4968c0344356debb85ba043fd9a32e1eff784ab22cace294c51676dc90a9672f"
+    "manuscript.md": "1b21de60325d60e5ba1d32ed3641c80e1bba280216e3dac45d6db52809e3a0b3"
   },
   "unresolved": [],
   "limit": "Record validates completeness, not independent external editorial review.",

@@ -1,0 +1,20 @@
+{
+  "verified_at": "2026-11-22T06:05:03+08:00",
+  "main": "debf789dd94d83c582a497ad7deadbe4d3192682",
+  "gh": "46d3052419fea822478217e312ae53694203acf9",
+  "official_issue": "035-atkins",
+  "review_issue": "036-dead-mail",
+  "exact_files": {
+    "official": 44,
+    "preview": 61
+  },
+  "source": "latestdirectHTML0357b92dc2;036deadmailpolishedWIP",
+  "zero_finetuning_reminder": false,
+  "main_excludes": [
+    "036-dead-mail",
+    "review",
+    "guides"
+  ],
+  "preserved": "allpriorarticleHTML,ownerbody/title/section5 edits,approvedcompactarchive",
+  "status": "bothliveverified"
+}

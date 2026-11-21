@@ -33,3 +33,9 @@ https://aperture.org/editorial/anna-atkins/
 6. When Seashells, Ferns, and Seaweed Went Viral，Erin Migdol訪Corey Keller，Getty，2025-10-21
 https://www.getty.edu/news/anna-atkins-victorian-era-seashells-ferns-seaweed/
 第五、六節：父親科學工作背景與早期貝類插圖；植物同好提供標本；後與Anne Dixon合作蕨類。Keller對人生意圖的限定有助避免自行編造被迫放棄職業的內心故事；不採virality類比或對所有女性生活的概括。
+
+
+## 2026-11-22T06:05:03+08:00 發佈驗證
+official_release_verified
+https://journal-for-far.learnman.workers.dev/articles/035-atkins/
+四種寬度實際畫面與載圖、來源、首頁、索引、月份與領域篩選、隨機文章已驗證。既有文章與樣式保留。
