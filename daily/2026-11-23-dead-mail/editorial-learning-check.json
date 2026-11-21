@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-11-21T21:28:14+08:00",
-  "compared_gh_commit": "ab9e95e385f04772ef8641caed955c06e687a66a",
+  "reviewed_at": "2026-11-21T22:32:04+08:00",
+  "compared_gh_commit": "9f38b399e1927b91dfb57aed7a3591c40fe142cd",
   "examples_version": "E01–E09 plus latest033/034 before-after originals and Nov21 explicit preference",
   "checks": [
     {
@@ -93,6 +93,13 @@
       "location": "四2、五1",
       "decision": "wording corrected",
       "evidence": "受損件處理把分歧改為發現，避免把違規事例與官方政策當必然衝突；拍賣把一封信配一買家改為物品按批出售，避免暗示私人通信逐封拍賣。"
+    },
+    {
+      "example": "0356eb55d8",
+      "classification": "single-edit hypothesis, later observed edits",
+      "location": "036second/thirdsectionsandparagraphreview",
+      "decision": "No new036wordingrequired",
+      "evidence": "Full035beforeaftercompared;036already explains what imagery/records reveal and uses directtaskverbs. Doesnotcopyowner emdash orforce same construction.036paragraphs eachdevelop point;no meaningchanges."
     }
   ],
   "full_text_reread": true,

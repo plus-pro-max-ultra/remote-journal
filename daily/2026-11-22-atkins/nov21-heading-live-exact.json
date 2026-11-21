@@ -1,0 +1,27 @@
+[
+  {
+    "mode": "preview",
+    "file": "articles/035-atkins/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "stories.js",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "archive/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "feed.xml",
+    "exact": true
+  }
+]

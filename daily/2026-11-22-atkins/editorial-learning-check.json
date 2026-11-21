@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-11-20T20:05:14+08:00",
-  "compared_gh_commit": "d4f4244de40dc6bdec93faf216bfe7152bbc1937; 0311303f22 and032fc743a5 original block pairs reread, owner-selected032聽懂followup remains closed",
+  "reviewed_at": "2026-11-21T22:32:04+08:00",
+  "compared_gh_commit": "9f38b399e1927b91dfb57aed7a3591c40fe142cd",
   "examples_version": "E01-E09",
   "full_text_reread": true,
   "facts_and_limits_preserved": true,
@@ -68,17 +68,26 @@
       "location": "全文、第二節",
       "decision": "already present",
       "evidence": "操作／觀看／選擇主體清楚。未照學032原環境句或輸入缺字，既有MM決定不重開；不把所有比喻都禁用。"
+    },
+    {
+      "example": "0356eb55d8+Nov21title",
+      "classification": "direct-edit preservation and explicit preview revision request",
+      "location": "intro/一1/一3/四3/title/五heading",
+      "decision": "Preserved latestHTML, changedrequestedtitle/head only",
+      "evidence": "Rawfullbeforeafterread and everyparagraph compared; exactHTMLreverse-replacement proves onlytwoheadings changedfrom6eb55d8. Newmetadata mirrored, no paragraph rewrite fromNov21rule."
     }
   ],
   "before_hashes": {
-    "draft.json": "5b44568c1186f23ff9cc61a83115ce37f7820d1776a7c63cf0f686e38d49f63c",
-    "article-preview.html": "d9489ec8bf9f7fd662bff8af472c8aa9815c13eb86fe3c2053dfa5733d64d594"
-  },
-  "after_hashes": {
     "draft.json": "c41a7b9bfafb1c4968f98e2c7b9de05c05390cde3818246e1b09199bbd8802e4",
     "article-preview.html": "60ff7ba95990739e552175e54cb99ff1c66f79ed504a12a1ac2279cd54fa2d0b",
     "reader-body.html": "c409490e25be5c3fe6f077857d4f69131d0a6215426f93b1f4f3eaf51f9ea611",
     "manuscript.md": "4d97f840c8e40e53710f4d1ad97c91be47f100503ffe79afcf4bf4d02f9305d7"
+  },
+  "after_hashes": {
+    "draft.json": "7eaf38495a7e287af7c04a1f71c5a69a0997d8fe0fd4019e991b9cb48ffbd49d",
+    "article-preview.html": "00cd3bfd0e6bc45d6d9fc5ef4ce0c034e0a0caea7d8c99a8052ae03c18ac4588",
+    "reader-body.html": "8c427755d27ff1f93e98f441e5161179850f87cd6fe18c5fc6aea9ba6a06d7a2",
+    "manuscript.md": "689444c6372fb003bc79ba418ef90e2abfdc3b73441ce1e860d8dba8e2cb1fec"
   },
   "unresolved": [],
   "limit": "Record validates completeness, not independent external editorial review.",

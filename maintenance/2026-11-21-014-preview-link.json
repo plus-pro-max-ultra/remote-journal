@@ -1,0 +1,20 @@
+{
+  "status": "official_and_preview_verified",
+  "preview_commit": "257cef83b5c31a6f0f59e366279954c473246bd1",
+  "preview_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/014-escalator-stand-walk/",
+  "correct_source_url": "https://tfl.gov.uk/info-for/media/press-releases/2016/march/london-underground-to-pilot-new-escalator-arrangement-at-holborn-tube-station",
+  "verified_at": "2026-11-21T22:15:00+08:00",
+  "changed_files": [
+    "articles/014-escalator-stand-walk/index.html",
+    "stories.js"
+  ],
+  "scope": "href only, no wording;035unchanged",
+  "evidence": "live twofiles exact and390pixel inspected; TfL actualtitle/date/introduction match, currentsourceview partialbody;fullnumbersinauditto-pilot22:05:53read",
+  "caution": "Audit first conclusion incorrectly saidplans-pilotworking;boththatandoriginalplanspilot404. Actualto-pilotverified. No official permission inferred.",
+  "official": "ApprovedURLonlychange,live2filesexact+390actualpixels;otherarticlesunchanged",
+  "official_commit": "c07f82b4a15970fb7bc17c837ed47408c3304872",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/014-escalator-stand-walk/",
+  "approved_message": "phonemsg-01M7Z85HZJ1BREJVGSJVXTJTGJ",
+  "proposal_message": "phonemsg-01M7Z7CPZR0ZN5VDKSZXMS37VY",
+  "official_verified_at": "2026-11-21T22:32:04+08:00"
+}

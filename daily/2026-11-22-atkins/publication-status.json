@@ -18,5 +18,11 @@
   "live_exact_files": 59,
   "responsive_article_checks": 4,
   "responsive_home_archive_checks": 8,
-  "official034": "CompletedNov21 21:16main591327d, notheld"
+  "official034": "CompletedNov21 21:16main591327d, notheld",
+  "latest_gh_commit": "9f38b399e1927b91dfb57aed7a3591c40fe142cd",
+  "latest_owner_edit": "6eb55d8d418314930ac5def869fb80f89317b82b",
+  "title_review_request": "phonemsg-01M7Z85HZJ1BREJVGSJVXTJTGJ",
+  "updated_at": "2026-11-21T22:32:04+08:00",
+  "zero_finetuning_reminder_applicable": false,
+  "release_note": "Preserve newestgh directHTML atNov22scheduledmainrelease;MMeditedandrequestedtitlechanges,notzero-finetuning.Onlytitleandsection5requested;noallparagraphrewrite."
 }
