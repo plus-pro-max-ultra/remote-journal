@@ -1440,7 +1440,7 @@ window.FARAWAY_STORIES = [
       },
       {
         "title": "London Underground to pilot new escalator arrangement at Holborn Tube station（Transport for London press release, 10 March 2016）",
-        "url": "https://tfl.gov.uk/info-for/media/press-releases/2016/march/london-underground-planspilot-of-new-escalator-arrangement-at-holborn-tube-station",
+        "url": "https://tfl.gov.uk/info-for/media/press-releases/2016/march/london-underground-to-pilot-new-escalator-arrangement-at-holborn-tube-station",
         "sourceType": "倫敦交通局官方新聞稿",
         "supports": "倫敦地鐵禮儀為靠右站立、左側通行；2015 年 11 至 12 月三週試驗：運量由每分鐘約 80 人理論上可升至 110 人以上，實測增加 30%（同時段 2,500 人增至約 3,250 人）；車站管制由每週數次降為三週一次；LSE 行為科學團隊設計宣導訊息"
       },
