@@ -2,16 +2,26 @@
   "issue": "034-haenyeo",
   "nominal_date": "2026-11-21",
   "gh_review_date": "2026-11-20",
-  "status": "one_day_early_review_verified",
+  "status": "official_release_verified",
   "prepared_at": "2026-11-19T20:04:35+08:00",
   "not_published_to_gh": false,
-  "not_published_to_main": true,
+  "not_published_to_main": false,
   "gh_commit": "d4f4244de40dc6bdec93faf216bfe7152bbc1937",
   "actual_gh_review_date": "2026-11-20",
   "updated_at": "2026-11-20T06:03:31+08:00",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/034-haenyeo/",
-  "verified_at": "2026-11-20T06:04:50+08:00",
-  "live_exact_files": 101,
+  "verified_at": "2026-11-21T21:16:49+08:00",
+  "live_exact_files": 43,
   "responsive_checks": 16,
-  "layout_separation_verified": true
+  "layout_separation_verified": true,
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/034-haenyeo/",
+  "main_commit": "591327d6657610325209ebe18ecc7e26df5018a3",
+  "latest_body_matches_gh": true,
+  "owner_decision_messages": [
+    "phonemsg-01M7Z3SRWMTR435N42KVJDY5WN",
+    "phonemsg-01M7Z3T78TJT7M0RJHFZ3T9BQ8"
+  ],
+  "actual_official_release_at": "2026-11-21T21:16:49+08:00",
+  "delay_reason": "Owner semantic selection received21:12aftermorninghold",
+  "income_claim_status": "Preserved ownerselectedtext, not universaldistributionruleestablishedbysources"
 }

@@ -11,17 +11,22 @@
   "photographs": 2,
   "rights": "CCBY-SA4.0bothphotos;explicitfigurecredits/source/license/resize/samelicense",
   "reviewed_at": "2026-11-18T20:05:30+08:00",
-  "verified_at": "2026-11-20T06:04:50+08:00",
+  "verified_at": "2026-11-21T21:16:49+08:00",
   "live_text_files_exact": 99,
   "live_layout_checks": 16,
   "gh_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/033-turf-houses/",
   "gh_commit": "78e818e4f5161431561d081b851d214be4386b05",
-  "main_commit": "8073b6f1695bdb2f45a5902ce8bce2b1f4b250af",
+  "main_commit": "591327d6657610325209ebe18ecc7e26df5018a3",
   "official_release_date": "2026-11-20",
   "zero_finetuning_reminder_reported_to_parent": true,
   "updated_at": "2026-11-20T06:03:31+08:00",
   "official_url": "https://journal-for-far.learnman.workers.dev/articles/033-turf-houses/",
-  "live_exact_files": 101,
+  "live_exact_files": 43,
   "responsive_checks": 16,
-  "layout_separation_verified": true
+  "layout_separation_verified": true,
+  "latest_body_matches_gh": true,
+  "owner_decision_messages": [
+    "phonemsg-01M7Z3SRWMTR435N42KVJDY5WN",
+    "phonemsg-01M7Z3T78TJT7M0RJHFZ3T9BQ8"
+  ]
 }
