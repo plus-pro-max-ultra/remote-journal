@@ -1,0 +1,25 @@
+{
+  "status": "preview_verified_main_approval_required",
+  "prepared_at": "2026-11-22T22:03:44+08:00",
+  "affected_files": [
+    "articles/012-power-frequency/index.html",
+    "stories.js"
+  ],
+  "old_url": "https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
+  "new_url": "https://web.archive.org/web/20260508082204/https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
+  "main_authority_gap": "No scoped approval for012official source-link repair. Existing main branch-first rule persists outside daily date grant.",
+  "authority_messages": [
+    "phonemsg-01M6H5PT927FZ7XKJEHN0DNP7J",
+    "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
+    "phonemsg-01M6KNKTK75DK0737MWVHQKJ83"
+  ],
+  "release_isolation": "Until scoped approval, preserve original012sourceURL on main in BOTH article and stories.js during036daily main transfer. Do not bulk-copy this maintenance delta.",
+  "publication_learning_record": "publication-edit-observation.json",
+  "preview_commit": "103cba934aae86f4ee5fa358f566a2a5cacad9fb",
+  "preview_commit_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/103cba934aae86f4ee5fa358f566a2a5cacad9fb",
+  "preview_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/",
+  "verified_at": "2026-11-22T22:05:50+08:00",
+  "official_branch_unchanged": true,
+  "official_page_check": "Direct raw request403; separate readable fetch reaches correct article. Existing main source URL verified from current source branch, not live-byte parity.",
+  "approval_followup": "Parent reported at22:05 that scoped owner approval was requested. Hold official until original approval arrives; no further question needed."
+}
