@@ -23,5 +23,11 @@
   "latest_gh_commit": "46d3052419fea822478217e312ae53694203acf9",
   "gh_commit": "46d3052419fea822478217e312ae53694203acf9",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/036-dead-mail/",
-  "actual_gh_review_date": "2026-11-22"
+  "actual_gh_review_date": "2026-11-22",
+  "next_release_edit_observation": {
+    "status": "required_at_publication_not_yet_performed",
+    "instruction_message": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "checklist": "editorial-learning/publication-checklist.md",
+    "note": "Existing readiness and past publication records do not certify the next release-time observation. Record current comparison and strategy decisions in that release closeout."
+  }
 }

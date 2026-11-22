@@ -14,5 +14,11 @@
     "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
   ],
   "selection": "Editorial daily selection from MM two suggestions. No owner-specified publication order; strike remains unscheduled.",
-  "release_separation": "036 nominalNov23 fromlatestgh to main nextmorning;037 nominalNov24 ghonly nextmorning;035 and older owner text unchanged."
+  "release_separation": "036 nominalNov23 fromlatestgh to main nextmorning;037 nominalNov24 ghonly nextmorning;035 and older owner text unchanged.",
+  "next_release_edit_observation": {
+    "status": "required_at_publication_not_yet_performed",
+    "instruction_message": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "checklist": "editorial-learning/publication-checklist.md",
+    "note": "Existing readiness and past publication records do not certify the next release-time observation. Record current comparison and strategy decisions in that release closeout."
+  }
 }
