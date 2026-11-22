@@ -1,0 +1,24 @@
+{
+  "main_sha": "3bc3a17a68685494cc1ad2a2639d16e9c9858c24",
+  "main_commit_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/3bc3a17a68685494cc1ad2a2639d16e9c9858c24",
+  "hashes": {
+    "articles/012-power-frequency/index.html": "8864285bb97032e09be4e8d846e0a3ea04d62fa00f79f6825477e345c3bf8c7e",
+    "stories.js": "f5cc787a0eb1a7114e22bd6c739f7f6bc82cba2a4dc2e57ff8aed7e0c617b1f0"
+  },
+  "pushed_at": "2026-11-23T01:10:47+08:00",
+  "approval_message": "phonemsg-01M823PFB5YF7QT3DQNKN2N43N",
+  "proposal_message": "phonemsg-01M81S7DCCTHSWGYY1Z3R448DA",
+  "followup_message": "phonemsg-01M81XPPEHNBAWD9F6WH21VRYG",
+  "status": "official_verified_complete",
+  "completed_at": "2026-11-23T01:15:57+08:00",
+  "article_verified_at": "2026-11-23T01:12:54+08:00",
+  "stories_verified_at": "2026-11-23T01:13:40+08:00",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/",
+  "stories_url": "https://journal-for-far.learnman.workers.dev/stories.js",
+  "http_status": 200,
+  "canonical_bytes_match_commit": true,
+  "source1_archive_href_confirmed": true,
+  "visual_review": "Expanded source disclosure inspected at desktop width; first reference readable, no changed prose or layout.",
+  "visual_evidence": "cloud-browser-20261122-171322.png",
+  "publication_edit_review": "publication-edit-observation.json"
+}

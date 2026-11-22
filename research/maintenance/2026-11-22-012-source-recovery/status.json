@@ -1,5 +1,5 @@
 {
-  "status": "preview_verified_main_approval_required",
+  "status": "official_verified_complete",
   "prepared_at": "2026-11-22T22:03:44+08:00",
   "affected_files": [
     "articles/012-power-frequency/index.html",
@@ -7,19 +7,28 @@
   ],
   "old_url": "https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
   "new_url": "https://web.archive.org/web/20260508082204/https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
-  "main_authority_gap": "No scoped approval for012official source-link repair. Existing main branch-first rule persists outside daily date grant.",
+  "main_authority_gap": null,
   "authority_messages": [
     "phonemsg-01M6H5PT927FZ7XKJEHN0DNP7J",
     "phonemsg-01M6KKVTKS0AFC1PDT5Y69TXYZ",
     "phonemsg-01M6KNKTK75DK0737MWVHQKJ83"
   ],
-  "release_isolation": "Until scoped approval, preserve original012sourceURL on main in BOTH article and stories.js during036daily main transfer. Do not bulk-copy this maintenance delta.",
+  "release_isolation": "Approved same-PDF archive URL is now present on both main and preview. Preserve it during later daily releases; the former012URL hold is resolved. No broader maintenance grant.",
   "publication_learning_record": "publication-edit-observation.json",
   "preview_commit": "103cba934aae86f4ee5fa358f566a2a5cacad9fb",
   "preview_commit_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/103cba934aae86f4ee5fa358f566a2a5cacad9fb",
   "preview_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/012-power-frequency/",
   "verified_at": "2026-11-22T22:05:50+08:00",
-  "official_branch_unchanged": true,
-  "official_page_check": "Direct raw request403; separate readable fetch reaches correct article. Existing main source URL verified from current source branch, not live-byte parity.",
-  "approval_followup": "Parent reported at22:05 that scoped owner approval was requested. Hold official until original approval arrives; no further question needed."
+  "official_branch_unchanged": false,
+  "official_page_check": "Canonical article and canonical stories.js each returned200 with exact expected SHA256. First source href and expanded disclosure pixels checked.",
+  "approval_followup": "Completed under original scoped approval; no remaining permission question.",
+  "official_commit": "3bc3a17a68685494cc1ad2a2639d16e9c9858c24",
+  "official_commit_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/3bc3a17a68685494cc1ad2a2639d16e9c9858c24",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/012-power-frequency/",
+  "official_verified_at": "2026-11-23T01:15:57+08:00",
+  "approval_message": "phonemsg-01M823PFB5YF7QT3DQNKN2N43N",
+  "proposal_messages": [
+    "phonemsg-01M81S7DCCTHSWGYY1Z3R448DA",
+    "phonemsg-01M81XPPEHNBAWD9F6WH21VRYG"
+  ]
 }

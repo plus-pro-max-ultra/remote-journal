@@ -101,5 +101,18 @@
   "unresolved_for_this_repair": [],
   "next_release_check": "Still required alongside036main/037gh, this record does not pre-certify tomorrow.",
   "published_gh_commit": "103cba934aae86f4ee5fa358f566a2a5cacad9fb",
-  "publication_verified_at": "2026-11-22T22:05:50+08:00"
+  "publication_verified_at": "2026-11-22T22:05:50+08:00",
+  "official_release_review": {
+    "reviewed_at": "2026-11-23T01:15:57+08:00",
+    "published_main": "3bc3a17a68685494cc1ad2a2639d16e9c9858c24",
+    "current_gh_source": "103cba934aae86f4ee5fa358f566a2a5cacad9fb",
+    "new_direct_edits_since_preview_review": false,
+    "comparison": "Current remote refs checked again. Previously observed nine paragraph pairs reread during this official publication. No additional gh commit since the preview source repair. All036direct edits remain preserved in preview.",
+    "strategy_decisions": [
+      "Keep the concise hook and earlier named institution as context-specific editing hypotheses, not a blanket rule to shorten paragraphs.",
+      "Keep concrete process and accountable actors where the source supports them. Do not generalize stronger owner-edited privacy or cost statements beyond their evidence.",
+      "This012repair changes URLs only. Do not force prose edits or alter facts based on these hypotheses."
+    ],
+    "scope": "No article wording changed. This check does not certify the next036main/037gh publication; repeat the edit review then."
+  }
 }
