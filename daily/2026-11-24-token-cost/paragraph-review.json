@@ -1,0 +1,92 @@
+{
+  "reviewed_at": "2026-11-22T20:07:02+08:00",
+  "user_message": "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8",
+  "hook_exception": true,
+  "review": [
+    {
+      "location": "一1",
+      "intent": "token與字／詞的計量差別",
+      "development": "從輸入切分、詞彙表到為何不能用字數換算。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "一2",
+      "intent": "同一句換編碼會改變切分",
+      "development": "實測中文及英文，指出中文13變7，圖示顯示實際邊界並限定純文字。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 6
+    },
+    {
+      "location": "二1",
+      "intent": "詞彙表與文字結構影響編碼",
+      "development": "從材料與有限詞彙表到Unicode組合及前置邊界的後果。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "二2",
+      "intent": "不同文字的切分規則須分別檢查",
+      "development": "用三種南亞語言的研究解釋字素與前置切分的先後。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "三1",
+      "intent": "跨語言比較先固定語意內容",
+      "development": "平行語料的理由、指定研究中Shan結果及拉丁字母語言對照。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "三2",
+      "intent": "切分差異會隨版本改變",
+      "development": "歷史公告示例的適用範圍，連到服務更新後重新測量與可追蹤條件。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "四1",
+      "intent": "token量如何變成API費用",
+      "development": "同類別單價、tax比喻、費用類別與不可見推理量的關係。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "四2",
+      "intent": "內容視窗與服務可保留的記錄",
+      "development": "從固定容量到教學案例與設計後果，與聊天產品政策區分。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "五1",
+      "intent": "增加語料之外仍有切分設計選擇",
+      "development": "控制實驗、仍有差距、詞彙表與跨空格介入的結果。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "五2",
+      "intent": "壓縮與任務品質需要分別評估",
+      "development": "未訓練LM與FLORES限制，推到正確率／費用／時間共同評估。",
+      "sentences": 5,
+      "mechanical_punctuation_count": 5
+    },
+    {
+      "location": "六1",
+      "intent": "語言支援還應公開實際工作條件",
+      "development": "從額度、前文及可靠性問題到固定任務的公開比較。",
+      "sentences": 4,
+      "mechanical_punctuation_count": 4
+    },
+    {
+      "location": "六2",
+      "intent": "使用者換語言的額外工作",
+      "development": "翻譯便利與核對成本，回到誰承擔可及性的成本。",
+      "sentences": 4,
+      "mechanical_punctuation_count": 4
+    }
+  ],
+  "judgment": "全文逐段重讀。句數只作診斷，例句內句號不當段落發展；各段有解釋鏈，沒有硬併或填話。"
+}

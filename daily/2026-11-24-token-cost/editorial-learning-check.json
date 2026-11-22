@@ -1,0 +1,114 @@
+{
+  "reviewed_at": "2026-11-22T20:07:02+08:00",
+  "compared_gh_commit": "46d3052419fea822478217e312ae53694203acf9",
+  "examples_version": "E01-E09; raw033-a20094b/034-436f291/035-6eb55d8; Nov21 topic/paragraph and latest035title feedback",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "三、四、五節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "Shan倍率直接限定2023語料和cl100k；2024公告只指指定文本，2025控制實驗及未訓練LM在相鄰段交代。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "全文與來源",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "token／詞彙表機制直述；具體研究方法／版本／立場才具名，完整七來源及支持內容在頁尾。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第三節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "重讀後移除獨立的非所有非拉丁固定倍率澄清，把範圍放進Shan句；換為平行語料比較目的。刪本篇例子只能說明幾句的重複排除，改說模型更新後重測。完整LM限制仍影響解讀，保留。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二、四節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "具體寫詞彙表位置、Unicode碼位、邊界與輸入／輸出分類，不用抽象轉換泛語。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "六節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "翻譯、核對專有名詞語氣、刪減材料是可描述工作，未把每段硬改成系統。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "從自己為工具調整語言／細節的經驗與接受度出發，不需要答對token原理。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "五2、六節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "評價對象是成功完成工作，不把最低token數當唯一價值；不外推成所有物品必須有某種價值。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "切分器處理、視窗容納是實際功能，選擇／承擔由開發者與使用者執行，沒有物品情緒或意圖。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "標題與末節",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "是人用語言問AI與完成工作，不把token或語言當自己要說話的主體。032既有owner決定不動。"
+    },
+    {
+      "example": "033-a20094b",
+      "classification": "observed edit hypothesis",
+      "location": "全文",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "已讀原前後內容，採具體主詞與作法直述；段落合併造成的對齊偏移與舊錯字不當寫法教訓。"
+    },
+    {
+      "example": "034-436f291",
+      "classification": "observed edit hypothesis",
+      "location": "全文",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "讀原編修對照，收入內容是作者決定而非通用事實公式。本篇資料均另查，沒有重開034。"
+    },
+    {
+      "example": "035-6eb55d8-and-title",
+      "classification": "observed edit plus explicit title feedback",
+      "location": "標題、全文",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "實讀四段原前後，保留清楚問題與適度寬度，不把owner單篇標點推成全站規則。新標題問不同語言的成本，未把數字或英文萬用解方當結論。035標題和所有正文保留。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題、十二主段",
+      "decision": "applied or bounded as noted, full-context reread",
+      "evidence": "核心問題轉向數位服務成本與語言可及性，與035影像圖冊／036公共服務例外分開；逐段意旨見paragraph-review，不只更換分類。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "2c8037a6027b00578e759b224d6105c9817c9eb89e95830db0ac154403c0229a",
+    "article-preview.html": "8e3fe2bd4b058c18ecfc1443bbd889aef68eb12ba92be1e8d97ebd2f25d77516",
+    "reader-body.html": "af2af5746f0c4106f641f41cc00804d4550e2f9e20ee61c0a7009a090c0e5a22",
+    "manuscript.md": "511c06684442a7c1442a6dc791d8155415e3adf71893e4b51e260c3f7d6c99f8"
+  },
+  "after_hashes": {
+    "draft.json": "267e06441b92bacd5064c5edaf0c5322eaaff7a0165e56c3531445b783085992",
+    "article-preview.html": "8b93d1759bafeae44ae5631312b8e2d18160493e0c9cab32f469a5bd59411d65",
+    "reader-body.html": "bfbe416b6958964449de92dc2d86f65a15b4af3ab20dd6c93ff25ce402073a2f",
+    "manuscript.md": "b5a4cab6e97587bc85737c74075fe71794495829a3cc25e429ddbc5ff7bf5e90"
+  },
+  "unresolved": []
+}

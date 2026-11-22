@@ -1,0 +1,18 @@
+{
+  "issue": "037-token-cost",
+  "nominal_date": "2026-11-24",
+  "gh_review_date": "2026-11-23",
+  "prepared_at": "2026-11-22T20:07:02+08:00",
+  "status": "draft_ready",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "visual_verified_at": "2026-11-22T20:07:02+08:00",
+  "authority_messages": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8",
+    "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
+  ],
+  "selection": "Editorial daily selection from MM two suggestions. No owner-specified publication order; strike remains unscheduled.",
+  "release_separation": "036 nominalNov23 fromlatestgh to main nextmorning;037 nominalNov24 ghonly nextmorning;035 and older owner text unchanged."
+}

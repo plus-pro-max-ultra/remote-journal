@@ -1,0 +1,77 @@
+{
+  "issue": "037-token-cost",
+  "status": "complete",
+  "assessed_at": "2026-11-22T20:07:02+08:00",
+  "visual_role": "讓讀者直接比較同義短句換編碼後的數量，以及英文／中文o200k_base實際切分邊界，不拿輸入按鍵當token。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Commons multilingual keyboards category, Sinhala keyboard layout, Arabic keyboard; https://commons.wikimedia.org/wiki/Category:Multilingual_keyboards",
+        "checked_at": "2026-11-22T20:07:02+08:00",
+        "result_summary": "實際查原頁與權利，下載並看三個候選；兩配置圖一實體照片均未說明內部切分，選擇可再現的原創示例圖版。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sinhala_keyboard_Layout_wijesekara_-_Standard.jpg",
+      "relevance": "Sinhala輸入鍵盤配置",
+      "decision": "not_selected",
+      "reason": "已下載並實看960×679圖，顯示按鍵配置而非token邊界，不能說明本文的編碼差異。圖中署名與頁面上傳者有別，未採用，亦未替它確認權利鏈。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sinhala_keyboard_Layout_wijesekara_-_Standard.jpg",
+        "license": "頁面標示CC BY-SA 4.0，未核清圖內署名與上傳者關係"
+      }
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Sinhala_keyboard_win.png",
+      "relevance": "Sinhala Windows輸入配置",
+      "decision": "not_selected",
+      "reason": "已下載並實看650×218圖，是小型OS鍵盤配置而非模型切分，對第一／二節沒有新增解釋。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Sinhala_keyboard_win.png",
+        "license": "CC BY-SA 3.0, file page declaration",
+        "credit": "Hhaldo"
+      }
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Arabic_keyboard.jpg",
+      "relevance": "Arabic／English Apple實體鍵盤照片",
+      "decision": "not_selected",
+      "reason": "已下載並實看960×304照片，可辨雙語按鍵，但按鍵數與token數不是同一層次。作圖容易讓讀者把輸入設備誤當模型內部編碼，因此不採。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Arabic_keyboard.jpg",
+        "license": "CC BY-SA 3.0, file page declaration",
+        "credit": "Arbitrarily0"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "original_visual",
+    "rationale": "已調查的三個鍵盤候選說明如何輸入，沒有顯示文字如何切分。原創圖直接呈現相同短句兩編碼數量及真實邊界，且附方法與範圍。這是具體候選的比較，不聲稱照片皆不合適。",
+    "selected_candidate_urls": []
+  },
+  "original_visual": {
+    "method": "tiktoken0.14.0 local pure-text encoding, exact ID/byte and roundtrip checks",
+    "data": "token-demo.json",
+    "reproduce": "reproduce_demo.py",
+    "source_url": "https://github.com/openai/tiktoken",
+    "rights": "原創文句與HTML圖版；使用MIT授權公開程式做本地計數，未重用第三方圖表",
+    "layout": "max680px白底圖版，四行語言上下排列，數量文字可讀取，token框自動換行，無外部圖片依賴",
+    "caption": "遠方誌原創示例，2026-11-22以tiktoken 0.14.0本地計算。四句表達相近意思，僅計純文字，不含聊天格式、模型回答或推理用量；不是語言整體排名，也不是API帳單。切分工具與說明。"
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "三候選下載原圖像素均已實看；Arabic雙語實體鍵盤不等於切分。",
+      "320/390/1024/1440四寬載入、六節七來源、無水平溢位。",
+      "390與1440標題／開頭、320與1440完整圖版、320圖版末尾邊界與圖說、1024第三／四節、390來源及320延伸思考／頁尾實看，清楚完整，沒有裁切資料。",
+      "第三節範圍措辭修訂後重新生成與四寬重截，最終第三節畫面再次核對。"
+    ]
+  },
+  "unresolved": []
+}
