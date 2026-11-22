@@ -3,9 +3,9 @@
   "nominal_date": "2026-11-23",
   "gh_review_date": "2026-11-22",
   "prepared_at": "2026-11-21T21:28:14+08:00",
-  "status": "one_day_early_review_verified",
+  "status": "official_verified",
   "not_published_to_gh": false,
-  "not_published_to_main": true,
+  "not_published_to_main": false,
   "replaces": "withdrawn036-wave-piloting, now unscheduled research",
   "authority_messages": [
     "phonemsg-01M6KR6G5Y98X3PS3EH61Z1462",
@@ -14,20 +14,24 @@
     "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
     "phonemsg-01M7Z438BFKFWZSC0BQ4YN9RF8"
   ],
-  "release_separation": "035main completedNov22;036nominalNov23 automaticmain per standing dategrant;withdrawnwave remainsunscheduled",
+  "release_separation": "036officialNov23;037previewonly;alllatest036directeditsand012approvedarchivepreserved",
   "visual_verified_at": "2026-11-21T21:29:29+08:00",
-  "verified_at": "2026-11-22T06:05:03+08:00",
+  "verified_at": "2026-11-23T06:05:28+08:00",
   "responsive_article_checks": 4,
   "responsive_home_archive_checks": 8,
   "live_exact_files": 61,
-  "latest_gh_commit": "46d3052419fea822478217e312ae53694203acf9",
+  "latest_gh_commit": "27e183c57258b787016492742d960f8b896ac606",
   "gh_commit": "46d3052419fea822478217e312ae53694203acf9",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/036-dead-mail/",
   "actual_gh_review_date": "2026-11-22",
   "next_release_edit_observation": {
-    "status": "required_at_publication_not_yet_performed",
-    "instruction_message": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
-    "checklist": "editorial-learning/publication-checklist.md",
-    "note": "Existing readiness and past publication records do not certify the next release-time observation. Record current comparison and strategy decisions in that release closeout."
-  }
+    "status": "completed_for_this_release",
+    "completed_release": "2026-11-23",
+    "record": "releases/2026-11-23-publication-edit-observation.json",
+    "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
+  },
+  "publication_edit_observation_completed_at": "2026-11-23T06:01:52+08:00",
+  "publication_edit_observation_record": "releases/2026-11-23-publication-edit-observation.json",
+  "main_commit": "595e51125e03d68059cd75565d7e67dd03b41d4d",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/036-dead-mail/"
 }

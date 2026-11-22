@@ -3,8 +3,8 @@
   "nominal_date": "2026-11-24",
   "gh_review_date": "2026-11-23",
   "prepared_at": "2026-11-22T20:07:02+08:00",
-  "status": "draft_ready",
-  "not_published_to_gh": true,
+  "status": "one_day_early_review_verified",
+  "not_published_to_gh": false,
   "not_published_to_main": true,
   "visual_verified_at": "2026-11-22T20:07:02+08:00",
   "authority_messages": [
@@ -14,11 +14,18 @@
     "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
   ],
   "selection": "Editorial daily selection from MM two suggestions. No owner-specified publication order; strike remains unscheduled.",
-  "release_separation": "036 nominalNov23 fromlatestgh to main nextmorning;037 nominalNov24 ghonly nextmorning;035 and older owner text unchanged.",
+  "release_separation": "036officialNov23;037previewNov23fornominalNov24;mainpendingnominaldate",
   "next_release_edit_observation": {
-    "status": "required_at_publication_not_yet_performed",
-    "instruction_message": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
-    "checklist": "editorial-learning/publication-checklist.md",
-    "note": "Existing readiness and past publication records do not certify the next release-time observation. Record current comparison and strategy decisions in that release closeout."
-  }
+    "status": "required_again_at_next_main_publication",
+    "completed_release": "2026-11-23",
+    "record": "releases/2026-11-23-publication-edit-observation.json",
+    "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
+  },
+  "verified_at": "2026-11-23T06:05:28+08:00",
+  "publication_edit_observation_completed_at": "2026-11-23T06:01:52+08:00",
+  "publication_edit_observation_record": "releases/2026-11-23-publication-edit-observation.json",
+  "latest_gh_commit": "27e183c57258b787016492742d960f8b896ac606",
+  "gh_commit": "27e183c57258b787016492742d960f8b896ac606",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/037-token-cost/",
+  "actual_gh_review_date": "2026-11-23"
 }
