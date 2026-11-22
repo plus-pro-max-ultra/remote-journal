@@ -1141,7 +1141,7 @@ window.FARAWAY_STORIES = [
     "sources": [
       {
         "title": "日本における交流電源の周波数（姬路科學館，2014）",
-        "url": "https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
+        "url": "https://web.archive.org/web/20260508082204/https://www.city.himeji.lg.jp/atom/research/manako/483_b.pdf",
         "sourceType": "科學館研究普及刊物",
         "supports": "1895 年東京電燈引進德國 AEG 50Hz 發電機、向關東東北北海道擴散；大阪電燈 1889 年引進美製 60Hz 發電機為日本最早交流配電、向西擴散；九州 1960 年前兩種頻率各半；戰後統一構想失敗；富士川到糸魚川邊界與併用地區；東海道新幹線靠四座頻率變換變電所受電"
       },
