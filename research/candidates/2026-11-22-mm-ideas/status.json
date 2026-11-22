@@ -1,0 +1,25 @@
+{
+  "status": "research_candidates_unscheduled",
+  "source_message": "phonemsg-01M80VSZN5QG6J5SE2C7591KM1",
+  "received_at": "2026-11-22T13:31:33+08:00",
+  "recorded_at": "2026-11-22T13:34:31+08:00",
+  "original_ideas": [
+    "labour strike and its origin",
+    "ai token tax for non-latin language"
+  ],
+  "issue": null,
+  "nominal_date": null,
+  "priority_order": null,
+  "not_publication_ready": true,
+  "not_changed": [
+    "main",
+    "gh-pages",
+    "existingdaily036"
+  ],
+  "next_steps": [
+    "fullprimarytranslationandchronology",
+    "fullpapersandversionedmatchedtextdesign",
+    "visualassessmentifcommissioned"
+  ],
+  "costs_incurred": 0
+}

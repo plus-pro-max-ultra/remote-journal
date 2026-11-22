@@ -1,0 +1,4 @@
+# Research plan, 2026-11-22
+MM suggested: labour strike and its origin. Original authenticated message phonemsg-01M80VSZN5QG6J5SE2C7591KM1, Nov22 13:31 Taipei. Candidate research, no issue number, publication date or order assigned.
+
+Keep separate: early recorded collective work stoppages, the origin of the English word strike, and the development of the modern labour strike and legal rights. Do not make one event the invention of all strikes. Investigate Deir el-Medina primary record, eighteenth-century seamen etymology, industrial bargaining and rights. Seek at least six sources across primary collections, scholarly/museum interpretation, and labour/legal history. Compare disputes and dates. Visual task if commissioned: original papyrus or archaeological site with clear rights, not a modern protest passed off as an ancient event. No final image decision yet.

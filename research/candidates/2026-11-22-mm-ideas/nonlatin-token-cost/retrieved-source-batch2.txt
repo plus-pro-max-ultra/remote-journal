@@ -1,0 +1,451 @@
+[1] Why OpenAI’s API Is More Expensive for Non-English Languages – Leonie Monigatti — leoniemonigatti.com (2023-08-16)
+https://www.leoniemonigatti.com/blog/openai-cost-for-non-english.html
+
+Why OpenAI’s API Is More Expensive for Non-English Languages – Leonie Monigatti
+
+# Why OpenAI’s API Is More Expensive for Non-English Languages
+
+Beyond words: How byte pair encoding and Unicode encoding factor into pricing disparities
+
+ Why the OpenAI API costs up to 15x more for non-English languages: how byte pair encoding tokenization and Unicode create pricing disparities across languages. 
+
+August 16, 2023
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-how-can-it-be-that-the-phrase-hello-world-has-two.webp "How can it be that the phrase "Hello world" has two tokens in English and 12 tokens in Hindi?")
+
+How can it be that the phrase “Hello world” has two tokens in English and 12 tokens in Hindi?
+
+After publishing my recent article on how to estimate the cost for OpenAI’s API, I received an interesting comment that someone had noticed that the OpenAI API is much more expensive in other languages, such as ones using Chinese, Japanese, or Korean (CJK) characters, than in English.
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-comment-by-a-reader-on-my-recent-article-on-how.webp)
+
+Comment by a reader on my recent article on how to estimate the cost for OpenAI’s API with the `tiktoken` library
+
+I wasn’t aware of this issue, but quickly realized that this is an active research field: At the beginning of this year, a paper called “Language Model Tokenizers Introduce Unfairness Between Languages” by Petrov et al. [2] showed that the “same text translated into different languages can have drastically different tokenization lengths, with differences up to 15 times in some cases.”
+
+As a refresher, tokenization is the process of splitting a text into a list of tokens, which are common sequences of characters in a text.
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-an-example-for-tokenization.webp "An example for Tokenization")
+
+An example for Tokenization
+
+The difference in tokenization lengths is an issue because the OpenAI API is billed in units of 1,000 tokens. Thus, if you have up to 15 times more tokens in a comparable text, this will result in 15 times the API costs.
+
+## Experiment: Number of Tokens in Different Languages
+
+Let’s translate the phrase “Hello world” into Japanese (こんにちは世界) and transcribe it into Hindi (हैलो वर्ल्ड). When we tokenize the new phrases with the `cl100k_base` tokenizer used in OpenAI’s GPT models, we get the following results (you can find the Code I used for these experiments at the end of this article):
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-number-of-letters-and-tokens-cl100kbase-for-the.webp "Number of letters and tokens (`cl100k_base`) for the phrase "Hello world" in English, Japanese, and Hindi")
+
+Number of letters and tokens (`cl100k_base`) for the phrase “Hello world” in English, Japanese, and Hindi
+
+From the above graph, we can make two interesting observations:
+
+1. The number of letters for this phrase is highest in English and lowest in Hindi, but the number of resulting tokens is lowest in English but highest in Hindi.
+2. In Hindi, there are more tokens than there are letters.
+
+How can that happen?
+
+## Fundamentals
+
+To understand why we end up with more tokens for the same phrase in languages other than English, we need to review two fundamental concepts of byte pair encoding and Unicode.
+
+### Byte Pair Encoding
+
+The Byte Pair Encoding (BPE) algorithm was originally invented as a compression algorithm by Gage [1] in 1994.
+
+> “The [BPE] algorithm compresses data by finding the most frequently occurring pairs of adjacent bytes in the data and replacing all instances of the pair with a byte that was not in the original data. The algorithm repeats this process until no further compression is possible, either because there are no more frequently occurring pairs or there are no more unused bytes to represent pairs.” [1]
+
+Let’s go through the example from the original paper [1]. Let’s say you have the smallest corpus of text consisting of the string “ABABCABCD”.
+
+1. For every pair of bytes (in this example, characters), you will count its occurrences in the corpus as shown below.
+
+```
+"ABABCABCD"  
+  
+pairs = {  
+  'AB' : 3,  
+  'BA' : 1,  
+  'BC' : 2,  
+  'CA' : 1,  
+  'CD' : 1,  
+}
+```
+
+2. Take the pair of bytes with the highest number of occurrences and replace it with an unused character. In this case, we will replace the pair “AB” with “X”.
+
+```
+# Replace "AB" with "X" in "ABABCABCD":  
+"XXCXCD"  
+  
+pairs = {  
+  'XX' : 1,  
+  'XC' : 2,  
+  'CX' : 1,  
+  'CD' : 1,   
+}
+```
+
+3. Repeat step 2 until no further compression is possible or no more unused bytes (in this example, characters) are available.
+
+```
+# Replace "XC" with "Y" in "XXCXCD":  
+"XYYD"  
+  
+pairs = {  
+  'XY' : 1,  
+  'YY' : 1,  
+  'YD' : 1,  
+}
+```
+
+### Unicode
+
+Unicode is an encoding standard that defines how different characters are represented in unique numbers called code points. In this article, we are not going to cover all details of Unicode. Here is an excellent StackOverflow answer if you need a refresher.
+
+What you need to know for the following explanation is that if your text is encoded in UTF-8, characters of different languages will require different amounts of bytes.
+
+As you can see from the table below, letters of the English language can be represented with ASCII characters and only require 1 byte. But, e.g., Greek characters require 2 bytes, and Japanese characters require 3 bytes.
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-inspired-by-wikipedia-article-on-utf-8-and.webp)
+
+(Inspired by Wikipedia article on UTF-8 and StackOverflow answer)
+
+## Looking Under The Hood
+
+Now that we understand that characters of different languages require different amounts of bytes to be represented numerically and that the tokenizer used by OpenAI’s GPT models is a BPE algorithm, which tokenizes on the byte level, let’s have a deeper look at our opening experiment.
+
+### English
+
+First, let’s look at the vanilla example of tokenization in English:
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-tokenizing-the-phrase-hello-world.webp "Tokenizing the phrase "Hello world"")
+
+Tokenizing the phrase “Hello world”
+
+From the above visualization, we can make the following observations:
+
+- One letter equals one code point
+- One Unicode code point equals 1 byte
+- The BPE tokenizes 5 bytes for “Hello” and 6 bytes for ” world” into two separate tokens
+
+This observation matches the statement on the OpenAI’s tokenizer’s site:
+
+> “A helpful rule of thumb is that one token generally corresponds to ~4 characters of text for common English text.”
+
+Notice how it says “for common English text”? Let’s look at texts that are not English.
+
+### Japanese
+
+Now what happens in languages in which a letter does not correspond to one byte but multiple bytes? Let’s look at the phrase “Hello world” translated into Japanese, which uses CJK characters that are 3 bytes long in UTF-8 encoding:
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-tokenizing-the-phrase.webp "Tokenizing the phrase "こんにちは世界"")
+
+Tokenizing the phrase “こんにちは世界”
+
+From the above visualization, we can make the following observations:
+
+- One letter equals one code point
+- One Unicode code point equals 3 bytes
+- The BPE tokenizes 15 bytes for こんにちは (Japanese for “Hello”) into a single token
+- But the letter 界 is tokenized into a single token
+- The letter 世 is tokenized into two tokens
+
+### Hindi
+
+It becomes even crazier in languages where one letter doesn’t equal one code point but is made of multiple code points. Let’s look at the phrase “Hello world” transcribed into Hindi. The Devanāgarī alphabet used for Hindi has characters that have to be split into multiple code points with each code point requiring 3 bytes:
+
+![](https://www.leoniemonigatti.com/blog/images/why-openais-api-is-more-expensive-for-non-english-languages-tokenizing-the-phrase.webp "Tokenizing the phrase "हैलो वर्ल्ड"")
+
+Tokenizing the phrase “हैलो वर्ल्ड”
+
+From the above visualization, we can make the following observations:
+
+- One letter can be made up of multiple Unicode code points (e.g., the letter है is made from combining the code points ह and ै)
+- One Unicode code point equals 3 bytes
+- Similarly to the Japanese letter 世, one code point can be divided into two tokens
+- Some tokens span more than one but less than two letters (e.g., token id 31584)
+
+## Summary
+
+This article explored how the same phrase “Hello world” translated to Japanese and transcribed to Hindi is tokenized. First, we learned that the tokenizer used in OpenAI’s GPt models tokenizes on the byte level. Additionally, we saw that Japanese and Devanāgarī characters require more than one byte to represent a character in contrast to English. Thus, we saw that the UFT-8 encoding and BPE tokenizer play a big role in the resulting number of tokens and impact the API costs.
+
+Of course, different factors, such as the fact that GPT models are not trained equally on multilingual texts, influence tokenization. At the time of writing, this issue is an active research field, and I am curious to see different solutions.
+
+## References
+
+### Web & Literature
+
+[1] Gage, P. (1994). A new algorithm for data compression. C Users Journal, 12(2), 23–38.
+
+[2] Petrov, A., La Malfa, E., Torr, P. H., & Bibi, A. (2023). Language Model Tokenizers Introduce Unfairness Between Languages. arXiv preprint arXiv:2305.15425.
+
+### Code
+
+This is the code I used to calculate the number of tokens and decode the tokens for this article.
+
+```
+# pip install tiktoken  
+  
+import tiktoken  
+  
+# Define encoding  
+encoding = tiktoken.encoding_for_model("gpt-3.5-turbo")  
+  
+# Tokenize text and get token ids  
+tokens = encoding.encode(text)  
+  
+# Decode token ids  
+decoded_text = [encoding.decode_single_token_bytes(token) for token in tokens]
+```
+
+[2] Egalitarian Language Representation in Language Models: It All Begins with Tokenizers - ACL Anthology — aclanthology.org
+https://aclanthology.org/2025.coling-main.400/
+
+Egalitarian Language Representation in Language Models: It All Begins with Tokenizers - ACL Anthology
+
+## Egalitarian Language Representation in Language Models: It All Begins with Tokenizers
+
+Menan Velayuthan, Kengatharaiyer Sarveswaran
+
+##### Abstract
+
+Tokenizers act as a bridge between human language and the latent space of language models, influencing how language is represented in these models. Despite the dominance of English-Centric (EC) Large Language Models (LLMs), tokenization methods often fail to fairly represent complex scripts like Tamil, Sinhala, and Hindi, primarily due to pre-tokenization choices. This study demonstrates that pre-tokenization has a more significant impact than tokenization algorithms on achieving egalitarian representation. To address this, we introduce an improvement to the Byte Pair Encoding (BPE) algorithm by incorporating graphemes, which we term Grapheme Pair Encoding (GPE). Our experiments show that grapheme-based character extraction outperforms byte-level tokenizers for complex scripts. We validate this approach through experiments on Tamil, Sinhala, and Hindi. The codebase and resources used in this work are publicly available at https://github.com/vmenan/tokenizers-coling2025.
+
+[3] Tokenization Multiplicity Leads to Arbitrary Price Variation in LLM-as-a-service — arxiv.org (2025-06-06)
+https://arxiv.org/abs/2506.06446
+
+# Tokenization Multiplicity Leads to Arbitrary Price Variation in LLM-as-a-service
+
+arXiv:2506.06446. cs.CL, cs.AI, cs.LG, stat.ML. Submitted 2025-06-06. Latest version v2, 2026-01-30.
+
+## Authors
+
+Ivi Chatzi, Nina Corvelo Benz, Stratis Tsirtsis, and Manuel Gomez-Rodriguez
+
+## Details
+
+- License: http://creativecommons.org/licenses/by/4.0/
+
+## Versions
+
+- v1: 2025-06-06
+- v2: 2026-01-30
+
+---
+
+Full text of v2.
+
+## Abstract
+
+Providers of LLM-as-a-service have predominantly adopted a simple pricing model: users pay a fixed price per token. Consequently, one may think that the price two different users would pay for the same output string under the same input prompt is the same. In our work, we show that, surprisingly, this is not (always) true. We find empirical evidence that, particularly for non-english outputs, both proprietary and open-weights LLMs often generate the same (output) string with multiple different tokenizations, even under the same input prompt, and this in turn leads to arbitrary price variation. To address the problem of tokenization multiplicity, we introduce canonical generation, a type of constrained generation that restricts LLMs to only generate canonical tokenizations—the unique tokenization in which each string is tokenized during the training process of an LLM. Further, we introduce an efficient sampling algorithm for canonical generation based on the Gumbel-Max trick. Experiments on a variety of natural language tasks demonstrate that canonical generation is comparable to standard generation in terms of performance and runtime, and it solves the problem of tokenization multiplicity.
+
+## 1 Introduction
+
+Imagine you run an online service that offers AI-powered translation to help tourists seamlessly navigate websites in languages other than their mother tongue. Behind the scenes, for each website the users visit, your service sends the website’s text to a provider of an LLM and asks their model to generate the translation in the mother tongue of the user. One day, reviewing your costs, you notice something strange: Hans and Emma, two users of your service, visited the same page on a website with geographical fun facts, requesting a German translation of the sentence
+
+> “The Acari River is a river of Minas Gerais state in southeastern Brazil”.
+
+Both of them received the same translated text down to the last character, yet, you were charged different amounts for each by the LLM provider. How can identical results have different costs?
+
+The computational resources required to operate state-of-the-art large language models are too large for most (enterprise) users to run them locally (Narayanan et al., 2021; Jiang et al., 2024). As a consequence, users are relying on a growing market of cloud-based providers who offer access to such models via an application programming interface (API) (Sun et al., 2022; La Malfa et al., 2024; Pais et al., 2022; Liagkou et al., 2024). The way that providers of LLM-as-a-service have come to charge the use of their models is heavily dependent on one of the most distinctive technical characteristics shared by most, if not all, state-of-the-art models—they process and generate information in discrete units called tokens.[^1] In particular, since the computational resources required to process an input prompt and generate a response are directly proportional to the number of tokens involved (Samsi et al., 2023; Fernandez et al., 2025), providers have predominantly adopted a straightforward pay-per-token pricing model—users pay a fixed price per token.
+
+Under the pay-per-token pricing model, one may naturally assume that, if i) two users submit the same prompt to a provider, ii) the provider feeds the prompt into the same model, and iii) both users receive exactly the same output string, then, they will pay the same price. In our work, we show that, surprisingly, this assumption does not hold. We find empirical evidence that, particularly for non-english outputs, both proprietary and open-weights LLMs often generate the same (output) string with different tokenizations, even under the same input prompt, and this multiplicity of tokenizations in turn leads to price variation. Moreover, since users derive value from the text that an output token sequence represents, rather than the token sequence itself, we argue that this price variation is arbitrary and undesirable.
+
+To address the problem of tokenization multiplicity, we introduce canonical generation, a type of constrained generation that restricts LLMs to only generate canonical tokenizations—the unique tokenization in which each string is tokenized during the training process of an LLM (Geh et al., 2024). In doing so, we also introduce an efficient sampling algorithm for canonical generation based on the Gumbel-Max trick that leverages the following theoretical result, which may be of independent interest: to generate a canonical tokenization, a model needs to generate (partial) canonical tokenizations at each step of the generation process underpinning its functioning.
+
+In addition to solving the problem of tokenization multiplicity, we show that, in comparison with standard generation, the distribution of token sequences generated by canonical generation is provably closer to the true distribution of token sequences used during training and, in practice, the performance and runtime of canonical generation are comparable to standard generation. We have released all code and data used in our experiments at: https://github.com/Networks-Learning/Tokenization-Multiplicity.
+
+Further related work. Our work builds upon further related work on tokenization in LLMs, multilingual LLMs, and the economics of LLM-as-a-service.
+
+The study of tokenization has a rich history in natural language processing (Palmer, 2000; Jurafsky and Martin, 2025). More recently, in the context of LLMs, there has been a renewed interest in formalizing tokenization and analyzing its properties (Gastaldi et al., 2025; Phan et al., 2024; Rajaraman et al., 2025), with the Byte-Pair Encoding (BPE) tokenization algorithm in particular receiving increased attention (Berglund and van der Merwe, 2023; Zouhar et al., 2023; Kozma and Voderholzer, 2024). The impact of tokenization on LLMs has also been studied empirically (Hou et al., 2023; Athiwaratkun et al., 2024) in generation tasks involving foreign languages (Fujii et al., 2023), translation (Domingo et al., 2019), arithmetic (Singh and Strouse, 2024), mental health (Liu et al., 2023), and privacy (Kharitonov et al., 2021; Petrov et al., 2023), among others. Moreover, there is a recent line of work studying the impact of non-canonical tokenizations on text perplexity calculations (Cao and Rimell, 2021; Chirkova et al., 2023; Geh et al., 2024; Vieira et al., 2025a; Giulianelli et al., 2024), safety guidelines (Geh et al., 2025), downstream tasks (Zheng et al., 2025), and image watermarking (Jovanović et al., 2025), as well as an effort to circumvent non-canonical tokenizations occuring as a consequence of unusual input prompt endings (Guidance, 2023). Within this line of work, the work most closely related to ours is by Vieira et al. (2025b), who have also independently proposed canonical generation[^2]. However, their work does not provide empirical evidence of tokenization multiplicity and its influence on the pay-per-token pricing model as we do, their sampling algorithms for canonical generation are computationally less efficient compared to ours, and their experimental evaluation does not demonstrate that canonical generation is comparable to standard generation in terms of performance across natural language tasks.
+
+There has been extensive research on the capabilities of multilingual LLMs, including their performance on downstream tasks (Fujii et al., 2023; Zhang et al., 2022; Rust et al., 2021) as well as their safety vulnerabilities (Shen et al., 2024; Wang et al., 2024; Deng et al., 2024; Dong et al., 2025) across different languages. Within this research, the work most related to ours is by Ahia et al. (2023), who have shown that multilingual LLMs require more tokens to generate text of similar meaning in minority languages than in english. Our work complements their work by providing empirical evidence that multilingual LLMs suffer from tokenization multiplicity in minority languages.
+
+The rapidly growing literature on the economics of LLM-as-a-service (Mahmood, 2024; Laufer et al., 2024; Cai et al., 2025; Saig et al., 2024; Bergemann et al., 2025; Sun et al., 2025a, b; Artola Velasco et al., 2025; Velasco et al., 2026) has predominantly focused on understanding the incentives providers may have to act strategically at the expense of users. Within this literature, the work most closely related to ours is by Artola Velasco et al. (2025), who show that token multiplicity enables an unfaithful provider to strategize and misreport the tokenization of an output generated by a model they serve without raising suspicion. Moreover, to eliminate the incentive to strategize, they propose an incentive-compatible pay-per-character pricing model, which in turn also eliminates the price variation due to tokenization multiplicity. However, in their work, they do not empirically demonstrate that token multiplicity can occur in practice, and it can lead to arbitrary price variation even under faithful providers, as we do in our work. Further, it is worth noting that the pay-per-character pricing model makes a provider’s profit margin vary across tokens, and this may discourage its practical adoption.
+
+## 2 Preliminaries
+
+In this section, we first define and formally characterize (deterministic) tokenizers and canonical tokenizations. Then, we briefly review the aspects of LLM training and generation that are relevant for our work.
+
+Tokenizers and canonical tokenizations. Tokenizers are tools that operate on sequences of characters (i.e., strings) and sequences of tokens, and can transform one type into the other. Formally, let $\Sigma$ be a finite set of characters and $\Sigma^{+}$ be the set of all finite strings that can be created using the characters in $\Sigma$. Similarly, let $V$ be a finite set of tokens, which we will refer to as the vocabulary, and $V^{+}$ be the set of all finite token sequences that can be created using the tokens in $V$. Then, a tokenizer ${\mathcal{T}}$ is characterized by a tuple ${\mathcal{T}}\coloneq(\Sigma,V,\texttt{enc},\texttt{dec})$, where $\texttt{enc}:\Sigma^{+}\rightarrow V^{+}$ is an encoder, which transforms strings to token sequences, and $\texttt{dec}:V^{+}\rightarrow\Sigma^{+}$ is a decoder, which transforms token sequences to strings.
+
+Let $\bm{\sigma}$ be a string and $\mathbf{s}\in V^{+}$ be a token sequence such that $\texttt{dec}(\mathbf{s})=\bm{\sigma}$, then, we will say that $\mathbf{s}$ is a (valid) tokenization of the string $\bm{\sigma}$. Here, note that there may be multiple tokenizations of a string $\bm{\sigma}$, that is, there may exist $\mathbf{s},\mathbf{s}^{\prime}\in V^{+}$ such that $\mathbf{s}\neq\mathbf{s}^{\prime}$ and $\texttt{dec}(\mathbf{s})=\texttt{dec}(\mathbf{s}^{\prime})=\bm{\sigma}$. However, given a string $\bm{\sigma}$, the encoder deterministically picks a single tokenization $\texttt{enc}(\bm{\sigma})$ among all tokenizations of $\bm{\sigma}$, which is often called the canonical tokenization (Geh et al., 2024). For details on the most commonly used tokenization algorithms—BPE (Gage, 1994; Sennrich et al., 2016), Unigram (Kudo, 2018) and Wordpiece (Song et al., 2021)—refer to Appendix A.
+
+LLM training and generation. During training, an LLM learns to predict the next token in canonical sequences of tokens derived from raw text using a tokenizer. More formally, let $p_{\mathbf{s}}=P[T\mid\bm{S}=\mathbf{s}]$ denote the true distribution of the random variable $T\in V$, representing the next token given a (partial) token sequence $\mathbf{s}\in V^{+}$. Then, the goal of LLM training is (typically) to minimize the (cross-entropy) loss between the model’s predicted distribution $d_{\mathbf{s}}\in\Delta(V)$ and the true next-token distribution $p_{\mathbf{s}}$.
+
+During generation, an LLM takes as input a prompt sequence $\mathbf{s}_{q}\in V^{+}$ and responds with an output sequence $\mathbf{s}\in V^{+}$, generated using an autoregressive process. At each time step of the process, the LLM first takes as input the concatenation of the prompt sequence $\mathbf{s}_{q}$ and the (partial) output sequence $\mathbf{s}$, and generates a distribution over tokens $d_{\mathbf{s}_{q}\shortmid\mathbf{s}}\in\Delta(V)$. Then, it samples the next token $t$ from the distribution $d_{\mathbf{s}_{q}\shortmid\mathbf{s}}$ and appends the token $t$ to the output sequence $\mathbf{s}$. The process continues until a special end-of-sequence token is sampled. For the remainder of this paper, we will omit the prompt sequence $\mathbf{s}_{q}$ from the notation and write $d_{\mathbf{s}}$ and $p_{\mathbf{s}}$ for brevity.
+
+Importantly, since LLMs are trained on finite data, the support of the distribution $d_{\mathbf{s}}$ may differ from the respective true distribution $p_{\mathbf{s}}$. As a result, it is possible for an LLM to generate a non-canonical token sequence, even if it has encountered no such sequences during training (Cao and Rimell, 2021; Chirkova et al., 2023; Vieira et al., 2025a; Giulianelli et al., 2024; Geh et al., 2025).
+
+## 3 Can Hans and Emma Receive Different Tokenizations for the Same Output String?
+
+We answer this question affirmatively. Using three simple natural language tasks, we demonstrate that tokenization multiplicity can occur in both proprietary and open-weights LLMs. Specifically, we focus on translation (as in the example of Hans and Emma in Section 1), spell checking, and rephrasing. The motivation for these choices is that, in all these tasks, an LLM has to process and rewrite a given input text and is therefore more likely to generate the same output string despite the randomness in its generation.
+
+Figure 1: Translation task example. The top box shows the input prompt, which consists of a translation instruction and the accompanying Wikipedia text to be translated. The latter two boxes show two outputs generated by Qwen2.5-7B-Instruct as response to the input prompt, corresponding to the same string but with two different tokenizations.
+
+For each of the three tasks, we construct $100$ input prompts using short texts from Wikipedia.[^3] For the translation task, each prompt consists of a (system) instruction to translate a short text written in English to one of $5$ target languages, followed by the respective Wikipedia text in the English language. For the other two tasks, each prompt consists of a (system) instruction to spell check or rephrase short texts written in $6$ different languages (including English) and, for the spell checking task, we first introduce a small number of typos in each Wikipedia text by replacing a few latin characters with other latin characters selected at random. To simulate scenarios where different users ask an LLM to perform the same task on the same input text, we feed each input prompt to the LLM $100$ times, keeping all parameters identical except for the random seed used during generation. We then focus on (the existence of) pairs of outputs whose strings are identical but their tokenization lengths differ.
+
+As a starting point, in Figure 1, we illustrate the translation task that we consider in our experiments using as an example a pair of outputs generated by Qwen2.5-7B-Instruct (Yang et al., 2024) to the input text introduced at the beginning of Section 1. We observe that, while both output pairs correspond to the same string, Hans’s output consists of $26$ tokens while Emma’s output consists of $28$ tokens due to a difference in the generated tokenization of the words “südöstlichen” and “Brasilien”. Importantly, these tokenization differences cause the latter output to be $7.7\%$ more expensive than the former under pay-per-token pricing. For similar examples illustrating the spell checking and rephrasing tasks, refer to Appendix E.
+
+Further, we proceed to quantify the frequency and magnitude of such inconsistencies in pricing across different tasks, LLMs, and languages. In our experiments, we consider both proprietary LLMs from the gpt, gemini, and claude families and open-weights LLMs from the Llama and Qwen families. For brevity, in the remainder of the section, we use shortened names to refer to each model, and we provide the full names of all models in Table 3 in Appendix F, along with additional details about the hardware, data, and APIs we use.[^4]
+
+We first look into the (conditional) probability that, once two users receive the same output string from the model, the lengths of the two tokenizations differ. Formally, let $\mathbf{S}$ and $\mathbf{S}^{\prime}$ denote the random variables corresponding to tokenizations received by two different users as a response after providing the same prompt, i.e., $Q=Q^{\prime}$. Our goal is to estimate the quantity $P(\texttt{len}(\mathbf{S})\neq\texttt{len}(\mathbf{S}^{\prime})\mid\texttt{dec}(\mathbf{S})=\texttt{dec}(\mathbf{S}^{\prime}),Q=Q^{\prime})$. To this end, for each prompt, we count the number of output pairs whose strings match but tokenization lengths differ as a fraction of all output pairs whose strings match, and we take the average across prompts. Note that, to perform fair comparisons across models, we intentionally focus on cases where there are differences in the tokenization length rather than the tokenization itself, since the generated tokenization is not observable under all APIs.[^5] Figure 2 summarizes the results for German language, which show that tokenization multiplicity can indeed occur both when using open-weights and proprietary models. In particular, for all models except gemini, we find cases of tokenization multiplicity in at least one task and, for open-weights models (i.e., Llama8b and Qwen7b), we find that tokenization multiplicity occurs regularly across all three tasks. Refer to Appendix G.1 for qualitatively similar results in other languages. In this context, note that the gemini model did generate a few ($<$$1$%) non-canonical outputs, which suggests that this model may also present tokenization multiplicity, but we did not observe it due to the finite sample size of our experiments.[^6]
+
+Figure 2: Probability of tokenization multiplicity. The plots show the empirical probability that the length of two output tokenizations to the same input prompt differ, conditioned on the output strings being the same. Each panel corresponds to one of the three tasks we consider in our experiments involving outputs in the German language. Across all panels, error bars represent $95\%$ confidence intervals resulting from $100$ input prompts.
+
+Next, we focus on outputs where tokenization multiplicity does occur and look into the magnitude of the variation in tokenization lengths, which directly determines the variation in prices charged to users under pay-per-token pricing. Specifically, for each output string $\bm{\sigma}$ where there are at least two tokenizations with different length, we measure the relative difference in length (and hence price) between the shortest tokenization $\mathbf{s}_{min}$ and the longest tokenization $\mathbf{s}_{max}$, i.e., $\left(\texttt{len}\left(\mathbf{s}_{max}\right)-\texttt{len}\left(\mathbf{s}_{min}\right)\right)/\texttt{len}\left(\mathbf{s}_{min}\right)$. Figure 3 summarizes the results for German language, which show that, whenever tokenization multiplicity occurs, a user may pay up to $15\%$ higher price in comparison with another user for the same output string, with similar levels of variation across both open-weights and proprietary models. Refer to Appendix G.1 for qualitatively similar results in other languages.
+
+Further, we analyze how the prevalence of tokenization multiplicity changes depending on the language of the output. To this end, out of the $100$ input prompts we construct per language and task, we measure the number of prompts for which a model (here, gpt5m) generates at least two outputs with the same string but different tokenization lengths. Figure 4 summarizes the results, which show that, across all three tasks, tokenization multiplicity is more prevalent in minority languages. For example, even though ChatGPT officially supports languages such as Turkish or Swahili,[^7] we observed that at least $7\%$ of the input prompts for these two languages led gpt5m to generate identical outputs with different prices. For qualitatively similar results with other models, refer to Appendix G.1.
+
+Figure 3: Magnitude of price variation. The plots show the empirical distribution of the relative difference in length between the longest and shortest tokenization of each output string, across all outputs where tokenization multiplicity occurs. Each panel corresponds to one of the three tasks we consider in our experiments involving outputs in the German language. Across all panels, box plots show the quartiles of the respective distributions with black horizontal lines representing median values.
+
+To study the prevalence and magnitude of tokenization multiplicity, we have focused so far on pairs of short outputs corresponding to exactly the same string, since this allows us to attribute any price variation exclusively to token multiplicity. In this context, one may think that, on pairs of longer outputs with multiple partial string matches, tokenization multiplicity may not lead to significant price variation if the difference in tokenization length across partial matches cancels out. However, in what follows, we provide empirical evidence that the difference in tokenization length is not independent across partial matches and, as a consequence, the price variation due to token multiplicity may be more pronounced in longer outputs. In particular, in outputs generated by gpt4om to the translation task from English to German, but using longer Wikipedia texts (refer to Appendix F for details regarding the experimental setup), we find that, if a word is generated with a non-canonical tokenization, then, subsequent occurrences of the word are typically generated using that same tokenization. More specifically, we observe that, in $88\%$ of those cases, all subsequent occurrences (up to $10$) are generated using the same non-canonical tokenization. In contrast, in $10\%$ of the remaining cases, all subsequent occurrences of the word are generated using the canonical tokenization and, in the last $2\%$ of cases, subsequent occurrences use a mix of both canonical and non-canonical tokenizations. As an immediate consequence, it is easy to find examples of long, similar outputs containing multiple repetitions of the same word with different but consistent tokenizations, as shown in Figure 6 in Appendix E.
+
+## 4 Avoiding Tokenization Multiplicity through Canonical Generation
+
+To solve the problem of tokenization multiplicity, we introduce canonical generation, a type of constrained generation that restricts LLMs to generate each output string with only its canonical tokenization. In this context, we argue that, if one were to pick a single tokenization for each output string, the canonical tokenization presents itself as the most natural choice. This is because, during the training of an LLM, all strings in the training data are first encoded canonically using a tokenizer, and the LLM is then trained to complete these canonical token sequences.
+
+In what follows, we first show that, for an output token sequence generated by an LLM to be canonical, the partial token sequences generated at each step of generation must also be canonical. Building upon this result, we then introduce an efficient and easy-to-implement sampling algorithm for canonical generation based on the Gumbel-Max trick (Huijben et al., 2022). Finally, we conclude by analyzing both theoretically and empirically the quality of the outputs generated by canonical generation against those generated by standard generation, as well as the runtime of our sampling algorithm.
+
+### 4.1 Subsequences of Canonical Token Sequences Must Also Be Canonical
+
+In this section, we establish our main theoretical result, which shows that the most commonly used tokenizers—BPE, Unigram, and Wordpiece—are non-recovering tokenizers.
+
+**Definition 1.**
+
+A tokenizer ${\mathcal{T}}=(\Sigma,V,\texttt{enc},\texttt{dec})$ is called non-recovering if it holds that, for any non-canonical token sequence $\mathbf{s}\in V^{+}$ according to ${\mathcal{T}}$ and any token $t\in V$, $\mathbf{s}\shortmid t$ is also non-canonical.
+
+More formally, we have the following theorem:[^8]
+
+**Theorem 2.**
+
+BPE-, Unigram- and Wordpiece-based tokenizers are non-recovering.
+
+Figure 4: Tokenization multiplicity across languages. The plots show the number of inputs prompts for which we observe at least two outputs given by gpt5m with the same string but different tokenization lengths. Each panel corresponds to one of the three tasks we consider in our experiments and pairs of letters on the x-axis correspond to different languages. Refer to Table 2 in Appendix F for details regarding the languages we use and to Appendix G.1 for qualitatively similar results using other models.
+
+This theorem immediately implies that an output token sequence is canonical if and only if the partial token sequences generated at each step of the generation process are canonical. Moreover, this theorem also provides a plausible explanation for the empirical observation that the likelihood that an LLM generates non-canonical output sequences increases with the length of the sequence (Geh et al., 2024). This is because, since sampling a “non-canonical token” once during the generation process is sufficient to render the output token sequence non-canonical, it is natural that the chances of this to happen increase with the number of sampled tokens.
+
+In this context, we find it rather surprising that the above theorem holds for BPE, Unigram and Wordpiece since these (deterministic) tokenizers use fundamentally different tokenization techniques: BPE uses a rule based approach, Unigram maximizes the probability of the tokenization, and Wordpiece greedily encodes the text to minimize the number of tokens.
+
+### 4.2 An Efficient Sampling Algorithm for Canonical Generation
+
+Building upon Theorem 2, we now introduce canonical generation, along with an efficient sampling algorithm to implement it. The core principle of canonical generation is to ensure that the sampled tokens at all steps of the generation are such that the respective (partial) output remains canonical. To this end, at each step, it sets the probability of a subset of tokens to zero—those that, when appended to a partial output sequence, would result in a non-canonical token sequence—and redistributes their probability mass to the remaining tokens proportionally to their original probability mass.
+
+Formally, let $d_{\mathbf{s}}$ denote the next-token distribution generated by the LLM given a partial output token sequence $\mathbf{s}$ and let $d_{\mathbf{s}}(t)$ denote the probability of sampling a token $t$ from this distribution. Given the partial output token sequence $\mathbf{s}$, an LLM using canonical generation draws the next token in the generation process from a canonicalized next-token distribution
+
+$$\tilde{d}_{\mathbf{s}}(t):=\begin{cases}d_{\mathbf{s}}(t)/Z&\text{if ${\mathbf{s}}\shortmid t$ is canonical}\\ 0&\text{otherwise,}\end{cases} \tag{1}$$
+
+where $Z=\sum_{t\in V:\ {\mathbf{s}}\shortmid t\text{ is canonical}}d_{\mathbf{s}}(t)$ is a normalization constant that ensures that $\tilde{d}_{\mathbf{s}}$ is a valid probability distribution. In that context, note that redistributing the probability mass of tokens that would lead to non-canonical token sequences proportionally to the original probabilities $d_{\mathbf{s}}(t)$ is a natural choice we make, inspired by other popular strategies for (stochastic) generation, such as top-$k$ and top-$p$ sampling (Holtzman et al., 2020), and constrained generation (Beurer-Kellner et al., 2024).
+
+Next, we introduce an efficient and easy-to-implement algorithm to sample from the canonicalized next-token distribution $\tilde{d}_{\mathbf{s}}$, which avoids explicitly computing the entire distribution $\tilde{d}_{\mathbf{s}}$. The algorithm starts by sampling a value $u_{t}\sim\text{Gumbel}(0,1)$ from a Gumbel distribution for each token $t\in V$. Then, it ranks the tokens in decreasing order with respect to the perturbed log-probability $\log(d_{\mathbf{s}}(t))+u_{t}$. Finally, it returns the token $t$ with the largest value of $\log(d_{\mathbf{s}}(t))+u_{t}$ such that ${\mathbf{s}}\shortmid t$ is canonical. The overall procedure, summarized in Algorithm 1, relies on a property of the Gumbel-Max trick (Maddison et al., 2014; Huijben et al., 2022), which states that the $\mathop{\mathrm{argmax}}$ operation over a constrained subset of categorical outcomes is equivalent to sampling from a categorical distribution with zero probability for all outcomes outside the subset, and with the probabilities of the outcomes in the subset scaled proportionally to their original probabilities, as shown in Eq. 2 in Maddison et al. (2014). Hence, it readily holds that Algorithm 1 returns a valid sample from the canonicalized next-token distribution $\tilde{d}_{\mathbf{s}}$ defined in Eq. 1, i.e.,
+
+$$\mathop{\mathrm{argmax}}_{t\in V:\ {\mathbf{s}}\shortmid t\text{ is canonical}}\left\{\log(d_{\mathbf{s}}(t))+u_{t}\right\}\\ \sim\tilde{d}_{\mathbf{s}}.$$
+
+Algorithm 1 Canonical Generation via Gumbel-Max Sampling
+
+next-token distribution $d_{\mathbf{s}}$
+
+$u_{t}\sim Gumbel(0,1)$ for all $t\in V$
+
+for $t\in V$ in decreasing order of $\log(d_{\mathbf{s}}(t))+u_{t}$ do
+
+if $s\shortmid t$ is canonical then
+
+return t
+
+end if
+
+end for
+
+Further, it is worth highlighting that, in contrast to computing the canonicalized next-token distribution $\tilde{d}_{\mathbf{s}}$, which requires evaluating the canonicity of $|V|$ token sequences, Algorithm 1 requires only a few evaluations of canonicity. This is because, in practice, LLMs tend to generate mostly canonical token sequences (Geh et al., 2024), hence, the probabilities $d_{\mathbf{s}}(t)$ generated by an LLM for tokens $t$ that lead to non-canonical sequences ${\mathbf{s}}\shortmid t$ are usually small. More specifically, let $d_{\mathbf{s}}(\text{canonical})$ be the probability mass on the subset of tokens that lead to canonical sequences, i.e., $d_{\mathbf{s}}(\text{canonical})=\sum_{t\in V:\ {\mathbf{s}}\shortmid t\text{ is canonical}}d_{\mathbf{s}}(t)$, then Algorithm 1 requires, in expectation, fewer than $1/d_{\mathbf{s}}(\text{canonical})$ evaluations of canonicity before successfully sampling the next token. That is because, unlike (independent) rejection sampling from $d_{\mathbf{s}}$, which would require in expectation exactly $1/d_{\mathbf{s}}(\text{canonical})$ evaluations of canonicity until a token that leads to a canonical sequence is successfully sampled, our approach never checks the same token twice, which results in an increase in the success probability of sampling a token that leads to a canonical sequence after each failed attempt.[^9]
+
+The simplest way to test whether the sequence $\mathbf{s}\shortmid t$ is canonical is to compute and check if $\texttt{enc}(\texttt{dec}(\mathbf{s}\shortmid t))=\mathbf{s}\shortmid t$. For BPE-based tokenizers however, it has been shown that it is sufficient to test if $\texttt{enc}(\texttt{dec}(t_{\text{last}}\shortmid t))=t_{\text{last}}\shortmid t$, where $t_{\text{last}}$ is the final token in $\mathbf{s}$. In fact, a recently proposed efficient algorithm to test whether $\mathbf{s}\shortmid t$ is canonical only partially applies the BPE algorithm to $\texttt{dec}(t_{\text{last}}\shortmid t)$ (Vieira et al., 2025b; Hayase et al., 2025).
+
+### 4.3 Performance of Canonical Generation
+
+| Task | Metric | Llama8B | | Qwen7B | |
+| --- | --- | --- | --- | --- | --- |
+| | | Standard | Canonical | Standard | Canonical |
+| Translation | Quality score | $0.72\pm 0.02$ | $0.70\pm 0.02$ | $0.73\pm 0.01$ | $0.71\pm 0.01$ |
+| | Time per token (s) | $0.019$ | $0.020$ | $0.018$ | $0.019$ |
+| | Non-canonicity rate | $6\%$ | - | $18\%$ | - |
+| Spell Checking | $1$ $-$ edit distance | $0.62\pm 0.04$ | $0.61\pm 0.04$ | $0.74\pm 0.04$ | $0.72\pm 0.04$ |
+| | Time per token (s) | $0.020$ | $0.023$ | $0.018$ | $0.018$ |
+| | Non-canonicity rate | $10\%$ | - | $19\%$ | - |
+| Rephrasing | Cosine similarity | $0.84\pm 0.02$ | $0.84\pm 0.02$ | $0.89\pm 0.02$ | $0.88\pm 0.02$ |
+| | Time per token (s) | $0.020$ | $0.020$ | $0.018$ | $0.020$ |
+| | Non-canonicity rate | $6\%$ | - | $5\%$ | - |
+| MGSM | Accuracy | $0.37\pm 0.06$ | $0.37\pm 0.06$ | $0.63\pm 0.05$ | $0.62\pm 0.06$ |
+| | Time per token (s) | $0.020$ | $0.021$ | $0.018$ | $0.020$ |
+| | Non-canonicity rate | $22\%$ | - | $29\%$ | - |
+
+Table 1: Performance, (generation) time per token, and non-canonicity rate. The results comprise pairs of outputs generated with standard and canonical generation in German language under the same source of randomness. For the time per token, confidence intervals are not shown, as they were all smaller than $10^{-4}$.
+
+We first show that, in comparison with standard generation, the distribution of tokens generated by canonical generation is provably closer to the true distribution of sequences that the LLM has seen during training. Formally, let $p$ denote the true distribution over token sequences ${\mathbf{s}}\in V^{+}$ used during training, for which note that $p(\mathbf{s})=0$ holds for all sequences $\mathbf{s}$ that are non-canonical. Moreover, let $d$ denote the distribution over token sequences that the LLM generates using standard generation, and $\tilde{d}$ the distribution over token sequences that the LLM generates using canonical generation, that is, sampling from the canonicalized next-token distribution $\tilde{d}_{\mathbf{s}}$ given by Eq. 1 at each step of the generation process. Then, the following theorem shows that $p$ is likely to be closer to $\tilde{d}$ than $d$ in terms of KL-divergence, a result independently established in Proposition 3 of Vieira et al. (2025b):[^10]
+
+**Theorem 3.**
+
+Let $d$ be absolutely continuous[^11] with respect to $p$. Moreover, assume that there exist $\mathbf{s}\in V^{+}$ and $t_{1},t_{2}\in V$ such that $\mathbf{s}\shortmid t_{1}$ is non-canonical with $d(\mathbf{s}\shortmid t_{1})>0$ and $\mathbf{s}\shortmid t_{2}$ is canonical with $p(\mathbf{s}\shortmid t_{2})>0$ and $d(\mathbf{s}\shortmid t_{2})>0$. Then, it holds that
+
+$$\textrm{KL}(p,\tilde{d})<\textrm{KL}(p,d). \tag{2}$$
+
+In simpler terms, the two conditions under which canonical generation brings the output token sequences closer to the true distribution are that (i) there exist non-canonical token sequences with positive probability of being generated under $d$ so that their probability mass can be redistributed, and (ii) there exist canonical token sequences with positive probability under $d$ and $p$ so that the redistribution of probability mass in $\tilde{d}$ is beneficial. To understand the intuition behind Theorem 3, note that, by using canonical generation (i.e., sampling from $\tilde{d}$ instead of $d$), the probability that an LLM generates non-canonical token sequences becomes zero, and the probability that it generates any other (canonical) token sequence increases under $\tilde{d}$. Further, since only canonical token sequences have positive probability under the true distribution $p$, this redistribution of probability mass from non-canonical token sequences to canonical ones can only bring the distribution $\tilde{d}$ closer to the true distribution $p$ compared to $d$.
+
+On the flip side, it is important to clarify that a similar property does not necessarily hold for the respective distributions over strings. That is, using canonical generation, the distribution of output strings, resulting from decoding the output token sequences, is not guaranteed to be closer (in terms of KL-divergence) to the true distribution of output strings used during training. Formally, let $p_{\texttt{dec}}=P_{\mathbf{s}\sim p(\mathbf{s})}[\texttt{dec}(\mathbf{s})]$ be the true distribution over strings, $d_{\texttt{dec}}=P_{\mathbf{s}\sim d(\mathbf{s})}[\texttt{dec}(\mathbf{s})]$ be the distribution of strings induced by the distribution of output token sequences $d$, and $\tilde{d}_{\texttt{dec}}=P_{\mathbf{s}\sim\tilde{d}(\mathbf{s})}[\texttt{dec}(\mathbf{s})]$ be the distribution of strings induced by the distribution of output token sequences $\tilde{d}$. Then, we have that
+
+$$\displaystyle(p_{\texttt{dec}},\tilde{d}_{\texttt{dec}})=$$
+
+$$\displaystyle=\sum_{\bm{\sigma}\in\Sigma^{+}}p_{\texttt{dec}}(\texttt{dec}(\mathbf{s})=\bm{\sigma})\ln\left(\frac{p_{\texttt{dec}}(\texttt{dec}(\mathbf{s})=\bm{\sigma})}{\tilde{d}_{\texttt{dec}}(\texttt{dec}(\mathbf{s})=\bm{\sigma})}\right)$$
+
+$$\displaystyle=\sum_{\texttt{enc}(\bm{\sigma}),\bm{\sigma}\in\Sigma^{+}}p(\mathbf{s}=\texttt{enc}(\bm{\sigma}))\ln\left(\frac{p(\mathbf{s}=\texttt{enc}(\bm{\sigma}))}{\tilde{d}(\mathbf{s}=\texttt{enc}(\bm{\sigma}))}\right)$$
+
+$$\displaystyle=\sum_{\mathbf{s}\in V^{+}:\,\mathbf{s}\text{ is canonical}}p(\mathbf{s}=\mathbf{s})\ln\left(\frac{p(\mathbf{s}=\mathbf{s})}{\tilde{d}(\mathbf{s}=\mathbf{s})}\right)$$
+
+$$\displaystyle=\textrm{KL}(p,\tilde{d})$$
+
+because there is a one-to-one mapping determined by the encoder enc from any string to a canonical token sequence, and only canonical token sequences have positive probability under $p$ and $\tilde{d}$. In contrast, one cannot claim the same for $\textrm{KL}(p_{\texttt{dec}},d_{\texttt{dec}})$ and $\textrm{KL}(p,d)$, as the same string can have multiple tokenizations that have positive probability under $d$. Thus, we cannot conclude that $\textrm{KL}(p_{\texttt{dec}},\tilde{d}_{\texttt{dec}})<\textrm{KL}(p_{\texttt{dec}},d_{\texttt{dec}})$.
+
+Next, given this theoretical gap and since users typically derive value from the string that the output token sequence represents rather than the token sequence itself, we empirically compare the performance and efficiency of canonical and standard generation on the same three tasks from Section 3 (i.e., translation, spell checking, and rephrasing), as well as a standard benchmark for multilingual LLM evaluation (i.e., MGSM), using (open-weights) Llama and Qwen models.[^12] To this end, we first sample $100$ pairs of outputs per input prompt using standard and canonical generation with the same source of randomness, following Corvelo Benz et al. (2026). Then, we identify the pairs in which the output generated using standard generation are non-canonical, which are the only ones in which standard and canonical generation differ (under Gumbel-Max based sampling), and measure performance and time per token by (re-)sampling $10$ continuations from the token in which the output became non-canonical under standard generation using both standard and canonical generation on each corresponding output (again with the same source of randomness).
+
+To measure performance, we use (i) a quality score provided by a pre-trained neural network for reference-free translation evaluation (Guerreiro et al., 2024) in the translation task, (ii) the (normalized) Levenshtein edit distance (Levenshtein, 1966) between the generated text and the original text without typos in the spell checking task, (iii) cosine similarity of sentence embeddings (Reimers and Gurevych, 2019) of the original and rephrased text in the rephrasing task, and (iv) average accuracy in the MGSM task. Refer to Appendix F for additional details regarding the experimental setup.
+
+Table 1 summarizes the results for the German language, which show that both canonical and standard generation are comparable both in terms of performance and efficiency. Here, the slightly lower performance of canonical generation can be attributed to a limitation shared by constrained generation in general, namely, occasionally restricting the sampling space to low probability generation paths (Vieira et al., 2025b). Refer to Appendix G.2 for qualitatively similar results in other languages.
+
+## 5 Discussion and Future Work
+
+In this section, we highlight several limitations of our work and discuss avenues for future research.
+
+Tasks and languages. Our experiments provides strong empirical evidence that tokenization multiplicity can occur on three natural language tasks, particularly in non-english languages. However, it would be interesting to study tokenization multiplicity on additional tasks. Moreover, it would be interesting to investigate whether commonly used practices to improve multilingual language generation, such as fine-tuning on different languages, using a different tokenizer per language, or using specialized models trained on mostly non-English text, may reduce the prevalence of tokenization multiplicity.
+
+Methodology. Our main theoretical result (Theorem 2) reveals that, for BPE-, Unigram- and Wordpiece-based tokenizers, subsequences of canonical token sequences must also be canonical. It would be very interesting to better understand what property a tokenizer needs to satisfy for our result to hold. In this context, it would also be interesting to define relaxed notions of canonical tokenization applicable to stochastic tokenizers (Kudo, 2018; Provilkov et al., 2020), and adapt our theoretical result to this type of tokenizers.
+
+Further, under canonical generation, we canonicalize the next-token distribution by redistributing the probability mass of tokens leading to non-canonical token sequences among the remaining tokens proportionally to their original probability mass. We have shown that, in comparison with the original next-token distribution, this particular canonicalized next-token distribution leads to a distribution of output sequences that is closer to the true distribution of token sequences. However, we have found that, in practice, canonical generation has slightly lower performance than standard generation. In future work, it would be worth to investigate global strategies beyond (next-token) sampling to redistribute the probability mass of non-canonical output token sequences to achieve better practical performance.
+
+## 6 Conclusions
+
+We have presented empirical evidence that, particularly for non-english outputs, both proprietary and open-weights LLMs often generate the same (output) string with different tokenizations, even under the same input prompt, and this multiplicity of tokenizations in turn leads to arbitrary, undesirable price variation. To address the problem of tokenization multiplicity, we have proposed canonical generation, a type of constrained generation that restricts LLMs to only generate the canonical tokenization of any output string, and introduced a simple and efficient sampling algorithm based on the Gumbel-Max trick to implement it. Further, we have shown that, in comparison with standard generation, the distribution of token sequences generated using canonical generation is provably closer to the true distribution of token sequences used during training, and the performance and runtime of LLMs using either method are comparable.
+
+Acknowledgements. Gomez-Rodriguez acknowledges support from the European Research Council (ERC) under the European Union’s Horizon 2020 research and innovation programme (grant agreement No. 945719). Tsirtsis acknowledges support from the Alexander von Humboldt Foundation in the framework of the Alexander von Humboldt Professorship (Humboldt Professor of Technology and Regulation awarded to Sandra Wachter) endowed by the Federal Ministry of Education and Research via the Hasso Plattner Institute.
+
+## References
+
+- Narayanan et al. (2021) Deepak Narayanan, Mohammad Shoeybi, Jared Casper, Patrick LeGresley, Mostofa Patwary, Vijay Korthikanti, Dmitri Vainbrand, Prethvi Kashinkunti, Julie Bernauer, Bryan Catanzaro, et al. Efficient large-scale language model training on gpu clusters using megatron-lm. In Proceedings of the international conference for high performance computing, networking, storage and analysis, pages 1–15, 2021.
+- Jiang et al. (2024) Ziheng Jiang, Haibin Lin, Yinmin Zhong, Qi Huang, Yangrui Chen, Zhi Zhang, Yanghua Peng, Xiang Li, Cong Xie, Shibiao Nong, Yulu Jia, Sun He, Hongmin Chen, Zhihao Bai, Qi Hou, Shipeng Yan, Ding Zhou, Yiyao Sheng, Zhuo Jiang, Haohan Xu, Haoran Wei, Zhang Zhang, Pengfei Nie, Leqi Zou, Sida Zhao, Liang Xiang, Zherui Liu, Zhe Li, Xiaoying Jia, Jianxi Ye, Xin Jin, and Xin Liu. MegaScale: Scaling Large Language Model Training to More Than 10,000 GPUs. In 21st USENIX Symposium on Networked Systems Design and Implementation (NSDI 24), pages 745–760, Santa Clara, CA, April 2024. USENIX Association. ISBN 978-1-939133-39-7.
+- Sun et al. (2022) Tianxiang Sun, Yunfan Shao, Hong Qian, Xuanjing Huang, and Xipeng Qiu. Black-Box Tuning for Language-Model-as-a-Service. In Proceedings of the 39th International Conference on Machine Learning, volume 162 of Proceedings of Machine Learning Research, pages 20841–20855. PMLR, 2022.
+- La Malfa et al. (2024) Emanuele La Malfa, Aleksandar Petrov, Simon Frieder, Christoph Weinhuber, Ryan Burnell, Raza Nazar, Anthony Cohn, Nigel Shadbolt, and Michael Wooldridge. Language-Models-as-a-Service: Overview of a New Paradigm and its Challenges. J. Artif. Int. Res., 80, September 2024. ISSN 1076-9757.
+- Pais et al. (2022) S. Pais, J. Cordeiro, and M. L. Jamil. NLP-based platform as a service: a brief review. Journal of Big Data, 9(54), 2022.
+- Liagkou et al. (2024) Vasiliki Liagkou, Evangelia Filiopoulou, George Fragiadakis, Mara Nikolaidou, and Christos Michalakelis. The cost perspective of adopting Large Language Model-as-a-Service. In 2024 IEEE International Conference on Joint Cloud Computing (JCC), pages 80–83, 2024.
+- Samsi et al. (2023) Siddharth Samsi, Dan Zhao, Joseph McDonald, Baolin Li, Adam Michaleas, Michael Jones, William Bergeron, Jeremy Kepner, Devesh Tiwari, and Vijay Gadepally. From Words to Watts: Benchmarking the Energy Costs of Large Language Model Inference. In 2023 IEEE High Performance Extreme Computing Conference (HPEC), pages 1–9, 2023.
+- Fernandez et al. (2025) Jared Fernandez, Clara Na, Vashisth Tiwari, Yonatan Bisk, Sasha Luccioni, and Emma Strubell. Energy Considerations of Large Language Model Inference and Efficiency Optimizations. In Wanxiang Che, Joyce Nabende, Ekaterina Shutova, and Mohammad Taher Pilehvar, editors, Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 32556–32569, Vienna, Austria, July 2025. Association for Computational Linguistics. ISBN 979-8-89176-251-0. doi: 10.18653/v1/2025.acl-long.1563.
+- Geh et al. (2024) Renato Geh, Honghua Zhang, Kareem Ahmed, Benjie Wang, and Guy Van Den Broeck. Where is the signal in tokenization space? In Yaser Al-Onaizan, Mohit Bansal, and Yun-Nung Chen, editors, Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing, pages 3966–3979, Miami, Florida, USA, November 2024. Association for Computational Linguistics. doi: 10.18653/v1/2024.emnlp-main.230.
+- Palmer (2000) David D. Palmer. Tokenisation and Sentence Segmentation. In Handbook of Natural Language Processing, chapter 2, pages 24–25. Marcel Dekker, 2000.
+- Jurafsky and Martin (2025) Daniel Jurafsky and James H. Martin. Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition with Language Models. 3rd edition, 2025. Online manuscript released January 12, 2025.
+- Gastaldi et al. (2025) Juan Luis Gastaldi, John Terilla, Luca Malagutti, Brian DuSell, Tim Vieira, and Ryan Cotterell. The Foundations of Tokenization: Statistical and Computational Concerns. In The Thirteenth International Conference on Learning Representations, 2025.
+- Phan et al. (2024) Buu Phan, Marton Havasi, Matthew Muckley, and Karen Ullrich. Understanding and Mitigating Tokenization Bias in Language Models. arXiv preprint arXiv:2406.16829, 2024.
+- Rajaraman et al. (2025) Nived Rajaraman, Jiantao Jiao, and Kannan Ramchandran. Toward a Theory of Tokenization in LLMs. arXiv preprint arXiv:2404.08335, 2025.
+- Berglund and van der Merwe (2023) Martin Berglund and Brink van der Merwe. Formalizing BPE Tokenization. Electronic Proceedings in Theoretical Computer Science, 388:16–27, September 2023. ISSN 2075-2180. doi: 10.4204/eptcs.388.4.
+- Zouhar et al. (2023) Vilém Zouhar, Clara Meister, Juan Gastaldi, Li Du, Tim Vieira, Mrinmaya Sachan, and Ryan Cotterell. A Formal Perspective on Byte-Pair Encoding. In Anna Rogers, Jordan Boyd-Graber, and Naoaki Okazaki, editors, Findings of the Association for Computational Linguistics: ACL 2023, pages 598–614, Toronto, Canada, July 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.findings-acl.38.
+- Kozma and Voderholzer (2024) László Kozma and Johannes Voderholzer. Theoretical Analysis of Byte-Pair Encoding. arXiv preprint arXiv:2411.08671, 2024.
+- Hou et al. (2023) Jue Hou, Anisia Katinskaia, Anh-Duc Vu, and Roman Yangarber. Effects of sub-word segmentation on performance of transformer language models. In Houda Bouamor, Juan Pino, and Kalika Bali, editors, Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing, pages 7413–7425, Singapore, December 2023. Association for Computational Linguistics. doi: 10.18653/v1/2023.emnlp-main.459.
+- Athiwaratkun et al. (2024) Ben Athiwaratkun, Shiqi Wang, Mingyue Shang, Yuchen Tian, Zijian Wang, Sujan Kumar Gonugondla, Sanjay Krishna Gouda, Robert Kwiatkowski, Ramesh Nallapati, Parminder Bhatia, and Bing Xiang. Token Alignment via Character Matching for 
