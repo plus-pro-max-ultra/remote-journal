@@ -1,5 +1,5 @@
 {
-  "description": "001–035official;036Nov23one-dayearlyreview;fifteenreviewdraftsunscheduled.",
+  "description": "001–036official;037Nov24one-dayearlyreview;fifteenreviewdraftsunscheduled.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -36,6 +36,7 @@
     "turf-houses": "033-turf-houses",
     "haenyeo": "034-haenyeo",
     "atkins": "035-atkins",
-    "dead-mail": "036-dead-mail"
+    "dead-mail": "036-dead-mail",
+    "token-cost": "037-token-cost"
   }
 }

@@ -3687,7 +3687,7 @@ window.FARAWAY_STORIES = [
     ],
     "minutes": 8,
     "related": [],
-    "intro": "收件地址少了幾個字，寄件人又沒有留下地址，一封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是終點，職員的任務卻包括再找一次：還有沒有辦法把它交到寄件人或收件人手上？",
+    "intro": "收件地址少了幾個字，寄件人又沒有留下地址，這封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是埋葬場，職員的其中一項任務卻包括了再找一次？",
     "sections": [
       {
         "heading": "一、投遞失敗之後，還有不同的去處",
@@ -3775,6 +3775,106 @@ window.FARAWAY_STORIES = [
         "supports": "第二節與圖版：館方教學PDF p14信封D與p17反面解答，館藏相同編號、解答Healdsburg, Sonoma Co, California。擷取原嵌入圖35與45，不將整頁教案誤認CC0，僅用原件頁明確CC0之館藏物影像。"
       }
     ],
-    "body": "\n<p>收件地址少了幾個字，寄件人又沒有留下地址，一封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是終點，職員的任務卻包括再找一次：還有沒有辦法把它交到寄件人或收件人手上？</p>\n<h2>一、投遞失敗之後，還有不同的去處</h2>\n<p>郵件沒有準時出現，不一定已經成了「死信」。有些只是延誤，有些地址需要補正，有些能退回寄件人。美國郵政所說的 dead mail，重點在於兩條路都行不通：無法交給原來的收件人，也無法退回寄件人。今天處理這類郵件的專責單位，是郵件復得中心（Mail Recovery Center，MRC）。辨認這個差別，才能理解為什麼有些郵件仍在一般投遞流程裡，有些則得改用查找失主的方式處理。</p>\n<p>失敗也不全是字跡潦草造成的。封套可能破損、標籤可能脫落，原本足夠投遞的資訊因而不見了；也可能從一開始就少了必要地址。十九世紀的職員因此得面對寫錯地名、缺少州名、無人認領等不同情況。每一種問題，需要補足的線索並不相同。若只是把它們一概歸為「寄丟」，便難以知道還能在哪個步驟補救。</p>\n<h2>二、地址不完整，怎麼再找一次？</h2>\n<p>歷史上的死信局，會先從封套上能看到的資訊著手。職員要辨認手寫字，也要查地名、語言與街道資料，把看來不合理的組合逐一核對。美國國家郵政博物館保存的《Blind Reading》剪貼簿，收了郵戳為 1883 至 1884 年的二十一件信封剪貼。它們的問題包括「沒有這個郵局」「未寫州名」與「地址難以辨認」等。簿裡另有補全地址的標記，以及寫在背面的正確地址，讓人看出職員曾在哪裡補上缺口。</p>\n<figure class=\"article-figure\" style=\"max-width:560px;margin:2rem auto\"><img alt=\"剪貼簿上的舊信封，手寫收件地址旁蓋有NO SUCH OFFICE IN STATE NAMED紅色章記\" height=\"601\" loading=\"lazy\" src=\"../../assets/img/036-mail-envelope.jpg\" style=\"display:block;width:100%;height:auto\" width=\"1013\"/>\n<img alt=\"同本剪貼簿的解答頁，寫著Healdsburg, Sonoma Co, California，對應前一張信封補正後的地名\" height=\"452\" loading=\"lazy\" src=\"../../assets/img/036-mail-solution.jpg\" style=\"display:block;width:100%;height:auto;margin-top:1rem\" width=\"721\"/>\n<figcaption style=\"font-size:.85rem;line-height:1.75;color:var(--muted);margin-top:.65rem\">《Blind Reading》中的信封與對應解答頁；這本簿子收錄郵戳為1883–84年的信封。原章記表示指定州內沒有這個郵局；背面記下補正後的Healdsburg, Sonoma Co, California。這是成功查找後留下的個案，不是今日郵務操作畫面。<a href=\"https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21\" rel=\"noopener noreferrer\" target=\"_blank\">Smithsonian National Postal Museum，1984.1128.333.1–21，CC0</a>；影像取自館方<a href=\"https://womenshistory.si.edu/sites/default/files/documents/dead_letter_office_album_conversations.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">教學資料第14、17頁</a>的原嵌入圖，未裁切。</figcaption>\n</figure>\n<p>這本簿子的形成，也和郵件後來的去向有關。碰上特別難解、又成功送達的例子，職員會請收件人把信封寄回，加入辦公室的收藏。因此，眼前看到的是挑選過的成功案例，不是當年所有失敗郵件的樣本。它能顯示職員做成了哪些查找，卻無法單靠這本簿子算出整體成功率。要知道一個服務做得如何，既要看解決得漂亮的個案，也要知道還有多少東西沒能回到失主手上。</p>\n<h2>三、想找出失主，可以看多少內容？</h2>\n<p>封套線索用盡後，打開郵件可能提供另一條路。包裹裡的裝箱單，可能還留著外箱已看不到的姓名與地址；信內也可能有寄件人的資料。但郵件之所以交給郵政處理，並不表示寄件人願意讓所有工作者任意閱讀。博物館對歷史死信局的說明指出，獲准開啟的職員，只能閱讀查找寄收件人所需的最少內容。這項安排把「為了完成投遞而查找」和「自由查看私人通信」分開，工作目的同時也是權限的界線。</p>\n<p>今天，查找還包括比對兩邊的紀錄：一邊是中心收到的物品，一邊是使用者提出的遺失描述。<a href=\"https://www.usps.com/help/missing-mail.htm\" rel=\"noopener noreferrer\" target=\"_blank\">USPS 的搜尋頁</a>因此不只問追蹤號碼，也問容器樣式、內容的品牌、顏色、尺寸，以及有助辨識的照片。2021 年的聯邦公報公告，則列出相關系統會處理的寄收件人、物品描述與影像資料，並規定存取須符合職務需要。要讓物品更容易被認出，往往得收集更多資訊；如何限制使用與接觸範圍，便成為服務本身的一部分。</p>\n<h2>四、為什麼有人不願意收回自己的退件？</h2>\n<p>今天的復得中心，還得處理電商物流造成的退件。<a href=\"https://www.uspsoig.gov/reports/audit-reports/evaluating-mail-recovery-center-package-growth\" rel=\"noopener noreferrer\" target=\"_blank\">2026 年 9 月公布的一份郵政監察長稽核報告</a>指出，部分 Parcel Select 郵件原本的運費不包含退回服務，退件送回時，退件收受方需要另付郵資。若對方拒收，物品就可能繼續轉往復得中心。報告記錄到，有些業者持續拒收，物品的運送與處理費用因而由郵政負擔。這時難題不只是「不知道地址」，也包含地址知道了，卻沒有人願意接下退件與費用。</p>\n<p>把所有這類包裹都送去中心，也會占用原本用來找失主的空間和工時。同一份稽核還指出，部分包裝受損、卻仍有辦法投遞的包裹，被不當送進中心。依規定，這些包裹應先在原來的處理單位修補，再繼續投遞。郵方回應強調，因包裝受損而直接轉送中心，並非正式政策。這些發現讓人看見，末端單位的負擔，有一部分其實來自前面各站是否做好辨識、修補與退件處理。</p>\n<h2>五、沒人領回，不等於可以一直堆著</h2>\n<p>郵件復得中心有保管與查找的工作，也得決定查找結束後怎麼處理。依 USPS 的說明，未能領回的物品，會按性質進入捐贈、回收、銷毀或拍賣等不同流程。拍賣通常按批次出售，而非把每一件物品分開賣。這些去向要分開看，因為清出庫存、取得收入，和把原物交還失主，是不同的成果。對失主而言，原本寄出的紀念物是否回來，也很難只用處分所得衡量。</p>\n<p>能否知道拍賣物品的去向，取決於郵方保留了什麼紀錄。Motherboard 記者 Aaron Gordon <a href=\"https://www.vice.com/en/article/post-office-auctions-dollar8-million-worth-of-mail-annually-has-no-idea-what-its-selling/\" rel=\"noopener noreferrer\" target=\"_blank\">在 2022 年報導</a>，曾透過資訊公開申請，向 USPS 索取拍賣物品資料。郵方提供了 2015 至 2019 年的批次與收入彙整，卻表示沒有記者要求的逐件物品、售價與批次售價紀錄。那次查詢因此能看見拍賣收入，卻無法逐一追溯賣掉了什麼。當物品無法交還失主，能留下多細的處分紀錄，便影響外界還能如何檢查這項服務。</p>\n<h2>六、服務做到哪一步，才算完成？</h2>\n<p>2026 年的稽核，也把問題指向郵件復得中心如何報告自己的成效。中心原有的退回率，以符合退回條件的一部分包裹為計算對象；監察長認為，還應觀察所有送進中心的包裹有多少回到使用者手上。郵方則回應，原本的指標就是為可退回的包裹設計，把全部包裹放進去會扭曲這個指標。兩種算法問的事情不同：前者看經篩選後的查找成果，後者還要看中心收到的東西，最後大多去了哪裡。報告中的這項爭議，也讓人更有理由先問清楚，一個「成功率」究竟把哪些對象算進去。</p>\n<p>這也是投遞服務比「把東西運走」多出來的責任。收進中心、完成登記、結束查詢、清空倉位，都可能代表某一道工序結束，卻不必然代表寄收件人的事情已經辦完。USPS 的搜尋說明也明白區分找尋郵件、申請退款與保險理賠，並不保證每件東西都能尋回。從失主的角度看，至少還需要知道目前找到什麼、還能做什麼，以及沒找到時會怎麼處理。當一個服務遇到例外，能否交代這些後續，往往比一句「已處理」更有幫助。</p>\n"
+    "body": "\n<p>收件地址少了幾個字，寄件人又沒有留下地址，這封信該怎麼辦？在美國，這類既送不到、也退不回的郵件，曾由「死信局」（Dead Letter Office）處理。名字聽來像是埋葬場，職員的其中一項任務卻包括了再找一次？</p>\n<h2>一、投遞失敗之後，還有不同的去處</h2>\n<p>今天處理這類郵件的專責單位，是郵件復得中心（Mail Recovery Center，MRC）。郵件沒有準時出現，不一定已經成了「死信」。有些只是延誤，有些地址需要補正，有些能退回寄件人。美國郵政所說的 dead mail，定義在於兩條路都行不通：無法交給原來的收件人，也無法退回寄件人。這個關鍵差異解釋了為什麼有些郵件仍在一般投遞流程裡，有些則得改用查找失主的方式處理。</p>\n<p>失敗也不全是字跡潦草造成的。在投遞、運送過程中，封套可能破損、標籤可能脫落導致原本足夠投遞的資訊因而不見了；也可能從一開始就少了必要地址。十九世紀的職員因此得面對寫錯地名、缺少州名、無人認領等不同情況。每一種問題，需要補足的線索並不相同。若只是把它們一概歸為「寄丟」，便難以知道還能在哪個步驟補救。</p>\n<h2>二、地址不完整，怎麼再找一次？</h2>\n<p>歷史上的死信局，會先從封套上能看到的資訊著手。職員要辨認手寫字，也要查地名、語言與街道資料，把看來不合理的組合逐一核對。美國國家郵政博物館保存的《Blind Reading》剪貼簿，收了郵戳為 1883 至 1884 年的二十一件信封剪貼。它們的問題包括「沒有這個郵局」「未寫州名」與「地址難以辨認」等。簿裡另有補全地址的標記，以及寫在背面的正確地址，讓人看出職員曾在哪裡補上缺口。</p>\n<figure class=\"article-figure\" style=\"max-width:560px;margin:2rem auto\"><img alt=\"剪貼簿上的舊信封，手寫收件地址旁蓋有NO SUCH OFFICE IN STATE NAMED紅色章記\" height=\"601\" loading=\"lazy\" src=\"../../assets/img/036-mail-envelope.jpg\" style=\"display:block;width:100%;height:auto\" width=\"1013\"/>\n<img alt=\"同本剪貼簿的解答頁，寫著Healdsburg, Sonoma Co, California，對應前一張信封補正後的地名\" height=\"452\" loading=\"lazy\" src=\"../../assets/img/036-mail-solution.jpg\" style=\"display:block;width:100%;height:auto;margin-top:1rem\" width=\"721\"/>\n<figcaption style=\"font-size:.85rem;line-height:1.75;color:var(--muted);margin-top:.65rem\">《Blind Reading》中的信封與對應解答頁；這本簿子收錄郵戳為1883–84年的信封。原章記表示指定州內沒有這個郵局；背面記下補正後的Healdsburg, Sonoma Co, California。這是成功查找後留下的個案，不是今日郵務操作畫面。<a href=\"https://postalmuseum.si.edu/object/npm_1984.1128.333.1-21\" rel=\"noopener noreferrer\" target=\"_blank\">Smithsonian National Postal Museum，1984.1128.333.1–21，CC0</a>；影像取自館方<a href=\"https://womenshistory.si.edu/sites/default/files/documents/dead_letter_office_album_conversations.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">教學資料第14、17頁</a>的原嵌入圖，未裁切。</figcaption>\n</figure>\n<p>這本簿子的形成，也和郵件後來的去向有關。碰上特別難解、又成功送達的例子，職員會請收件人把信封寄回，加入辦公室的收藏。因此，眼前看到的是挑選過的成功案例，不是當年所有失敗郵件的樣本。它能顯示職員做成了哪些查找，卻無法單靠這本簿子算出整體成功率。要知道一個服務做得如何，既要看解決得漂亮的個案，也要知道還有多少東西沒能回到失主手上。</p>\n<h2>三、想找出失主，可以看多少內容？</h2>\n<p>封套線索用盡後，打開郵件可能提供另一條路。包裹裡的裝箱單，可能還留著外箱已看不到的姓名與地址、信內也可能有寄件人的資料。但郵件交給郵政處理，是出於信任與便利，並不表示寄件人願意讓所有工作者任意閱讀。博物館對歷史死信局的說明指出，獲准開啟的職員，只能閱讀查找寄收件人所需的最少內容。這項安排確立「為了完成投遞而查找」而非「自由查看私人通信」的嚴格限制，工作目的同時也是權限的終點。</p>\n<p>今天，查找還包括比對兩邊的紀錄：一邊是中心收到的物品，一邊是使用者提出的遺失描述。<a href=\"https://www.usps.com/help/missing-mail.htm\" rel=\"noopener noreferrer\" target=\"_blank\">USPS 的搜尋頁</a>因此不只問追蹤號碼，也問容器樣式、內容的品牌、顏色、尺寸，以及有助辨識的照片。2021 年的聯邦公報公告，則列出相關系統會處理的寄收件人、物品描述與影像資料，並規定存取須符合職務需要。要讓物品更容易被認出，往往得收集更多資訊；如何限制使用與接觸範圍，便成為服務本身的一部分。</p>\n<h2>四、為什麼有人不願意收回自己的退件？</h2>\n<p>基於網路購物的發展，如今的復得中心還得處理電商物流造成的退件。<a href=\"https://www.uspsoig.gov/reports/audit-reports/evaluating-mail-recovery-center-package-growth\" rel=\"noopener noreferrer\" target=\"_blank\">2026 年 9 月公布的一份郵政監察長稽核報告</a>指出，部分 Parcel Select 郵件原本的運費不包含退回服務，退件送回時，退件收受方需要另付郵資。若對方拒收，物品就可能繼續轉往復得中心。報告記錄到，有些業者持續拒收，物品的運送與處理費用只能由郵政吸收。這時，難題不再只是「不知道地址」，也出現知道地址卻沒有人願意接下退件與費用的狀況。</p>\n<p>把所有這類包裹都送去中心，也會占用原本用來找失主的空間和工時。同一份稽核還指出，部分包裝受損、卻仍有辦法投遞的包裹，被不當地送進中心。依規定，這些包裹應先在原來的處理單位修補，再繼續投遞。郵方回應強調，因包裝受損而直接轉送中心，並非正式處理流程。這些發現讓人看見，末端單位的負擔，有一部分來自於上游各站是否根據 SOP 做好辨識、修補與退件。</p>\n<h2>五、沒人領回，不等於可以一直堆著</h2>\n<p>郵件復得中心有保管與查找的工作，也得決定查找結束後怎麼處理。依 USPS 的說明，未能領回的物品，會按性質進入捐贈、回收、銷毀或拍賣等不同流程。拍賣通常按批次出售，而非把每一件物品分件攤賣。每一種去向要分開審視，因為清出庫存、取得收入，和把原物交還失主，性質完全不同。對失主而言，原本寄出的紀念物是否回來，也很難只用處分所得衡量。</p>\n<p>能否知道這些郵件的下落，取決於郵方保留了什麼紀錄。Motherboard 記者 Aaron Gordon <a href=\"https://www.vice.com/en/article/post-office-auctions-dollar8-million-worth-of-mail-annually-has-no-idea-what-its-selling/\" rel=\"noopener noreferrer\" target=\"_blank\">在 2022 年報導</a>，曾透過資訊公開申請，向 USPS 索取拍賣物品資料。郵方提供了 2015 至 2019 年的批次與收入彙整，卻表示沒有記者要求的逐件物品、售價與批次售價紀錄。那次查詢因此能看見拍賣收入，卻無法逐一追溯賣掉了什麼。當物品無法交還失主，能留下多細的處分紀錄，便影響外界還能如何檢查、監督這項服務。</p>\n<h2>六、服務做到哪一步，才算完成？</h2>\n<p>2026 年的稽核，也把問題指向郵件復得中心如何報告自己的成效。中心原有的退回率，以符合退回條件的一部分包裹為計算對象；監察長認為，還應觀察所有送進中心的包裹有多少回到使用者手上。郵方則回應：原本的指標就是為可退回的包裹設計，把全部包裹放進去會扭曲這個指標。兩種算法關注的面向不同：前者看經篩選後的查找成果，後者還要看中心收到的東西，最後大多去了哪裡。報告中的這項爭議，也促使人再看到一個數字時，更該查明所謂「成功率」究竟計入了哪些對象。</p>\n<p>這也是投遞服務比「把東西運走」多出來的責任。收進中心、完成登記、結束查詢、清空倉位，都可能代表某一道工序結束，卻不必然代表寄收件人的事情已經辦完。USPS 的搜尋說明也明白區分找尋郵件、申請退款與保險理賠，並不保證每件東西都能尋回。從失主的角度看，至少還需要知道目前找到什麼、還能做什麼，以及沒找到時會怎麼處理。當一個服務遇到例外，能否交代這些後續，往往比一句「已處理」更有幫助。</p>\n"
+  },
+  {
+    "id": "037-token-cost",
+    "num": "037",
+    "date": "2026-11-24",
+    "title": "用不同語言問 AI，為什麼可能花更多錢？",
+    "subtitle": "同樣的意思，切成的 token 數可能不同。從非拉丁文字的額外負擔，看模型如何計量語言，以及這種計量會影響誰。",
+    "category": "科技與語言",
+    "tags": [
+      "AI",
+      "token",
+      "語言公平",
+      "數位服務"
+    ],
+    "minutes": 9,
+    "related": [],
+    "intro": "一份服務寫著「每百萬 token 計費」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位。價格相同，使用者得付出的費用，還會一樣嗎？",
+    "sections": [
+      {
+        "heading": "一、token 不是一個字，也不一定是一個詞",
+        "paragraphs": [
+          "語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，是兩種不同的計量。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。",
+          "以本篇的短句示例來看，使用 tiktoken 0.14.0 的 o200k_base 編碼，「我們讀同一個故事。」切成七個 token，其中「我們」和「故事」各是一個。英文 We read the same story. 則是六個，包含最後的句點。若把同一段中文交給 cl100k_base，結果變成十三個，文字本身一字未改。這些是本地切分的示例，沒有呼叫模型生成答案，也沒有計入聊天格式等額外內容。它們讓人看見的是切分邊界會變，而不是四種語言的整體效率排行。"
+        ]
+      },
+      {
+        "heading": "二、為什麼有些文字被切得特別碎？",
+        "paragraphs": [
+          "詞彙表要把有限的位置分給哪些片段，與訓練材料及切分規則有關。某種語言常用的片段若有完整單位，編碼時就能較緊湊；缺少合適片段時，便得用更多較小單位組合。文字在電腦裡的表示方式也有影響：一個人眼視為完整的字形，可能由數個 Unicode 碼位構成。切分器若在這些組合內部設下邊界，後續學習便受到限制。因此，困難不只是模型看過多少句某種語言，也在於開發者讓哪些片段有機會組合。",
+          "2025 年一項針對 Tamil、Sinhala 與 Hindi 的研究，檢查了多種模型採用的前置切分規則。研究者發現，某些規則會把當地文字的字形組合拆開，並嘗試以較完整的字素作為基本單位。這裡的前置切分，發生在後續子詞組合之前；已被分開的兩側，便不能在那一步合成同一個單位。這項研究提供了改善的方向，也說明「非拉丁文字」不是一種可以用同一把尺描述的結構。不同文字如何組字，必須分別檢查。"
+        ]
+      },
+      {
+        "heading": "三、要比公平，先比同樣的意思",
+        "paragraphs": [
+          "若拿英文的一百字與中文的一百字相比，兩邊未必交代了相同內容。2023 年 Petrov 等人的研究，改用 FLORES-200 的平行語料：同一批兩千句內容，有兩百種語言的人工翻譯，再比較不同切分器所需的 token 數。這樣才能在資訊內容相近的條件下，觀察不同語言的切分負擔。在這份語料中，cl100k_base 處理 Shan 所需的 token 數，平均約為英文的十五倍。同一研究裡，使用拉丁字母的德文、義大利文也比英文需要更多 token，差異並不沿著「拉丁／非拉丁」整齊分成兩邊。",
+          "這種比較還得隨版本更新。OpenAI 在 2024 年發表 GPT-4o 時，便以二十種語言的指定示例，展示新切分器減少 token 的效果，其中包括中文、日文及多種南亞語言。這批公告示例呈現了版本更新能改變的幅度，適用範圍也隨指定文本而定。服務採用的模型若更新，也需要重新測量實際會處理的內容。把語料、語言和切分器名稱一起留下，下一次換版本時，才有辦法知道差距究竟改變了多少。"
+        ]
+      },
+      {
+        "heading": "四、多出來的單位，怎麼變成負擔？",
+        "paragraphs": [
+          "在按 token 計價的 API 服務裡，同一模型、同一類別的 token，通常採相同單價；但要完成同樣的內容，不同語言可能需要不同數量。這種額外負擔有時被稱為 token tax，這裡的「稅」是在比喻使用成本，不是對某種文字另外課徵的法定稅目。實際帳單還要把輸入、輸出與快取等類別分開，因為它們的費率可能不同。部分推理模型也把未顯示在答案裡的推理 token 計入輸出用量。因此，只把畫面上的回答重新切一次，還不足以還原整張帳單。",
+          "另一項負擔是同一個內容視窗能放多少東西。若某段意思需要更多 token，固定的視窗就較快被填滿，能放入的文件或對話紀錄也可能減少。2026 年 10 月的 Rest of World 報導，便以教學服務為例，討論保留學生先前錯誤與解釋所需的空間。這不只是多付一點費用，也會影響服務怎麼設計、哪些紀錄能留下。至於聊天訂閱的訊息上限、速度或使用體驗，還牽涉產品政策與模型運作，不能把 API 的 token 比例直接當成每位訂閱者多付的價格。"
+        ]
+      },
+      {
+        "heading": "五、差距能改善，但不只靠多收一些資料",
+        "paragraphs": [
+          "2025 年另一項研究，為九十七種語言訓練約七千個可比較的單語切分器，控制資料量、詞彙表大小與訓練方式。即使條件相近，各語言對同義語料的壓縮程度仍有差異。研究者測試了依語言調整詞彙表大小，以及容許片段跨越空格合併等方法，發現能減少部分差距。這表示，增加材料之外，詞彙表如何分配、在哪裡先切一刀，同樣是設計選擇。把英文採用的設定原樣移到所有語言，未必能得到相近的結果。",
+          "不過，切得較短與答得較好，仍要分別測試。這項研究沒有用新切分器訓練完整語言模型，因而沒有證明某種壓縮改善會讓回答更正確。研究也只用 FLORES 作評估，作者承認翻譯方式與品質可能影響結果。較負責任的比較，會把完成任務的正確率、總費用與所需時間一起看，而不是只挑最低的 token 數。對需要可靠翻譯、教學或文件處理的人來說，少切幾個單位，只有在任務仍做得好的情況下，才真正有用。"
+        ]
+      },
+      {
+        "heading": "六、支援一種語言，還可以多問什麼？",
+        "paragraphs": [
+          "看到產品列出「支援中文」或其他語言時，可以再問：在這種語言裡，完成一項工作要用多少額度，能保留多少前文，答案又是否可靠？開發者可以用貼近實際用途的平行文本和任務測試，公開模型版本、使用量與結果。比較時也要把固定題目、回答長度和成功條件交代清楚，讓讀者知道數字從哪裡來。這樣的資訊，比一張只列出可用語言名稱的清單，更接近使用者真正面對的條件。",
+          "使用者也可能選擇先翻成英文，再把結果翻回熟悉的語言。但翻譯會增加步驟，專有名詞、語氣與地方用法也需要重新核對；這不是每個人都同樣方便的選項。若為了使用同一項工具，總有一些人得先換語言、刪減材料或多付額度，這些額外工作也應算進可及性的討論。理解 token 的差異，最後關係到的仍是人：誰能用自己熟悉的語言，把事情做完，又由誰來負擔中間多出來的成本。"
+        ]
+      }
+    ],
+    "reflection": "你有沒有為了配合一項工具，改用不熟悉的語言、縮短原本想說的話，或放棄某些細節？哪些調整你覺得可以接受，哪些會讓你覺得工具其實沒有好好支援你？如果能請設計者改一件事，你會先改什麼？",
+    "sources": [
+      {
+        "title": "Language Model Tokenizers Introduce Unfairness Between Languages，Petrov等，NeurIPS 2023",
+        "url": "https://proceedings.nips.cc/paper_files/paper/2023/file/74bb24dca8334adce292883b4b651eda-Paper-Conference.pdf",
+        "supports": "第三、四節：FLORES-200平行語料、版本與語言差異，以及費用與context。已讀PDFpp1–8相關方法結果與限制討論；不將舊模型視窗或舊價格當現況。"
+      },
+      {
+        "title": "Understanding and counting tokens，OpenAI",
+        "url": "https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens",
+        "supports": "第一、四節：token定義、依encoding計數、輸入／輸出／快取／推理分類；費率依類別不同，文字重切不等於整請求用量。2026-11-22核讀，未引用固定單價。"
+      },
+      {
+        "title": "tiktoken，OpenAI，MIT License",
+        "url": "https://github.com/openai/tiktoken",
+        "supports": "第一節與原創示例：tiktoken0.14.0實際本地測得cl100k_base/o200k_base純文字數，無付費API呼叫；原始文字、ID與方法另存。"
+      },
+      {
+        "title": "Egalitarian Language Representation in Language Models: It All Begins with Tokenizers，Velayuthan與Sarveswaran，COLING 2025",
+        "url": "https://aclanthology.org/2025.coling-main.400/",
+        "supports": "第二節：實讀PDFpp5987–5992相關背景、方法與前置切分；Tamil/Sinhala/Hindi的字素組合與切分邊界。不把pre-token分析當完整模型品質測試。"
+      },
+      {
+        "title": "Hello GPT-4o，OpenAI，2024-05-13",
+        "url": "https://openai.com/index/hello-gpt-4o/",
+        "supports": "第三節：官方歷史公告二十語言指定示例，展示新tokenizer壓縮改善；不採為2026所有模型基準或跨語言固定價差。"
+      },
+      {
+        "title": "Explaining and Mitigating Crosslingual Tokenizer Inequities，Arnett等，NeurIPS 2025",
+        "url": "https://proceedings.neurips.cc/paper_files/paper/2025/file/5b91cefbfa52340af2f16f249572dc76-Paper-Conference.pdf",
+        "supports": "第五節：實讀pp1–10含方法、介入、討論與限制。約7000單語tokenizer97語言、語言詞彙表與跨空格合併；未訓練完整LM，FLORES翻譯品質限制。不稱品質已改善。"
+      },
+      {
+        "title": "AI models cost more when you don’t use English，Ananya Bhattacharya，Rest of World，2026-10-26",
+        "url": "https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/",
+        "supports": "第四、六節：獨立新聞報導的教學context例與公開同任務表現／費用的討論。未直接核讀其CLEAR新研究，故不取報導中17倍或200語言等新數值作本文證據。"
+      }
+    ],
+    "body": "\n<p>一份服務寫著「每百萬 token 計費」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位。價格相同，使用者得付出的費用，還會一樣嗎？</p>\n<h2>一、token 不是一個字，也不一定是一個詞</h2>\n<p>語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，是兩種不同的計量。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。</p>\n<p>以本篇的短句示例來看，使用 tiktoken 0.14.0 的 o200k_base 編碼，「我們讀同一個故事。」切成七個 token，其中「我們」和「故事」各是一個。英文 We read the same story. 則是六個，包含最後的句點。若把同一段中文交給 cl100k_base，結果變成十三個，文字本身一字未改。這些是本地切分的示例，沒有呼叫模型生成答案，也沒有計入聊天格式等額外內容。它們讓人看見的是切分邊界會變，而不是四種語言的整體效率排行。</p>\n<figure class=\"article-figure token-demo\" style=\"max-width:680px;margin:2rem auto;padding:1.2rem;background:#fff;border:1px solid var(--line);box-sizing:border-box\">\n<div style=\"font-size:.8rem;letter-spacing:.12em;color:var(--muted)\">同義短句 · 純文字切分示例</div>\n<div style=\"font-size:1.25rem;line-height:1.6;margin:.7rem 0 1rem\">文字不改，換一種編碼再數一次</div>\n<div style=\"border-top:1px solid var(--line);padding:1rem 0\">\n<div style=\"font-size:.85rem;color:var(--muted)\">English</div>\n<div style=\"font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem\">We read the same story.</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif\"><span>cl100k_base：6 token</span><span style=\"color:var(--green);font-weight:600\">o200k_base：6 token</span>\n</div>\n</div>\n<div style=\"border-top:1px solid var(--line);padding:1rem 0\">\n<div style=\"font-size:.85rem;color:var(--muted)\">繁體中文</div>\n<div style=\"font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem\">我們讀同一個故事。</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif\"><span>cl100k_base：13 token</span><span style=\"color:var(--green);font-weight:600\">o200k_base：7 token</span>\n</div>\n</div>\n<div style=\"border-top:1px solid var(--line);padding:1rem 0\">\n<div style=\"font-size:.85rem;color:var(--muted)\">日本語</div>\n<div style=\"font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem\">私たちは同じ物語を読みます。</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif\"><span>cl100k_base：13 token</span><span style=\"color:var(--green);font-weight:600\">o200k_base：11 token</span>\n</div>\n</div>\n<div style=\"border-top:1px solid var(--line);padding:1rem 0\">\n<div style=\"font-size:.85rem;color:var(--muted)\">Deutsch</div>\n<div style=\"font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem\">Wir lesen dieselbe Geschichte.</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif\"><span>cl100k_base：6 token</span><span style=\"color:var(--green);font-weight:600\">o200k_base：6 token</span>\n</div>\n</div>\n<div style=\"border-top:1px solid var(--line);padding-top:1rem\">\n<div style=\"font-size:.85rem;line-height:1.8\">o200k_base 的實際切分，每框一個 token；␣表示空格</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.3rem;margin:.7rem 0\"><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">We</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">␣read</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">␣the</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">␣same</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">␣story</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">.</span>\n</div>\n<div style=\"display:flex;flex-wrap:wrap;gap:.3rem;margin:.7rem 0\"><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">我們</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">讀</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">同</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">一</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">個</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">故事</span><span style=\"background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)\">。</span>\n</div>\n</div>\n<figcaption style=\"font-size:.8rem;line-height:1.8;color:var(--muted);border-top:1px solid var(--line);padding-top:.8rem\">遠方誌原創示例，2026-11-22以tiktoken 0.14.0本地計算。四句表達相近意思，僅計純文字，不含聊天格式、模型回答或推理用量；不是語言整體排名，也不是API帳單。<a href=\"https://github.com/openai/tiktoken\" rel=\"noopener noreferrer\" target=\"_blank\">切分工具與說明</a>。</figcaption>\n</figure>\n<h2>二、為什麼有些文字被切得特別碎？</h2>\n<p>詞彙表要把有限的位置分給哪些片段，與訓練材料及切分規則有關。某種語言常用的片段若有完整單位，編碼時就能較緊湊；缺少合適片段時，便得用更多較小單位組合。文字在電腦裡的表示方式也有影響：一個人眼視為完整的字形，可能由數個 Unicode 碼位構成。切分器若在這些組合內部設下邊界，後續學習便受到限制。因此，困難不只是模型看過多少句某種語言，也在於開發者讓哪些片段有機會組合。</p>\n<p><a href=\"https://aclanthology.org/2025.coling-main.400/\" rel=\"noopener noreferrer\" target=\"_blank\">2025 年一項針對 Tamil、Sinhala 與 Hindi 的研究</a>，檢查了多種模型採用的前置切分規則。研究者發現，某些規則會把當地文字的字形組合拆開，並嘗試以較完整的字素作為基本單位。這裡的前置切分，發生在後續子詞組合之前；已被分開的兩側，便不能在那一步合成同一個單位。這項研究提供了改善的方向，也說明「非拉丁文字」不是一種可以用同一把尺描述的結構。不同文字如何組字，必須分別檢查。</p>\n<h2>三、要比公平，先比同樣的意思</h2>\n<p>若拿英文的一百字與中文的一百字相比，兩邊未必交代了相同內容。<a href=\"https://proceedings.nips.cc/paper_files/paper/2023/file/74bb24dca8334adce292883b4b651eda-Paper-Conference.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">2023 年 Petrov 等人的研究</a>，改用 FLORES-200 的平行語料：同一批兩千句內容，有兩百種語言的人工翻譯，再比較不同切分器所需的 token 數。這樣才能在資訊內容相近的條件下，觀察不同語言的切分負擔。在這份語料中，cl100k_base 處理 Shan 所需的 token 數，平均約為英文的十五倍。同一研究裡，使用拉丁字母的德文、義大利文也比英文需要更多 token，差異並不沿著「拉丁／非拉丁」整齊分成兩邊。</p>\n<p>這種比較還得隨版本更新。OpenAI 在 2024 年發表 GPT-4o 時，便以二十種語言的指定示例，展示新切分器減少 token 的效果，其中包括中文、日文及多種南亞語言。這批公告示例呈現了版本更新能改變的幅度，適用範圍也隨指定文本而定。服務採用的模型若更新，也需要重新測量實際會處理的內容。把語料、語言和切分器名稱一起留下，下一次換版本時，才有辦法知道差距究竟改變了多少。</p>\n<h2>四、多出來的單位，怎麼變成負擔？</h2>\n<p>在按 token 計價的 API 服務裡，同一模型、同一類別的 token，通常採相同單價；但要完成同樣的內容，不同語言可能需要不同數量。這種額外負擔有時被稱為 token tax，這裡的「稅」是在比喻使用成本，不是對某種文字另外課徵的法定稅目。實際帳單還要把輸入、輸出與快取等類別分開，因為它們的費率可能不同。部分推理模型也把未顯示在答案裡的推理 token 計入輸出用量。因此，只把畫面上的回答重新切一次，還不足以還原整張帳單。</p>\n<p>另一項負擔是同一個內容視窗能放多少東西。若某段意思需要更多 token，固定的視窗就較快被填滿，能放入的文件或對話紀錄也可能減少。2026 年 10 月的 Rest of World 報導，便以教學服務為例，討論保留學生先前錯誤與解釋所需的空間。這不只是多付一點費用，也會影響服務怎麼設計、哪些紀錄能留下。至於聊天訂閱的訊息上限、速度或使用體驗，還牽涉產品政策與模型運作，不能把 API 的 token 比例直接當成每位訂閱者多付的價格。</p>\n<h2>五、差距能改善，但不只靠多收一些資料</h2>\n<p><a href=\"https://proceedings.neurips.cc/paper_files/paper/2025/file/5b91cefbfa52340af2f16f249572dc76-Paper-Conference.pdf\" rel=\"noopener noreferrer\" target=\"_blank\">2025 年另一項研究</a>，為九十七種語言訓練約七千個可比較的單語切分器，控制資料量、詞彙表大小與訓練方式。即使條件相近，各語言對同義語料的壓縮程度仍有差異。研究者測試了依語言調整詞彙表大小，以及容許片段跨越空格合併等方法，發現能減少部分差距。這表示，增加材料之外，詞彙表如何分配、在哪裡先切一刀，同樣是設計選擇。把英文採用的設定原樣移到所有語言，未必能得到相近的結果。</p>\n<p>不過，切得較短與答得較好，仍要分別測試。這項研究沒有用新切分器訓練完整語言模型，因而沒有證明某種壓縮改善會讓回答更正確。研究也只用 FLORES 作評估，作者承認翻譯方式與品質可能影響結果。較負責任的比較，會把完成任務的正確率、總費用與所需時間一起看，而不是只挑最低的 token 數。對需要可靠翻譯、教學或文件處理的人來說，少切幾個單位，只有在任務仍做得好的情況下，才真正有用。</p>\n<h2>六、支援一種語言，還可以多問什麼？</h2>\n<p>看到產品列出「支援中文」或其他語言時，可以再問：在這種語言裡，完成一項工作要用多少額度，能保留多少前文，答案又是否可靠？開發者可以用貼近實際用途的平行文本和任務測試，公開模型版本、使用量與結果。比較時也要把固定題目、回答長度和成功條件交代清楚，讓讀者知道數字從哪裡來。這樣的資訊，比一張只列出可用語言名稱的清單，更接近使用者真正面對的條件。</p>\n<p>使用者也可能選擇先翻成英文，再把結果翻回熟悉的語言。但翻譯會增加步驟，專有名詞、語氣與地方用法也需要重新核對；這不是每個人都同樣方便的選項。若為了使用同一項工具，總有一些人得先換語言、刪減材料或多付額度，這些額外工作也應算進可及性的討論。理解 token 的差異，最後關係到的仍是人：誰能用自己熟悉的語言，把事情做完，又由誰來負擔中間多出來的成本。</p>\n"
   }
 ];
