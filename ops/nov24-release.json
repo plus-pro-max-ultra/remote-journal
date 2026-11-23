@@ -1,0 +1,65 @@
+{
+  "issue": "038-strike-origins",
+  "nominal_date": "2026-11-25",
+  "executed_at": "2026-11-24T06:02:46+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect037HTML0713256 with Nov23titlefix and two owner paragraph edits;allolderHTML;approved012archiveURL;compactarchive",
+  "nofinetuning_reminder": false,
+  "withdrawn_wave": "unscheduledresearch,notpublished",
+  "publication_edit_observation": {
+    "status": "completed_in_publication_run",
+    "reviewed_at": "2026-11-24T06:03:17+08:00",
+    "original_instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+    "compared_to": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+    "last_preparation_compared_to": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+    "new_since_preparation": "none, confirmed current remote at release",
+    "changed_file": "articles/037-token-cost/index.html",
+    "raw_pairs": [
+      {
+        "paragraph_index": 0,
+        "before": "一份服務寫著「每百萬 token 計費」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位。價格相同，使用者得付出的費用，還會一樣嗎？",
+        "after": "某個 AI api 服務寫著「每 token 多少元」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位再餵給模型。價格相同，使用者得付出的費用，還會一樣嗎？"
+      },
+      {
+        "paragraph_index": 1,
+        "before": "語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，是兩種不同的計量。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。",
+        "after": "語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，兩者計量基礎不同。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。"
+      }
+    ],
+    "context_read": "Complete latest037 and038 articles, sources, figures and reflections reread in this release run, plus full two-paragraph before/after pairs.",
+    "classifications": [
+      {
+        "kind": "explicit preference",
+        "source_messages": [
+          "phonemsg-01M8328ZC7DK7TCKN42QZEX1ZK",
+          "phonemsg-01M832CEXFVGHP4EA8XDCXA7RD",
+          "phonemsg-01M832ET33ED6NBK3ACV8EMQ4B"
+        ],
+        "decision": "037 corrected title retained.038 asks an origin question answered as recorded action, word and legal recognition; no implicit comparative group or unique inventor."
+      },
+      {
+        "kind": "single-edit hypothesis",
+        "observation": "037 hook specifies API service and token input to model. First main paragraph states counting basis directly.",
+        "decision": "037 full latest HTML preserved including those two paragraphs.038 hook already identifies collective refusal and missing pay; first section explains grain payment and consequences, so no forced change. Retain concrete actor/process and distinguish action, name, legal scope."
+      },
+      {
+        "kind": "not generalized",
+        "decision": "Lowercase api and per-token price unit are choices in037, not all-article rules. No unsupported stronger claims or typo imitation."
+      },
+      {
+        "kind": "scope preservation",
+        "decision": "037 model/corpus/version bounds, diagram and life reflection preserved exactly.038 regnalyear/approxcentury, uncertain word origin and nineteenth-century Britain kept, no unsupported date reconciliation or modern legal advice."
+      }
+    ],
+    "preservation_checks": {
+      "037_body_sources_reflection_dek_exact": true,
+      "038_same_as_checked_draft": true,
+      "all_older_html_unchanged": true
+    },
+    "unresolved": []
+  }
+}
