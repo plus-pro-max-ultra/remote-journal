@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#f4f0e8" name="theme-color"/>
+<title>用不同語言問 AI，為什麼費用可能不同？ | 遠方誌</title>
+<meta content="同樣的意思，切成的 token 數可能不同。從非拉丁文字的額外負擔，看模型如何計量語言，以及這種計量會影響誰。" name="description"/>
+<meta content="遠方誌 | Journal for Far" property="og:site_name"/>
+<meta content="用不同語言問 AI，為什麼費用可能不同？" property="og:title"/>
+<meta content="同樣的意思，切成的 token 數可能不同。從非拉丁文字的額外負擔，看模型如何計量語言，以及這種計量會影響誰。" property="og:description"/>
+<meta content="article" property="og:type"/>
+<meta content="https://journal-for-far.learnman.workers.dev/icon-512.png" property="og:image"/>
+<link href="../../manifest.webmanifest" rel="manifest"/>
+<link href="../../favicon-32.png" rel="icon" sizes="32x32" type="image/png"/>
+<link href="../../favicon-16.png" rel="icon" sizes="16x16" type="image/png"/>
+<link href="../../icon-180.png" rel="apple-touch-icon"/>
+<link href="../../assets/site.css" rel="stylesheet"/>
+<link href="https://journal-for-far.learnman.workers.dev/feed.xml" rel="alternate" title="遠方誌 | Journal for Far RSS" type="application/rss+xml"/>
+<script>document.documentElement.classList.add('js')</script>
+<link href="https://journal-for-far.learnman.workers.dev/articles/037-token-cost/" rel="canonical"/><meta content="https://journal-for-far.learnman.workers.dev/articles/037-token-cost/" property="og:url"/></head>
+<body data-id="037-token-cost" data-page="article" data-root="../../">
+<header class="topbar">
+<a aria-label="回到遠方誌首頁" class="brand" href="../../"><img alt="" class="brandmark" height="36" src="../../icon-192.png" width="36"/><span class="brandtext"><span class="brandname">遠方誌</span><span class="brandeng">Journal for Far</span></span></a>
+<nav class="top-actions"><a class="ghost" href="../../archive/"><span class="wide-only">文章</span>索引</a> <a class="ghost wide-only" href="../../about/">關於</a> <a class="solid" data-surprise="" href="../../archive/">帶我去遠方 ↗</a></nav>
+</header>
+<main class="reader visible" id="readerView">
+<a class="back" href="../../archive/">← 回到文章索引</a>
+<article id="readerArticle">
+<header class="reader-head">
+<div class="eyebrow">FIELD NOTES / 037</div>
+<div class="meta" style="margin-top:12px">科技與語言　·　2026-11-24 刊出　·　9 分鐘閱讀</div>
+<h1>用不同語言問 AI，為什麼費用可能不同？</h1>
+<p class="dek">同樣的意思，切成的 token 數可能不同。從非拉丁文字的額外負擔，看模型如何計量語言，以及這種計量會影響誰。</p>
+<div class="reader-meta"><span class="tag">AI</span><span class="tag">token</span><span class="tag">語言公平</span><span class="tag">數位服務</span>
+<span class="meta"></span>
+</div>
+<div class="reader-actions"><button class="ghost bookmark js-only" id="bookmarkBtn">＋ 收藏這篇</button><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button>
+</div></header>
+<div class="reader-body">
+<p>某個 AI api 服務寫著「每 token 多少元」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位再餵給模型。價格相同，使用者得付出的費用，還會一樣嗎？</p>
+<h2>一、token 不是一個字，也不一定是一個詞</h2>
+<p>語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，兩者計量基礎不同。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。</p>
+<p>以本篇的短句示例來看，使用 tiktoken 0.14.0 的 o200k_base 編碼，「我們讀同一個故事。」切成七個 token，其中「我們」和「故事」各是一個。英文 We read the same story. 則是六個，包含最後的句點。若把同一段中文交給 cl100k_base，結果變成十三個，文字本身一字未改。這些是本地切分的示例，沒有呼叫模型生成答案，也沒有計入聊天格式等額外內容。它們讓人看見的是切分邊界會變，而不是四種語言的整體效率排行。</p>
+<figure class="article-figure token-demo" style="max-width:680px;margin:2rem auto;padding:1.2rem;background:#fff;border:1px solid var(--line);box-sizing:border-box">
+<div style="font-size:.8rem;letter-spacing:.12em;color:var(--muted)">同義短句 · 純文字切分示例</div>
+<div style="font-size:1.25rem;line-height:1.6;margin:.7rem 0 1rem">文字不改，換一種編碼再數一次</div>
+<div style="border-top:1px solid var(--line);padding:1rem 0">
+<div style="font-size:.85rem;color:var(--muted)">English</div>
+<div style="font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem">We read the same story.</div>
+<div style="display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif"><span>cl100k_base：6 token</span><span style="color:var(--green);font-weight:600">o200k_base：6 token</span>
+</div>
+</div>
+<div style="border-top:1px solid var(--line);padding:1rem 0">
+<div style="font-size:.85rem;color:var(--muted)">繁體中文</div>
+<div style="font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem">我們讀同一個故事。</div>
+<div style="display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif"><span>cl100k_base：13 token</span><span style="color:var(--green);font-weight:600">o200k_base：7 token</span>
+</div>
+</div>
+<div style="border-top:1px solid var(--line);padding:1rem 0">
+<div style="font-size:.85rem;color:var(--muted)">日本語</div>
+<div style="font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem">私たちは同じ物語を読みます。</div>
+<div style="display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif"><span>cl100k_base：13 token</span><span style="color:var(--green);font-weight:600">o200k_base：11 token</span>
+</div>
+</div>
+<div style="border-top:1px solid var(--line);padding:1rem 0">
+<div style="font-size:.85rem;color:var(--muted)">Deutsch</div>
+<div style="font-size:1rem;line-height:1.7;overflow-wrap:anywhere;margin:.3rem 0 .6rem">Wir lesen dieselbe Geschichte.</div>
+<div style="display:flex;flex-wrap:wrap;gap:.4rem 1rem;font: .85rem/1.7 sans-serif"><span>cl100k_base：6 token</span><span style="color:var(--green);font-weight:600">o200k_base：6 token</span>
+</div>
+</div>
+<div style="border-top:1px solid var(--line);padding-top:1rem">
+<div style="font-size:.85rem;line-height:1.8">o200k_base 的實際切分，每框一個 token；␣表示空格</div>
+<div style="display:flex;flex-wrap:wrap;gap:.3rem;margin:.7rem 0"><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">We</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">␣read</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">␣the</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">␣same</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">␣story</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">.</span>
+</div>
+<div style="display:flex;flex-wrap:wrap;gap:.3rem;margin:.7rem 0"><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">我們</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">讀</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">同</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">一</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">個</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">故事</span><span style="background:var(--paper);border:1px solid var(--line);padding:.2rem .4rem;font:1rem/1.6 var(--sans)">。</span>
+</div>
+</div>
+<figcaption style="font-size:.8rem;line-height:1.8;color:var(--muted);border-top:1px solid var(--line);padding-top:.8rem">遠方誌原創示例，2026-11-22以tiktoken 0.14.0本地計算。四句表達相近意思，僅計純文字，不含聊天格式、模型回答或推理用量；不是語言整體排名，也不是API帳單。<a href="https://github.com/openai/tiktoken" rel="noopener noreferrer" target="_blank">切分工具與說明</a>。</figcaption>
+</figure>
+<h2>二、為什麼有些文字被切得特別碎？</h2>
+<p>詞彙表要把有限的位置分給哪些片段，與訓練材料及切分規則有關。某種語言常用的片段若有完整單位，編碼時就能較緊湊；缺少合適片段時，便得用更多較小單位組合。文字在電腦裡的表示方式也有影響：一個人眼視為完整的字形，可能由數個 Unicode 碼位構成。切分器若在這些組合內部設下邊界，後續學習便受到限制。因此，困難不只是模型看過多少句某種語言，也在於開發者讓哪些片段有機會組合。</p>
+<p><a href="https://aclanthology.org/2025.coling-main.400/" rel="noopener noreferrer" target="_blank">2025 年一項針對 Tamil、Sinhala 與 Hindi 的研究</a>，檢查了多種模型採用的前置切分規則。研究者發現，某些規則會把當地文字的字形組合拆開，並嘗試以較完整的字素作為基本單位。這裡的前置切分，發生在後續子詞組合之前；已被分開的兩側，便不能在那一步合成同一個單位。這項研究提供了改善的方向，也說明「非拉丁文字」不是一種可以用同一把尺描述的結構。不同文字如何組字，必須分別檢查。</p>
+<h2>三、要比公平，先比同樣的意思</h2>
+<p>若拿英文的一百字與中文的一百字相比，兩邊未必交代了相同內容。<a href="https://proceedings.nips.cc/paper_files/paper/2023/file/74bb24dca8334adce292883b4b651eda-Paper-Conference.pdf" rel="noopener noreferrer" target="_blank">2023 年 Petrov 等人的研究</a>，改用 FLORES-200 的平行語料：同一批兩千句內容，有兩百種語言的人工翻譯，再比較不同切分器所需的 token 數。這樣才能在資訊內容相近的條件下，觀察不同語言的切分負擔。在這份語料中，cl100k_base 處理 Shan 所需的 token 數，平均約為英文的十五倍。同一研究裡，使用拉丁字母的德文、義大利文也比英文需要更多 token，差異並不沿著「拉丁／非拉丁」整齊分成兩邊。</p>
+<p>這種比較還得隨版本更新。OpenAI 在 2024 年發表 GPT-4o 時，便以二十種語言的指定示例，展示新切分器減少 token 的效果，其中包括中文、日文及多種南亞語言。這批公告示例呈現了版本更新能改變的幅度，適用範圍也隨指定文本而定。服務採用的模型若更新，也需要重新測量實際會處理的內容。把語料、語言和切分器名稱一起留下，下一次換版本時，才有辦法知道差距究竟改變了多少。</p>
+<h2>四、多出來的單位，怎麼變成負擔？</h2>
+<p>在按 token 計價的 API 服務裡，同一模型、同一類別的 token，通常採相同單價；但要完成同樣的內容，不同語言可能需要不同數量。這種額外負擔有時被稱為 token tax，這裡的「稅」是在比喻使用成本，不是對某種文字另外課徵的法定稅目。實際帳單還要把輸入、輸出與快取等類別分開，因為它們的費率可能不同。部分推理模型也把未顯示在答案裡的推理 token 計入輸出用量。因此，只把畫面上的回答重新切一次，還不足以還原整張帳單。</p>
+<p>另一項負擔是同一個內容視窗能放多少東西。若某段意思需要更多 token，固定的視窗就較快被填滿，能放入的文件或對話紀錄也可能減少。2026 年 10 月的 Rest of World 報導，便以教學服務為例，討論保留學生先前錯誤與解釋所需的空間。這不只是多付一點費用，也會影響服務怎麼設計、哪些紀錄能留下。至於聊天訂閱的訊息上限、速度或使用體驗，還牽涉產品政策與模型運作，不能把 API 的 token 比例直接當成每位訂閱者多付的價格。</p>
+<h2>五、差距能改善，但不只靠多收一些資料</h2>
+<p><a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/5b91cefbfa52340af2f16f249572dc76-Paper-Conference.pdf" rel="noopener noreferrer" target="_blank">2025 年另一項研究</a>，為九十七種語言訓練約七千個可比較的單語切分器，控制資料量、詞彙表大小與訓練方式。即使條件相近，各語言對同義語料的壓縮程度仍有差異。研究者測試了依語言調整詞彙表大小，以及容許片段跨越空格合併等方法，發現能減少部分差距。這表示，增加材料之外，詞彙表如何分配、在哪裡先切一刀，同樣是設計選擇。把英文採用的設定原樣移到所有語言，未必能得到相近的結果。</p>
+<p>不過，切得較短與答得較好，仍要分別測試。這項研究沒有用新切分器訓練完整語言模型，因而沒有證明某種壓縮改善會讓回答更正確。研究也只用 FLORES 作評估，作者承認翻譯方式與品質可能影響結果。較負責任的比較，會把完成任務的正確率、總費用與所需時間一起看，而不是只挑最低的 token 數。對需要可靠翻譯、教學或文件處理的人來說，少切幾個單位，只有在任務仍做得好的情況下，才真正有用。</p>
+<h2>六、支援一種語言，還可以多問什麼？</h2>
+<p>看到產品列出「支援中文」或其他語言時，可以再問：在這種語言裡，完成一項工作要用多少額度，能保留多少前文，答案又是否可靠？開發者可以用貼近實際用途的平行文本和任務測試，公開模型版本、使用量與結果。比較時也要把固定題目、回答長度和成功條件交代清楚，讓讀者知道數字從哪裡來。這樣的資訊，比一張只列出可用語言名稱的清單，更接近使用者真正面對的條件。</p>
+<p>使用者也可能選擇先翻成英文，再把結果翻回熟悉的語言。但翻譯會增加步驟，專有名詞、語氣與地方用法也需要重新核對；這不是每個人都同樣方便的選項。若為了使用同一項工具，總有一些人得先換語言、刪減材料或多付額度，這些額外工作也應算進可及性的討論。理解 token 的差異，最後關係到的仍是人：誰能用自己熟悉的語言，把事情做完，又由誰來負擔中間多出來的成本。</p>
+</div>
+<section class="sources">
+<details class="srcblk"><summary><span>查證資料來源</span><span class="src-count">7 項</span></summary>
+<p class="src-note">研究結果依語料、語言與版本閱讀；示例只計純文字token，不是模型品質排行或個人帳單。</p>
+<ol>
+<li id="src-1"><a href="https://proceedings.nips.cc/paper_files/paper/2023/file/74bb24dca8334adce292883b4b651eda-Paper-Conference.pdf" rel="noopener noreferrer" target="_blank">Language Model Tokenizers Introduce Unfairness Between Languages，Petrov等，NeurIPS 2023 ↗</a>
+<p>支持內容：以平行翻譯比較token數，數字屬2023研究的語料與切分器，不是所有語言的現行倍率。</p></li>
+<li id="src-2"><a href="https://help.openai.com/en/articles/4936856-understanding-and-counting-tokens" rel="noopener noreferrer" target="_blank">Understanding and counting tokens，OpenAI ↗</a>
+<p>支持內容：token類別、計數方式與API使用量；不以可見答案字數還原完整費用。</p></li>
+<li id="src-3"><a href="https://github.com/openai/tiktoken" rel="noopener noreferrer" target="_blank">tiktoken，OpenAI，MIT License ↗</a>
+<p>支持內容：本文短句示例採用的公開切分工具，編碼與版本均在圖說交代。</p></li>
+<li id="src-4"><a href="https://aclanthology.org/2025.coling-main.400/" rel="noopener noreferrer" target="_blank">Egalitarian Language Representation in Language Models: It All Begins with Tokenizers，Velayuthan與Sarveswaran，COLING 2025 ↗</a>
+<p>支持內容：Tamil、Sinhala、Hindi的前置切分與字素，討論設計邊界如何影響後續組合。</p></li>
+<li id="src-5"><a href="https://openai.com/index/hello-gpt-4o/" rel="noopener noreferrer" target="_blank">Hello GPT-4o，OpenAI，2024-05-13 ↗</a>
+<p>支持內容：2024公告的二十語言示例，說明切分結果會隨版本改變。</p></li>
+<li id="src-6"><a href="https://proceedings.neurips.cc/paper_files/paper/2025/file/5b91cefbfa52340af2f16f249572dc76-Paper-Conference.pdf" rel="noopener noreferrer" target="_blank">Explaining and Mitigating Crosslingual Tokenizer Inequities，Arnett等，NeurIPS 2025 ↗</a>
+<p>支持內容：可比較單語切分器的實驗、詞彙表與空格邊界，以及未訓練完整模型的限制。</p></li>
+<li id="src-7"><a href="https://restofworld.org/2026/ai-tokenizer-tax-non-english-languages-cost-inequity/" rel="noopener noreferrer" target="_blank">AI models cost more when you don’t use English，Ananya Bhattacharya，Rest of World，2026-10-26 ↗</a>
+<p>支持內容：2026年報導的教學context例與使用成本討論；本文未採其轉述的新研究倍率。</p></li></ol>
+</details>
+<details class="srcblk"><summary><span>延伸探討</span><span class="src-count"></span></summary>
+<div class="reflection">
+<div class="eyebrow">TAKE IT FURTHER</div>
+<h3>把故事帶回自己的思考</h3>
+<p>你有沒有為了配合一項工具，改用不熟悉的語言、縮短原本想說的話，或放棄某些細節？哪些調整你覺得可以接受，哪些會讓你覺得工具其實沒有好好支援你？如果能請設計者改一件事，你會先改什麼？</p><textarea id="reflectionNote" placeholder="寫下你的想法、疑問，或之後想追查的線索……"></textarea>
+<div class="save-note">筆記會儲存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+</div>
+</details>
+</section>
+<section class="next-read">
+<div>
+<div class="meta">接著探索</div>
+<h4>隨機探索另一篇文章</h4>
+</div><a class="solid" data-surprise="" href="../../archive/">隨機讀一篇 ↗</a>
+</section>
+</article>
+</main>
+<footer>
+<div>遠方誌 · 一份讓好奇心有地方安放的閱讀刊物</div>
+<nav aria-label="網站導覽" class="foot-nav"><a href="../../">首頁</a><a href="../../archive/">文章索引</a><a href="../../about/">關於本刊</a><a href="../../privacy/">隱私權說明</a><a href="../../feed.xml">RSS 訂閱</a></nav>
+<div class="footnote-line">收藏與筆記只保存在目前瀏覽器，不會上傳或同步到其他裝置。</div>
+<div class="footnote-line">© 2026 遠方誌</div>
+</footer>
+<div aria-live="polite" class="toast" id="toast" role="status"></div>
+<script src="../../assets/site.js"></script>
+</body></html>

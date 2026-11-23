@@ -1,0 +1,547 @@
+[
+  {
+    "mode": "official",
+    "file": "index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "archive/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "stories.js",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "feed.xml",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "sitemap.xml",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "article-identifiers.json",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "assets/site.css",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "assets/site.js",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "sw.js",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/001-roads/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/002-median/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/003-imperial/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/004-stock/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/005-maps/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/006-submarine-cables/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/007-webb-l2/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/008-smallpox/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/009-comet-windows/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/010-daylight-saving-time/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/011-typhoon-names/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/012-power-frequency/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/013-runway-numbers/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/014-escalator-stand-walk/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/015-movie-popcorn/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/016-survivorship-bias/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/017-antibiotic-course/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/018-seven-day-week/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/019-chauvet-dating/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/020-river-personhood/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/021-kilogram/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/022-check-digits/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/023-leap-seconds/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/024-humidity/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/025-seed-banks/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/026-grand-parc/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/027-juror-research/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/028-boro/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/029-concert-applause/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/030-chinampas/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/031-monobloc/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/032-silbo/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/033-turf-houses/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/034-haenyeo/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/035-atkins/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/036-dead-mail/index.html",
+    "exact": true
+  },
+  {
+    "mode": "official",
+    "file": "articles/037-token-cost/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "archive/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "stories.js",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "feed.xml",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "sitemap.xml",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "article-identifiers.json",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "assets/site.css",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "assets/site.js",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "sw.js",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/001-roads/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/002-median/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/003-imperial/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/004-stock/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/005-maps/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/006-submarine-cables/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/007-webb-l2/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/008-smallpox/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/009-comet-windows/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/010-daylight-saving-time/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/011-typhoon-names/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/012-power-frequency/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/013-runway-numbers/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/014-escalator-stand-walk/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/015-movie-popcorn/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/016-survivorship-bias/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/017-antibiotic-course/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/018-seven-day-week/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/019-chauvet-dating/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/020-river-personhood/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/021-kilogram/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/022-check-digits/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/023-leap-seconds/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/024-humidity/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/025-seed-banks/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/026-grand-parc/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/027-juror-research/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/028-boro/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/029-concert-applause/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/030-chinampas/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/031-monobloc/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/032-silbo/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/033-turf-houses/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/034-haenyeo/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/035-atkins/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/036-dead-mail/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/037-token-cost/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "articles/038-strike-origins/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/seed-vault-withdrawal/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/v-formation-birds/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/earthquake-early-warning/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/hsr-tunnel-ears/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/traffic-light-timing/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/lottery-draw-integrity/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/etc-gantry-tolling/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/emergency-call-112/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/baggage-carousel-order/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/braille-six-dots/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/onigiri-wrap-engineering/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/qr-error-correction/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/queens-head-neck/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/altitude-boiling-eggs/index.html",
+    "exact": true
+  },
+  {
+    "mode": "preview",
+    "file": "review/metro-platform-doors/index.html",
+    "exact": true
+  }
+]

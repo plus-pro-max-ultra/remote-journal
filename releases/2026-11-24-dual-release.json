@@ -1,0 +1,360 @@
+{
+  "status": "dual_release_verified",
+  "verified_at": "2026-11-24T06:07:03+08:00",
+  "authority_messages": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M81NS05WE81HCMQZ76PQZZZM"
+  ],
+  "main": {
+    "sha": "0d297d4fb8de1a7609c178db4fe9bad53f7eb18c",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/0d297d4fb8de1a7609c178db4fe9bad53f7eb18c"
+  },
+  "gh": {
+    "sha": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/40d5c958e7c3ec99959c336fdd4d89463ebf801e"
+  },
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/037-token-cost/",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/038-strike-origins/",
+  "nominal_dates": {
+    "official": "2026-11-24",
+    "review": "2026-11-25"
+  },
+  "current_taipei_weekday": "Tuesday",
+  "checks": {
+    "main": {
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "用不同語言問 AI，為什麼費用可能不同？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "用不同語言問 AI，為什麼費用可能不同？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "用不同語言問 AI，為什麼費用可能不同？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "用不同語言問 AI，為什麼費用可能不同？"
+        }
+      ],
+      "live_exact_files": 46,
+      "random_footer_actual_clicks": 37,
+      "all_random_targets_valid": true,
+      "random_pool_aliases_complete": true,
+      "all_older_article_html_preserved": true,
+      "images_loaded": true,
+      "existing_reviewdrafts_unchanged": true
+    },
+    "gh": {
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "罷工是從什麼時候開始的？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "罷工是從什麼時候開始的？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "罷工是從什麼時候開始的？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "罷工是從什麼時候開始的？"
+        }
+      ],
+      "live_exact_files": 63,
+      "random_footer_actual_clicks": 38,
+      "all_random_targets_valid": true,
+      "random_pool_aliases_complete": true,
+      "all_older_article_html_preserved": true,
+      "images_loaded": true,
+      "existing_reviewdrafts_unchanged": true
+    },
+    "home_archive": [
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "037",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 37,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "037",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 37,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "037",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 37,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "037",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 37,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "038",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 38,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "038",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 38,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "038",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 38,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "038",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 38,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      }
+    ],
+    "footer_navigation": [
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/",
+        "title": "遠方誌 | Journal for Far",
+        "footer": true,
+        "h1": "世界不只發生\n它值得被理解"
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/archive/",
+        "title": "文章索引 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/about/",
+        "title": "關於遠方誌 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/privacy/",
+        "title": "隱私權說明 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/",
+        "title": "遠方誌 | Journal for Far",
+        "footer": true,
+        "h1": "世界不只發生\n它值得被理解"
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/archive/",
+        "title": "文章索引 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/about/",
+        "title": "關於遠方誌 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/privacy/",
+        "title": "隱私權說明 · 遠方誌",
+        "footer": true
+      }
+    ]
+  },
+  "publication_edit_observation": {
+    "status": "completed_in_publication_run",
+    "reviewed_at": "2026-11-24T06:03:17+08:00",
+    "original_instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+    "compared_to": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+    "last_preparation_compared_to": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+    "new_since_preparation": "none, confirmed current remote at release",
+    "changed_file": "articles/037-token-cost/index.html",
+    "raw_pairs": [
+      {
+        "paragraph_index": 0,
+        "before": "一份服務寫著「每百萬 token 計費」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位。價格相同，使用者得付出的費用，還會一樣嗎？",
+        "after": "某個 AI api 服務寫著「每 token 多少元」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位再餵給模型。價格相同，使用者得付出的費用，還會一樣嗎？"
+      },
+      {
+        "paragraph_index": 1,
+        "before": "語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，是兩種不同的計量。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。",
+        "after": "語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，兩者計量基礎不同。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。"
+      }
+    ],
+    "context_read": "Complete latest037 and038 articles, sources, figures and reflections reread in this release run, plus full two-paragraph before/after pairs.",
+    "classifications": [
+      {
+        "kind": "explicit preference",
+        "source_messages": [
+          "phonemsg-01M8328ZC7DK7TCKN42QZEX1ZK",
+          "phonemsg-01M832CEXFVGHP4EA8XDCXA7RD",
+          "phonemsg-01M832ET33ED6NBK3ACV8EMQ4B"
+        ],
+        "decision": "037 corrected title retained.038 asks an origin question answered as recorded action, word and legal recognition; no implicit comparative group or unique inventor."
+      },
+      {
+        "kind": "single-edit hypothesis",
+        "observation": "037 hook specifies API service and token input to model. First main paragraph states counting basis directly.",
+        "decision": "037 full latest HTML preserved including those two paragraphs.038 hook already identifies collective refusal and missing pay; first section explains grain payment and consequences, so no forced change. Retain concrete actor/process and distinguish action, name, legal scope."
+      },
+      {
+        "kind": "not generalized",
+        "decision": "Lowercase api and per-token price unit are choices in037, not all-article rules. No unsupported stronger claims or typo imitation."
+      },
+      {
+        "kind": "scope preservation",
+        "decision": "037 model/corpus/version bounds, diagram and life reflection preserved exactly.038 regnalyear/approxcentury, uncertain word origin and nineteenth-century Britain kept, no unsupported date reconciliation or modern legal advice."
+      }
+    ],
+    "preservation_checks": {
+      "037_body_sources_reflection_dek_exact": true,
+      "038_same_as_checked_draft": true,
+      "all_older_html_unchanged": true
+    },
+    "unresolved": []
+  },
+  "nofinetuning_reminder": false,
+  "nofinetuning_reason": "037direct0713256 edit covered two paragraphs and preserved in full; titlefix also retained.",
+  "release_separation": "Only001to037official;038onlygh. Fifteenreviewdraftsandguideghonly. Approved012archive URL preserved exactly.",
+  "initial_deployment_delay": "First official request briefly404 while deployment propagated; later canonical article200 and all tested files match. No repush needed.",
+  "next": "EveningNov24prepare039nominalNov26;Nov25morning038mainfromlatestghand039gh."
+}

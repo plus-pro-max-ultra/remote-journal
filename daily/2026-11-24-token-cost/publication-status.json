@@ -3,9 +3,9 @@
   "nominal_date": "2026-11-24",
   "gh_review_date": "2026-11-23",
   "prepared_at": "2026-11-22T20:07:02+08:00",
-  "status": "one_day_early_review_verified",
+  "status": "official_verified",
   "not_published_to_gh": false,
-  "not_published_to_main": true,
+  "not_published_to_main": false,
   "visual_verified_at": "2026-11-22T20:07:02+08:00",
   "authority_messages": [
     "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
@@ -14,20 +14,22 @@
     "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
   ],
   "selection": "Editorial daily selection from MM two suggestions. No owner-specified publication order; strike remains unscheduled.",
-  "release_separation": "036officialNov23;037previewNov23fornominalNov24;mainpendingnominaldate",
+  "release_separation": "037officialNov24;038previewonly;alllatest037directeditsand012approvedarchivepreserved",
   "next_release_edit_observation": {
-    "status": "required_again_at_next_main_publication",
-    "completed_release": "2026-11-23",
-    "record": "releases/2026-11-23-publication-edit-observation.json",
+    "status": "completed_for_this_release",
+    "completed_release": "2026-11-24",
+    "record": "releases/2026-11-24-publication-edit-observation.json",
     "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
   },
-  "verified_at": "2026-11-23T10:08:34+08:00",
-  "publication_edit_observation_completed_at": "2026-11-23T06:01:52+08:00",
-  "publication_edit_observation_record": "releases/2026-11-23-publication-edit-observation.json",
-  "latest_gh_commit": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+  "verified_at": "2026-11-24T06:07:03+08:00",
+  "publication_edit_observation_completed_at": "2026-11-24T06:03:17+08:00",
+  "publication_edit_observation_record": "releases/2026-11-24-publication-edit-observation.json",
+  "latest_gh_commit": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
   "gh_commit": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/037-token-cost/",
   "actual_gh_review_date": "2026-11-23",
   "title": "用不同語言問 AI，為什麼費用可能不同？",
-  "title_fix_record": "releases/2026-11-23-037-title-fix.json"
+  "title_fix_record": "releases/2026-11-23-037-title-fix.json",
+  "main_commit": "0d297d4fb8de1a7609c178db4fe9bad53f7eb18c",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/037-token-cost/"
 }
