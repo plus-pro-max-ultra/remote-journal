@@ -1,6 +1,6 @@
 {
-  "reviewed_at": "2026-11-22T20:07:02+08:00",
-  "compared_gh_commit": "46d3052419fea822478217e312ae53694203acf9",
+  "reviewed_at": "2026-11-23T10:07:10+08:00",
+  "compared_gh_commit": "27e183c57258b787016492742d960f8b896ac606",
   "examples_version": "E01-E09; raw033-a20094b/034-436f291/035-6eb55d8; Nov21 topic/paragraph and latest035title feedback",
   "checks": [
     {
@@ -93,22 +93,34 @@
       "location": "選題、十二主段",
       "decision": "applied or bounded as noted, full-context reread",
       "evidence": "核心問題轉向數位服務成本與語言可及性，與035影像圖冊／036公共服務例外分開；逐段意旨見paragraph-review，不只更換分類。"
+    },
+    {
+      "example": "Nov23-title-comparison-scope",
+      "classification": "explicit concrete correction",
+      "location": "037title and all visible mirrors",
+      "decision": "Changed unanchored more-cost comparison to question about possible fee differences. Articlebody/source/reflection unchanged.",
+      "evidence_messages": [
+        "phonemsg-01M8328ZC7DK7TCKN42QZEX1ZK",
+        "phonemsg-01M832CEXFVGHP4EA8XDCXA7RD",
+        "phonemsg-01M832ET33ED6NBK3ACV8EMQ4B"
+      ],
+      "evidence": "Full original Nov23 title exchange read and complete037article reread: old more comparison hid its comparison scope; new title asks whyfeesmaydiffer without an unstated group. Parallelcorpus/version/script scopes retained."
     }
   ],
   "full_text_reread": true,
   "facts_and_limits_preserved": true,
   "owner_text_untouched": true,
   "before_hashes": {
-    "draft.json": "2c8037a6027b00578e759b224d6105c9817c9eb89e95830db0ac154403c0229a",
-    "article-preview.html": "8e3fe2bd4b058c18ecfc1443bbd889aef68eb12ba92be1e8d97ebd2f25d77516",
-    "reader-body.html": "af2af5746f0c4106f641f41cc00804d4550e2f9e20ee61c0a7009a090c0e5a22",
-    "manuscript.md": "511c06684442a7c1442a6dc791d8155415e3adf71893e4b51e260c3f7d6c99f8"
-  },
-  "after_hashes": {
     "draft.json": "267e06441b92bacd5064c5edaf0c5322eaaff7a0165e56c3531445b783085992",
     "article-preview.html": "8b93d1759bafeae44ae5631312b8e2d18160493e0c9cab32f469a5bd59411d65",
     "reader-body.html": "bfbe416b6958964449de92dc2d86f65a15b4af3ab20dd6c93ff25ce402073a2f",
     "manuscript.md": "b5a4cab6e97587bc85737c74075fe71794495829a3cc25e429ddbc5ff7bf5e90"
+  },
+  "after_hashes": {
+    "draft.json": "33e3bac92b5130743d6cf1c9e52963ec876f4fe4ff230f3aef9118ed2be3509e",
+    "article-preview.html": "8fb8cfeed14e9440e378ec055e34b45d5fc31bdd13700d5cfb83329aed653363",
+    "reader-body.html": "bfbe416b6958964449de92dc2d86f65a15b4af3ab20dd6c93ff25ce402073a2f",
+    "manuscript.md": "451f34f76f7aa804ec181f1860699d0cca1b13b1e0285a8da0317233c34363d7"
   },
   "unresolved": []
 }

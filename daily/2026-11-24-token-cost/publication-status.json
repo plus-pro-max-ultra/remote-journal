@@ -21,11 +21,13 @@
     "record": "releases/2026-11-23-publication-edit-observation.json",
     "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
   },
-  "verified_at": "2026-11-23T06:05:28+08:00",
+  "verified_at": "2026-11-23T10:08:34+08:00",
   "publication_edit_observation_completed_at": "2026-11-23T06:01:52+08:00",
   "publication_edit_observation_record": "releases/2026-11-23-publication-edit-observation.json",
-  "latest_gh_commit": "27e183c57258b787016492742d960f8b896ac606",
-  "gh_commit": "27e183c57258b787016492742d960f8b896ac606",
+  "latest_gh_commit": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+  "gh_commit": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/037-token-cost/",
-  "actual_gh_review_date": "2026-11-23"
+  "actual_gh_review_date": "2026-11-23",
+  "title": "用不同語言問 AI，為什麼費用可能不同？",
+  "title_fix_record": "releases/2026-11-23-037-title-fix.json"
 }

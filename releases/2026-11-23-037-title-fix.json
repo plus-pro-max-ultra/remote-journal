@@ -1,0 +1,41 @@
+{
+  "status": "preview_title_live_verified",
+  "reviewed_at": "2026-11-23T10:07:10+08:00",
+  "old_title": "用不同語言問 AI，為什麼可能花更多錢？",
+  "new_title": "用不同語言問 AI，為什麼費用可能不同？",
+  "authority_messages": [
+    "phonemsg-01M8328ZC7DK7TCKN42QZEX1ZK",
+    "phonemsg-01M832CEXFVGHP4EA8XDCXA7RD",
+    "phonemsg-01M832ET33ED6NBK3ACV8EMQ4B"
+  ],
+  "comparison_gh": "27e183c57258b787016492742d960f8b896ac606",
+  "publication_edit_observation": {
+    "status": "completed_in_this_publication",
+    "full037text_reread": true,
+    "current_refs_checked": true,
+    "new_owner_html_edits_since_morning": false,
+    "scope_correction": "Remove unanchored greater-cost comparison, do not force non-Latin grouping or languagefamily claim.",
+    "body_sources_reflection_preserved": true,
+    "old_articles_preserved": true
+  },
+  "changed_files": [
+    "articles/037-token-cost/index.html",
+    "stories.js",
+    "index.html",
+    "archive/index.html",
+    "feed.xml"
+  ],
+  "main_untouched": true,
+  "gh_sha": "0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+  "commit_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/0fec4ccf3be2956cdeb7c3d2e29c07730de18f9d",
+  "verified_at": "2026-11-23T10:08:34+08:00",
+  "live_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/037-token-cost/",
+  "live_exact_files": true,
+  "visual_widths": [
+    320,
+    390,
+    1024,
+    1440
+  ],
+  "visual_inspection": "320and390mobile plus1440desktop opening pixels inspected. No overflow. Articlebody/sources/reflection byte-equivalent under title-only inverse comparison."
+}
