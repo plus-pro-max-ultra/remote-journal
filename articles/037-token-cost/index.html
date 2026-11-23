@@ -38,9 +38,9 @@
 <div class="reader-actions"><button class="ghost bookmark js-only" id="bookmarkBtn">＋ 收藏這篇</button><button class="ghost js-only" id="printBtn">列印 / 存成 PDF</button><button class="ghost js-only" id="copyLinkBtn">複製文章連結</button>
 </div></header>
 <div class="reader-body">
-<p>一份服務寫著「每百萬 token 計費」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位。價格相同，使用者得付出的費用，還會一樣嗎？</p>
+<p>某個 AI api 服務寫著「每 token 多少元」，看起來對每個人都用同一套價目表。但同樣一段意思，用英文、中文或其他文字輸入，可能先被切成不同數量的單位再餵給模型。價格相同，使用者得付出的費用，還會一樣嗎？</p>
 <h2>一、token 不是一個字，也不一定是一個詞</h2>
-<p>語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，是兩種不同的計量。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。</p>
+<p>語言模型處理文字前，會先把文字切成一連串 token，再轉成對應的編號。切分器稱為 tokenizer，它使用的單位可能是一個詞、詞的一部分、標點，甚至小於一個完整字元。常見的子詞切分方法，會把經常一起出現的片段收進有限的詞彙表，讓相同片段能反覆使用。因此，人眼看見的字數，與模型實際處理的 token 數，兩者計量基礎不同。要知道一段文字用了多少，得指定切分器，不能只拿字數換算。</p>
 <p>以本篇的短句示例來看，使用 tiktoken 0.14.0 的 o200k_base 編碼，「我們讀同一個故事。」切成七個 token，其中「我們」和「故事」各是一個。英文 We read the same story. 則是六個，包含最後的句點。若把同一段中文交給 cl100k_base，結果變成十三個，文字本身一字未改。這些是本地切分的示例，沒有呼叫模型生成答案，也沒有計入聊天格式等額外內容。它們讓人看見的是切分邊界會變，而不是四種語言的整體效率排行。</p>
 <figure class="article-figure token-demo" style="max-width:680px;margin:2rem auto;padding:1.2rem;background:#fff;border:1px solid var(--line);box-sizing:border-box">
 <div style="font-size:.8rem;letter-spacing:.12em;color:var(--muted)">同義短句 · 純文字切分示例</div>
