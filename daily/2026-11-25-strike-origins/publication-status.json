@@ -1,0 +1,23 @@
+{
+  "issue": "038-strike-origins",
+  "nominal_date": "2026-11-25",
+  "gh_review_date": "2026-11-24",
+  "prepared_at": "2026-11-23T20:08:47+08:00",
+  "status": "ready_for_next_morning_gh_review",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "title": "罷工是從什麼時候開始的？",
+  "visual_verified_at": "2026-11-23T20:08:47+08:00",
+  "selection": "Editorial selection from MM idea, not a user-imposed order.",
+  "next_release_edit_observation": {
+    "status": "required_at_publication",
+    "latest_compared_gh": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+    "note": "Draft preparation is not publication-time learning. Recheck latest owner changes at each release."
+  },
+  "preserve037": "latest directly edited gh HTML; WIP037body stale",
+  "authority_messages": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
+  ]
+}

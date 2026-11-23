@@ -1,0 +1,136 @@
+{
+  "reviewed_at": "2026-11-23T20:08:47+08:00",
+  "compared_gh_commit": "071325683567c99499eb4fbecf14f6dd1c81c0af",
+  "examples_version": "E01-E09; 033/034/035 rawblocks; latest037 two raw pairs; Nov21/22/23 original messages recovered",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "一、三、五節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "在位29年／約前12世紀、1768詞義及1871/1875英國原條文明確限定，不把早期記錄當第一次發生。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一至五節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "工人供應／停工影響直述；Cromwell譯注、Feenan歷史敘述與詞典年代具名，必要來源可核對，未逐句插標記。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "一2、二1、二2、五1、五2、六1",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "重讀時將七處排除式句子改成陶片與紙草關係、行動如何發生、持續欠發、法律區別及需何種證據等正面解釋，確實影響理解的歷史法範圍仍保留。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二、四節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "具體寫越哨、坐下、官員回應、停航與卸貨，不用抽象的另一種可能取代事件。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "四節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "對象是運輸必要環節及不同工種的工作，不為套例強加生產系統一詞或禁止可能。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "讀者可由社團／共同生活經驗回答何時協商或暫停配合，以及如何對待無法承擔者，無課文標準答案。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "標題、四節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "題名直接問起源，內文區分三種問題；停工影響以具體工種及承擔成本衡量，不強加物件價值框架。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "提出要求、約定與交涉由工人官員執行；紙草保存記事是實際功能，不賦予文物意志或情緒。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "全文",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "理解與選擇由人執行，名稱是追查語用歷史的對象；未回改032或重開其既定決定。"
+    },
+    {
+      "example": "033-a20094b",
+      "classification": "observed edit hypothesis",
+      "location": "一至四節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "重讀原始區塊與段落合併脈絡，採具體參與者與動作；對齊偏移和錯字不當逐詞偏好。"
+    },
+    {
+      "example": "034-436f291",
+      "classification": "observed edit hypothesis",
+      "location": "四節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "重讀全部差異，具體分工及成本有解釋作用；研究另查，不把海女漁場的判斷搬到罷工歷史。"
+    },
+    {
+      "example": "035-6eb55d8",
+      "classification": "observed edit hypothesis",
+      "location": "全篇",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "重讀四段實際編修與其他上下文，保留具體圖文／對象關係的方向，不學單篇插入破折號，未改035。"
+    },
+    {
+      "example": "036-owner-Nov22",
+      "classification": "observed edit hypothesis",
+      "location": "全篇",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "既有publication觀察九對及來源範圍記錄保持，今晚未新增036編修樣本；查核數字與史料界線不當全稱。"
+    },
+    {
+      "example": "037-0713256",
+      "classification": "observed edit hypothesis",
+      "location": "楔子、一節",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "完整前後兩段及最新gh上下文重讀；從報酬供應開場，具體說明工人何種處境。只採情境／過程清楚，api大小寫與per-token寫法不外推。037原HTML未動。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "標題",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "問罷工起源，內文立即區分行動、詞名與法律；不以唯一發明者或預設價值立場作結論。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題、十二段",
+      "decision": "applied where relevant; no owner text changed",
+      "evidence": "與034至037核心問題比較後選勞動衝突／法律歷史；每段有因果或例證推進，非硬併短段。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "4c0fb861929843afdc6719a2683e5ac3261285c08969f36337351a142b650724",
+    "article-preview.html": "386350cdd1d1475657078177779543802aef602c37005c0b384c3c100df68b7c",
+    "reader-body.html": "bb0f4aec143d2e2446aab4d4c9ba23a57ddcdcaaf431b820e815b97b5365c1b6",
+    "manuscript.md": "72e165b2d490247bfa559a6458d73c1f97948c30fbc75ddc30370e7c5103ee00"
+  },
+  "after_hashes": {
+    "draft.json": "4c0fb861929843afdc6719a2683e5ac3261285c08969f36337351a142b650724",
+    "article-preview.html": "386350cdd1d1475657078177779543802aef602c37005c0b384c3c100df68b7c",
+    "reader-body.html": "bb0f4aec143d2e2446aab4d4c9ba23a57ddcdcaaf431b820e815b97b5365c1b6",
+    "manuscript.md": "72e165b2d490247bfa559a6458d73c1f97948c30fbc75ddc30370e7c5103ee00"
+  },
+  "before_hash_note": "final record baseline after original draft wording revision; no claim of distinct preserved pre-edit file",
+  "unresolved": []
+}

@@ -1,0 +1,60 @@
+{
+  "issue": "038-strike-origins",
+  "status": "complete",
+  "assessed_at": "2026-11-23T20:08:47+08:00",
+  "visual_role": "辨識保存停工記事的紙草實物與文字排列，不將文物照片冒充抗議現場。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Commons Cat.1880 papyrus category, Museo Egizio collection; actual two file pages and CC0 deed",
+        "checked_at": "2026-11-23T20:08:47+08:00",
+        "result_summary": "紙草正面JPEG與同物TIFF實看比較；選1280x577 JPEG並核實檔案CC0。直接下載403後由正常瀏覽取得同檔，非來源不存在。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_so-called_%27Strike_Papyrus%27_written_by_Amunnakht_-_Museo_Egizio_Turin_C_1880_p01.jpg",
+      "relevance": "第一節第1880號實物，正面含停工記事",
+      "decision": "selected",
+      "reason": "實看原圖，多欄文字與破損可辨，尺寸適用手機桌面；使用本地圖檔避免外鏈失效。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_so-called_%27Strike_Papyrus%27_written_by_Amunnakht_-_Museo_Egizio_Turin_C_1880_p01.jpg",
+        "license": "CC0 1.0 Universal; file-specific licensing text, not generic site footer",
+        "credit": "Museo Egizio, via Wikimedia Commons"
+      },
+      "caption": "都靈埃及博物館Cat.1880紙草正面。這是一份包含停工記事的行政文書，不是抗議現場圖像。館方影像，Wikimedia Commons，CC0；採等比例縮圖，未裁切。",
+      "alt": "第1880號停工紙草正面，褐色紙草上有多欄黑色僧侶體文字，邊緣及部分區域殘損",
+      "layout": "max760px, intrinsic1280x577, width100%, heightauto, no crop"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Il_cosiddetto_%27Papiro_dello_sciopero%27_scritto_da_Amunnakht_Recto.tif",
+      "relevance": "同一第1880號正面另一檔案",
+      "decision": "not_selected",
+      "reason": "瀏覽頁面像素已看，與JPEG相同實物面，第二張不增加解釋；404MBTIFF也非閱讀頁必要載入。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Il_cosiddetto_%27Papiro_dello_sciopero%27_scritto_da_Amunnakht_Recto.tif",
+        "license": "not independently fully assessed, not reused"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "一張實物照片讓讀者辨識何種材料保存記事。用圖說交代行政文字非現場；第二個相同正面不採，不湊張數。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:The_so-called_%27Strike_Papyrus%27_written_by_Amunnakht_-_Museo_Egizio_Turin_C_1880_p01.jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "downloaded1280x577 image directly inspected",
+      "320/390/1024/1440 local pages; screenshot contact plus390opening320photo/caption1440fullfigure directly inspected, readable no clip/overflow",
+      "six sections seven sources and image naturalWidth verified at four widths; actual deploy to be checked tomorrow"
+    ]
+  },
+  "unresolved": []
+}
