@@ -1,0 +1,15 @@
+{
+  "issue": "039-insect-light",
+  "nominal_date": "2026-11-26",
+  "gh_review_date": "2026-11-25",
+  "prepared_at": "2026-11-24T20:06:55+08:00",
+  "status": "ready_for_next_morning_gh_review",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "title": "昆蟲為什麼會繞著燈飛？",
+  "next_release_edit_observation": {
+    "status": "required_at_publication",
+    "latest_compared_gh": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+    "note": "Tonight preparation does not pre-certify tomorrow publication-time learning."
+  }
+}

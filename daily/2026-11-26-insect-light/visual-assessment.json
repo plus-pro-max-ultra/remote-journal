@@ -1,0 +1,60 @@
+{
+  "issue": "039-insect-light",
+  "status": "complete",
+  "assessed_at": "2026-11-24T20:06:55+08:00",
+  "visual_role": "辨識真實昆蟲在近燈空間的位置，區別照片與連續三維姿態證據。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Wikimedia Commons moth light lamp insect CC BY; two actual file pages opened and pixels inspected",
+        "checked_at": "2026-11-24T20:06:55+08:00",
+        "result_summary": "門廊單蛾照片與15秒長曝路燈多蟲比較，前者檔案CCBYSA3.0及deed核讀；後者長曝不作單蟲路徑。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Moth_attracted_by_light.jpg",
+      "relevance": "第一節視覺辨識門廊燈旁蛾與相對位置",
+      "decision": "selected",
+      "reason": "原圖可見蛾與燈，清楚標明示例非研究照片；800x621適合max600不滿版。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Moth_attracted_by_light.jpg",
+        "license": "CC BY-SA 3.0 Unported, file-specific link https://creativecommons.org/licenses/by-sa/3.0/deed.en",
+        "credit": "Moth attracted by light, Fir0002 at English-language Wikipedia, via Wikimedia Commons"
+      },
+      "caption": "門廊燈旁飛行的蛾，並非本文研究的實驗個體；單張照片只能呈現相對位置，飛行姿態與路徑仍需連續影像判讀。〈Moth attracted by light〉，Fir0002，Wikimedia Commons，CC BY-SA 3.0；原圖比例，未裁切。",
+      "alt": "一隻飛蛾在門廊燈下飛行，翅膀因動作略為模糊，右上方為亮著的燈管",
+      "layout": "max600px, intrinsic800x621, width100%, heightauto, no crop; original JPEG bytes retained"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Insects_and_light_1380212_nevit.jpg",
+      "relevance": "路燈附近多蟲長曝光軌",
+      "decision": "not_selected",
+      "reason": "15秒多個體軌跡疊合，易誤當單隻飛行／實測路徑；已實看像素，無須充第二張。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Insects_and_light_1380212_nevit.jpg",
+        "license": "Not independently resolved from file-specific license text; site footer license not assumed, not reused"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "一張近燈蛾照片支持辨識真實情境，正文說明三類連續動作；不增加誤導性多蟲光軌或未測量的路徑圖。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Moth_attracted_by_light.jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "800x621 original image directly inspected",
+      "320/390/1024/1440 local article screenshots inspected contact plus full320figurecaption; readable, uncropped, no horizontal overflow",
+      "deployed pixels remain due tomorrow, not claimed done"
+    ]
+  },
+  "unresolved": []
+}

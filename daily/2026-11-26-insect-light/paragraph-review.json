@@ -1,0 +1,84 @@
+{
+  "reviewed_at": "2026-11-24T20:06:55+08:00",
+  "paragraphs": [
+    {
+      "index": 0,
+      "intention": "從繞燈引出姿態與燈外影響",
+      "sentences": 3,
+      "judgment": "opening hook"
+    },
+    {
+      "index": 1,
+      "intention": "背光反應如何在自然與點光環境不同",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 2,
+      "intention": "雙攝影及標記同時觀測位置姿態",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 3,
+      "intention": "側傾與飛行力轉向解釋繞行",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 4,
+      "intention": "同機制不同入口產生失速翻轉",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 5,
+      "intention": "漫射上下光分開光的方向與分布",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 6,
+      "intention": "物種例外與近距離範圍",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 7,
+      "intention": "雷達設計與正確2/50分母",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 8,
+      "intention": "不同月亮條件與追蹤限制",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 9,
+      "intention": "毛蟲取樣局地差與非隨機邊界",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 10,
+      "intention": "短期覓食與長期機制假說分開",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 11,
+      "intention": "照明需求轉為位置強度時間安排",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    },
+    {
+      "index": 12,
+      "intention": "把人類通行和夜間動物空間一起考慮",
+      "sentences": 5,
+      "judgment": "developed argument without padding"
+    }
+  ],
+  "full_text_reread": true
+}

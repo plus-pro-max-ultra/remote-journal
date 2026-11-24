@@ -1,0 +1,108 @@
+{
+  "reviewed_at": "2026-11-24T20:06:55+08:00",
+  "compared_gh_commit": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+  "examples_version": "E01-E09 reread Nov24; latest037 rawpairs0713256 and fullgh context; no new owner modifications since last release",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "三至五節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "受測種類、近燈範圍、50開燈分母、局地成對棲地與非隨機條件都在相應主詞中交代。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一、二、四至六節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "背光機制直述，特定三維實驗／雷達／毛蟲結果保留研究歸屬；四個正文連結，頁尾完整六項。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "第三、四、五節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "必要限制同時說明另一追蹤尺度、雷達能看見的移動及毛蟲生長；未只寫不能推論。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二與五節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "寫側傾轉向、向後仰減速、毛蟲爬草莖，不以抽象另一種可能代替動作。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "第六節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "寫入口／台階、照射位置及感應時控，未為套例強加生產系統或禁止可能。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "夜晚喜好與鄰里照明取捨從生活可答，不要求複述DLR或選正確生態答案。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "題名與末節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "直接問繞燈機制，評估燈的影響說明照射範圍／時段，而非抽象價值。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "燈光是作用條件，不賦情緒意圖；判斷由昆蟲感官動作／人類設計執行，保留物理功能主詞。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "第二、六節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "理解與討論由人執行；背部朝光是具體運動非任意擬人，未擴張為比喻全面禁用。"
+    },
+    {
+      "example": "037-0713256",
+      "classification": "observed edit hypothesis",
+      "location": "楔子與一節",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "已重讀兩對原始前後句及所在全文；選夜間開燈具體情境和位置到姿態過程，不外推api格式或per-token詞。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "題名",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "問句對應正文近燈姿態主答案，未預設昆蟲喜歡燈或所有種類單一答案。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與十二段",
+      "decision": "applied where relevant; owner text unchanged",
+      "evidence": "已比較001–038和近期角度，十二段各有意旨五句，解釋／觀察／範圍完整，不是短段硬併。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "0cf83b832c1b48bb88a503778d43e43420c03dd4ffc6ea2e81eeff1d2ccd6750",
+    "article-preview.html": "61e7b4d333bf30fb3f6669f9c6d344e71be6a1eabc8b33b65256a9c7e5013a7a",
+    "reader-body.html": "39227af7e411bc01807b1ed3f3f84d2c6897fd1d6fce3e0923911f849d2ea494",
+    "manuscript.md": "21f3176649be6880cf33ba53517ba29861fe6dd9f9558f533b199938d5843898"
+  },
+  "after_hashes": {
+    "draft.json": "0cf83b832c1b48bb88a503778d43e43420c03dd4ffc6ea2e81eeff1d2ccd6750",
+    "article-preview.html": "61e7b4d333bf30fb3f6669f9c6d344e71be6a1eabc8b33b65256a9c7e5013a7a",
+    "reader-body.html": "39227af7e411bc01807b1ed3f3f84d2c6897fd1d6fce3e0923911f849d2ea494",
+    "manuscript.md": "21f3176649be6880cf33ba53517ba29861fe6dd9f9558f533b199938d5843898"
+  },
+  "before_hash_note": "Final original-draft baseline; no separate pre-edit manuscript retained or claimed. Publication requires a fresh check tomorrow.",
+  "unresolved": []
+}
