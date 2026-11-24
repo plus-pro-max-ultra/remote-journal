@@ -1,0 +1,76 @@
+{
+  "issue": "039-insect-light",
+  "nominal_date": "2026-11-26",
+  "executed_at": "2026-11-25T06:02:34+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect038HTML09d3aa0 with five owner paragraph edits;allolderHTML;approved012archiveURL;compactarchive",
+  "nofinetuning_reminder": false,
+  "withdrawn_wave": "unscheduledresearch,notpublished",
+  "publication_edit_observation": {
+    "status": "completed_in_publication_run",
+    "reviewed_at": "2026-11-25T06:03:04+08:00",
+    "original_instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+    "compared_to": "09d3aa0ba935dfb1efae133dac3523812512f7de",
+    "last_preparation_compared_to": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+    "new_since_preparation": "Five direct038 paragraph edits at09d3aa0; no later remote changes at release check",
+    "changed_file": "articles/038-strike-origins/index.html",
+    "raw_pairs": [
+      {
+        "paragraph_index": 3,
+        "before": "紙草的第一則停工記事，記下工人越過警戒哨，表示自己飢餓，然後在圖特摩斯三世的祭廟後方坐下。書記、領班與維持秩序的人員出面，要他們回去。工人離開原本受管理的工作區域，把欠發物資的問題帶到官員必須回應的場所。工人不只停止工作，還集體移動並提出要求，讓官員直接面對他們的處境。記錄也讓人看見，雙方在停工之後仍持續交涉。",
+        "after": "在紙草的第一則停工記事中，工人越過警戒哨表示自己蒙受難以忍受的飢餓，然後在圖特摩斯三世的祭廟後方坐下。書記、領班與維持秩序的人員先後出面，要求他們回歸崗位。工人離開原本受管理的工作區域，把欠發物資的問題帶到官員必須回應的場合。他們不只停止了工作，還集體移動並提出要求，讓官員直接面對他們的處境。記錄也讓人看見，雙方在停工之後仍持續交涉。"
+      },
+      {
+        "paragraph_index": 4,
+        "before": "兩天後，隊伍又到拉美西斯二世的祭廟，要求把缺少糧食、衣物、油、魚與蔬菜的情況傳達給法老及宰相。部分配給隨後送達，卻沒有結束所有爭議。接下來的記事仍有離開工作區域、拒絕返回，以及官員設法提供臨時糧食的情節。紙草最後一則停工記錄，也停在先取得一批穀物維生的安排。它保存的是反覆停工、交涉與補給的過程，也讓我們得以追查工人如何應對持續的欠發問題。",
+        "after": "兩天後，隊伍又到拉美西斯二世的祭廟，要求把缺少糧食、衣物、油、魚與蔬菜的情況傳達給法老及宰相。部分配給隨後送達，卻沒有結束所有爭議。接下來的記事仍有離開工作區域、拒絕返回，以及官員設法提供臨時糧食的情節。紙草最後一則停工記錄，也是為了要先取得一批維生穀物。它保存的是反覆停工、交涉與補給的過程，也讓我們得以追查工人如何應對持續的欠發問題。"
+      },
+      {
+        "paragraph_index": 7,
+        "before": "港口的例子，讓集體停工的影響比較容易理解。船員不出航、搬運工不卸貨，受影響的就不只是某個人的工作時數，還有貨物能否繼續運送。Feenan整理的1768年倫敦事件中，煤炭搬運工與海員各有雇用和報酬問題，行動卻一度共同妨礙泰晤士河貿易。這種相互連動，使原本分散的薪資要求成為更難忽略的問題。停下某個必要環節，是把對日常生產與運輸的參與，轉成談判時可以使用的力量。",
+        "after": "港口的例子，讓集體停工的影響比較容易理解。船員不出航、搬運工不卸貨，受影響的就不只是某個人的工作時數，還有整個貨物運送體系能否繼續運作。Feenan整理的1768年倫敦事件中，煤炭搬運工與海員各有雇用和報酬問題，行動卻一度共同妨礙泰晤士河貿易。這種相互連動，使原本分散的薪資要求成為更難忽略的問題。停下某個必要環節，是把對日常生產與運輸的參與，轉成談判時可以使用的力量。"
+      },
+      {
+        "paragraph_index": 9,
+        "before": "一起不工作，還牽涉另一個問題：法律如何看待人們事先約好採取行動？十九世紀英國的工會爭議，就曾圍繞結社是否妨礙交易、集體約定能否成立等問題展開。1871年英國《工會法》第二條規定，不能僅因工會宗旨限制交易，便把它視為非法，進而使成員受到共謀等刑事追訴。第三條也處理相同理由對協議或信託效力的影響。這些條文使工會的合法性，不再僅由它是否限制交易來決定；具體行動採用的手段，仍須分開判斷。",
+        "after": "一起不工作，還牽涉另一個問題：法律如何看待人們事先約好採取行動？十九世紀英國的工會爭議，就曾圍繞結社是否妨礙交易、集體約定能否成立等問題展開。1871年英國《工會法》第二條規定，不能僅因工會宗旨限制交易，便把它視為非法，進而使成員受到共謀等刑事追訴。第三條也處理相同理由對協議或信託效力的影響。這些條文使工會的合法性，不再僅由它是否限制交易來決定；具體行動採用的手段，仍須分案判斷。"
+      },
+      {
+        "paragraph_index": 12,
+        "before": "因此，看到一場罷工，除了追問它從何而來，也可以看人們原本靠什麼協議一起工作。報酬、供應、工作條件或發言管道出了問題時，他們先試過哪些方法，又為什麼改用共同停下來表達？誰有能力等待，誰必須繼續工作，會影響行動能走多遠。這些問題把注意力放回具體關係，而不是只替一種抗爭找一個遙遠的生日。從留下的記錄出發，才能理解不同時代的人，如何把各自的不滿變成需要共同回應的要求。",
+        "after": "因此，看到一場罷工，除了追問它從何而來，也可以看人們原本靠什麼協議一起工作。報酬、供應、工作條件或發言管道出了問題時，他們先試過哪些方法，又為什麼改用共同停下來表達？誰有能力等待，誰必須繼續工作，會影響行動能走多遠。這些問題把注意力放回具體關係，而不是只替一種抗爭找一個遙遠的祖宗。從留下的記錄出發，才能理解不同時代的人，如何把各自的不滿變成需要共同回應的要求。"
+      }
+    ],
+    "context_read": "Full latest038 and039 articles with sources, figures and reflections reread in this publication run, and five complete before/after paragraphs.",
+    "classifications": [
+      {
+        "kind": "single-edit hypothesis",
+        "observation": "Event narration starts within record and gives officials explicit sequential return-to-work requests; grain goal and transport interdependence stated more directly.",
+        "decision": "038 preserve all five edited paragraphs exactly.039 already distinguishes body orientation, movement and life-stage evidence with concrete methods; no forced rewriting or broad system metaphor."
+      },
+      {
+        "kind": "not generalized",
+        "observation": "Legal case-specific wording and ending ancestry metaphor are individual choices.",
+        "decision": "Do not turn individual replacements into global preferred words or a rule to personify concepts;039 open reflection and factual bounds retained."
+      },
+      {
+        "kind": "explicit preference",
+        "decision": "Title asks the question answered, twelve039 paragraphs develop intent; near-lamp evidence versus radar and local caterpillar comparison remains scoped. No all-insect universal or global decline inference."
+      },
+      {
+        "kind": "scope preservation",
+        "decision": "038 original sources and year29/approxcentury, uncertain etymology and historicalBritishlaw preserved;039 figure labeled illustrative, license credit and no-crop retained. No owner text or factual claim silently changed."
+      }
+    ],
+    "preservation_checks": {
+      "038_body_sources_reflection_dek_exact": true,
+      "039_same_as_checked_draft": true,
+      "all_older_html_unchanged": true
+    },
+    "unresolved": []
+  }
+}
