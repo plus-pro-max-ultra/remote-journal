@@ -3,16 +3,16 @@
   "nominal_date": "2026-11-25",
   "gh_review_date": "2026-11-24",
   "prepared_at": "2026-11-23T20:08:47+08:00",
-  "status": "one_day_early_review_verified",
+  "status": "official_verified",
   "not_published_to_gh": false,
-  "not_published_to_main": true,
+  "not_published_to_main": false,
   "title": "罷工是從什麼時候開始的？",
   "visual_verified_at": "2026-11-23T20:08:47+08:00",
   "selection": "Editorial selection from MM idea, not a user-imposed order.",
   "next_release_edit_observation": {
-    "status": "required_again_at_next_main_publication",
-    "completed_release": "2026-11-24",
-    "record": "releases/2026-11-24-publication-edit-observation.json",
+    "status": "completed_for_this_release",
+    "completed_release": "2026-11-25",
+    "record": "releases/2026-11-25-publication-edit-observation.json",
     "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
   },
   "preserve037": "latest directly edited gh HTML; WIP037body stale",
@@ -21,12 +21,14 @@
     "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
     "phonemsg-01M80VSZN5QG6J5SE2C7591KM1"
   ],
-  "verified_at": "2026-11-24T06:07:03+08:00",
-  "publication_edit_observation_completed_at": "2026-11-24T06:03:17+08:00",
-  "publication_edit_observation_record": "releases/2026-11-24-publication-edit-observation.json",
-  "latest_gh_commit": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
+  "verified_at": "2026-11-25T06:06:57+08:00",
+  "publication_edit_observation_completed_at": "2026-11-25T06:03:04+08:00",
+  "publication_edit_observation_record": "releases/2026-11-25-publication-edit-observation.json",
+  "latest_gh_commit": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
   "gh_commit": "40d5c958e7c3ec99959c336fdd4d89463ebf801e",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/038-strike-origins/",
   "actual_gh_review_date": "2026-11-24",
-  "release_separation": "037officialNov24;038previewNov24fornominalNov25;mainpendingnominaldate"
+  "release_separation": "038officialNov25;039previewonly;alllatest038directeditsand012approvedarchivepreserved",
+  "main_commit": "df27084f4ff54b306f617a74e68f0c5364d73676",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/038-strike-origins/"
 }
