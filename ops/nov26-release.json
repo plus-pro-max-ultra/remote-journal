@@ -1,0 +1,41 @@
+{
+  "issue": "040-picture-frames",
+  "nominal_date": "2026-11-27",
+  "executed_at": "2026-11-26T06:01:58+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect039HTMLfc8c447 no owner changes;038edits preserved;allolderHTML;approved012archiveURL;compactarchive",
+  "nofinetuning_reminder": true,
+  "withdrawn_wave": "unscheduledresearch,notpublished",
+  "publication_edit_observation": {
+    "status": "completed_in_publication_run",
+    "reviewed_at": "2026-11-26T06:02:30+08:00",
+    "original_instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
+    "compared_to": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
+    "new_since_preparation": "No new direct edits.039only initial publication commit in path history; no new Zine message.03809d3aa0 five pairs remain latest examples, reread yesterday and current strategy reviewed now.",
+    "context_read": "Full039 and040 bodies, figures, sources and reflections reread in this publication run; latest038five before/after paragraphs were read during preparation and retained in prior observed record.",
+    "classifications": [
+      {
+        "kind": "explicit preference",
+        "decision": "040 question title answers why museums reframe without presuming newer is better. Twelve developed paragraphs, original/contemporary-not-original/old-new assembly distinguished.039 separates near-light posture,radar and local caterpillar evidence."
+      },
+      {
+        "kind": "single-edit hypothesis",
+        "decision": "038concrete actor/action and interdependence already met:040buyers,carvers,conservators with pillars/cornice/gilding and collection relation.039 concrete orientation and methods. No forced rewrite; legalcasewording/ancestry individual substitutions inapplicable."
+      },
+      {
+        "kind": "scope preservation",
+        "decision": "No owner text modified.040museum taste opinions attributed,2014policy time-bound.03995total and2of50, nonrandom local comparison, illustrative photo/license preserved."
+      }
+    ],
+    "preservation_checks": {
+      "official039_body_sources_reflection_dek_exact": true,
+      "review040_same_as_checked_draft": true,
+      "all_older_html_unchanged": true
+    },
+    "unresolved": []
+  }
+}

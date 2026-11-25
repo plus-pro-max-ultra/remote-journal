@@ -1,5 +1,5 @@
 {
-  "description": "001–038official;039Nov26one-dayearlyreview;fifteenreviewdraftsunscheduled.",
+  "description": "001–039official;040Nov27one-dayearlyreview;fifteenreviewdraftsunscheduled.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -39,6 +39,7 @@
     "dead-mail": "036-dead-mail",
     "token-cost": "037-token-cost",
     "strike-origins": "038-strike-origins",
-    "insect-light": "039-insect-light"
+    "insect-light": "039-insect-light",
+    "picture-frames": "040-picture-frames"
   }
 }
