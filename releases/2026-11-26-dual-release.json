@@ -1,0 +1,336 @@
+{
+  "status": "dual_release_verified",
+  "verified_at": "2026-11-26T06:05:18+08:00",
+  "authority_messages": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M81NS05WE81HCMQZ76PQZZZM"
+  ],
+  "main": {
+    "sha": "d2213fc48d96a24e194be65635997fbbd2eeb974",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/d2213fc48d96a24e194be65635997fbbd2eeb974"
+  },
+  "gh": {
+    "sha": "1869972f2b0cea83f45d635db3d0d218992fd97d",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/1869972f2b0cea83f45d635db3d0d218992fd97d"
+  },
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/039-insect-light/",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/040-picture-frames/",
+  "nominal_dates": {
+    "official": "2026-11-26",
+    "review": "2026-11-27"
+  },
+  "current_taipei_weekday": "Thursday",
+  "checks": {
+    "main": {
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "昆蟲為什麼會繞著燈飛？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "昆蟲為什麼會繞著燈飛？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "昆蟲為什麼會繞著燈飛？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "昆蟲為什麼會繞著燈飛？"
+        }
+      ],
+      "live_exact_files": 48,
+      "random_footer_actual_clicks": 39,
+      "all_random_targets_valid": true,
+      "random_pool_aliases_complete": true,
+      "all_older_article_html_preserved": true,
+      "images_loaded": true,
+      "existing_reviewdrafts_unchanged": true
+    },
+    "gh": {
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "博物館為什麼要替畫作換框？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "博物館為什麼要替畫作換框？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "博物館為什麼要替畫作換框？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "博物館為什麼要替畫作換框？"
+        }
+      ],
+      "live_exact_files": 65,
+      "random_footer_actual_clicks": 40,
+      "all_random_targets_valid": true,
+      "random_pool_aliases_complete": true,
+      "all_older_article_html_preserved": true,
+      "images_loaded": true,
+      "existing_reviewdrafts_unchanged": true
+    },
+    "home_archive": [
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "039",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 39,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "039",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 39,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "039",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 39,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "039",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 39,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "040",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 40,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "040",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 40,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "040",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 40,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "040",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 40,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      }
+    ],
+    "footer_navigation": [
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/",
+        "title": "遠方誌 | Journal for Far",
+        "footer": true,
+        "h1": "世界不只發生\n它值得被理解"
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/archive/",
+        "title": "文章索引 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/about/",
+        "title": "關於遠方誌 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://journal-for-far.learnman.workers.dev/privacy/",
+        "title": "隱私權說明 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/",
+        "title": "遠方誌 | Journal for Far",
+        "footer": true,
+        "h1": "世界不只發生\n它值得被理解"
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/archive/",
+        "title": "文章索引 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/about/",
+        "title": "關於遠方誌 · 遠方誌",
+        "footer": true
+      },
+      {
+        "url": "https://plus-pro-max-ultra.github.io/remote-journal/privacy/",
+        "title": "隱私權說明 · 遠方誌",
+        "footer": true
+      }
+    ]
+  },
+  "publication_edit_observation": {
+    "status": "completed_in_publication_run",
+    "reviewed_at": "2026-11-26T06:02:30+08:00",
+    "original_instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
+    "compared_to": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
+    "new_since_preparation": "No new direct edits.039only initial publication commit in path history; no new Zine message.03809d3aa0 five pairs remain latest examples, reread yesterday and current strategy reviewed now.",
+    "context_read": "Full039 and040 bodies, figures, sources and reflections reread in this publication run; latest038five before/after paragraphs were read during preparation and retained in prior observed record.",
+    "classifications": [
+      {
+        "kind": "explicit preference",
+        "decision": "040 question title answers why museums reframe without presuming newer is better. Twelve developed paragraphs, original/contemporary-not-original/old-new assembly distinguished.039 separates near-light posture,radar and local caterpillar evidence."
+      },
+      {
+        "kind": "single-edit hypothesis",
+        "decision": "038concrete actor/action and interdependence already met:040buyers,carvers,conservators with pillars/cornice/gilding and collection relation.039 concrete orientation and methods. No forced rewrite; legalcasewording/ancestry individual substitutions inapplicable."
+      },
+      {
+        "kind": "scope preservation",
+        "decision": "No owner text modified.040museum taste opinions attributed,2014policy time-bound.03995total and2of50, nonrandom local comparison, illustrative photo/license preserved."
+      }
+    ],
+    "preservation_checks": {
+      "official039_body_sources_reflection_dek_exact": true,
+      "review040_same_as_checked_draft": true,
+      "all_older_html_unchanged": true
+    },
+    "unresolved": []
+  },
+  "nofinetuning_reminder": true,
+  "nofinetuning_reason": "039path history only initial publication; no owner modification or relevant request found at release check.",
+  "release_separation": "Only001to039official;040onlygh. Fifteenreviewdraftsandguideghonly. Approved012archive URL preserved exactly.",
+  "initial_deployment_delay": "First official request briefly404 while deployment propagated; later canonical article200 and all tested files match. No repush needed.",
+  "next": "EveningNov26prepare041nominalNov28;Nov27morning040mainfromlatestghand041gh."
+}
