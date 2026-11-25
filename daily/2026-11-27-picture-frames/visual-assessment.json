@@ -1,0 +1,60 @@
+{
+  "issue": "040-picture-frames",
+  "status": "complete",
+  "assessed_at": "2026-11-25T20:07:27+08:00",
+  "visual_role": "實看畫與完整外框、牆面的比例與邊界，非虛構換框前後效果。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Getty frame photo open content; Wikimedia Commons Irises frame and empty picture frames",
+        "checked_at": "2026-11-25T20:07:27+08:00",
+        "result_summary": "兩Commons候選頁和實際圖片均看；另純畫面開放圖不含框不採。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Irises%2C_Vincent_Van_Gogh%2C_Getty_Center%2C_Los_Angeles%2C_California_(3124965361).jpg",
+      "relevance": "四節梵谷異時異地配框",
+      "decision": "selected",
+      "reason": "完整框可見且有實際案例對應，攝影日期與繪畫年代分清。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Irises%2C_Vincent_Van_Gogh%2C_Getty_Center%2C_Los_Angeles%2C_California_(3124965361).jpg",
+        "license": "CC BY-SA2.0 https://creativecommons.org/licenses/by-sa/2.0/deed.en file review confirms specific license",
+        "credit": "Ken Lund, Irises, Vincent Van Gogh, Getty Center, Los Angeles, California,2008, via Wikimedia Commons"
+      },
+      "caption": "梵谷《鳶尾花》在Getty的展示，Ken Lund攝於2008年。照片保留畫、框與部分牆面，供觀察邊界關係；此框不是梵谷原配。照片經Wikimedia Commons取用，CC BY-SA 2.0，原比例、未裁切。",
+      "alt": "Getty展場內的梵谷鳶尾花，整幅畫外圍有寬金色畫框，右側可見牆上標籤",
+      "layout": "original1280x960 JPEG, uncropped, width100% max640 heightauto"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:The_stolen_Rembrandt_frames.jpg",
+      "relevance": "空框與展場",
+      "decision": "not_selected",
+      "reason": "實看為被盜畫作空框，會把論述引向失竊紀念非配框取捨，不為第二張加入未研究支線。",
+      "rights": {
+        "status": "unknown",
+        "source_url": "https://commons.wikimedia.org/wiki/File:The_stolen_Rembrandt_frames.jpg",
+        "license": "Author Flickr PDM record read; PDM not license and jurisdiction caveat not resolved; not reused"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "一張實際畫框照片足以觀察邊界；不製作無根據的前後對比。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Irises%2C_Vincent_Van_Gogh%2C_Getty_Center%2C_Los_Angeles%2C_California_(3124965361).jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "source photograph and both Commons candidates viewed",
+      "320/390/1024/1440 contact sheets plus full320caption,390section3,1024sources inspected; no visible clipping, frame complete and ratio retained",
+      "live deployment due next morning, not claimed done"
+    ]
+  },
+  "unresolved": []
+}

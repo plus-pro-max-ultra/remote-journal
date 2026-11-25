@@ -1,0 +1,108 @@
+{
+  "reviewed_at": "2026-11-25T20:07:27+08:00",
+  "compared_gh_commit": "fc8c4479e38e7b06138a2c0422ede77bb650ecd5",
+  "examples_version": "E01-E09 plus latest038 raw pairs09d3aa0 and full038; no refs changed since morning release",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "二至五節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "入藏時框不是原配；London版本與2009購件、2014受訪政策各限定時間對象。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一至五節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "一般配框關係直述，具體館方審美判斷與Schade受訪說明具名，五連結服務段落，六來源完整。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "三與五節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "不是原零件的限制隨即說明古材料／歷史比較／新雕刻如何共同構成展示，保留可重新比較的方法。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "三節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "壁柱、簷部、補雕、貼金與色調列明工作；不以抽象另一種可能代替。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "五節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "收藏者框、作品流傳關係、保存拆下框是明確對象與工作，不強套生產系統。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸思考",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "搬家照片與舊框、生活關係、是否保留不協調外觀，容許不同生活答案。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "題名",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "直接問博物館換框原因，正文回答觀看、歷史相容與收藏關係，不預設新框較好。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "框是材料與視覺邊界，決策由主人／館方／修復人員進行，沒有物品意志。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "三至六節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "觀看、比較、保留由人執行；不機械刪所有比喻或更動032作者原文。"
+    },
+    {
+      "example": "038-09d3aa0",
+      "classification": "observed edit hypothesis",
+      "location": "三至五節",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "五組原始前後整段及038全文重讀。040具體交代購件／補作及館方理由，整體展示關係已具體；分案與祖宗是單篇選詞不適用，未強改。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "題名",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "問換框原因與內文答案對準，不把較新較好當立場。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與十二段",
+      "decision": "already present in original040 draft; no owner text changed",
+      "evidence": "001–039題名及近期全文比較，藝術展示取捨不同於植物出版／技藝傳承；每段五句發展一個意旨，非硬湊。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "c2d39f369f0375a9e5cb07ae8806b1b07220e4ac5fa44c00c55cdf863c57638d",
+    "article-preview.html": "4b8a9b1f63f4312beb8d3f41dc11c23f2b5fa427370e395da6f2859676f118b5",
+    "reader-body.html": "3a25e70f7f46557c9f337c81b76f518d4d1d4bfa9f3ede1c2890f973781abe69",
+    "manuscript.md": "9871abda75abe0e090304cabe32cd20358066467ff15e044100914b45af7184f"
+  },
+  "after_hashes": {
+    "draft.json": "c2d39f369f0375a9e5cb07ae8806b1b07220e4ac5fa44c00c55cdf863c57638d",
+    "article-preview.html": "4b8a9b1f63f4312beb8d3f41dc11c23f2b5fa427370e395da6f2859676f118b5",
+    "reader-body.html": "3a25e70f7f46557c9f337c81b76f518d4d1d4bfa9f3ede1c2890f973781abe69",
+    "manuscript.md": "9871abda75abe0e090304cabe32cd20358066467ff15e044100914b45af7184f"
+  },
+  "before_hash_note": "Original040 draft reread, no separate revision claimed; publication must check newest directHTML again.",
+  "unresolved": []
+}
