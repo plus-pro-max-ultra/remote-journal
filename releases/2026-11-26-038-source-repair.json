@@ -1,0 +1,57 @@
+{
+  "status": "completed_in_source_repair_run",
+  "reviewed_at": "2026-11-26T10:29:24+08:00",
+  "authority_question": "phonemsg-01M8ARFMWZTT14ZBY3V9VJ2S13",
+  "authority_approval": "phonemsg-01M8ATXVZCBK5D8803RW90N368",
+  "base_commit": "d2213fc48d96a24e194be65635997fbbd2eeb974",
+  "scope": "038inlinehref+source3citation and corresponding storiesmirror only; all readerbody wording, title, reflection and fiveMMedits exact",
+  "old_url": "https://dermotfeenan.com/index.php/2018/05/07/on-strike-commemorating-the-250th-anniversary-of-the-word-strike/",
+  "new_url": "https://tribunemag.co.uk/2019/12/the-birth-of-the-strike",
+  "new_citation": "The Birth of the Strike，Dermot Feenan，Tribune，2019-12-19",
+  "evidence": "Sameauthor Tribune full text reread Nov25 and refetched Nov26; Sunderland/Thames sequence,petition/tradeblock,replacementlabor,violence/state suppression,sailorsagreement/return all supported. IncompleteWayback not used.",
+  "publication_edit_observation": {
+    "status": "completed_in_this_run",
+    "comparison": "Current remote refs equal Nov26morning release, no later direct edits.03809d3aa0fiveownerparagraphs preserved exactly; currentfull038body and reflection reread during repair checks.",
+    "strategy": "No new owner style evidence. Source availability repair only, do not derive wording rules or rewrite facts.",
+    "unresolved": []
+  },
+  "commits": {
+    "main": {
+      "sha": "69187616e5513202103441f898aaa216c1e47757",
+      "url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/69187616e5513202103441f898aaa216c1e47757"
+    },
+    "gh-pages": {
+      "sha": "bad38dfadb8ae6e68df7e345da8abf8e4c0c37c9",
+      "url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/bad38dfadb8ae6e68df7e345da8abf8e4c0c37c9"
+    }
+  },
+  "live": [
+    {
+      "mode": "main",
+      "file": "articles/038-strike-origins/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "mode": "main",
+      "file": "stories.js",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "mode": "gh",
+      "file": "articles/038-strike-origins/index.html",
+      "status": 200,
+      "exact": true
+    },
+    {
+      "mode": "gh",
+      "file": "stories.js",
+      "status": 200,
+      "exact": true
+    }
+  ],
+  "visual": "Actual deployed source3 expanded at320/390/1024/1440 inspected, newcitation readable and nooverflow; body andreflection preserved. Two initial screenshots had collapsed sourcepanel, corrected before final inspection.",
+  "verified_at": "2026-11-26T10:31:31.713538",
+  "historical_snapshot": "published-main.html retained as historical original. New current snapshot separate, stale draft not used."
+}
