@@ -1,0 +1,13 @@
+{
+  "issue": "041-public-lending-right",
+  "nominal_date": "2026-11-28",
+  "gh_review_date": "2026-11-27",
+  "prepared_at": "2026-11-26T20:07:41.783097",
+  "status": "ready_in_WIP_not_published",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "next_release_edit_observation": {
+    "status": "required_at_publication",
+    "note": "Recheck latest directgh and authenticated messages; preserve039approvedsync and038sourcefix.040currentdirectHTML mustwin, no staleJSON rebuild."
+  }
+}

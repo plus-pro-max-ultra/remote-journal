@@ -1,0 +1,53 @@
+{
+  "issue": "041-public-lending-right",
+  "status": "complete",
+  "assessed_at": "2026-11-26T20:07:41.783097",
+  "visual_role": "區分英國合格借閱量與澳洲估計館藏冊數，資料方式與對應時間可直接並排辨認。",
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "CommonsTaiwanlibraryinteriors; LeedsCentralLibraryphotos; twoCommonsfilepages+actualpixels; CClicensepages",
+        "checked_at": "2026-11-26T20:07:41.783097",
+        "result_summary": "兩Leeds圖實看，不採裝飾性外觀/走廊；台灣候選授權模板不一致不採，原創表格最能完成視覺任務。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Leeds_Central_library_(29578674320).jpg",
+      "relevance": "圖書館的實際空間與書籍",
+      "decision": "not_selected",
+      "reason": "實際看圖為建築外觀及圖書館美術館共用入口，對借閱/館藏算法解釋有限，容易把場所當制度證據。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leeds_Central_library_(29578674320).jpg",
+        "license": "CC BY2.0specificCommonsFlickrreviewread; not reused"
+      }
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Leeds_Central_Library_21_February_2019_(208).JPG",
+      "relevance": "圖書館的實際空間與書籍",
+      "decision": "not_selected",
+      "reason": "實際看圖為華麗走廊與側邊書架，會把焦點引向建築，無法展示報酬分配。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Leeds_Central_Library_21_February_2019_(208).JPG",
+        "license": "CC BY-SA4.0page read; not reused"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "original_visual",
+    "rationale": "可存取HTML表格比較借閱/館藏和時間，不以泛用圖書館照片暗示制度適用；無照片配額。",
+    "selected_candidate_urls": []
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "TwoCommonsphotos seen cloudbrowser20:03",
+      "table320/390/1024/1440andfull320caption inspected20:06, updatedfinaltext rerender after wordingpass"
+    ]
+  },
+  "unresolved": []
+}

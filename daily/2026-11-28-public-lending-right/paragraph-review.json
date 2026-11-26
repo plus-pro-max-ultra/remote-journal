@@ -1,0 +1,98 @@
+[
+  {
+    "section": 1,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "separatepayment/access",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 1,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "separatepayment/access",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 2,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "loanbasedfundallocation",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 2,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "loanbasedfundallocation",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 3,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "holdingsbasedcontrast",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 3,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "holdingsbasedcontrast",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 4,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "eligibilitydistribution",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 4,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "eligibilitydistribution",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 5,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "digitalandexperience",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 5,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "digitalandexperience",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 6,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "fundingpolicychoice",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 6,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "fundingpolicychoice",
+    "read_in_full": true,
+    "not_padding": true
+  }
+]

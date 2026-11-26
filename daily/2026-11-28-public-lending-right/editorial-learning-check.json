@@ -1,0 +1,115 @@
+{
+  "reviewed_at": "2026-11-26T20:07:41.783097",
+  "compared_gh_commit": "dccd0a48b99f6ebd9e6fdd4bbbcd6e5f1662fc01",
+  "examples_version": "E01-E09 plus03809d3aa0 and new039f292790 sixpairs, MM18:25narrow instruction and18:30sync retained",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "二至五節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "英國2025改制與澳洲2024至25年報分清，門檻不全球化。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一至三節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "基金及算法直述；管理者、政策主張和年報數字有必要歸屬。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "二、四、五節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "初稿三處機械反向告誡改為目前資料如何納入、受款者範圍及作者理解價值，必要數位授權區別保留。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "一至六節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "基金、登記、資料、門檻及實際付款對象取代抽象制度優點。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "三節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "館藏是可供取得的冊數，非抽象彈性；不強加生產系統。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "反思",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "讀者自己的借閱與公共預算取捨，無標準答案或機制測驗。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "標題",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "問題由正文回答，沒有預設補償制度必然正確。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "五節全文再讀",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "把作品銷售之後的生命改成仍被閱讀的價值，其餘動作由管理者、作者與讀者執行。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "全文",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "人負責登記、統計與分配，制度與資金是安排和工具；不改既刊032。"
+    },
+    {
+      "example": "038-09d3aa0",
+      "classification": "observed edit hypothesis",
+      "location": "三至六節",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "具體關係與相互依賴已交代；分案與祖先等單篇詞句不套用。"
+    },
+    {
+      "example": "039-f292790",
+      "classification": "observed edit hypothesis",
+      "location": "二節與全篇",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "六對照及039全文本晚18:20實讀；算法方法段壓縮重複好處，解釋統計用途，未製造矛盾，未加效率優越性。MM窄幅刪效率並非全篇禁用比較。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "題名",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "問免費借書下作者報酬安排，回答政府基金與資格，未宣稱每國都有。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與十二段",
+      "decision": "applied in new041draft or already present; no published owner text changed",
+      "evidence": "近期001至040及040全文比較；公共文化資金分配不同於畫框、昆蟲與港口停工。十二段各五句、楔子三句，每段各有工作，非拼句填充。"
+    }
+  ],
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "before_hashes": {
+    "draft.json": "a0031b6e9b9220112a987060cab2145ddcc6a767d73e692691fd81ed1731492a",
+    "article-preview.html": "0c27ae73ee80ac5d72b8b2bfe0872bc3600f5de1d35b26456c4a1c985531c761",
+    "reader-body.html": "3a23ca9fc7698af339d81581e0aaf178ee53f92e9380c6c406911af81ae94940",
+    "manuscript.md": "f534b609e6f3f0d3bc7990d6fa3f076848ec1622d2871bba415256a4394dc795"
+  },
+  "after_hashes": {
+    "draft.json": "7dcac1f70b454704525907d5f7e23c07c3bf4ea1e522bf14fc581712246957fa",
+    "article-preview.html": "c8206cbe127f7bc65f657b588dbcc5ec9c153d54293f1b32eeaa740c1fdba35a",
+    "reader-body.html": "d2cf1b8c4973dc36813a8aeedf18b9b85a138bcb39c49ae739526ff560e3d626",
+    "manuscript.md": "efc1d42ff5322fd0dd9742b7252fca909850b942f5ed9521272a8343ce943156"
+  },
+  "before_hash_note": "Original041draft before final small natural wording pass; first three caution revisions were part of drafting, not falsely counted as owner changes.",
+  "unresolved": []
+}
