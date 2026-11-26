@@ -3,21 +3,21 @@
   "nominal_date": "2026-11-27",
   "gh_review_date": "2026-11-26",
   "prepared_at": "2026-11-25T20:07:27+08:00",
-  "status": "one_day_early_review_verified",
+  "status": "official_verified",
   "not_published_to_gh": false,
-  "not_published_to_main": true,
+  "not_published_to_main": false,
   "next_release_edit_observation": {
-    "status": "required_again_at_next_main_publication",
-    "completed_release": "2026-11-26",
-    "record": "releases/2026-11-26-publication-edit-observation.json",
-    "note": "This run completed actual source comparison and strategy decisions. Recheck edits for the next publication."
+    "status": "completed_for_thisrelease",
+    "record": "releases/2026-11-27-publication-edit-observation.json"
   },
-  "verified_at": "2026-11-26T06:05:18+08:00",
-  "publication_edit_observation_completed_at": "2026-11-26T06:02:30+08:00",
-  "publication_edit_observation_record": "releases/2026-11-26-publication-edit-observation.json",
-  "latest_gh_commit": "1869972f2b0cea83f45d635db3d0d218992fd97d",
+  "verified_at": "2026-11-27T06:06:24.773816+08:00",
+  "publication_edit_observation_completed_at": "2026-11-27T06:03:15.920641+08:00",
+  "publication_edit_observation_record": "releases/2026-11-27-publication-edit-observation.json",
+  "latest_gh_commit": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
   "gh_commit": "1869972f2b0cea83f45d635db3d0d218992fd97d",
   "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/040-picture-frames/",
   "actual_gh_review_date": "2026-11-26",
-  "release_separation": "039officialNov26;040previewNov26fornominalNov27;mainpendingnominaldate"
+  "release_separation": "039officialNov26;040previewNov26fornominalNov27;mainpendingnominaldate",
+  "main_commit": "e8f703ab69a663f6c2df20e2017f11fb12a40236",
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/040-picture-frames/"
 }
