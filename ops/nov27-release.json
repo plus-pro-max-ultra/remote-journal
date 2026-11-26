@@ -1,0 +1,94 @@
+{
+  "issue": "040-picture-frames",
+  "nominal_date": "2026-11-27",
+  "executed_at": "2026-11-27T06:02:53+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect040HTML9be6d14 seven edited blocks including pending typo;038repair039approvedsync and allolderHTML;approved012archiveURL;compactarchive",
+  "nofinetuning_reminder": false,
+  "withdrawn_wave": "unscheduledresearch,notpublished",
+  "publication_edit_observation": {
+    "observed_at": "2026-11-26T22:24:00+08:00",
+    "base": "dccd0a48b99f6ebd9e6fdd4bbbcd6e5f1662fc01",
+    "head": "9be6d141f9379bd848c9dcd4048c17854b8bf709",
+    "status": "completed_in_publication_run",
+    "pairs": [
+      {
+        "block": 0,
+        "before_html": "<p>在博物館看畫時，我們常把目光停在畫布裡，拍照時甚至刻意避開外框。但畫框也可能比畫年輕幾百年，或曾經配在另一件作品上。沿著畫面邊緣多看一圈，便會遇到一個問題：眼前的組合，是誰在什麼時候決定的？</p>",
+        "after_html": "<p>在博物館看畫時，我們常把目光停在畫布裡，拍照時甚至刻意避開外框。這個作為陪襯的畫框也可能比畫年輕幾百年，或曾經配在另一件作品上。往畫面邊緣多看一圈，可能會想到一個問題：眼前的組合，是誰在什麼時候怎麼被決定的？</p>",
+        "before_text": "在博物館看畫時，我們常把目光停在畫布裡，拍照時甚至刻意避開外框。但畫框也可能比畫年輕幾百年，或曾經配在另一件作品上。沿著畫面邊緣多看一圈，便會遇到一個問題：眼前的組合，是誰在什麼時候決定的？",
+        "after_text": "在博物館看畫時，我們常把目光停在畫布裡，拍照時甚至刻意避開外框。這個作為陪襯的畫框也可能比畫年輕幾百年，或曾經配在另一件作品上。往畫面邊緣多看一圈，可能會想到一個問題：眼前的組合，是誰在什麼時候怎麼被決定的？"
+      },
+      {
+        "block": 2,
+        "before_html": "<p>畫作進入不同收藏之後，主人可能重新配框，讓它符合房間的裝潢，或與其他藏品形成一致的陳列。原本分屬不同年代與地區的畫，因此可能掛在相似的金框裡。今天看來十分自然的一組畫與框，未必出自畫家的共同安排。畫作的創作年代與畫框的製作年代，需要分開辨認。若只看作品標籤上的年份，就容易把後來收藏者的選擇，也當成畫家原先的構想。</p>",
+        "after_html": "<p>畫作進入不同收藏之後，主人可能重新配框，讓它符合房間的裝潢，或與其他藏品形成一致的陳列。原本分屬不同年代與地區的畫，因此可能掛在相似的金框裡。今天看來十分自然的一組畫與框，大抵不是出自畫家的精心安排。畫作的創作年代與畫框的製作年代，需要分別討論。若只看作品標籤上的年份，就容易把後來收藏者的選擇，也作為那個時代的一部分。</p>",
+        "before_text": "畫作進入不同收藏之後，主人可能重新配框，讓它符合房間的裝潢，或與其他藏品形成一致的陳列。原本分屬不同年代與地區的畫，因此可能掛在相似的金框裡。今天看來十分自然的一組畫與框，未必出自畫家的共同安排。畫作的創作年代與畫框的製作年代，需要分開辨認。若只看作品標籤上的年份，就容易把後來收藏者的選擇，也當成畫家原先的構想。",
+        "after_text": "畫作進入不同收藏之後，主人可能重新配框，讓它符合房間的裝潢，或與其他藏品形成一致的陳列。原本分屬不同年代與地區的畫，因此可能掛在相似的金框裡。今天看來十分自然的一組畫與框，大抵不是出自畫家的精心安排。畫作的創作年代與畫框的製作年代，需要分別討論。若只看作品標籤上的年份，就容易把後來收藏者的選擇，也作為那個時代的一部分。"
+      },
+      {
+        "block": 5,
+        "before_html": "<p>畫框的寬窄、明暗與裝飾，會參與畫面和周圍牆面的關係。寬厚的外框占去較大的視野，窄框則讓畫面更直接地靠近牆面；金色表面與深色木材，也形成不同的明暗對比。這些差異使配框不只是尺寸是否裝得下的問題。研究者和策展人還會比較，框是否使構圖顯得擁擠、人物是否有足夠的空間感，以及畫中的色彩如何與外緣相接。這類判斷包含觀看經驗與審美選擇，並不會由年代相同就自動得到唯一答案。</p>",
+        "after_html": "<p>畫框的寬窄、明暗與裝飾，會參與畫面和周圍牆面的關係。寬厚的外框占去較大的視野，窄框則讓畫面更直接地靠近牆面；金色表面與深色木材，也形成不同的明暗對比。這些差異使配框不只是尺寸是否裝得下的問題。研究者和策展人還會比較，框是否使構圖顯得擁擠、人物是否有足夠的空間感，以及畫中的色彩如何與外緣相接。此類判斷涉及觀看經驗與價值審美，年代並不能導出一套標準流程或答案。</p>",
+        "before_text": "畫框的寬窄、明暗與裝飾，會參與畫面和周圍牆面的關係。寬厚的外框占去較大的視野，窄框則讓畫面更直接地靠近牆面；金色表面與深色木材，也形成不同的明暗對比。這些差異使配框不只是尺寸是否裝得下的問題。研究者和策展人還會比較，框是否使構圖顯得擁擠、人物是否有足夠的空間感，以及畫中的色彩如何與外緣相接。這類判斷包含觀看經驗與審美選擇，並不會由年代相同就自動得到唯一答案。",
+        "after_text": "畫框的寬窄、明暗與裝飾，會參與畫面和周圍牆面的關係。寬厚的外框占去較大的視野，窄框則讓畫面更直接地靠近牆面；金色表面與深色木材，也形成不同的明暗對比。這些差異使配框不只是尺寸是否裝得下的問題。研究者和策展人還會比較，框是否使構圖顯得擁擠、人物是否有足夠的空間感，以及畫中的色彩如何與外緣相接。此類判斷涉及觀看經驗與價值審美，年代並不能導出一套標準流程或答案。"
+      },
+      {
+        "block": 7,
+        "before_html": "<h2>三、新框可以包含古老的構件</h2>",
+        "after_html": "<h2>三、新框裡的古老構件</h2>",
+        "before_text": "三、新框可以包含古老的構件",
+        "after_text": "三、新框裡的古老構件"
+      },
+      {
+        "block": 11,
+        "before_html": "<p>替畫找框時，同一時期、同一地區，是常用的比較起點。框的線腳、裝飾與表面處理，能協助工作人員判斷它是否適合某幅作品。實際選擇還受制於古框是否存世、能否取得，以及尺寸是否合適。Schade在2014年的訪談裡，就說明尋找古框的工作必須在這些條件之間進行。這種做法重視歷史上的相容性，也承認博物館無法替每幅畫完整恢復原來的房間與陳列方式。</p>",
+        "after_html": "<p>替畫找框時，同一時期、同一地區，是常用的比較起點。框的線腳、裝飾與表面處理，能協助工作人員判斷它是否適合某幅作品。實際選擇還受制於古框是否存世、能否取得，以及尺寸是否合適。Schade在2014年的訪談裡，就說明尋找古框的工作必須在這些條件之間進行。這種做法重視歷史上的相容性，也面對博物館無法替每幅畫完整恢復原來的房間與陳列方式的現實。</p>",
+        "before_text": "替畫找框時，同一時期、同一地區，是常用的比較起點。框的線腳、裝飾與表面處理，能協助工作人員判斷它是否適合某幅作品。實際選擇還受制於古框是否存世、能否取得，以及尺寸是否合適。Schade在2014年的訪談裡，就說明尋找古框的工作必須在這些條件之間進行。這種做法重視歷史上的相容性，也承認博物館無法替每幅畫完整恢復原來的房間與陳列方式。",
+        "after_text": "替畫找框時，同一時期、同一地區，是常用的比較起點。框的線腳、裝飾與表面處理，能協助工作人員判斷它是否適合某幅作品。實際選擇還受制於古框是否存世、能否取得，以及尺寸是否合適。Schade在2014年的訪談裡，就說明尋找古框的工作必須在這些條件之間進行。這種做法重視歷史上的相容性，也面對博物館無法替每幅畫完整恢復原來的房間與陳列方式的現實。"
+      },
+      {
+        "block": 12,
+        "before_html": "<p>梵谷1889年的《鳶尾花》，則提供另一種取捨。Getty的修復人員在<a href=\"https://www.getty.edu/news/whats-in-a-frame/\" rel=\"noopener noreferrer\" target=\"_blank\">2021年的介紹</a>中說明，作品先前的框配合了收藏者家中厚重胡桃木牆板的環境，進入美術館後卻不再合適。館方選用的替代框，來自十七世紀義大利，年代與地點都和畫作不同。策展人仍認為，這個框能與作品形成合適的視覺關係。這個例子讓我們看見，配框準則是協助比較的工具，最後仍須交代，這次展示優先考慮的是什麼。</p>",
+        "after_html": "<p>梵谷1889年的《鳶尾花》，則是另一種選擇取捨。Getty的修復人員在<a href=\"https://www.getty.edu/news/whats-in-a-frame/\" rel=\"noopener noreferrer\" target=\"_blank\">2021年的介紹</a>中說明，作品先前的框配合了收藏者家中厚重胡桃木牆板的環境，進入美術館後卻不再合適。館方選用的替代框，來自十七世紀義大利，年代與地點都和畫作不同。策展人仍認為，這個框能與作品形成合適的視覺關係。這個例子讓我們看見，配框準則是協助比較的工具，最後仍須交代，這著選擇的衡量因子是什麼。</p>",
+        "before_text": "梵谷1889年的《鳶尾花》，則提供另一種取捨。Getty的修復人員在2021年的介紹中說明，作品先前的框配合了收藏者家中厚重胡桃木牆板的環境，進入美術館後卻不再合適。館方選用的替代框，來自十七世紀義大利，年代與地點都和畫作不同。策展人仍認為，這個框能與作品形成合適的視覺關係。這個例子讓我們看見，配框準則是協助比較的工具，最後仍須交代，這次展示優先考慮的是什麼。",
+        "after_text": "梵谷1889年的《鳶尾花》，則是另一種選擇取捨。Getty的修復人員在2021年的介紹中說明，作品先前的框配合了收藏者家中厚重胡桃木牆板的環境，進入美術館後卻不再合適。館方選用的替代框，來自十七世紀義大利，年代與地點都和畫作不同。策展人仍認為，這個框能與作品形成合適的視覺關係。這個例子讓我們看見，配框準則是協助比較的工具，最後仍須交代，這著選擇的衡量因子是什麼。"
+      },
+      {
+        "block": 15,
+        "before_html": "<p>於是，「更接近創作時代」與「保留後來的收藏史」，有時會指向不同的選擇。前者有助於理解畫家所處的視覺環境，後者則能保留作品如何被收藏和重新評價的痕跡。博物館需要衡量的是具體的畫與框，而不只是把較新的部分一律去掉。Schade在那次訪談也說明，館方當時會保存拆下的框，使日後仍有重新裝回的可能。把改動留下紀錄並保留物件，能讓後來的人重新比較，而不必完全接受今天的判斷。</p>",
+        "after_html": "<p>於是，「更接近創作時代」與「保留後來的收藏史」，有時會指向不同的選擇。前者有助於理解畫家所處的視覺環境，後者則能保留作品如何被收藏和重新評價的痕跡。博物館需要衡量的是具體的畫與框，而不只是把較新的部分一律去掉。Schade在那次訪談也說明，館方當時會保存拆下的框，使日後仍有重新裝回的可能。把改動留下紀錄並保留物件，能讓後來的人重新比較，而不必完全接受、受制於今天的判斷。</p>",
+        "before_text": "於是，「更接近創作時代」與「保留後來的收藏史」，有時會指向不同的選擇。前者有助於理解畫家所處的視覺環境，後者則能保留作品如何被收藏和重新評價的痕跡。博物館需要衡量的是具體的畫與框，而不只是把較新的部分一律去掉。Schade在那次訪談也說明，館方當時會保存拆下的框，使日後仍有重新裝回的可能。把改動留下紀錄並保留物件，能讓後來的人重新比較，而不必完全接受今天的判斷。",
+        "after_text": "於是，「更接近創作時代」與「保留後來的收藏史」，有時會指向不同的選擇。前者有助於理解畫家所處的視覺環境，後者則能保留作品如何被收藏和重新評價的痕跡。博物館需要衡量的是具體的畫與框，而不只是把較新的部分一律去掉。Schade在那次訪談也說明，館方當時會保存拆下的框，使日後仍有重新裝回的可能。把改動留下紀錄並保留物件，能讓後來的人重新比較，而不必完全接受、受制於今天的判斷。"
+      }
+    ],
+    "full_context_read": true,
+    "live_gh_exact": true,
+    "scope": "040scheduledNov27main release will use latestdirectHTML; onlylikelyinputtypo requires question. No new039work.",
+    "hypotheses": [
+      "Heading compresses can-include into a concrete noun phrase. Use only when it remains aligned to paragraph, not all modal verbs banned.",
+      "Secondsection closes with limits of deriving a standard procedure from date; emphasis is judgment criteria not just chronologicalmatch.",
+      "Fourth/fifthsection foreground actual constraints and how futurecurators can compare independently; not abstract acceptance/rejection."
+    ],
+    "source_review": {
+      "urls": [
+        "https://www.burlington.org.uk/archive/article/framing-in-museums",
+        "https://www.getty.edu/news/whats-in-a-frame/"
+      ],
+      "finding": "Strengthened majority wording in firstsection checked: Schade2025explicitly says mostframes in internationalcollections lateradditions and post1500rareoriginalframes; retain in existingEuropeanoldmastercontext, do not globalise to all art. No factualrewriteproposed."
+    },
+    "unresolved": [
+      "SectionIVfinalsentence likelywrongcharacter in demonstrative, ask onlytypo permission; no silentcorrection."
+    ],
+    "application_to_041": "Funding and eligibility criteria made concrete in sectionsII/IV/VI; concise sectionheadings; table country/datebounds. No chronological rule-to-answer claim. No forced revision. Actual agency and material roles, datedAustralian2024/25figures, attributedIFLAposition preserved.041paragraphs developed and openlife reflection. No new preference invented.",
+    "reviewed_at": "2026-11-27T06:03:15.920641+08:00",
+    "instruction": "phonemsg-01M81NS05WE81HCMQZ76PQZZZM",
+    "compared_from": "9be6d141f9379bd848c9dcd4048c17854b8bf709",
+    "compared_to": "9be6d141f9379bd848c9dcd4048c17854b8bf709",
+    "new_since_2224": "No further direct edits, no new Zine user message. Seven blockpairs reread with full040body/reflection.041manuscript fullread in this release run.",
+    "pending_typo": "Owner wording unchanged. Main asked Nov26 22:25, noanswer. Publication not blocked. Proposal held."
+  }
+}
