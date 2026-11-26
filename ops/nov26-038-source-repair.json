@@ -1,0 +1,18 @@
+{
+  "status": "completed_in_source_repair_run",
+  "reviewed_at": "2026-11-26T10:29:24+08:00",
+  "authority_question": "phonemsg-01M8ARFMWZTT14ZBY3V9VJ2S13",
+  "authority_approval": "phonemsg-01M8ATXVZCBK5D8803RW90N368",
+  "base_commit": "1869972f2b0cea83f45d635db3d0d218992fd97d",
+  "scope": "038inlinehref+source3citation and corresponding storiesmirror only; all readerbody wording, title, reflection and fiveMMedits exact",
+  "old_url": "https://dermotfeenan.com/index.php/2018/05/07/on-strike-commemorating-the-250th-anniversary-of-the-word-strike/",
+  "new_url": "https://tribunemag.co.uk/2019/12/the-birth-of-the-strike",
+  "new_citation": "The Birth of the Strike，Dermot Feenan，Tribune，2019-12-19",
+  "evidence": "Sameauthor Tribune full text reread Nov25 and refetched Nov26; Sunderland/Thames sequence,petition/tradeblock,replacementlabor,violence/state suppression,sailorsagreement/return all supported. IncompleteWayback not used.",
+  "publication_edit_observation": {
+    "status": "completed_in_this_run",
+    "comparison": "Current remote refs equal Nov26morning release, no later direct edits.03809d3aa0fiveownerparagraphs preserved exactly; currentfull038body and reflection reread during repair checks.",
+    "strategy": "No new owner style evidence. Source availability repair only, do not derive wording rules or rewrite facts.",
+    "unresolved": []
+  }
+}
