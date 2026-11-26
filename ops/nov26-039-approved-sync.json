@@ -1,0 +1,98 @@
+{
+  "status": "approved_one_issue_official_sync",
+  "observed_at": "2026-11-26T18:21:00+08:00",
+  "base": "bad38dfadb8ae6e68df7e345da8abf8e4c0c37c9",
+  "head": "f29279026a250c2c9d0c24ce8d8521795cdfe60f",
+  "pairs": [
+    {
+      "block": 0,
+      "before_html": "<p>晚上開燈後，看見飛蛾在燈旁打轉，很容易以為牠只是一直想靠近光。但如果仔細看牠的身體朝向，就會發現，繞圈可能與牠如何維持飛行姿態有關。要理解燈光的影響，還得看看那些沒有停在燈旁的昆蟲。</p>",
+      "after_html": "<p>晚上開燈後，看見飛蛾在燈旁打轉，很容易以為牠只是一直想靠近光。但如果仔細看牠的身體朝向，就會發現，繞圈可能與牠如何維持飛行姿態有關。探討燈光的影響，不若看看那些沒有停在燈旁的昆蟲。</p>",
+      "before_text": "晚上開燈後，看見飛蛾在燈旁打轉，很容易以為牠只是一直想靠近光。但如果仔細看牠的身體朝向，就會發現，繞圈可能與牠如何維持飛行姿態有關。要理解燈光的影響，還得看看那些沒有停在燈旁的昆蟲。",
+      "after_text": "晚上開燈後，看見飛蛾在燈旁打轉，很容易以為牠只是一直想靠近光。但如果仔細看牠的身體朝向，就會發現，繞圈可能與牠如何維持飛行姿態有關。探討燈光的影響，不若看看那些沒有停在燈旁的昆蟲。"
+    },
+    {
+      "block": 3,
+      "before_html": "<p><a href=\"https://www.nature.com/articles/s41467-024-44785-3\" rel=\"noopener noreferrer\" target=\"_blank\">2024年，Samuel Fabian等人發表在《自然通訊》的研究</a>，用野外高速攝影與實驗室動作捕捉，重建昆蟲在燈旁的三維飛行。哥斯大黎加的兩部同步相機，能把單一畫面裡難分前後的動作，還原成立體路徑。實驗室裡，研究者又在昆蟲胸部裝上輕量標記，追蹤身體的位置與旋轉。這使他們得以同時比較昆蟲往哪裡飛，以及飛行時背部朝向哪裡。比起只數燈旁有幾隻昆蟲，這種方法更能檢驗牠們究竟如何轉向。</p>",
+      "after_html": "<p><a href=\"https://www.nature.com/articles/s41467-024-44785-3\" rel=\"noopener noreferrer\" target=\"_blank\">2024年，Samuel Fabian等人發表在《自然通訊》的研究</a>，用野外高速攝影與實驗室動作捕捉，重建昆蟲在燈旁的三維飛行。利用兩部同步相機，能把單一畫面裡難分前後的動作，還原成立體路徑。實驗室裡，研究者同時在昆蟲胸部裝上輕量標記來追蹤身體的位置與旋轉。藉此，可以更精準有效率地比較飛行姿態、檢驗牠們究竟如何轉向。</p>",
+      "before_text": "2024年，Samuel Fabian等人發表在《自然通訊》的研究，用野外高速攝影與實驗室動作捕捉，重建昆蟲在燈旁的三維飛行。哥斯大黎加的兩部同步相機，能把單一畫面裡難分前後的動作，還原成立體路徑。實驗室裡，研究者又在昆蟲胸部裝上輕量標記，追蹤身體的位置與旋轉。這使他們得以同時比較昆蟲往哪裡飛，以及飛行時背部朝向哪裡。比起只數燈旁有幾隻昆蟲，這種方法更能檢驗牠們究竟如何轉向。",
+      "after_text": "2024年，Samuel Fabian等人發表在《自然通訊》的研究，用野外高速攝影與實驗室動作捕捉，重建昆蟲在燈旁的三維飛行。利用兩部同步相機，能把單一畫面裡難分前後的動作，還原成立體路徑。實驗室裡，研究者同時在昆蟲胸部裝上輕量標記來追蹤身體的位置與旋轉。藉此，可以更精準有效率地比較飛行姿態、檢驗牠們究竟如何轉向。"
+    },
+    {
+      "block": 5,
+      "before_html": "<p>靠近點狀光源時，研究記錄到的昆蟲，多半朝著與光源方向近乎垂直的方向飛，而非直線衝向燈泡。牠們把背部傾向光源，身體隨之側傾，原本向上的飛行作用力也改變方向，便可能持續轉彎。從上方看，路徑於是呈現繞燈的弧線。這能解釋一個看似矛盾的現象：昆蟲一直留在燈旁，卻未必一直縮短自己與燈之間的距離。維持在光源附近，可以是連續轉向造成的結果。</p>",
+      "after_html": "<p>靠近點狀光源時，研究記錄到的昆蟲，多半朝著與光源方向近乎垂直的方向飛，而非直線衝向燈泡。牠們把背部傾向光源，身體隨之側傾，原本向上的飛行作用力也改變方向，便可能持續轉彎。從上方看，路徑於是呈現繞燈的弧線。這能解釋一個看日常的觀察：昆蟲一直在燈旁，卻並非直衝光源、停在燈上。一直維持在光源四周，很可能是連續轉向造成的結果。</p>",
+      "before_text": "靠近點狀光源時，研究記錄到的昆蟲，多半朝著與光源方向近乎垂直的方向飛，而非直線衝向燈泡。牠們把背部傾向光源，身體隨之側傾，原本向上的飛行作用力也改變方向，便可能持續轉彎。從上方看，路徑於是呈現繞燈的弧線。這能解釋一個看似矛盾的現象：昆蟲一直留在燈旁，卻未必一直縮短自己與燈之間的距離。維持在光源附近，可以是連續轉向造成的結果。",
+      "after_text": "靠近點狀光源時，研究記錄到的昆蟲，多半朝著與光源方向近乎垂直的方向飛，而非直線衝向燈泡。牠們把背部傾向光源，身體隨之側傾，原本向上的飛行作用力也改變方向，便可能持續轉彎。從上方看，路徑於是呈現繞燈的弧線。這能解釋一個看日常的觀察：昆蟲一直在燈旁，卻並非直衝光源、停在燈上。一直維持在光源四周，很可能是連續轉向造成的結果。"
+    },
+    {
+      "block": 6,
+      "before_html": "<p>同一種背部朝光的反應，還可能產生其他飛行動作。昆蟲背向光源飛離時，若向後仰來維持背部朝光，就可能愈爬愈陡、逐漸減速，直到無法繼續前進。當昆蟲從光源上方飛過，若把背部轉向下方的燈，便可能翻轉並陡降。研究者在野外錄影中，將這些動作分成繞行、失速與翻轉三類。電腦模型只加入相應的姿態調整，也能重現這三類路徑，支持背光反應足以造成近燈困陷的解釋。</p>",
+      "after_html": "<p>同樣是背部朝光的反應，也可能導致其他飛行姿態。昆蟲背向光源飛離時，若向後仰來維持背部朝光，就可能愈爬愈陡、逐漸減速，直到無法繼續前進。當昆蟲從光源上方飛過，若把背部轉向下方的燈，便可能翻轉並陡降。研究者在野外錄影中，將這些動作分成繞行、失速與翻轉三類。電腦模型只加入相應的姿態調整，也能重現這三類路徑，支持背光反應足以造成近燈困陷的解釋。</p>",
+      "before_text": "同一種背部朝光的反應，還可能產生其他飛行動作。昆蟲背向光源飛離時，若向後仰來維持背部朝光，就可能愈爬愈陡、逐漸減速，直到無法繼續前進。當昆蟲從光源上方飛過，若把背部轉向下方的燈，便可能翻轉並陡降。研究者在野外錄影中，將這些動作分成繞行、失速與翻轉三類。電腦模型只加入相應的姿態調整，也能重現這三類路徑，支持背光反應足以造成近燈困陷的解釋。",
+      "after_text": "同樣是背部朝光的反應，也可能導致其他飛行姿態。昆蟲背向光源飛離時，若向後仰來維持背部朝光，就可能愈爬愈陡、逐漸減速，直到無法繼續前進。當昆蟲從光源上方飛過，若把背部轉向下方的燈，便可能翻轉並陡降。研究者在野外錄影中，將這些動作分成繞行、失速與翻轉三類。電腦模型只加入相應的姿態調整，也能重現這三類路徑，支持背光反應足以造成近燈困陷的解釋。"
+    },
+    {
+      "block": 8,
+      "before_html": "<p>如果關鍵在於昆蟲把哪裡判斷成上方，改變光的分布就應該改變飛行。研究者用燈照亮地上的白布時，看見昆蟲翻轉、墜落；把白布架在上方，讓燈光反射成類似天空的漫射光，昆蟲則能在下方較正常地飛行。這個比較把「有沒有光」拆成更精確的問題：光從哪個方向來，又如何分布在視野裡？同樣是人工提供的光，集中在一處與鋪展在上方，對飛行姿態可能有不同作用。這也使燈具朝向、遮蔽與周圍反射面成為值得注意的條件。</p>",
+      "after_html": "<p>如果關鍵在於昆蟲把哪裡判斷成上方，改變光的分布就應該改變飛行。研究者用燈照亮地上的白布時，看見昆蟲翻轉、墜落；把白布架在上方，讓燈光反射成類似天空的漫射光，昆蟲則能在下方較正常地飛行。這個實驗碳討更細緻的變因：光從哪個方向來，又如何分布在視野裡？同樣是人工提供的光，集中在一處與鋪展在上方，可能對飛行姿態有不同影響。這也使燈具朝向、遮蔽與周圍反射面成為值得注意的條件。</p>",
+      "before_text": "如果關鍵在於昆蟲把哪裡判斷成上方，改變光的分布就應該改變飛行。研究者用燈照亮地上的白布時，看見昆蟲翻轉、墜落；把白布架在上方，讓燈光反射成類似天空的漫射光，昆蟲則能在下方較正常地飛行。這個比較把「有沒有光」拆成更精確的問題：光從哪個方向來，又如何分布在視野裡？同樣是人工提供的光，集中在一處與鋪展在上方，對飛行姿態可能有不同作用。這也使燈具朝向、遮蔽與周圍反射面成為值得注意的條件。",
+      "after_text": "如果關鍵在於昆蟲把哪裡判斷成上方，改變光的分布就應該改變飛行。研究者用燈照亮地上的白布時，看見昆蟲翻轉、墜落；把白布架在上方，讓燈光反射成類似天空的漫射光，昆蟲則能在下方較正常地飛行。這個實驗碳討更細緻的變因：光從哪個方向來，又如何分布在視野裡？同樣是人工提供的光，集中在一處與鋪展在上方，可能對飛行姿態有不同影響。這也使燈具朝向、遮蔽與周圍反射面成為值得注意的條件。"
+    },
+    {
+      "block": 14,
+      "before_html": "<p>若要知道照明是否影響當地蛾的數量，還可以回到牠們生長的植物上。2021年，<a href=\"https://www.science.org/doi/full/10.1126/sciadv.abi8322\" rel=\"noopener noreferrer\" target=\"_blank\">Douglas Boyes等人在英格蘭南部</a>，成對比較長期受路燈照射與鄰近未受照明的樹籬、草邊。研究選擇移動範圍較小的毛蟲，避免把剛好飛過的成蛾，當成在當地生活的全部個體。分析估計，照明樹籬的毛蟲數量比對照地點低約47%，草邊低約33%。這些是特定棲地的成對比較結果，研究者也指出，既有路燈並非隨機設置，仍須考慮未量到的環境差異。</p>",
+      "after_html": "<p>若要知道照明是否影響當地蛾的數量，視線還可以回到牠們生長的植物上。2021年，<a href=\"https://www.science.org/doi/full/10.1126/sciadv.abi8322\" rel=\"noopener noreferrer\" target=\"_blank\">Douglas Boyes等人在英格蘭南部</a>，成對比較長期受路燈照射與鄰近未受照明的樹籬、草邊。研究選擇移動範圍較小的毛蟲，避免把剛好飛過的成蛾，當成在當地生活的全部個體。分析估計，照明樹籬的毛蟲數量比對照地點低約47%，草邊低約33%。這些是特定棲地的成對比較結果，研究者也指出，既有路燈並非隨機設置，仍須考慮未量到的環境差異。</p>",
+      "before_text": "若要知道照明是否影響當地蛾的數量，還可以回到牠們生長的植物上。2021年，Douglas Boyes等人在英格蘭南部，成對比較長期受路燈照射與鄰近未受照明的樹籬、草邊。研究選擇移動範圍較小的毛蟲，避免把剛好飛過的成蛾，當成在當地生活的全部個體。分析估計，照明樹籬的毛蟲數量比對照地點低約47%，草邊低約33%。這些是特定棲地的成對比較結果，研究者也指出，既有路燈並非隨機設置，仍須考慮未量到的環境差異。",
+      "after_text": "若要知道照明是否影響當地蛾的數量，視線還可以回到牠們生長的植物上。2021年，Douglas Boyes等人在英格蘭南部，成對比較長期受路燈照射與鄰近未受照明的樹籬、草邊。研究選擇移動範圍較小的毛蟲，避免把剛好飛過的成蛾，當成在當地生活的全部個體。分析估計，照明樹籬的毛蟲數量比對照地點低約47%，草邊低約33%。這些是特定棲地的成對比較結果，研究者也指出，既有路燈並非隨機設置，仍須考慮未量到的環境差異。"
+    }
+  ],
+  "full_context_read": true,
+  "live_gh_exact": true,
+  "main_unchanged": true,
+  "changes": "Six direct039paragraph edits only,040 untouched. Current039storiesmirror stale; do not rebuild directHTML from it.",
+  "hypotheses": [
+    "The method paragraph compresses repeated explanations of analytical benefits and removes an unnecessary field location. Use only details that advance the mechanism.",
+    "Orbiting is explained through a familiar observation rather than a manufactured paradox. Explain the actual contrast.",
+    "A more restrained probability modifier replaces a bare possibility. Do not adopt a global certainty rule or vocabulary blacklist."
+  ],
+  "questions": [
+    "Two apparent input errors in sectionIIp1 and IIIp1 require owner confirmation, not silent correction.",
+    "SectionIp2 now implies simultaneous field/lab methods and greater efficiency. Source describes separate setups and quantitative measurement, not an efficiency comparison. Recommend describing measured position/orientation without a new efficiency claim."
+  ],
+  "source": "https://www.nature.com/articles/s41467-024-44785-3",
+  "scope": "Current039correctedpreview only toofficial. No futurepostsync grant. Maincanonical/metadata/reflection preserved,bodyexactcurrentgh. Two typos+efficiencydeletion alreadyapproved; no connector/broadermethodrewrite.",
+  "next": "Use039new hypotheses in041draft where applicable; record actual application, do not rewrite040or039 to satisfy checklist.",
+  "approval": "phonemsg-01M8BP6F2W5GF4VN8Q6M5QX6MZ",
+  "question": "phonemsg-01M8BP0XST3M4WPPMAPV7F1YWE",
+  "replacements": [
+    [
+      "看日常",
+      "日常"
+    ],
+    [
+      "碳討",
+      "探討"
+    ],
+    [
+      "有效率",
+      ""
+    ]
+  ],
+  "actual_files": [
+    "articles/039-insect-light/index.html",
+    "stories.js"
+  ],
+  "mirror": "Current directHTML039body mirrored, no stale reconstruction. Other story objects untouched.",
+  "learning_completed_at": "2026-11-26T18:25:58.480792",
+  "destination_question": "phonemsg-01M8BPAKRWE4MGJWTY1K9ZTYXW",
+  "destination_approval": "phonemsg-01M8BPGXJKEFEHF8325SZ7VR12",
+  "approval_at": "2026-11-26T18:30:27+08:00",
+  "base_commits": {
+    "main": "69187616e5513202103441f898aaa216c1e47757",
+    "gh-pages": "dccd0a48b99f6ebd9e6fdd4bbbcd6e5f1662fc01",
+    "work-in-progress": "543f5e72a6465fd889a978a3b47e7cbe0b370580"
+  },
+  "publication_learning": "Six039directedits reread in fullcontext18:20andagain atsync; hypotheses only, efficiencyremovedunderMMreply,precision/connectorretained. No new directedits since dccd0a4.",
+  "checked_at": "2026-11-26T18:31:51.305273"
+}
