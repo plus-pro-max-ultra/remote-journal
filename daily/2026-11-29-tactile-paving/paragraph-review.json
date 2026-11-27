@@ -1,0 +1,98 @@
+[
+  {
+    "section": 1,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "sensoryinformationandhistory",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 1,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "sensoryinformationandhistory",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 2,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "shapeandcontinuity",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 2,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "shapeandcontinuity",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 3,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "crossnationalpatterncontext",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 3,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "crossnationalpatterncontext",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 4,
+    "paragraph": 1,
+    "sentences": 6,
+    "intent": "residualvisionandcoordinatedsignals",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 4,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "residualvisionandcoordinatedsignals",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 5,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "identificationandreliability",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 5,
+    "paragraph": 2,
+    "sentences": 7,
+    "intent": "identificationandreliability",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 6,
+    "paragraph": 1,
+    "sentences": 5,
+    "intent": "maintenanceanddailyexperience",
+    "read_in_full": true,
+    "not_padding": true
+  },
+  {
+    "section": 6,
+    "paragraph": 2,
+    "sentences": 5,
+    "intent": "maintenanceanddailyexperience",
+    "read_in_full": true,
+    "not_padding": true
+  }
+]

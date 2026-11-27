@@ -1,0 +1,13 @@
+{
+  "issue": "042-tactile-paving",
+  "nominal_date": "2026-11-29",
+  "gh_review_date": "2026-11-28",
+  "prepared_at": "2026-11-27T20:49:10.572118+08:00",
+  "status": "ready_in_WIP_not_published",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "next_release_edit_observation": {
+    "status": "required_at_publication",
+    "note": "Recheck live refs and authenticated MM messages; preserve latest041directHTML on its nominaldate, no staleJSON rebuild.040optionaltypo dropped, preserve owneroriginal."
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "issue": "042-tactile-paving",
+  "status": "complete",
+  "assessed_at": "2026-11-27T20:49:10.572118+08:00",
+  "visual_role": "看清線狀路徑接點狀區域的形狀與空間關係，避免只讀點/線名詞；日本照片不冒充英國規範範例。",
+  "existing_nontext_support": [],
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Wikimedia Commons tactile paving Japan yellow and Tenji block; two original photo pages and full images",
+        "checked_at": "2026-11-27T20:49:10.572118+08:00",
+        "result_summary": "實讀兩候選權利並在瀏覽器實看，採Midnightcomm黃色相接路徑；第二張Haragayato黑色鋪面關係重複不採。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tactile_pavers_Japan_yellow.jpg",
+      "relevance": "二節圓點與直條相接",
+      "decision": "selected",
+      "reason": "兩種形狀與相接關係清楚，未遮擋；日本現場不當合規審查。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tactile_pavers_Japan_yellow.jpg",
+        "license": "CC BY 4.0; https://creativecommons.org/licenses/by/4.0/",
+        "credit": "Midnightcomm,2016-01-31,Wikimedia Commons; resized only,uncropped"
+      },
+      "caption": "日本的一處黃色觸覺鋪面，可看見線狀路徑與點狀區域相接；此圖用來辨認形狀與連接關係，不作安裝合規判定。Midnightcomm，2016年1月31日，Wikimedia Commons，CC BY 4.0；僅縮小尺寸，未裁切。",
+      "alt": "紅灰色地面上，黃色凸條路徑從幾個方向連到一片凸點鋪面。",
+      "layout": "uncropped1280x960,maxwidth640px,fluidwidth,aftersectionII"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Tenji-block.JPG",
+      "relevance": "另一點線路徑相接照片",
+      "decision": "not_selected",
+      "reason": "Haragayato2006Hiroshima黑色磚；第二張對同一關係重複，單張黃色照片足夠。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Tenji-block.JPG",
+        "license": "CC BY-SA2.5pagechecked; not reused"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "單張照片可在四種寬度清楚顯示點線關係，完整圖說區分日本現場與英國指引。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Tactile_pavers_Japan_yellow.jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "/downloads/042-review/photo-320.png",
+      "/downloads/042-review/photo-390.png",
+      "/downloads/042-review/photo-1024.png",
+      "/downloads/042-review/photo-1440.png",
+      "/downloads/042-review/figure-end-320.png",
+      "/downloads/042-review/reflection-320.png"
+    ]
+  },
+  "unresolved": []
+}

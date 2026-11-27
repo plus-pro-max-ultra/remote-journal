@@ -1,0 +1,121 @@
+{
+  "reviewed_at": "2026-11-27T20:49:10.572118+08:00",
+  "compared_gh_commit": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
+  "examples_version": "E01-E09;03809d3aa0;039f292790;0409be6d14 seven raw pairs re-read; Nov27parent dropped optional040typo",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "一至五節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "日本2003手冊、英國2021指引及2020問卷群體各自具名限定，不拿六類英國表面當全球通則。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一、二節與各來源轉換",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "觸覺機制直述，歷史手冊、研究數字與旅人經驗保留必要歸屬；六個自然位置連結與完整來源。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "五節末與三節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "把全體能力測驗的排除句改為問卷結果所指向的溝通訓練工作；跨國出行安全界線保留，非一律刪否定。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二、四、六節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "具體寫鞋底、白手杖、明暗對比、路線中斷及維護，不用抽象包容性代替機制。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "六節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "把維護抽象標語改成鋪好後確認能否持續有效；形狀磨損與無障礙通路有實際工作，不硬套生產系統。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸探討",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "熟悉空間中的他人需要、方便的取捨與共同觀察，允許多種生活回答，非圓點直條辨認測驗。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "題名",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "問紋路如何協助辨路，正文回答觸覺、方向及環境協作，不預設每人都能獨自使用。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "實讀主詞動詞，使用者辨認、設計者配置；表面提供接觸差異是實際功能，沒有任意情緒與意志。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "三、五節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "分清人辨認資訊及紋路作為媒介，不讓鋪面替人判斷安全；不據此改已刊032。"
+    },
+    {
+      "example": "038-09d3aa0",
+      "classification": "observed edit hypothesis",
+      "location": "二至六節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "關係與情境寫明；祖先等單篇選字不適用，不強套。"
+    },
+    {
+      "example": "039-f292790",
+      "classification": "observed edit hypothesis",
+      "location": "三與五節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "英國相似直條有實際差異，非製造矛盾；觸感和配置比重複有效率更有解釋力。保留2020研究範圍。"
+    },
+    {
+      "example": "040-9be6d14",
+      "classification": "observed edit hypothesis",
+      "location": "小標及四至六節",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "七段原始前後文已實讀；第四節辨認差別、第五節規格與使用差異、第六節維護條件，落實衡量因子和現實限制。當篇錯字提議已由parent撤下，原文保留，不再追問或套用。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與全篇",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "對照038港口勞動、039昆蟲、040畫框、041文化基金。042以公共空間線索與人的使用為核心，不重做傳統技藝/數值定義。十二段各5至7句，按意旨發展，無兩三句即跳段。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "題名",
+      "decision": "applied or already present in new042; no existing owner text changed",
+      "evidence": "核心問題可直接由本文回答，沒有把圓點直條當全球同義。"
+    }
+  ],
+  "before_hashes": {
+    "draft.json": "0817cd2f74649b6a4fd1afa7353989ec746540f605c917f9286ee11bf36f100b",
+    "article-preview.html": "6b845b74c8c34387d1f46f6765936c5963db662b4aca4cd81791fe6c7c8c0730",
+    "reader-body.html": "a6a6e577219755f27efa496eb2bdc3bdf038c1dd8cbdd0e8ceaf875dea182843",
+    "manuscript.md": "5aa5f2cdf1e0aa85e43a63cdd3dc4c9ded5bed3f17f94824a6759715870e7ca4"
+  },
+  "after_hashes": {
+    "draft.json": "0817cd2f74649b6a4fd1afa7353989ec746540f605c917f9286ee11bf36f100b",
+    "article-preview.html": "d6493c23b5e0a8425e429330bedfe684e06caa9b31c10a6002649e28be43c6ae",
+    "reader-body.html": "a6a6e577219755f27efa496eb2bdc3bdf038c1dd8cbdd0e8ceaf875dea182843",
+    "manuscript.md": "5aa5f2cdf1e0aa85e43a63cdd3dc4c9ded5bed3f17f94824a6759715870e7ca4"
+  },
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "unresolved": []
+}
