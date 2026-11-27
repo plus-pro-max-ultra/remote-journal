@@ -1,0 +1,289 @@
+{
+  "status": "dual_release_verified",
+  "verified_at": "2026-11-28T06:05:33.036448+08:00",
+  "main": {
+    "sha": "06a5b90ce1212bf58f671ef753835147882875ea",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/06a5b90ce1212bf58f671ef753835147882875ea"
+  },
+  "gh": {
+    "sha": "6eb8509b001c2087e9ff9500a63552b0be5eb571",
+    "html_url": "https://github.com/plus-pro-max-ultra/remote-journal/commit/6eb8509b001c2087e9ff9500a63552b0be5eb571"
+  },
+  "official_url": "https://journal-for-far.learnman.workers.dev/articles/041-public-lending-right/",
+  "review_url": "https://plus-pro-max-ultra.github.io/remote-journal/articles/042-tactile-paving/",
+  "nominal_dates": [
+    "2026-11-28",
+    "2026-11-29"
+  ],
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW",
+    "phonemsg-01M81NS05WE81HCMQZ76PQZZZM"
+  ],
+  "nofinetuning_reminder": true,
+  "reason": "041currentgh exact initialpreview; no additionalcommits/revisionrequests sinceNov27publication. Parent should separately remind, not blockrelease.",
+  "pending": null,
+  "separation": "001to041official;042and15unscheduledreviewdraftsguideghonly;038repair039approvedsync040originaland012archivepreserved.",
+  "publication_edit_observation": {
+    "reviewed_at": "2026-11-28T06:01:40.805648+08:00",
+    "comparison_base": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
+    "comparison_head": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
+    "main_base": "e8f703ab69a663f6c2df20e2017f11fb12a40236",
+    "wip_base": "c5049f0c44edac69dafd96f02f47cce579e3c3e2",
+    "new_owner_edits": false,
+    "comparison_scope": "No new commits sinceNov27release.041exactmatch publishedgh and initialpreview, no human revision messages throughNov2806:00.042fullcurrentmanuscript/source/reflection re-read same run.",
+    "nofinetuning_reminder": true,
+    "latest_owner_pairs": "editorial-learning/040-owner-9be6d14.json sevenfullpairs reread in thisrelease",
+    "strategies": [
+      {
+        "kind": "explicit",
+        "rule": "scopes/mechanisms/reflections/actoraccuracy",
+        "application": "041country/timeboundedloansandholdings,042Japan2003/UK2021/2020sample separated. No universalnavigationinstruction. Lifereflectionsnotquiz."
+      },
+      {
+        "kind": "hypothesis",
+        "rule": "040concreteheading/judgmentcriteria/practicalconstraints",
+        "application": "041fundingeligibilityanddigitalconversioncriteria;042shape/color/context/maintenanceconstraints. Alreadyfits,noforcedrewrite,no globalwordbans."
+      },
+      {
+        "kind": "resolvedrestriction",
+        "rule": "040optionaltypoquestiondroppedbyparentNov2707:45",
+        "application": "040originalunchanged,no repeatask,no correction.038repair039approvednarrowchanges preserved."
+      }
+    ],
+    "full_text_reread": true,
+    "owner_text_preserved": true,
+    "unresolved": []
+  },
+  "checks": {
+    "main": {
+      "live_files_exact": 50,
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "圖書館免費借書，作者怎麼獲得報酬？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "圖書館免費借書，作者怎麼獲得報酬？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "圖書館免費借書，作者怎麼獲得報酬？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 7,
+          "citations": 0,
+          "title": "圖書館免費借書，作者怎麼獲得報酬？"
+        }
+      ],
+      "actual_footer_clicks": 41,
+      "all_targets_valid": true,
+      "fourwidthpixels_inspected": true,
+      "olderHTML_bytepreserved": true
+    },
+    "gh": {
+      "live_files_exact": 67,
+      "article": [
+        {
+          "width": 320,
+          "scroll": 305,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "導盲磚的圓點與直條，怎麼協助行人辨認道路？"
+        },
+        {
+          "width": 390,
+          "scroll": 375,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "導盲磚的圓點與直條，怎麼協助行人辨認道路？"
+        },
+        {
+          "width": 1024,
+          "scroll": 1009,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "導盲磚的圓點與直條，怎麼協助行人辨認道路？"
+        },
+        {
+          "width": 1440,
+          "scroll": 1425,
+          "sections": 6,
+          "sources": 6,
+          "citations": 0,
+          "title": "導盲磚的圓點與直條，怎麼協助行人辨認道路？"
+        }
+      ],
+      "actual_footer_clicks": 42,
+      "all_targets_valid": true,
+      "fourwidthpixels_inspected": true,
+      "olderHTML_bytepreserved": true
+    },
+    "homearchive": [
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "041",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 41,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "041",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 41,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "041",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 41,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "041",
+        "board": 7,
+        "review": false
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 41,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "selection": "042",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 320,
+        "scroll": 305,
+        "count": 42,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "selection": "042",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 390,
+        "scroll": 375,
+        "count": 42,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "selection": "042",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1024,
+        "scroll": 1009,
+        "count": 42,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "selection": "042",
+        "board": 7,
+        "review": true
+      },
+      {
+        "width": 1440,
+        "scroll": 1425,
+        "count": 42,
+        "cat": true,
+        "months": [
+          "all",
+          "2026-11",
+          "2026-10"
+        ]
+      }
+    ]
+  },
+  "deployment": "Initialnormalpropagationmain404resolvedby06:03;no repush."
+}
