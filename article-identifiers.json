@@ -1,5 +1,5 @@
 {
-  "description": "Official001–040;041future and15unscheduledreviewdraftsexcluded.",
+  "description": "Official001–041;042future and15unscheduledreviewdraftsexcluded.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -40,6 +40,7 @@
     "token-cost": "037-token-cost",
     "strike-origins": "038-strike-origins",
     "insect-light": "039-insect-light",
-    "picture-frames": "040-picture-frames"
+    "picture-frames": "040-picture-frames",
+    "public-lending-right": "041-public-lending-right"
   }
 }

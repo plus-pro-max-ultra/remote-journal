@@ -1,0 +1,12 @@
+{
+  "issue": "041-public-lending-right",
+  "nominal_date": "2026-11-28",
+  "executed_at": "2026-11-28T06:01:30+08:00",
+  "authority": [
+    "phonemsg-01M70C2RSV2NQS9KC3KMNC7481",
+    "phonemsg-01M70C8H0Q4XD8AVX932SD6KHW"
+  ],
+  "preserved": "latestdirect041HTMLdd22567;040owneroriginal;038repair039approvedsync and allolderHTML;approved012archiveURL;compactarchive",
+  "nofinetuning_reminder": true,
+  "withdrawn_wave": "unscheduledresearch,notpublished"
+}

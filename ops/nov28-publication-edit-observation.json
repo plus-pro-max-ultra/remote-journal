@@ -1,0 +1,31 @@
+{
+  "reviewed_at": "2026-11-28T06:01:40.805648+08:00",
+  "comparison_base": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
+  "comparison_head": "dd225671a7cba33cc6f2baaafcdf565ffc69945e",
+  "main_base": "e8f703ab69a663f6c2df20e2017f11fb12a40236",
+  "wip_base": "c5049f0c44edac69dafd96f02f47cce579e3c3e2",
+  "new_owner_edits": false,
+  "comparison_scope": "No new commits sinceNov27release.041exactmatch publishedgh and initialpreview, no human revision messages throughNov2806:00.042fullcurrentmanuscript/source/reflection re-read same run.",
+  "nofinetuning_reminder": true,
+  "latest_owner_pairs": "editorial-learning/040-owner-9be6d14.json sevenfullpairs reread in thisrelease",
+  "strategies": [
+    {
+      "kind": "explicit",
+      "rule": "scopes/mechanisms/reflections/actoraccuracy",
+      "application": "041country/timeboundedloansandholdings,042Japan2003/UK2021/2020sample separated. No universalnavigationinstruction. Lifereflectionsnotquiz."
+    },
+    {
+      "kind": "hypothesis",
+      "rule": "040concreteheading/judgmentcriteria/practicalconstraints",
+      "application": "041fundingeligibilityanddigitalconversioncriteria;042shape/color/context/maintenanceconstraints. Alreadyfits,noforcedrewrite,no globalwordbans."
+    },
+    {
+      "kind": "resolvedrestriction",
+      "rule": "040optionaltypoquestiondroppedbyparentNov2707:45",
+      "application": "040originalunchanged,no repeatask,no correction.038repair039approvednarrowchanges preserved."
+    }
+  ],
+  "full_text_reread": true,
+  "owner_text_preserved": true,
+  "unresolved": []
+}
