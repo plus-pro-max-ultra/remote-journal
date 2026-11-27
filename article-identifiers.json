@@ -1,5 +1,5 @@
 {
-  "description": "001–040official;041Nov28one-dayearlyreview;fifteenreviewdraftsunscheduled.",
+  "description": "001–041official;042Nov29one-dayearlyreview;fifteenreviewdraftsunscheduled.",
   "aliases": {
     "roads": "001-roads",
     "median": "002-median",
@@ -41,6 +41,7 @@
     "strike-origins": "038-strike-origins",
     "insect-light": "039-insect-light",
     "picture-frames": "040-picture-frames",
-    "public-lending-right": "041-public-lending-right"
+    "public-lending-right": "041-public-lending-right",
+    "tactile-paving": "042-tactile-paving"
   }
 }
