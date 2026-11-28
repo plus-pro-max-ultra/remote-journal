@@ -1,0 +1,74 @@
+{
+  "issue": "043-frigatebird-sleep",
+  "status": "complete",
+  "assessed_at": "2026-11-28T19:59:24.748546+08:00",
+  "visual_role": "看清軍艦鳥細長展翼和分叉尾羽的實際形狀；一般飛行照不能判斷睡眠，圖說明示。",
+  "existing_nontext_support": [],
+  "investigation": {
+    "performed": true,
+    "searches": [
+      {
+        "query_or_source": "Wikimedia Commons great frigatebird flying; Fregata minor in flight category, three actual photo pages and pixels",
+        "checked_at": "2026-11-28T19:59:24.748546+08:00",
+        "result_summary": "三候選實看與權利實讀，採DrewAvery原圖裁天空，兩個替代各有具體不採理由。"
+      }
+    ]
+  },
+  "candidates": [
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Great_Frigate_Bird_(fregata_minor).jpg",
+      "relevance": "一節長翼與飛行形狀",
+      "decision": "selected",
+      "reason": "確認Fminor，翼與分叉尾完整；裁掉多餘天空後手機仍可見。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Great_Frigate_Bird_(fregata_minor).jpg",
+        "license": "CC BY 2.0; https://creativecommons.org/licenses/by/2.0/",
+        "credit": "Drew Avery,2009-06-21,DiegoGarcia,WikimediaCommons; cropped sky only"
+      },
+      "caption": "軍艦鳥展翼飛行，可看見細長翅膀與分叉尾羽。Drew Avery，2009年6月21日攝於Diego Garcia，Wikimedia Commons，CC BY 2.0；裁去部分天空。本圖非研究中的個體，也無法由照片判斷牠是否睡著。",
+      "alt": "灰藍天空中，一隻軍艦鳥展開細長翅膀，分叉尾羽朝後延伸。",
+      "layout": "900x600cropfrom1584x1226,maxwidth640px,aftersectionI"
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Frigate_bird_(2).jpg",
+      "relevance": "完整翼形剪影",
+      "decision": "not_selected",
+      "reason": "Xrzt2018Florida剪影雖清楚，但來源頁未證實為Fminor，不能借類別推定物種。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Frigate_bird_(2).jpg",
+        "license": "CC BY-SA4.0; no reuse"
+      }
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/File:Fregata_minor-juvenile_male_soaring.jpg",
+      "relevance": "Fminor近照",
+      "decision": "not_selected",
+      "reason": "Peterwchen2014Hawaii幼雄，物種和署名明確，原圖兩翼被截斷，無法完整呈現長翼輪廓。",
+      "rights": {
+        "status": "verified",
+        "source_url": "https://commons.wikimedia.org/wiki/File:Fregata_minor-juvenile_male_soaring.jpg",
+        "license": "CC BY-SA4.0; no reuse"
+      }
+    }
+  ],
+  "decision": {
+    "outcome": "photos",
+    "rationale": "單張真實鳥類飛行照片保留輪廓，非研究現場亦非睡眠證據；不虛構EEG圖。",
+    "selected_candidate_urls": [
+      "https://commons.wikimedia.org/wiki/File:Great_Frigate_Bird_(fregata_minor).jpg"
+    ]
+  },
+  "verification": {
+    "pixels": "inspected",
+    "evidence": [
+      "/downloads/043-review/figure-end-320.png",
+      "/downloads/043-review/photo-390.png",
+      "/downloads/043-review/photo-1024.png",
+      "/downloads/043-review/first-1440.png",
+      "/downloads/043-review/reflection-390.png"
+    ]
+  },
+  "unresolved": []
+}

@@ -1,0 +1,121 @@
+{
+  "reviewed_at": "2026-11-28T19:59:24.748546+08:00",
+  "compared_gh_commit": "6eb8509b001c2087e9ff9500a63552b0be5eb571",
+  "examples_version": "E01-E09;03809d3aa0;039f292790;0409be6d14 raw pairs reread; Nov21paragraphs;Nov23title",
+  "checks": [
+    {
+      "example": "E01",
+      "classification": "explicit preference",
+      "location": "二至五節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "2016育雛雌鳥14空中9配對，10天腦波與回巢後換算量，直接放進主詞和時間；未拿兩月追蹤當腦波觀察。"
+    },
+    {
+      "example": "E02",
+      "classification": "explicit preference",
+      "location": "一、二、五節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "飛行方式直述，三個自然來源轉換連結、六項完整來源；研究範圍和2022回顧歸屬必要，沒有每段機構開頭。"
+    },
+    {
+      "example": "E03",
+      "classification": "explicit preference",
+      "location": "三節第一段",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "把二元開關排除句改為慢波差異與單半球分類門檻，讓必要限定增加理解；眼睛未攝與長期代價保留。"
+    },
+    {
+      "example": "E04",
+      "classification": "single-edit hypothesis",
+      "location": "二節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "寫清電極、頭部加速度和背部GPS各測什麼，時間對齊後如何判讀，不只稱儀器有效率。"
+    },
+    {
+      "example": "E05",
+      "classification": "single-edit hypothesis",
+      "location": "五節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "維持翅膀姿態與追蹤覓食線索分開，休息條件具體；菜園生產系統一詞不適用。"
+    },
+    {
+      "example": "E06",
+      "classification": "explicit preference",
+      "location": "延伸探討",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "休息的自我感覺、生活安排與想保留的時間，沒有要讀者回答半球機制或抄文章正解。"
+    },
+    {
+      "example": "E07",
+      "classification": "single-edit hypothesis",
+      "location": "標題",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "結論對準能睡但量少，不含所有鳥類的比較或價值立場。"
+    },
+    {
+      "example": "E08",
+      "classification": "explicit preference",
+      "location": "全文",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "研究者測量、鳥飛行，電極和GPS具體測得訊號；沒有媒介自己理解或任意物件擬人。"
+    },
+    {
+      "example": "E09",
+      "classification": "single-edit hypothesis",
+      "location": "二、六節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "分清科學家使用紀錄與紀錄呈現狀態，沒有抽象接住資訊。"
+    },
+    {
+      "example": "038-09d3aa0",
+      "classification": "observed edit hypothesis",
+      "location": "全文",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "保留證據情境；港口勞動的單篇稱謂不套用本篇。"
+    },
+    {
+      "example": "039-f292790",
+      "classification": "observed edit hypothesis",
+      "location": "二、三節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "移除重複效率評語，方法直接到可比較狀態；不製造飛行與睡眠的假矛盾。"
+    },
+    {
+      "example": "040-9be6d14",
+      "classification": "observed edit hypothesis",
+      "location": "小標、五節",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "七組原始前後段重讀，具體說衡量總量連續性強度，以及注意力與回巢條件；不照學作者輸入疑點，也無舊文修訂。"
+    },
+    {
+      "example": "Nov21-topic-paragraph",
+      "classification": "explicit preference",
+      "location": "選題與全文",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "近期038工會039昆蟲光040畫框041借閱權042導盲磚；本篇以隱藏生理狀態的測量和休息為主。與039都含飛行研究，核心不是姿態受光干擾而是睡眠量及注意力，隔三篇且角度不同。十二段各五句以上，意旨發展無填句。"
+    },
+    {
+      "example": "Nov23-title",
+      "classification": "explicit preference",
+      "location": "題名",
+      "decision": "applied or already present; existing owner text untouched",
+      "evidence": "結論式標題由研究支持，主題睡眠差異非所有鳥都有睡眠自駕。"
+    }
+  ],
+  "before_hashes": {
+    "draft.json": "002db16cac7995ecde7e14e0ddc45d160e4f7eb5c967410882584c76175ea4e1",
+    "article-preview.html": "8d279a0a64c1d2f8cab2e4a7bfc4352f3c6b109a3219be964aa98f84fa3ba5ee",
+    "reader-body.html": "bc9315cfe6e3e18a8f7df7789c407fc5cfa16ab3bae5f73f702663f0b63358f1",
+    "manuscript.md": "edacb8f421bac2e01a543c62c3a7bb197a3bd94a1633a644096846113278e806"
+  },
+  "after_hashes": {
+    "draft.json": "002db16cac7995ecde7e14e0ddc45d160e4f7eb5c967410882584c76175ea4e1",
+    "article-preview.html": "8d279a0a64c1d2f8cab2e4a7bfc4352f3c6b109a3219be964aa98f84fa3ba5ee",
+    "reader-body.html": "bc9315cfe6e3e18a8f7df7789c407fc5cfa16ab3bae5f73f702663f0b63358f1",
+    "manuscript.md": "edacb8f421bac2e01a543c62c3a7bb197a3bd94a1633a644096846113278e806"
+  },
+  "full_text_reread": true,
+  "facts_and_limits_preserved": true,
+  "owner_text_untouched": true,
+  "unresolved": []
+}

@@ -1,0 +1,13 @@
+{
+  "issue": "043-frigatebird-sleep",
+  "nominal_date": "2026-11-30",
+  "gh_review_date": "2026-11-29",
+  "prepared_at": "2026-11-28T19:59:24.748546+08:00",
+  "status": "ready_in_WIP_not_published",
+  "not_published_to_gh": true,
+  "not_published_to_main": true,
+  "next_release_edit_observation": {
+    "status": "required_at_publication",
+    "note": "Recheck latest refs and MM messages with full paired edits; preserve latest042directHTML for Nov29main and043gh."
+  }
+}
